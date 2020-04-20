@@ -1,0 +1,351 @@
+{
+    "WFWorkflowActions": [
+        {
+            "WFWorkflowActionIdentifier": "is.workflow.actions.comment",
+            "WFWorkflowActionParameters": {
+                "WFCommentActionText": "来源：捷径盒 © 版权归作者所有\n发布时间：2020-04-18 06:05\n作品网址：https://jiejinghe.com/shortcuts/7280826914"
+            }
+        },
+        {
+            "WFWorkflowActionIdentifier": "com.jiejinghe.luke.ShortcutUpdateCheckIntent",
+            "WFWorkflowActionParameters": {
+                "versionInfo": "id:7280826914,v:1"
+            }
+        },
+        {
+            "WFWorkflowActionIdentifier": "is.workflow.actions.dictionary",
+            "WFWorkflowActionParameters": {
+                "CustomOutputName": "Meta",
+                "UUID": "22A65847-251E-4926-9B2A-5C238FCBAE89",
+                "WFItems": {
+                    "Value": {
+                        "WFDictionaryFieldValueItems": [
+                            {
+                                "WFItemType": 0,
+                                "WFKey": {
+                                    "Value": {
+                                        "attachmentsByRange": {},
+                                        "string": "Name"
+                                    },
+                                    "WFSerializationType": "WFTextTokenString"
+                                },
+                                "WFValue": {
+                                    "Value": {
+                                        "attachmentsByRange": {},
+                                        "string": "DeepL Translate"
+                                    },
+                                    "WFSerializationType": "WFTextTokenString"
+                                }
+                            },
+                            {
+                                "WFItemType": 0,
+                                "WFKey": {
+                                    "Value": {
+                                        "attachmentsByRange": {},
+                                        "string": "Author"
+                                    },
+                                    "WFSerializationType": "WFTextTokenString"
+                                },
+                                "WFValue": {
+                                    "Value": {
+                                        "attachmentsByRange": {},
+                                        "string": "@jsmglx"
+                                    },
+                                    "WFSerializationType": "WFTextTokenString"
+                                }
+                            },
+                            {
+                                "WFItemType": 0,
+                                "WFKey": {
+                                    "Value": {
+                                        "attachmentsByRange": {},
+                                        "string": "Mod"
+                                    },
+                                    "WFSerializationType": "WFTextTokenString"
+                                },
+                                "WFValue": {
+                                    "Value": {
+                                        "attachmentsByRange": {},
+                                        "string": "@suliveevil"
+                                    },
+                                    "WFSerializationType": "WFTextTokenString"
+                                }
+                            },
+                            {
+                                "WFItemType": 0,
+                                "WFKey": {
+                                    "Value": {
+                                        "attachmentsByRange": {},
+                                        "string": "ModTime"
+                                    },
+                                    "WFSerializationType": "WFTextTokenString"
+                                },
+                                "WFValue": {
+                                    "Value": {
+                                        "attachmentsByRange": {},
+                                        "string": "2020-04-18"
+                                    },
+                                    "WFSerializationType": "WFTextTokenString"
+                                }
+                            },
+                            {
+                                "WFItemType": 0,
+                                "WFKey": {
+                                    "Value": {
+                                        "attachmentsByRange": {},
+                                        "string": "Function"
+                                    },
+                                    "WFSerializationType": "WFTextTokenString"
+                                },
+                                "WFValue": {
+                                    "Value": {
+                                        "attachmentsByRange": {},
+                                        "string": "Only translates text"
+                                    },
+                                    "WFSerializationType": "WFTextTokenString"
+                                }
+                            },
+                            {
+                                "WFItemType": 0,
+                                "WFKey": {
+                                    "Value": {
+                                        "attachmentsByRange": {},
+                                        "string": "Version"
+                                    },
+                                    "WFSerializationType": "WFTextTokenString"
+                                },
+                                "WFValue": {
+                                    "Value": {
+                                        "attachmentsByRange": {},
+                                        "string": "1.1"
+                                    },
+                                    "WFSerializationType": "WFTextTokenString"
+                                }
+                            }
+                        ]
+                    },
+                    "WFSerializationType": "WFDictionaryFieldValue"
+                }
+            }
+        },
+        {
+            "WFWorkflowActionIdentifier": "is.workflow.actions.ask",
+            "WFWorkflowActionParameters": {
+                "UUID": "A33906C1-D716-4D0A-B674-F6E6CDECB924",
+                "WFAskActionDefaultAnswer": {
+                    "Value": {
+                        "attachmentsByRange": {
+                            "{0, 1}": {
+                                "Type": "ExtensionInput"
+                            }
+                        },
+                        "string": "￼"
+                    },
+                    "WFSerializationType": "WFTextTokenString"
+                },
+                "WFAskActionPrompt": "请输入要翻译的文本："
+            }
+        },
+        {
+            "WFWorkflowActionIdentifier": "is.workflow.actions.detect.text",
+            "WFWorkflowActionParameters": {
+                "UUID": "D29D2806-201B-49C5-B20A-4D50FEEB3AB7",
+                "WFInput": {
+                    "Value": {
+                        "OutputName": "提供的输入",
+                        "OutputUUID": "A33906C1-D716-4D0A-B674-F6E6CDECB924",
+                        "Type": "ActionOutput"
+                    },
+                    "WFSerializationType": "WFTextTokenAttachment"
+                }
+            }
+        },
+        {
+            "WFWorkflowActionIdentifier": "is.workflow.actions.urlencode",
+            "WFWorkflowActionParameters": {
+                "UUID": "71FF5DC6-6E8B-481F-B1FF-5DC66E8B681F",
+                "WFInput": {
+                    "Value": {
+                        "attachmentsByRange": {
+                            "{0, 1}": {
+                                "OutputName": "文本",
+                                "OutputUUID": "D29D2806-201B-49C5-B20A-4D50FEEB3AB7",
+                                "Type": "ActionOutput"
+                            }
+                        },
+                        "string": "￼"
+                    },
+                    "WFSerializationType": "WFTextTokenString"
+                }
+            }
+        },
+        {
+            "WFWorkflowActionIdentifier": "is.workflow.actions.setvariable",
+            "WFWorkflowActionParameters": {
+                "WFInput": {
+                    "Value": {
+                        "OutputName": "URL编码后的文本",
+                        "OutputUUID": "71FF5DC6-6E8B-481F-B1FF-5DC66E8B681F",
+                        "Type": "ActionOutput"
+                    },
+                    "WFSerializationType": "WFTextTokenAttachment"
+                },
+                "WFVariableName": "Text"
+            }
+        },
+        {
+            "WFWorkflowActionIdentifier": "is.workflow.actions.gettext",
+            "WFWorkflowActionParameters": {
+                "UUID": "E6DBD509-32BF-4921-8556-7ADB5DE5FE47",
+                "WFTextActionText": "Chinese中文 /zh\nRussian /ru\nEnglish /en\nFrench /fr\nJapanese /ja\nSpanish /es\nGerman /de\nPortuguese /pt\nItalian /it\nDutch /nl\nPolish /pl\n"
+            }
+        },
+        {
+            "WFWorkflowActionIdentifier": "is.workflow.actions.text.split",
+            "WFWorkflowActionParameters": {
+                "UUID": "91A09E3C-067D-4ECE-86EF-ED5EA514C23B",
+                "text": {
+                    "Value": {
+                        "OutputName": "文本",
+                        "OutputUUID": "E6DBD509-32BF-4921-8556-7ADB5DE5FE47",
+                        "Type": "ActionOutput"
+                    },
+                    "WFSerializationType": "WFTextTokenAttachment"
+                }
+            }
+        },
+        {
+            "WFWorkflowActionIdentifier": "is.workflow.actions.filter.articles",
+            "WFWorkflowActionParameters": {
+                "UUID": "1DF6EF9D-F727-4D6A-B31D-AD3747F2AE88",
+                "WFContentItemInputParameter": {
+                    "Value": {
+                        "OutputName": "拆分文本",
+                        "OutputUUID": "91A09E3C-067D-4ECE-86EF-ED5EA514C23B",
+                        "Type": "ActionOutput"
+                    },
+                    "WFSerializationType": "WFTextTokenAttachment"
+                },
+                "WFContentItemSortOrder": "A to Z",
+                "WFContentItemSortProperty": "Name"
+            }
+        },
+        {
+            "WFWorkflowActionIdentifier": "is.workflow.actions.choosefromlist",
+            "WFWorkflowActionParameters": {
+                "UUID": "2021C054-C05C-43D5-97FC-383A510851AE",
+                "WFChooseFromListActionPrompt": "翻译为：",
+                "WFInput": {
+                    "Value": {
+                        "OutputName": "过滤文章",
+                        "OutputUUID": "1DF6EF9D-F727-4D6A-B31D-AD3747F2AE88",
+                        "Type": "ActionOutput"
+                    },
+                    "WFSerializationType": "WFTextTokenAttachment"
+                }
+            }
+        },
+        {
+            "WFWorkflowActionIdentifier": "is.workflow.actions.text.split",
+            "WFWorkflowActionParameters": {
+                "UUID": "59770B16-9FC1-416D-899D-1C36299AE5E2",
+                "WFTextCustomSeparator": "/",
+                "WFTextSeparator": "Custom",
+                "text": {
+                    "Value": {
+                        "OutputName": "选取的项目",
+                        "OutputUUID": "2021C054-C05C-43D5-97FC-383A510851AE",
+                        "Type": "ActionOutput"
+                    },
+                    "WFSerializationType": "WFTextTokenAttachment"
+                }
+            }
+        },
+        {
+            "WFWorkflowActionIdentifier": "is.workflow.actions.getitemfromlist",
+            "WFWorkflowActionParameters": {
+                "UUID": "D0985055-BAED-4ED3-BB32-661694375A07",
+                "WFInput": {
+                    "Value": {
+                        "OutputName": "拆分文本",
+                        "OutputUUID": "59770B16-9FC1-416D-899D-1C36299AE5E2",
+                        "Type": "ActionOutput"
+                    },
+                    "WFSerializationType": "WFTextTokenAttachment"
+                },
+                "WFItemSpecifier": "Last Item"
+            }
+        },
+        {
+            "WFWorkflowActionIdentifier": "is.workflow.actions.setvariable",
+            "WFWorkflowActionParameters": {
+                "WFInput": {
+                    "Value": {
+                        "OutputName": "来自列表的项目",
+                        "OutputUUID": "D0985055-BAED-4ED3-BB32-661694375A07",
+                        "Type": "ActionOutput"
+                    },
+                    "WFSerializationType": "WFTextTokenAttachment"
+                },
+                "WFVariableName": "To"
+            }
+        },
+        {
+            "WFWorkflowActionIdentifier": "is.workflow.actions.url",
+            "WFWorkflowActionParameters": {
+                "UUID": "0688C670-2376-4B55-9E33-DC26691DAE04",
+                "WFURLActionURL": {
+                    "Value": {
+                        "attachmentsByRange": {
+                            "{36, 1}": {
+                                "Type": "Variable",
+                                "VariableName": "To"
+                            },
+                            "{38, 1}": {
+                                "Type": "Variable",
+                                "VariableName": "Text"
+                            }
+                        },
+                        "string": "https://www.deepl.com/translator#en/￼/￼"
+                    },
+                    "WFSerializationType": "WFTextTokenString"
+                }
+            }
+        },
+        {
+            "WFWorkflowActionIdentifier": "is.workflow.actions.showwebpage",
+            "WFWorkflowActionParameters": {
+                "WFURL": {
+                    "Value": {
+                        "attachmentsByRange": {
+                            "{0, 1}": {
+                                "OutputName": "URL",
+                                "OutputUUID": "0688C670-2376-4B55-9E33-DC26691DAE04",
+                                "Type": "ActionOutput"
+                            }
+                        },
+                        "string": "￼"
+                    },
+                    "WFSerializationType": "WFTextTokenString"
+                }
+            }
+        }
+    ],
+    "WFWorkflowClientRelease": "3.0",
+    "WFWorkflowClientVersion": "1050.19",
+    "WFWorkflowIcon": {
+        "WFWorkflowIconGlyphNumber": 59412,
+        "WFWorkflowIconStartColor": 255
+    },
+    "WFWorkflowImportQuestions": [],
+    "WFWorkflowInputContentItemClasses": [
+        "WFStringContentItem"
+    ],
+    "WFWorkflowMinimumClientVersion": 900,
+    "WFWorkflowMinimumClientVersionString": "900",
+    "WFWorkflowTypes": [
+        "NCWidget",
+        "WatchKit",
+        "ActionExtension"
+    ]
+}
