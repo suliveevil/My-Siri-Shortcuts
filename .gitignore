@@ -1,0 +1,10 @@
+# general
+!.gitignore
+
+# macOS cache
+.DS_Store
+*.DS_Store
+
+# VS Code - local history
+*/*/.history/*
+.history/*
