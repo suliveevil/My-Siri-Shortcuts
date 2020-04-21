@@ -17,6 +17,20 @@
 
 ```
 
+## MergeCuts 注释
+
+```text
+<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.comment</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFCommentActionText</key>
+				<string>*MergeCuts*</string>
+			</dict>
+		</dict>
+```
+
 
 
 
