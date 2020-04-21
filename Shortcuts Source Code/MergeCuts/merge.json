@@ -50,9 +50,34 @@
             }
         },
         {
-            "WFWorkflowActionIdentifier": "is.workflow.actions.comment",
+            "WFWorkflowActionIdentifier": "is.workflow.actions.repeat.count",
             "WFWorkflowActionParameters": {
-                "WFCommentActionText": "*MergeCuts*"
+                "GroupingIdentifier": "D091A4F3-0BCE-4A67-B7C1-E5D3CD26AA0F",
+                "WFControlFlowMode": 0
+            }
+        },
+        {
+            "WFWorkflowActionIdentifier": "is.workflow.actions.setclipboard",
+            "WFWorkflowActionParameters": {
+                "WFInput": {
+                    "Value": {
+                        "Type": "ExtensionInput"
+                    },
+                    "WFSerializationType": "WFTextTokenAttachment"
+                }
+            }
+        },
+        {
+            "WFWorkflowActionIdentifier": "is.workflow.actions.gettext",
+            "WFWorkflowActionParameters": {
+                "WFTextActionText": "拷贝到剪贴板\n文本"
+            }
+        },
+        {
+            "WFWorkflowActionIdentifier": "is.workflow.actions.repeat.count",
+            "WFWorkflowActionParameters": {
+                "GroupingIdentifier": "D091A4F3-0BCE-4A67-B7C1-E5D3CD26AA0F",
+                "WFControlFlowMode": 2
             }
         },
         {
@@ -100,6 +125,7 @@
     "WFWorkflowMinimumClientVersion": 900,
     "WFWorkflowMinimumClientVersionString": "900",
     "WFWorkflowTypes": [
-        "WatchKit"
+        "WatchKit",
+        "NCWidget"
     ]
 }
