@@ -6,29 +6,6 @@
 	<array>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.comment</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFCommentActionText</key>
-				<string>作者：suliveevil
-来源：捷径盒 © 版权归作者所有
-发布时间：2020-04-21 22:09
-作品网址：https://jiejinghe.com/shortcuts/6574935653</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>com.jiejinghe.luke.ShortcutUpdateCheckIntent</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>2CAB67EC-6329-443C-B43B-2C78A8ABD74C</string>
-				<key>versionInfo</key>
-				<string>id:6574935653,v:2</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
 			<string>is.workflow.actions.dictionary</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
@@ -62,7 +39,7 @@
 										<key>attachmentsByRange</key>
 										<dict/>
 										<key>string</key>
-										<string>✅-源代码-导出</string>
+										<string>✅-SourceCode-Export</string>
 									</dict>
 									<key>WFSerializationType</key>
 									<string>WFTextTokenString</string>
@@ -142,8 +119,8 @@
 				<integer>0</integer>
 				<key>WFMenuItems</key>
 				<array>
-					<string>单个导出</string>
-					<string>批量导出（文件无对应名称）</string>
+					<string>Export One</string>
+					<string>Export All ( WARNING ! ! ! no file name ! ! ! WARNING )</string>
 				</array>
 			</dict>
 		</dict>
@@ -157,7 +134,7 @@
 				<key>WFControlFlowMode</key>
 				<integer>1</integer>
 				<key>WFMenuItemTitle</key>
-				<string>单个导出</string>
+				<string>Export One</string>
 			</dict>
 		</dict>
 		<dict>
@@ -279,7 +256,7 @@
 				<key>WFControlFlowMode</key>
 				<integer>1</integer>
 				<key>WFMenuItemTitle</key>
-				<string>批量导出（文件无对应名称）</string>
+				<string>Export All ( WARNING ! ! ! no file name ! ! ! WARNING )</string>
 			</dict>
 		</dict>
 		<dict>
