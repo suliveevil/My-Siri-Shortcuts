@@ -44,7 +44,7 @@ for i in str_sort:
 	match_number = re.search("^\d", i)
 	print("匹配_number：\n", match_number)
 	match_emoji = re.search(
-		"^[\ud83c-\udc00\ud83c-\udfff\ud83d-\udc00\ud83d-\udfff\u2600-\u27ff]", i)
+		"^[\U0001F300-\U0001F5FF|\U0001F1E6-\U0001F1FF|\U00002700-\U000027BF|\U0001F900-\U0001F9FF|\U0001F600-\U0001F64F|\U0001F680-\U0001F6FF|\U00002600-\U000026FF]", i)
 	print("匹配_emoji：\n", match_emoji)
 	match_chinese = re.search("^[u4E00-\u9FA5]|[^x00-xff]", i)
 	match_char = re.search("^[u4E00-\u9FA5]|[^x00-xff]", i)
