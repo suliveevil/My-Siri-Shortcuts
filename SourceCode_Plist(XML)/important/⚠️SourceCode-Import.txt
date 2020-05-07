@@ -27,7 +27,7 @@
 										<key>attachmentsByRange</key>
 										<dict/>
 										<key>string</key>
-										<string>shortcut-name</string>
+										<string>ShortcutName</string>
 									</dict>
 									<key>WFSerializationType</key>
 									<string>WFTextTokenString</string>
@@ -39,7 +39,7 @@
 										<key>attachmentsByRange</key>
 										<dict/>
 										<key>string</key>
-										<string>⚠️-SourceCode-Import</string>
+										<string>⚠️SourceCode-Import</string>
 									</dict>
 									<key>WFSerializationType</key>
 									<string>WFTextTokenString</string>
@@ -169,6 +169,8 @@
 			<string>is.workflow.actions.documentpicker.open</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
+				<key>SelectMultiple</key>
+				<false/>
 				<key>UUID</key>
 				<string>D532CBBD-9CA8-4DF3-8154-C0516ED18C05</string>
 			</dict>
@@ -389,7 +391,7 @@
 	<key>WFWorkflowClientRelease</key>
 	<string>3.0</string>
 	<key>WFWorkflowClientVersion</key>
-	<string>1050.19</string>
+	<string>1050.22</string>
 	<key>WFWorkflowIcon</key>
 	<dict>
 		<key>WFWorkflowIconGlyphNumber</key>
