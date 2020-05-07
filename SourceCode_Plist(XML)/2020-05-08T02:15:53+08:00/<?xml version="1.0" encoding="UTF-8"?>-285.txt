@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WFWorkflowActions</key>
+	<array>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>7789A26F-0DF5-4F13-B65A-983829977D7E</string>
+				<key>WFTextActionText</key>
+				<string>Bare Meter Reading =	1/8000	1/4000	1/2000	1/1000	1/500	1/250	1/125	1/60	1/30	1/15	1/8	1/4	1/2	1s	2s	4s	8s	15s	30s
+ND2 (1)	1/4000	1/2000	1/1000	1/500	1/250	1/125	1/60	1/30	1/15	1/8	1/4	1/2	1s	2s	4s	8s	15s	30s	1m
+CPL (1 2/3)*	1/2500	1/1250	1/640	1/320	1/160	1/80	1/40	1/20	1/10	1/5	2.5	1.3	1.6s	3s	6s	13s	25s	50s	1.66m
+ND4 (2)	1/2000	1/1000	1/500	1/250	1/125	1/60	1/30	1/15	1/8	1/4	1/2	1s	2s	4s	8s	15s	30s	1m	2m
+ND8 (3)	1/1000	1/500	1/250	1/125	1/60	1/30	1/15	1/8	1/4	1/2	1s	2s	4s	8s	15s	30s	1m	2m	4m
+2X ND4 or ND2 + ND3 (4)	1/500	1/250	1/125	1/60	1/30	1/15	1/8	1/4	1/2	1s	2s	4s	8s	15s	30s	1m	2m	4m	8m
+(5)	1/250	1/125	1/60	1/30	1/15	1/8	1/4	1/2	1s	2s	4s	8s	15s	30s	1m	2m	4m	8m	16m
+2X ND8 or ND64 (6)	1/125	1/60	1/30	1/15	1/8	1/4	1/2	1s	2s	4s	8s	15s	30s	1m	2m	4m	8m	16m	32m
+ND100 (6 2/3)	1/80	1/40	1/20	1/10	1/5	2.5	1.3	1.6s	3s	6s	13s	25s	50s	1m 40s	3m 20s	6m 40s	13m 20s	26m 40s	53m 20s
+(7)	1/60	1/30	1/15	1/8	1/4	1/2	1s	2s	4s	8s	15s	30s	1m	2m	4m	8m	16m	32m	64m
+ND4 + ND64 (8)	1/30	1/8	1/8	1/4	1/2	1s	2s	4s	8s	15s	30s	1m	2m	4m	8m	16m	32m	64m	128m
+ND400 (8 2/3)	1/40	1/20	1/10	1/2.5	1/1.3	1.6s	3s	6s	13s	25s	50s	1m 40s	3m 20s	6m 40s	13m 20s	26m 40s	53m 20s	1 hr 47m	3h 33m
+(9)	1/15	1/8	1/4	1/2	1s	2s	4s	8s	15s	30s	1m	2m	4m	8m	16m	32m	1h 4m	2h 8m	4h 16m
+(10)	1/8	1/4	1/2	1s	2s	4s	8s	15s	30s	1m	2m	4m	8m	16m	32m	1h 4m	2h 8m	4h 16m	8h 32m
+(11)	1/4	1/2	1s	2s	4s	8s	15s	30s	1m	2m	4m	8m	16m	32m	1h 4m	2h 8m	4h 16m	8h 32m	17h 4m
+2X ND64 (12)	1/2	1s	2s	4s	8s	15s	30s	1m	2m	4m	8m	16m	32m	1h 4m	2h 8m	4h 16m	8h 32m	17h 4m	1d 10h 8m
+ND10000 (13)	1s	2s	4s	8s	15s	30s	1m	2m	4m	8m	16m	32m	1h 4m	2h 8m	4h 16m	8h 32m	17h 4m	1d 10h 8m	2d 20h 16m
+(14)	2s	4s	8s	15s	30s	1m	2m	4m	8m	16m	32m	1h 4m	2h 8m	4h 16m	8h 32m	17h 4m	1d 10h 8m	2d 20h 16m	5d 16h 32m
+(15)	4s	8s	15s	30s	1m	2m	4m	8m	16m	32m	1h 4m	2h 8m	4h 16m	8h 32m	17h 4m	1d 10h 8m	2d 20h 16m	5d 16h 32m	11d 9h 4m
+(16)	8s	15s	30s	1m	2m	4m	8m	16m	32m	1h 4m	2h 8m	4h 16m	8h 32m	17h 4m	1d 10h 8m	2d 20h 16m	5d 16h 32m	11d 9h 4m	22d 18h 8m
+(17)	15s	30s	1m	2m	4m	8m	16m	32m	1h 4m	2h 8m	4h 16m	8h 32m	17h 4m	1d 10h 8m	2d 20h 16m	5d 16h 32m	11d 9h 4m	22d 18h 8m	45d12h16m
+(18)	30s	1m	2m	4m	8m	16m	32m	1h 4m	2h 8m	4h 16m	8h 32m	17h 4m	1d 10h 8m	2d 20h 16m	5d 16h 32m	11d 9h 4m	22d 18h 8m	45d12h16m	91d 32m
+(19)	1m	2m	4m	8m	16m	32m	1h 4m	2h 8m	4h 16m	8h 32m	17h 4m	1d 10h 8m	2d 20h 16m	5d 16h 32m	11d 9h 4m	22d 18h 8m	45d12h16m	91d 32m	182d 1h 4m
+ND1000000 (20)	2m	4m	8m	16m	32m</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.text.split</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>12222ECA-9679-40C7-8DE1-046B651C97DF</string>
+				<key>text</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>7789A26F-0DF5-4F13-B65A-983829977D7E</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefromlist</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>37DC4918-79C7-4E92-9362-1C28E8CF5C00</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>拆分文本</string>
+						<key>OutputUUID</key>
+						<string>12222ECA-9679-40C7-8DE1-046B651C97DF</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setclipboard</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>选取的项目</string>
+						<key>OutputUUID</key>
+						<string>37DC4918-79C7-4E92-9362-1C28E8CF5C00</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getclipboard</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>90C1A3CC-06C2-44FA-9158-17D009BDD01A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>2C6470B9-9216-4C56-AC64-70B99216EC56</string>
+				<key>WFTextActionText</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>Clipboard</string>
+								<key>OutputUUID</key>
+								<string>90C1A3CC-06C2-44FA-9158-17D009BDD01A</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.text.split</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>F4A6DDAF-1E2E-4019-B4A6-DDAF1E2EB019</string>
+				<key>WFTextSeparator</key>
+				<string>Spaces</string>
+				<key>text</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>2C6470B9-9216-4C56-AC64-70B99216EC56</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setclipboard</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>拆分文本</string>
+						<key>OutputUUID</key>
+						<string>F4A6DDAF-1E2E-4019-B4A6-DDAF1E2EB019</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getclipboard</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>90C1A3CC-06C2-44FA-9158-17D009BDD01A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>105103B5-738D-4E4D-9051-03B5738D7E4D</string>
+				<key>WFTextActionText</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>Clipboard</string>
+								<key>OutputUUID</key>
+								<string>90C1A3CC-06C2-44FA-9158-17D009BDD01A</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setclipboard</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>105103B5-738D-4E4D-9051-03B5738D7E4D</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.previewdocument</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>105103B5-738D-4E4D-9051-03B5738D7E4D</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+	<key>WFWorkflowClientRelease</key>
+	<string>3.0</string>
+	<key>WFWorkflowClientVersion</key>
+	<string>1050.22</string>
+	<key>WFWorkflowIcon</key>
+	<dict>
+		<key>WFWorkflowIconGlyphNumber</key>
+		<integer>59727</integer>
+		<key>WFWorkflowIconStartColor</key>
+		<integer>4292093695</integer>
+	</dict>
+	<key>WFWorkflowImportQuestions</key>
+	<array/>
+	<key>WFWorkflowInputContentItemClasses</key>
+	<array>
+		<string>WFAppStoreAppContentItem</string>
+		<string>WFArticleContentItem</string>
+		<string>WFContactContentItem</string>
+		<string>WFDateContentItem</string>
+		<string>WFEmailAddressContentItem</string>
+		<string>WFGenericFileContentItem</string>
+		<string>WFImageContentItem</string>
+		<string>WFiTunesProductContentItem</string>
+		<string>WFLocationContentItem</string>
+		<string>WFDCMapsLinkContentItem</string>
+		<string>WFAVAssetContentItem</string>
+		<string>WFPDFContentItem</string>
+		<string>WFPhoneNumberContentItem</string>
+		<string>WFRichTextContentItem</string>
+		<string>WFSafariWebPageContentItem</string>
+		<string>WFStringContentItem</string>
+		<string>WFURLContentItem</string>
+	</array>
+	<key>WFWorkflowMinimumClientVersion</key>
+	<integer>411</integer>
+	<key>WFWorkflowMinimumClientVersionString</key>
+	<string>411</string>
+	<key>WFWorkflowTypes</key>
+	<array>
+		<string>NCWidget</string>
+		<string>WatchKit</string>
+	</array>
+</dict>
+</plist>

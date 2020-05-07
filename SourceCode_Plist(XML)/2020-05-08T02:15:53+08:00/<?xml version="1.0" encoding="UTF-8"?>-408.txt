@@ -1,0 +1,2617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WFWorkflowActions</key>
+	<array>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.dictionary</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>14D5E766-F3CB-402D-99EE-A1D7F19409B6</string>
+				<key>WFItems</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>WFDictionaryFieldValueItems</key>
+						<array>
+							<dict>
+								<key>WFItemType</key>
+								<integer>0</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>Version</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>1.0</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+							</dict>
+							<dict>
+								<key>WFItemType</key>
+								<integer>0</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>Author</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>GSGames32</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+							</dict>
+							<dict>
+								<key>WFItemType</key>
+								<integer>1</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>Changelog</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>Value</key>
+										<dict>
+											<key>WFDictionaryFieldValueItems</key>
+											<array>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>1.0</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>First Release</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
+											</array>
+										</dict>
+										<key>WFSerializationType</key>
+										<string>WFDictionaryFieldValue</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFDictionaryFieldValue</string>
+								</dict>
+							</dict>
+							<dict>
+								<key>WFItemType</key>
+								<integer>1</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>Credits</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>Value</key>
+										<dict>
+											<key>WFDictionaryFieldValueItems</key>
+											<array>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>Creator</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>GSGames</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>SystemIcons</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>pfg</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
+											</array>
+										</dict>
+										<key>WFSerializationType</key>
+										<string>WFDictionaryFieldValue</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFDictionaryFieldValue</string>
+								</dict>
+							</dict>
+						</array>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFDictionaryFieldValue</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.comment</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFCommentActionText</key>
+				<string>PLEASE READ:
+To import the menu in your own shortcuts put a text block with the vCard in it than add a set name block and type in Menu.vcf than add a choose from list block and set it to As Contact. You can also use this shortcut to show a menu. To do this put a dictionary block in your shortcut. Add a new key named icon1 than set the value to a base64 encoded image without line breaks. In the text block type the titled followed by a comma and a space than the subtitle, than a comma and a space and than the dictionary value icon1 for example: Title, Subtitle, icon1 than add a run text block that runs Fancy Menu. I hope that made sense.</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.handoff</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict/>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>ED929EF1-9964-40D1-B995-43BBBBB674D1</string>
+				<key>WFTextActionText</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>ExtensionInput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Text</string>
+						<key>OutputUUID</key>
+						<string>ED929EF1-9964-40D1-B995-43BBBBB674D1</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>Input</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.count</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>Input</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Type</key>
+						<string>Variable</string>
+						<key>VariableName</key>
+						<string>Input</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>UUID</key>
+				<string>57ACD567-C153-4A19-8F91-1C825C161270</string>
+				<key>WFCountType</key>
+				<string>Characters</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>8A3ACF3D-4845-46B0-9B35-D0B060861909</string>
+				<key>WFCondition</key>
+				<integer>4</integer>
+				<key>WFControlFlowMode</key>
+				<integer>0</integer>
+				<key>WFInput</key>
+				<dict>
+					<key>Type</key>
+					<string>Variable</string>
+					<key>Variable</key>
+					<dict>
+						<key>Value</key>
+						<dict>
+							<key>OutputName</key>
+							<string>Count</string>
+							<key>OutputUUID</key>
+							<string>57ACD567-C153-4A19-8F91-1C825C161270</string>
+							<key>Type</key>
+							<string>ActionOutput</string>
+						</dict>
+						<key>WFSerializationType</key>
+						<string>WFTextTokenAttachment</string>
+					</dict>
+				</dict>
+				<key>WFNumberValue</key>
+				<string>0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>D2AE51D4-062C-4809-8D48-CB70F8B047E9</string>
+				<key>WFTextActionText</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Text</string>
+						<key>OutputUUID</key>
+						<string>D2AE51D4-062C-4809-8D48-CB70F8B047E9</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>vCard</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>49347672-44AE-4EC3-AF68-2B24DDAD047A</string>
+				<key>WFTextActionText</key>
+				<string>999999999999999999</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.repeat.count</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>91E9A1F5-23F3-471A-BD18-4E9A8ED2C741</string>
+				<key>WFControlFlowMode</key>
+				<integer>0</integer>
+				<key>WFRepeatCount</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Text</string>
+						<key>OutputUUID</key>
+						<string>49347672-44AE-4EC3-AF68-2B24DDAD047A</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>E4EF52B9-BF9D-432C-B116-3BDEFE777641</string>
+				<key>WFTextActionText</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{995, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>vCard</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>BEGIN:VCARD
+VERSION:3.0
+N;CHARSET=utf-8:New Item;;;
+ORG;CHARSET=utf-8:;;;
+URL:;
+PHOTO;ENCODING=b:iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAFVBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAASAQCkAAAAB3RSTlMAQH+A/8C/4ltsrwAAADxJREFUeAFjGMZgFAgpElBg4jQCFIwqEDaGgBA3KMMQTYGKCxpwIlWBkBIEpLhBGYqjcTGqAFwEDV8wCgCSRB3omtC8zAAAAABJRU5ErkJggg==
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N;CHARSET=utf-8:Export;;;
+ORG;CHARSET=utf-8:;;;
+URL:;
+PHOTO;ENCODING=b: iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAABHUlEQVR42u3QxVXFABRFUUqgCVxnuGtTkQJoAncZ4i494XfwcI3buWud2f9J3q5hjDGW3aZUj6rkptW12lN9VTz+Rj1Z+6q/asffvwN4VIdqsErHz70D2FEP6kgNV+X4+ncAnWrTEE7UaJmPn7fjNQPQtA61bghnarzsx38AsLWpNUO4UBNlPv4LgK1FLdt/rtSUKuw8dWfHNyjtdwBbs1qy/7qqsOtWM98e/wuArdH+260KvVqlBQaw/5Z7BlC0AQCAH6YAAH6oUtxTmAIAPIUqAwAvSAEAvIBlBlC05wAAAAAAAJA9AAAAAAAAAAAAAAAAAHhWZQGK9z0AAAAAAAAAAAAAAAAAAAAAAACAn48yAMhlKc7LaYwxxoLsGWPyduO0TlX3AAAAAElFTkSuQmCC
+END:VCARD
+
+
+
+BEGIN:VCARD
+VERSION:3.0
+N;CHARSET=utf-8:————————————————;;;
+ORG;CHARSET=utf-8:;;;
+END:VCARD
+
+￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setitemname</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>FF9E6D32-EBAC-479B-8D89-DB44C8292D59</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Text</string>
+						<key>OutputUUID</key>
+						<string>E4EF52B9-BF9D-432C-B116-3BDEFE777641</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFName</key>
+				<string>Main.vcf</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefromlist</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>278F9976-1BE9-4BB8-AD11-F30B1D17DDD3</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Aggrandizements</key>
+						<array>
+							<dict>
+								<key>CoercionItemClass</key>
+								<string>WFContactContentItem</string>
+								<key>Type</key>
+								<string>WFCoercionVariableAggrandizement</string>
+							</dict>
+						</array>
+						<key>OutputName</key>
+						<string>Set Name</string>
+						<key>OutputUUID</key>
+						<string>FF9E6D32-EBAC-479B-8D89-DB44C8292D59</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>3A90843C-C22E-4B50-94C5-6BB7372BDF3C</string>
+				<key>WFCondition</key>
+				<integer>4</integer>
+				<key>WFConditionalActionString</key>
+				<string>New Item</string>
+				<key>WFControlFlowMode</key>
+				<integer>0</integer>
+				<key>WFInput</key>
+				<dict>
+					<key>Type</key>
+					<string>Variable</string>
+					<key>Variable</key>
+					<dict>
+						<key>Value</key>
+						<dict>
+							<key>OutputName</key>
+							<string>Selected Item</string>
+							<key>OutputUUID</key>
+							<string>278F9976-1BE9-4BB8-AD11-F30B1D17DDD3</string>
+							<key>Type</key>
+							<string>ActionOutput</string>
+						</dict>
+						<key>WFSerializationType</key>
+						<string>WFTextTokenAttachment</string>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>F44618B3-FCAE-42A5-AA18-E4683C5BCB5F</string>
+				<key>WFTextActionText</key>
+				<string>BEGIN:VCARD
+VERSION:3.0
+N;CHARSET=utf-8:Files;;;
+ORG;CHARSET=utf-8:;;;
+URL:;
+PHOTO;ENCODING=b: iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA/klEQVR42u3YtVEAARgFYdwdWiBCKqEJrADqwLUHcnIiUhqAAnB3+1kkxbmbk92Zr4EXvgozMzMzMzOzL2vAHPYR3/CAbYygEC0j8Iijb3hA4B69yH0nCAziO/VgA4FV5L4AflQ/HhEYRWW5BiCaQyToCVuYyOoA1VjBLo4ScIx4N578ANlsCIHNcg5AdIaLMg9wgkhhAAdYwwUiI86wjuvEB8i6tAaYQRuyUitm0hygDVmrPc0BspoDOIADOIADOIADOIADJJUDOIADOIADOIADOEB7WS+xcwSm0Yqs1IopBE6RWHOIjFtEYtVhAUeIjDnBPOpgZmZmZmZm9knP5FBm/I0AprcAAAAASUVORK5CYII=
+END:VCARD
+
+BEGIN:VCARD
+VERSION:3.0
+N;CHARSET=utf-8:Photos;;;
+ORG;CHARSET=utf-8:;;;
+URL:;
+PHOTO;ENCODING=b: iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAACRElEQVR42u3WA2xeXxjH8drt38bsRXXs2fZim0M027btLWrsZGZt226TPvs+YY37vlvuSc43+cS6v6vjY/N+NpvNZrPZbDabzTYNV1GETsgwdaAQtzARRhaPJoiHGhALV/URNQo58Ef3fPEF4iVv4aqkO/yA7m2EeNlCGNFvKIN4WR5+cPuFL8EnyDfyCnPxO75LoTiOEnRBDFKCowiF485ADHcYjquAGK4QjhOXqkApZBha3DRADU5iHv5HoMJ/mIuTqIYMoho/IhxFkCG5YIAW7MKP6N6PCEX3fsBOtAxjgBITBsjGdGgBWIunqIdA1eAp1iAA2nRkQ/pRhXKI2wfIxJ/QEpEMGUIyEqD9iUzI0Nw3QAumQVuONsgwtWE5tKloNnGAHdAS0Q4ZoXYkQNts2gBViEIAUiAOpSAAoagwaYBj0DZAPLQe2hGTBpgN7QXEQ8+hzTRpgH+g1UE8VAftb5MGCEAYxEtC4WfaAD9CvOQH0wb4F1ojxEON0P4xaYC50JIgHkqCNtukAU5CW+/F3+BRkwaowQ/wRzLEoWT4IxyV5gwA7IEW7/As34x4aFshpg3QigRoS9ACGaYWLIEWhxbzBgCK8D+0WHyADOEDYqD9j0KImQMAJUiE5oeVeIBSdEGV4j5WwA9aAoohZg8AtGIHotC9QKjuRWE7WiHGDTCEOlzAUozDD1DjsATnUQdRBgxgADuAHaAZjiuHGK4AjjsEMdxeOC4Ye5CJRoghWpGD3QhC92w2m81ms9lsNpvN9hUiNzOvNd9bNQAAAABJRU5ErkJggg==
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N;CHARSET=utf-8:System Icons;;;
+ORG;CHARSET=utf-8:;;;
+URL:;
+PHOTO;ENCODING=b: iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAACi0lEQVR42u3YA6weSxxA8Wfbtu1X27aD2rZt23Yb1Dbj2rZt7b/nhpPN7Gfs3MxJfnHWmJknbDabzWaz2Ww2m81mS2hPIxt6YCVO4j4cXMYOzEZ9fIFU0ytoglOQEDlYjXwwujI4D4nCanwNo3oBUyExcgNlYESvYxNE4xomogy+w6tI6V38j0bYCNFw0AC+7jmshLjcRju8jlD6F6shLg4qwRe9gRehNhDish3fINyeRHM8gCju4S8kvFdQHxtwEwLBEYxDbTgQxSa8imgqjAeai/oMElYRnIOE4QBeRyyqAHGphoTUAA4kDI+QDrFsMkRxCE8hruUNcPLXcBeiMRqx7mPN/rLF+4t+RPMB6ojPkNIzyIH5cCC4gndBFN+nYADiVmmI4iFyw6vfMA21Ea+KQhSbEbfGQxQjkew+giiuIuZ9iEGa9y07/NA9iOJbxKxSuAzReBd+6ArE5QCa4xVEXHM4EI0L8EvHIB7OoSjCrjJE4zCa4l34pQMQBNIVIfeD5r26hTp4Fn7rMxRHF6zAbYhGa4TUYs2XNS1M6XV0wgOI4hEyIGC/QFxKwMQy4ypEsRVPwrMeEMVymFxOOOH8vt2rL2VgejMgilHwzP3P/wimlwui2AHPxOUZmN6bEMV1eHYDongLpveU5m/g2U6IIj9M7wuI4hw8GwlRTIfp1YMoVsGz3BCFg/9gai/gMETRAJ49hd0QxQl8ChMbDlHcxScIWF6IyxnkhCm9gnEQl74IqYEQjeUogy/xAvzUa/gHbXEO4nIAbyCknsYsSCpxHt8grJ5EWzyCGGwffkTEpcEGiGFuogteRkz6G92xAWd9+GTcw1HMRQ28CU02m81ms9lsNpvNZrM9BsLoPqGTnHEpAAAAAElFTkSuQmCC
+END:VCARD</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setitemname</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>5D8DF77E-2CB0-46C4-9D36-A2A673C50AA3</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Text</string>
+						<key>OutputUUID</key>
+						<string>F44618B3-FCAE-42A5-AA18-E4683C5BCB5F</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFName</key>
+				<string>GetOutOfMyShortcut.vcf</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefromlist</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>72E5E684-65F5-49AF-8D2C-F4CC54959B5E</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Aggrandizements</key>
+						<array>
+							<dict>
+								<key>CoercionItemClass</key>
+								<string>WFContactContentItem</string>
+								<key>Type</key>
+								<string>WFCoercionVariableAggrandizement</string>
+							</dict>
+						</array>
+						<key>OutputName</key>
+						<string>Set Name</string>
+						<key>OutputUUID</key>
+						<string>5D8DF77E-2CB0-46C4-9D36-A2A673C50AA3</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>8D7F11B9-9E9C-4F86-9A56-ADF58A5A8022</string>
+				<key>WFCondition</key>
+				<integer>4</integer>
+				<key>WFConditionalActionString</key>
+				<string>Files</string>
+				<key>WFControlFlowMode</key>
+				<integer>0</integer>
+				<key>WFInput</key>
+				<dict>
+					<key>Type</key>
+					<string>Variable</string>
+					<key>Variable</key>
+					<dict>
+						<key>Value</key>
+						<dict>
+							<key>OutputName</key>
+							<string>Selected Item</string>
+							<key>OutputUUID</key>
+							<string>72E5E684-65F5-49AF-8D2C-F4CC54959B5E</string>
+							<key>Type</key>
+							<string>ActionOutput</string>
+						</dict>
+						<key>WFSerializationType</key>
+						<string>WFTextTokenAttachment</string>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.documentpicker.open</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>31F77AD0-AD98-4FB3-9F77-A8D79F4BC059</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>File</string>
+						<key>OutputUUID</key>
+						<string>31F77AD0-AD98-4FB3-9F77-A8D79F4BC059</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>Img</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>8D7F11B9-9E9C-4F86-9A56-ADF58A5A8022</string>
+				<key>WFControlFlowMode</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>8D7F11B9-9E9C-4F86-9A56-ADF58A5A8022</string>
+				<key>UUID</key>
+				<string>12DFAD4C-4F99-4F5B-A360-560485D19905</string>
+				<key>WFControlFlowMode</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>7C6E1F89-FBEC-4D61-B8B6-37B379723554</string>
+				<key>WFCondition</key>
+				<integer>4</integer>
+				<key>WFConditionalActionString</key>
+				<string>Photos</string>
+				<key>WFControlFlowMode</key>
+				<integer>0</integer>
+				<key>WFInput</key>
+				<dict>
+					<key>Type</key>
+					<string>Variable</string>
+					<key>Variable</key>
+					<dict>
+						<key>Value</key>
+						<dict>
+							<key>OutputName</key>
+							<string>Selected Item</string>
+							<key>OutputUUID</key>
+							<string>72E5E684-65F5-49AF-8D2C-F4CC54959B5E</string>
+							<key>Type</key>
+							<string>ActionOutput</string>
+						</dict>
+						<key>WFSerializationType</key>
+						<string>WFTextTokenAttachment</string>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.selectphoto</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>E8DA618C-544F-4061-8D86-0B68C4382D70</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Photos</string>
+						<key>OutputUUID</key>
+						<string>E8DA618C-544F-4061-8D86-0B68C4382D70</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>Img</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>7C6E1F89-FBEC-4D61-B8B6-37B379723554</string>
+				<key>WFControlFlowMode</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>7C6E1F89-FBEC-4D61-B8B6-37B379723554</string>
+				<key>UUID</key>
+				<string>8ECE7F47-EB85-4C95-8EC2-05951DB1B339</string>
+				<key>WFControlFlowMode</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>32774BE8-C097-499C-A4C8-356345827439</string>
+				<key>WFCondition</key>
+				<integer>4</integer>
+				<key>WFConditionalActionString</key>
+				<string>System Icons</string>
+				<key>WFControlFlowMode</key>
+				<integer>0</integer>
+				<key>WFInput</key>
+				<dict>
+					<key>Type</key>
+					<string>Variable</string>
+					<key>Variable</key>
+					<dict>
+						<key>Value</key>
+						<dict>
+							<key>OutputName</key>
+							<string>Selected Item</string>
+							<key>OutputUUID</key>
+							<string>72E5E684-65F5-49AF-8D2C-F4CC54959B5E</string>
+							<key>Type</key>
+							<string>ActionOutput</string>
+						</dict>
+						<key>WFSerializationType</key>
+						<string>WFTextTokenAttachment</string>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>F84265C6-3E49-4645-AC6D-B280323CB03C</string>
+				<key>WFTextActionText</key>
+				<string>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
+hQAyAQA=</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.base64encode</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>260F39C1-64AE-4E83-9F88-BF22D105A405</string>
+				<key>WFEncodeMode</key>
+				<string>Decode</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Text</string>
+						<key>OutputUUID</key>
+						<string>F84265C6-3E49-4645-AC6D-B280323CB03C</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setitemname</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>BC36A073-6B42-4F8D-90AD-57F5EB06B6ED</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Base64 Encoded</string>
+						<key>OutputUUID</key>
+						<string>260F39C1-64AE-4E83-9F88-BF22D105A405</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFName</key>
+				<string>A.vcf</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.unzip</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>25DE0E6A-F9A8-4054-8720-30880F596C67</string>
+				<key>WFArchive</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Set Name</string>
+						<key>OutputUUID</key>
+						<string>BC36A073-6B42-4F8D-90AD-57F5EB06B6ED</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefromlist</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>CAA0C8AF-167A-4C29-88D9-3123BE2B0AF8</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Files</string>
+						<key>OutputUUID</key>
+						<string>25DE0E6A-F9A8-4054-8720-30880F596C67</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Selected Item</string>
+						<key>OutputUUID</key>
+						<string>CAA0C8AF-167A-4C29-88D9-3123BE2B0AF8</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>Img</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>32774BE8-C097-499C-A4C8-356345827439</string>
+				<key>WFControlFlowMode</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>32774BE8-C097-499C-A4C8-356345827439</string>
+				<key>UUID</key>
+				<string>F84BB421-8CD5-4DAF-B931-1CE8F4E2DE1C</string>
+				<key>WFControlFlowMode</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.image.resize</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>F95AC111-064A-45F7-B8D8-B5786AF3C2D9</string>
+				<key>WFImage</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Type</key>
+						<string>Variable</string>
+						<key>VariableName</key>
+						<string>Img</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFImageResizeWidth</key>
+				<string>123</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.image.resize</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>73A95697-3AB5-494E-8C0C-2997B74BDC5A</string>
+				<key>WFImage</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Resized Image</string>
+						<key>OutputUUID</key>
+						<string>F95AC111-064A-45F7-B8D8-B5786AF3C2D9</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFImageResizeHeight</key>
+				<string>123</string>
+				<key>WFImageResizeWidth</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.image.crop</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>0EC0B460-CDBE-45D8-9FA1-3E87E1B4FCEE</string>
+				<key>WFImageCropHeight</key>
+				<string>123</string>
+				<key>WFImageCropPosition</key>
+				<string>Center</string>
+				<key>WFImageCropWidth</key>
+				<string>123</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Resized Image</string>
+						<key>OutputUUID</key>
+						<string>73A95697-3AB5-494E-8C0C-2997B74BDC5A</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.base64encode</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>4FA3455B-F28B-46E6-83CF-28FE8AD06B52</string>
+				<key>WFBase64LineBreakMode</key>
+				<string>None</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Cropped Image</string>
+						<key>OutputUUID</key>
+						<string>0EC0B460-CDBE-45D8-9FA1-3E87E1B4FCEE</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Base64 Encoded</string>
+						<key>OutputUUID</key>
+						<string>4FA3455B-F28B-46E6-83CF-28FE8AD06B52</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>Img</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.ask</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>0A97429C-C0C8-4AFF-805F-69A2F99887B9</string>
+				<key>WFAskActionPrompt</key>
+				<string>Title</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Ask for Input</string>
+						<key>OutputUUID</key>
+						<string>0A97429C-C0C8-4AFF-805F-69A2F99887B9</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>Title</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.ask</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>647D9698-4C73-4043-9298-A6CECDB865B8</string>
+				<key>WFAskActionPrompt</key>
+				<string>Subtitle (optional)</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Ask for Input</string>
+						<key>OutputUUID</key>
+						<string>647D9698-4C73-4043-9298-A6CECDB865B8</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>Subtitle</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>6685A7A5-C6B5-43EC-B917-EAB8306E4AD7</string>
+				<key>WFTextActionText</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{40, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>Title</string>
+							</dict>
+							<key>{64, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>Subtitle</string>
+							</dict>
+							<key>{84, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>Img</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>BEGIN:VCARD
+VERSION:3.0
+N;CHARSET=utf-8:￼;;;;
+ORG;CHARSET=utf-8:￼;
+PHOTO;ENCODING=b:￼
+END:VCARD
+</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.appendvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Text</string>
+						<key>OutputUUID</key>
+						<string>6685A7A5-C6B5-43EC-B917-EAB8306E4AD7</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>vCard</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>3A90843C-C22E-4B50-94C5-6BB7372BDF3C</string>
+				<key>WFControlFlowMode</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>3A90843C-C22E-4B50-94C5-6BB7372BDF3C</string>
+				<key>UUID</key>
+				<string>480DF88B-6272-41A6-9134-32D4943CD35A</string>
+				<key>WFControlFlowMode</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>1261C272-78F7-4080-880D-BE0859930345</string>
+				<key>WFCondition</key>
+				<integer>4</integer>
+				<key>WFConditionalActionString</key>
+				<string>Export</string>
+				<key>WFControlFlowMode</key>
+				<integer>0</integer>
+				<key>WFInput</key>
+				<dict>
+					<key>Type</key>
+					<string>Variable</string>
+					<key>Variable</key>
+					<dict>
+						<key>Value</key>
+						<dict>
+							<key>OutputName</key>
+							<string>Selected Item</string>
+							<key>OutputUUID</key>
+							<string>278F9976-1BE9-4BB8-AD11-F30B1D17DDD3</string>
+							<key>Type</key>
+							<string>ActionOutput</string>
+						</dict>
+						<key>WFSerializationType</key>
+						<string>WFTextTokenAttachment</string>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setclipboard</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Type</key>
+						<string>Variable</string>
+						<key>VariableName</key>
+						<string>vCard</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.showresult</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>Text</key>
+				<string>Copied!</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.exit</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFResult</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>If Result</string>
+						<key>OutputUUID</key>
+						<string>480DF88B-6272-41A6-9134-32D4943CD35A</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>1261C272-78F7-4080-880D-BE0859930345</string>
+				<key>WFControlFlowMode</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>1261C272-78F7-4080-880D-BE0859930345</string>
+				<key>UUID</key>
+				<string>F6E7C359-77EA-425D-B011-B2D66C73D2AD</string>
+				<key>WFControlFlowMode</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.repeat.count</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>91E9A1F5-23F3-471A-BD18-4E9A8ED2C741</string>
+				<key>UUID</key>
+				<string>8F492FF2-670E-41ED-B041-42B022E917EF</string>
+				<key>WFControlFlowMode</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>8A3ACF3D-4845-46B0-9B35-D0B060861909</string>
+				<key>WFControlFlowMode</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getvalueforkey</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>566A00A9-C9CA-4A1E-A4A0-B959C39EFF96</string>
+				<key>WFDictionaryKey</key>
+				<string>Data</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Type</key>
+						<string>Variable</string>
+						<key>VariableName</key>
+						<string>Input</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.text.split</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>10FF7122-C285-4B4B-9FCC-7A61B8940EF2</string>
+				<key>text</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>Dictionary Value</string>
+								<key>OutputUUID</key>
+								<string>566A00A9-C9CA-4A1E-A4A0-B959C39EFF96</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.repeat.each</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>3F452BBD-3B74-4BD8-A3F3-06B3C0A7170F</string>
+				<key>WFControlFlowMode</key>
+				<integer>0</integer>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Text</string>
+						<key>OutputUUID</key>
+						<string>10FF7122-C285-4B4B-9FCC-7A61B8940EF2</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.text.split</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>CAD1B2F0-A10D-49B1-8A55-B73A8170F68B</string>
+				<key>WFTextCustomSeparator</key>
+				<string>, </string>
+				<key>WFTextSeparator</key>
+				<string>Custom</string>
+				<key>text</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Type</key>
+						<string>Variable</string>
+						<key>VariableName</key>
+						<string>Repeat Item</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getitemfromlist</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>8B5D97F0-709D-477B-874C-3E4FC5EF9308</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Text</string>
+						<key>OutputUUID</key>
+						<string>CAD1B2F0-A10D-49B1-8A55-B73A8170F68B</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFItemIndex</key>
+				<string>1</string>
+				<key>WFItemSpecifier</key>
+				<string>Item At Index</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getitemfromlist</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>7FDE44EC-2F84-41E3-AB98-E09A80ABED93</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Text</string>
+						<key>OutputUUID</key>
+						<string>CAD1B2F0-A10D-49B1-8A55-B73A8170F68B</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFItemIndex</key>
+				<string>2</string>
+				<key>WFItemSpecifier</key>
+				<string>Item At Index</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getitemfromlist</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>BD746547-0088-41CC-8F98-DDF33896CA06</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Text</string>
+						<key>OutputUUID</key>
+						<string>CAD1B2F0-A10D-49B1-8A55-B73A8170F68B</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFItemIndex</key>
+				<string>3</string>
+				<key>WFItemSpecifier</key>
+				<string>Item At Index</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>7E62BE3F-2798-4CE8-AEDF-25AE5BE9F230</string>
+				<key>WFTextActionText</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{40, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>Item from List</string>
+								<key>OutputUUID</key>
+								<string>8B5D97F0-709D-477B-874C-3E4FC5EF9308</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+							<key>{64, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>Item from List</string>
+								<key>OutputUUID</key>
+								<string>7FDE44EC-2F84-41E3-AB98-E09A80ABED93</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+							<key>{84, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>Item from List</string>
+								<key>OutputUUID</key>
+								<string>BD746547-0088-41CC-8F98-DDF33896CA06</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>BEGIN:VCARD
+VERSION:3.0
+N;CHARSET=utf-8:￼;;;;
+ORG;CHARSET=utf-8:￼;
+PHOTO;ENCODING=b:￼
+END:VCARD
+</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.appendvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Text</string>
+						<key>OutputUUID</key>
+						<string>7E62BE3F-2798-4CE8-AEDF-25AE5BE9F230</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>vCard</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.nothing</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict/>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.repeat.each</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>3F452BBD-3B74-4BD8-A3F3-06B3C0A7170F</string>
+				<key>UUID</key>
+				<string>0AD85EE9-B8FA-4DB8-B139-D4B8BC195715</string>
+				<key>WFControlFlowMode</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getvalueforkey</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>94274973-54DA-48F9-A667-11A83BBE6024</string>
+				<key>WFDictionaryKey</key>
+				<string>Mode</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Type</key>
+						<string>Variable</string>
+						<key>VariableName</key>
+						<string>Input</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>ECF9091A-6BBB-45D1-BEEB-EBEAEF43226F</string>
+				<key>WFTextActionText</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>Dictionary Value</string>
+								<key>OutputUUID</key>
+								<string>94274973-54DA-48F9-A667-11A83BBE6024</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>CF5F3909-C85C-4FBF-A585-19B8C58B51D0</string>
+				<key>WFCondition</key>
+				<integer>4</integer>
+				<key>WFConditionalActionString</key>
+				<string>View</string>
+				<key>WFControlFlowMode</key>
+				<integer>0</integer>
+				<key>WFInput</key>
+				<dict>
+					<key>Type</key>
+					<string>Variable</string>
+					<key>Variable</key>
+					<dict>
+						<key>Value</key>
+						<dict>
+							<key>OutputName</key>
+							<string>Text</string>
+							<key>OutputUUID</key>
+							<string>ECF9091A-6BBB-45D1-BEEB-EBEAEF43226F</string>
+							<key>Type</key>
+							<string>ActionOutput</string>
+						</dict>
+						<key>WFSerializationType</key>
+						<string>WFTextTokenAttachment</string>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>358B3D94-CABA-4F8D-803B-E172CCEF719A</string>
+				<key>WFTextActionText</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>vCard</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setitemname</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>6F2C5E81-77B4-4756-93A6-E4AEF4D42884</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Text</string>
+						<key>OutputUUID</key>
+						<string>358B3D94-CABA-4F8D-803B-E172CCEF719A</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFName</key>
+				<string>Menu.vcf</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefromlist</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>06AC185B-BB2F-41D9-8DA6-2BEE7193DA7E</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Aggrandizements</key>
+						<array>
+							<dict>
+								<key>CoercionItemClass</key>
+								<string>WFContactContentItem</string>
+								<key>Type</key>
+								<string>WFCoercionVariableAggrandizement</string>
+							</dict>
+						</array>
+						<key>OutputName</key>
+						<string>Set Name</string>
+						<key>OutputUUID</key>
+						<string>6F2C5E81-77B4-4756-93A6-E4AEF4D42884</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>CF5F3909-C85C-4FBF-A585-19B8C58B51D0</string>
+				<key>WFControlFlowMode</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>CF5F3909-C85C-4FBF-A585-19B8C58B51D0</string>
+				<key>UUID</key>
+				<string>F37A032A-6F74-4377-9FCE-DC09C19728F4</string>
+				<key>WFControlFlowMode</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>ACBF5514-0B94-4E78-BF0F-78C99243D5FC</string>
+				<key>WFCondition</key>
+				<integer>4</integer>
+				<key>WFConditionalActionString</key>
+				<string>Convert</string>
+				<key>WFControlFlowMode</key>
+				<integer>0</integer>
+				<key>WFInput</key>
+				<dict>
+					<key>Type</key>
+					<string>Variable</string>
+					<key>Variable</key>
+					<dict>
+						<key>Value</key>
+						<dict>
+							<key>OutputName</key>
+							<string>Text</string>
+							<key>OutputUUID</key>
+							<string>ECF9091A-6BBB-45D1-BEEB-EBEAEF43226F</string>
+							<key>Type</key>
+							<string>ActionOutput</string>
+						</dict>
+						<key>WFSerializationType</key>
+						<string>WFTextTokenAttachment</string>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setclipboard</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Type</key>
+						<string>Variable</string>
+						<key>VariableName</key>
+						<string>vCard</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.showresult</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>Text</key>
+				<string>Copied!</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>ACBF5514-0B94-4E78-BF0F-78C99243D5FC</string>
+				<key>WFControlFlowMode</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>ACBF5514-0B94-4E78-BF0F-78C99243D5FC</string>
+				<key>WFControlFlowMode</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>8A3ACF3D-4845-46B0-9B35-D0B060861909</string>
+				<key>WFControlFlowMode</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+	</array>
+	<key>WFWorkflowClientRelease</key>
+	<string>3.0</string>
+	<key>WFWorkflowClientVersion</key>
+	<string>1050.22</string>
+	<key>WFWorkflowIcon</key>
+	<dict>
+		<key>WFWorkflowIconGlyphNumber</key>
+		<integer>59445</integer>
+		<key>WFWorkflowIconStartColor</key>
+		<integer>255</integer>
+	</dict>
+	<key>WFWorkflowImportQuestions</key>
+	<array/>
+	<key>WFWorkflowInputContentItemClasses</key>
+	<array>
+		<string>WFAppStoreAppContentItem</string>
+		<string>WFArticleContentItem</string>
+		<string>WFContactContentItem</string>
+		<string>WFDateContentItem</string>
+		<string>WFEmailAddressContentItem</string>
+		<string>WFGenericFileContentItem</string>
+		<string>WFImageContentItem</string>
+		<string>WFiTunesProductContentItem</string>
+		<string>WFLocationContentItem</string>
+		<string>WFDCMapsLinkContentItem</string>
+		<string>WFAVAssetContentItem</string>
+		<string>WFPDFContentItem</string>
+		<string>WFPhoneNumberContentItem</string>
+		<string>WFRichTextContentItem</string>
+		<string>WFSafariWebPageContentItem</string>
+		<string>WFStringContentItem</string>
+		<string>WFURLContentItem</string>
+	</array>
+	<key>WFWorkflowMinimumClientVersion</key>
+	<integer>900</integer>
+	<key>WFWorkflowMinimumClientVersionString</key>
+	<string>900</string>
+	<key>WFWorkflowTypes</key>
+	<array>
+		<string>WatchKit</string>
+		<string>NCWidget</string>
+	</array>
+</dict>
+</plist>
