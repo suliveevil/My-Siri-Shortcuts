@@ -728,6 +728,34 @@
 														<string>WFTextTokenString</string>
 													</dict>
 												</dict>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>ShortcutName</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>&lt;dict&gt;\n\t*?&lt;key&gt;WFItemType&lt;/key&gt;\n\t*?&lt;integer&gt;0&lt;/integer&gt;\n\t*?&lt;key&gt;WFKey&lt;/key&gt;\n\t*?&lt;dict&gt;\n\t*?&lt;key&gt;Value&lt;/key&gt;\n\t*?\t&lt;dict&gt;\n\t*?\t*?&lt;key&gt;attachmentsByRange&lt;/key&gt;\n\t*?\t*?&lt;dict/&gt;\n\t*?\t*?&lt;key&gt;string&lt;/key&gt;\n\t*?\t*?&lt;string&gt;(ShortcutName|快捷指令名称)&lt;/string&gt;\n\t*?\t&lt;/dict&gt;\n\t*?\t&lt;key&gt;WFSerializationType&lt;/key&gt;\n\t*?\t&lt;string&gt;WFTextTokenString&lt;/string&gt;\n\t*?&lt;/dict&gt;\n\t*?&lt;key&gt;WFValue&lt;/key&gt;\n\t*?&lt;dict&gt;\n\t*?\t&lt;key&gt;Value&lt;/key&gt;\n\t*?\t&lt;dict&gt;\n\t*?\t*?&lt;key&gt;attachmentsByRange&lt;/key&gt;\n\t*?\t*?&lt;dict/&gt;\n\t*?\t*?&lt;key&gt;string&lt;/key&gt;\n\t*?\t*?&lt;string&gt;([\u4e00-\u9fa5\x00-\xff]{1,16})&lt;/string&gt;\n\t*?\t&lt;/dict&gt;\n\t*?\t&lt;key&gt;WFSerializationType&lt;/key&gt;\n\t*?\t&lt;string&gt;WFTextTokenString&lt;/string&gt;\n\t*?&lt;/dict&gt;\n\t*?&lt;/dict&gt;</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
 											</array>
 										</dict>
 										<key>WFSerializationType</key>

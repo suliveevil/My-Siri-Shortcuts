@@ -6,191 +6,526 @@
 	<array>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
+			<string>is.workflow.actions.comment</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFCommentActionText</key>
+				<string>原创作者：Veritas
+更新时间：2019-03-30 20点46分
+建议意见：https://jiejinghe.com/shortcuts/4682513557</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.comment</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFCommentActionText</key>
+				<string>⚠️请勿修改删除本注释和以下操作⚠️
+前往捷径盒网站及同名公众号，获取更多实用捷径：https://jiejinghe.com 
+
+=====更新检测代码开始=====</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Type</key>
+						<string>ExtensionInput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>jjh_shortcut_initial_input</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getipaddress</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>1EF08E18-C092-42A9-BB6D-3CE9DBA27C9A</string>
+				<key>WFIPAddressSourceOption</key>
+				<string>Local</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
 				<key>GroupingIdentifier</key>
-				<string>18FAD053-2EF5-405D-AA95-A335FC1DCDC0</string>
+				<string>DF6551A9-4EC3-4D42-A511-585809FA7776</string>
+				<key>WFCondition</key>
+				<integer>99</integer>
+				<key>WFConditionalActionString</key>
+				<string>.</string>
 				<key>WFControlFlowMode</key>
 				<integer>0</integer>
-				<key>WFMenuItems</key>
-				<array>
-					<string>🖥生产力</string>
-					<string>🔺退出生产力模式</string>
-				</array>
-				<key>WFMenuPrompt</key>
-				<string>生产力模式</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Type</key>
+					<string>Variable</string>
+					<key>Variable</key>
+					<dict>
+						<key>Value</key>
+						<dict>
+							<key>OutputName</key>
+							<string>当前IP地址</string>
+							<key>OutputUUID</key>
+							<string>1EF08E18-C092-42A9-BB6D-3CE9DBA27C9A</string>
+							<key>Type</key>
+							<string>ActionOutput</string>
+						</dict>
+						<key>WFSerializationType</key>
+						<string>WFTextTokenAttachment</string>
+					</dict>
+				</dict>
 			</dict>
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
+			<string>is.workflow.actions.gettext</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
-				<key>GroupingIdentifier</key>
-				<string>18FAD053-2EF5-405D-AA95-A335FC1DCDC0</string>
-				<key>WFControlFlowMode</key>
-				<integer>1</integer>
-				<key>WFMenuItemTitle</key>
-				<string>🖥生产力</string>
+				<key>UUID</key>
+				<string>CACE54CA-2977-4285-8313-DB0D892A036B</string>
+				<key>WFTextActionText</key>
+				<string>{"base_url":"https://jiejinghe.com","version_id":"E03F13C0-6F19-4057-8FAA-6D76ABB7CAC9","shortcut_id":"80453C9F-A005-426D-B613-AAAE241272BD"}</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.dnd.set</string>
+			<string>is.workflow.actions.documentpicker.open</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
-				<key>Enabled</key>
-				<integer>1</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.setbrightness</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFBrightness</key>
-				<real>0.66525423526763916</real>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.notification</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFNotificationActionBody</key>
-				<string>开始奥力给</string>
-				<key>WFNotificationActionSound</key>
+				<key>SelectMultiple</key>
+				<false/>
+				<key>UUID</key>
+				<string>02AAF483-E1E1-405E-87C7-290E84A3A654</string>
+				<key>WFFileErrorIfNotFound</key>
+				<false/>
+				<key>WFGetFilePath</key>
+				<string>jiejinghe/uuid.txt</string>
+				<key>WFShowFilePicker</key>
 				<false/>
 			</dict>
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
+			<string>is.workflow.actions.url</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>167A0906-B65E-4253-B722-E69A178BE131</string>
+				<key>WFURLActionURL</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>Aggrandizements</key>
+								<array>
+									<dict>
+										<key>CoercionItemClass</key>
+										<string>WFDictionaryContentItem</string>
+										<key>Type</key>
+										<string>WFCoercionVariableAggrandizement</string>
+									</dict>
+									<dict>
+										<key>DictionaryKey</key>
+										<string>base_url</string>
+										<key>Type</key>
+										<string>WFDictionaryValueVariableAggrandizement</string>
+									</dict>
+								</array>
+								<key>OutputName</key>
+								<string>文本</string>
+								<key>OutputUUID</key>
+								<string>CACE54CA-2977-4285-8313-DB0D892A036B</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+							<key>{24, 1}</key>
+							<dict>
+								<key>Aggrandizements</key>
+								<array>
+									<dict>
+										<key>CoercionItemClass</key>
+										<string>WFDictionaryContentItem</string>
+										<key>Type</key>
+										<string>WFCoercionVariableAggrandizement</string>
+									</dict>
+									<dict>
+										<key>DictionaryKey</key>
+										<string>shortcut_id</string>
+										<key>Type</key>
+										<string>WFDictionaryValueVariableAggrandizement</string>
+									</dict>
+								</array>
+								<key>OutputName</key>
+								<string>文本</string>
+								<key>OutputUUID</key>
+								<string>CACE54CA-2977-4285-8313-DB0D892A036B</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+							<key>{30, 1}</key>
+							<dict>
+								<key>Aggrandizements</key>
+								<array>
+									<dict>
+										<key>CoercionItemClass</key>
+										<string>WFDictionaryContentItem</string>
+										<key>Type</key>
+										<string>WFCoercionVariableAggrandizement</string>
+									</dict>
+									<dict>
+										<key>DictionaryKey</key>
+										<string>version_id</string>
+										<key>Type</key>
+										<string>WFDictionaryValueVariableAggrandizement</string>
+									</dict>
+								</array>
+								<key>OutputName</key>
+								<string>文本</string>
+								<key>OutputUUID</key>
+								<string>CACE54CA-2977-4285-8313-DB0D892A036B</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+							<key>{38, 1}</key>
+							<dict>
+								<key>Aggrandizements</key>
+								<array>
+									<dict>
+										<key>CoercionItemClass</key>
+										<string>WFStringContentItem</string>
+										<key>Type</key>
+										<string>WFCoercionVariableAggrandizement</string>
+									</dict>
+								</array>
+								<key>OutputName</key>
+								<string>文件</string>
+								<key>OutputUUID</key>
+								<string>02AAF483-E1E1-405E-87C7-290E84A3A654</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼/api/shortcuts/execute/￼?vid=￼&amp;juuid=￼&amp;v=2</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.downloadurl</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>Advanced</key>
+				<false/>
+				<key>ShowHeaders</key>
+				<true/>
+				<key>UUID</key>
+				<string>6BD77447-11B2-401B-B268-3A1EE15C89E2</string>
+				<key>WFHTTPHeaders</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>WFDictionaryFieldValueItems</key>
+						<array/>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFDictionaryFieldValue</string>
+				</dict>
+				<key>WFURL</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>URL</string>
+								<key>OutputUUID</key>
+								<string>167A0906-B65E-4253-B722-E69A178BE131</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
 				<key>GroupingIdentifier</key>
-				<string>B7234398-0A05-49F3-A4B5-7B243318E8B5</string>
+				<string>1197484D-8858-4157-BD49-559CBFB3E36A</string>
+				<key>WFCondition</key>
+				<integer>99</integer>
+				<key>WFConditionalActionString</key>
+				<string>actions</string>
 				<key>WFControlFlowMode</key>
 				<integer>0</integer>
-				<key>WFMenuItems</key>
-				<array>
-					<string>编辑视频</string>
-					<string>编曲</string>
-					<string>文字处理</string>
-				</array>
+				<key>WFInput</key>
+				<dict>
+					<key>Type</key>
+					<string>Variable</string>
+					<key>Variable</key>
+					<dict>
+						<key>Value</key>
+						<dict>
+							<key>Aggrandizements</key>
+							<array>
+								<dict>
+									<key>CoercionItemClass</key>
+									<string>WFStringContentItem</string>
+									<key>Type</key>
+									<string>WFCoercionVariableAggrandizement</string>
+								</dict>
+							</array>
+							<key>OutputName</key>
+							<string>URL的内容</string>
+							<key>OutputUUID</key>
+							<string>6BD77447-11B2-401B-B268-3A1EE15C89E2</string>
+							<key>Type</key>
+							<string>ActionOutput</string>
+						</dict>
+						<key>WFSerializationType</key>
+						<string>WFTextTokenAttachment</string>
+					</dict>
+				</dict>
 			</dict>
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
+			<string>is.workflow.actions.getvalueforkey</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
-				<key>GroupingIdentifier</key>
-				<string>B7234398-0A05-49F3-A4B5-7B243318E8B5</string>
-				<key>WFControlFlowMode</key>
-				<integer>1</integer>
-				<key>WFMenuItemTitle</key>
-				<string>编辑视频</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.openapp</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFAppIdentifier</key>
-				<string>com.luma-touch.LumaFusion</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>B7234398-0A05-49F3-A4B5-7B243318E8B5</string>
-				<key>WFControlFlowMode</key>
-				<integer>1</integer>
-				<key>WFMenuItemTitle</key>
-				<string>编曲</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.openapp</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFAppIdentifier</key>
-				<string>com.apple.mobilegarageband</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>B7234398-0A05-49F3-A4B5-7B243318E8B5</string>
-				<key>WFControlFlowMode</key>
-				<integer>1</integer>
-				<key>WFMenuItemTitle</key>
-				<string>文字处理</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.openapp</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFAppIdentifier</key>
-				<string>com.agiletortoise.Drafts4</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>B7234398-0A05-49F3-A4B5-7B243318E8B5</string>
 				<key>UUID</key>
-				<string>AF228C59-0FE4-44D4-A79E-C43BF78DEDF4</string>
-				<key>WFControlFlowMode</key>
-				<integer>2</integer>
+				<string>A6EF4FEB-E43A-4016-8D35-5E955DFBA716</string>
+				<key>WFDictionaryKey</key>
+				<string>actions</string>
+				<key>WFGetDictionaryValueType</key>
+				<string>Value</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>URL的内容</string>
+						<key>OutputUUID</key>
+						<string>6BD77447-11B2-401B-B268-3A1EE15C89E2</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
 			</dict>
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
+			<string>is.workflow.actions.getvalueforkey</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>13BA34EE-4D8E-4E52-914F-1E252FB8F75B</string>
+				<key>WFGetDictionaryValueType</key>
+				<string>All Keys</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>词典值</string>
+						<key>OutputUUID</key>
+						<string>A6EF4FEB-E43A-4016-8D35-5E955DFBA716</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefromlist</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>CA2F388B-16DC-421E-AD48-AA0A530D8798</string>
+				<key>WFChooseFromListActionPrompt</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>Aggrandizements</key>
+								<array>
+									<dict>
+										<key>CoercionItemClass</key>
+										<string>WFDictionaryContentItem</string>
+										<key>Type</key>
+										<string>WFCoercionVariableAggrandizement</string>
+									</dict>
+									<dict>
+										<key>DictionaryKey</key>
+										<string>summary</string>
+										<key>Type</key>
+										<string>WFDictionaryValueVariableAggrandizement</string>
+									</dict>
+								</array>
+								<key>OutputName</key>
+								<string>URL 的内容</string>
+								<key>OutputUUID</key>
+								<string>6BD77447-11B2-401B-B268-3A1EE15C89E2</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+				<key>WFChooseFromListActionSelectAll</key>
+				<false/>
+				<key>WFChooseFromListActionSelectMultiple</key>
+				<false/>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>词典值</string>
+						<key>OutputUUID</key>
+						<string>13BA34EE-4D8E-4E52-914F-1E252FB8F75B</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getvalueforkey</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>6E6CF6A5-D5FD-4CD7-90E8-9D95D8F205F6</string>
+				<key>WFDictionaryKey</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>选取的项目</string>
+								<key>OutputUUID</key>
+								<string>CA2F388B-16DC-421E-AD48-AA0A530D8798</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>词典值</string>
+						<key>OutputUUID</key>
+						<string>A6EF4FEB-E43A-4016-8D35-5E955DFBA716</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
 				<key>GroupingIdentifier</key>
-				<string>18FAD053-2EF5-405D-AA95-A335FC1DCDC0</string>
+				<string>AB3DE9FB-8AB9-4B0B-BD60-1377C3DB1913</string>
+				<key>WFCondition</key>
+				<integer>99</integer>
+				<key>WFConditionalActionString</key>
+				<string>://</string>
 				<key>WFControlFlowMode</key>
-				<integer>1</integer>
-				<key>WFMenuItemTitle</key>
-				<string>🔺退出生产力模式</string>
+				<integer>0</integer>
+				<key>WFInput</key>
+				<dict>
+					<key>Type</key>
+					<string>Variable</string>
+					<key>Variable</key>
+					<dict>
+						<key>Value</key>
+						<dict>
+							<key>Aggrandizements</key>
+							<array>
+								<dict>
+									<key>CoercionItemClass</key>
+									<string>WFStringContentItem</string>
+									<key>Type</key>
+									<string>WFCoercionVariableAggrandizement</string>
+								</dict>
+							</array>
+							<key>OutputName</key>
+							<string>词典值</string>
+							<key>OutputUUID</key>
+							<string>6E6CF6A5-D5FD-4CD7-90E8-9D95D8F205F6</string>
+							<key>Type</key>
+							<string>ActionOutput</string>
+						</dict>
+						<key>WFSerializationType</key>
+						<string>WFTextTokenAttachment</string>
+					</dict>
+				</dict>
 			</dict>
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.dnd.set</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict/>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.setbrightness</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFBrightness</key>
-				<real>0.23305085301399231</real>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.notification</string>
+			<string>is.workflow.actions.openurl</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
 				<key>WFInput</key>
@@ -198,32 +533,1539 @@
 					<key>Value</key>
 					<dict>
 						<key>OutputName</key>
-						<string>菜单结果</string>
+						<string>词典值</string>
 						<key>OutputUUID</key>
-						<string>6D13CFBA-D31C-480C-95F8-33B31F4EE623</string>
+						<string>6E6CF6A5-D5FD-4CD7-90E8-9D95D8F205F6</string>
 						<key>Type</key>
 						<string>ActionOutput</string>
 					</dict>
 					<key>WFSerializationType</key>
 					<string>WFTextTokenAttachment</string>
 				</dict>
-				<key>WFNotificationActionBody</key>
-				<string>退出奥力给，贤者模式</string>
-				<key>WFNotificationActionSound</key>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.exit</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFResult</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>词典值</string>
+						<key>OutputUUID</key>
+						<string>6E6CF6A5-D5FD-4CD7-90E8-9D95D8F205F6</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>AB3DE9FB-8AB9-4B0B-BD60-1377C3DB1913</string>
+				<key>WFControlFlowMode</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>1197484D-8858-4157-BD49-559CBFB3E36A</string>
+				<key>UUID</key>
+				<string>4917F3AD-A7FE-4568-ACE5-2F513A2EB359</string>
+				<key>WFControlFlowMode</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.file.createfolder</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFFilePath</key>
+				<string>jiejinghe</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getvalueforkey</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>43795907-DB11-4F0D-B6A9-F6C1C4D43273</string>
+				<key>WFDictionaryKey</key>
+				<string>uuid</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>URL的内容</string>
+						<key>OutputUUID</key>
+						<string>6BD77447-11B2-401B-B268-3A1EE15C89E2</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.documentpicker.save</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>F82E9D69-FD02-44C1-AD82-23223C69611E</string>
+				<key>WFAskWhereToSave</key>
+				<false/>
+				<key>WFFileDestinationPath</key>
+				<string>jiejinghe/uuid.txt</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>词典值</string>
+						<key>OutputUUID</key>
+						<string>43795907-DB11-4F0D-B6A9-F6C1C4D43273</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFSaveFileOverwrite</key>
+				<true/>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>DF6551A9-4EC3-4D42-A511-585809FA7776</string>
+				<key>UUID</key>
+				<string>89DA6AA3-8DE0-4B2A-B876-445BC21BFC32</string>
+				<key>WFControlFlowMode</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.comment</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFCommentActionText</key>
+				<string>=====更新检测代码结束=====
+
+⚠️请勿修改删除本注释和以上操作⚠️
+</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>AC294057-4E09-42AD-9009-4A44659FD94D</string>
+				<key>WFTextActionText</key>
+				<string>
+function prepDocument() {
+
+  Element.prototype.remove = function() {
+    this.parentElement.removeChild(this);
+}
+NodeList.prototype.remove = HTMLCollection.prototype.remove = function() {
+    for(var i = this.length - 1; i &gt;= 0; i--) {
+        if(this[i] &amp;&amp; this[i].parentElement) {
+            this[i].parentElement.removeChild(this[i]);
+        }
+    }
+}
+
+
+  var frames = document.getElementsByTagName('frame');
+  if (frames.length &gt; 0) {
+    var bestFrame = null;
+    var bestFrameSize = 0;
+
+    frames = Array.prototype.slice.call(frames, 0);
+    for (let frame of frames) {
+      var frameSize = frame.offsetWidth + frame.offsetHeight;
+      var canAccessFrame = false;
+      try {
+        frame.contentWindow.document.body;
+        canAccessFrame = true;
+      } catch (e) {}
+
+      if (canAccessFrame &amp;&amp; frameSize &gt; bestFrameSize) {
+        bestFrame = frame;
+        bestFrameSize = frameSize;
+      }
+    };
+
+    if (bestFrame) {
+      var newBody = document.createElement('body');
+      newBody.innerHTML = bestFrame.contentWindow.document.body.innerHTML;
+      newBody.style.overflow = 'scroll';
+      document.body = newBody;
+
+      var frameset = document.getElementsByTagName('frameset')[0];
+      if (frameset) {
+        frameset.parentNode.removeChild(frameset);
+      }
+    }
+  }
+  
+for (let tag of uselessTag) {
+    document.getElementsByTagName(tag).remove();
+    }
+}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>AC294057-4E09-42AD-9009-4A44659FD94D</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>prepDocument</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>22E6EFA7-CD2A-41AE-A605-7EB3F8633C14</string>
+				<key>WFTextActionText</key>
+				<string>function _findMetaTitle() {
+  var metaTags = document.getElementsByTagName('meta');
+  var tag;
+
+  for(var i = 0; i &lt; metaTags.length; i++) {
+    tag = metaTags[i];
+
+    if(tag.getAttribute('property') === 'og:title' || tag.getAttribute('name') === 'twitter:title'){
+      return tag.getAttribute('content');
+    }
+  }
+  return null;
+}
+
+function getTitle() {
+  var title = _findMetaTitle() || document.title;
+  var betterTitle;
+  var commonSeparatingCharacters = [' | ', ' _ ', ' - ', '«', '»', '—'];
+
+  commonSeparatingCharacters.forEach(function(char) {
+    var tmpArray = title.split(char);
+    if (tmpArray.length &gt; 1) {
+      if (betterTitle) return title;
+      betterTitle = tmpArray[0].trim();
+    }
+  });
+
+  if (betterTitle &amp;&amp; betterTitle.length &gt; 10) {
+    return betterTitle;
+  }
+
+  return title;
+};</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>22E6EFA7-CD2A-41AE-A605-7EB3F8633C14</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>getTitle</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>070C4FC2-56F3-4984-90EC-01FC94DA4977</string>
+				<key>WFTextActionText</key>
+				<string>function getContent() {
+
+  var articleContent = grabArticle();
+  if (getInnerText(articleContent, false) === '') {
+    document.body.innerHTML = cache.body;   //global
+    articleContent = grabArticle(true);
+    if (getInnerText(articleContent, false) === '') {
+      return false;
+    }
+  }
+
+  return articleContent.innerHTML;
+};</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>070C4FC2-56F3-4984-90EC-01FC94DA4977</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>getContent</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>77362CA3-2E81-4F0D-AADA-B5B2F5AD4222</string>
+				<key>WFTextActionText</key>
+				<string>function grabArticle(preserveUnlikelyCandidates) {
+ var nodes = document.getElementsByTagName('*');
+  for (let node of nodes) {
+    var continueFlag = false;
+    if (!preserveUnlikelyCandidates) {
+      var unlikelyMatchString = node.className + '\n' + node.id;
+      if (unlikelyMatchString.search(regexps.unlikelyCandidatesRe) !== -1 &amp;&amp; unlikelyMatchString.search(regexps.okMaybeItsACandidateRe) == -1 &amp;&amp; node.tagName !== 'HTML' &amp;&amp; node.tagName !== "BODY") {
+        node.parentNode.removeChild(node);
+        continueFlag = true;
+      }
+    }
+
+    if (!continueFlag &amp;&amp; node.tagName === 'DIV') {
+      if (node.innerHTML.search(regexps.divToPElementsRe) === -1) {
+        var newNode = document.createElement('p');
+        newNode.innerHTML = node.innerHTML;
+        node.parentNode.replaceChild(newNode, node);
+      } else {
+        childNodes = Array.prototype.slice.call(node.childNodes)
+        for (let childNode of childNodes) {
+          if (childNode.nodeType == 3) {
+            var nextSibling = childNode.nextSibling;
+            if (nextSibling &amp;&amp; nextSibling.tagName == 'BR') {
+              var p = document.createElement('p');
+              p.innerHTML = childNode.nodeValue;
+              childNode.parentNode.removeChild(nextSibling)
+              childNode.parentNode.replaceChild(p, childNode);
+            } else {
+              var span = document.createElement('span');
+              span.innerHTML = childNode.nodeValue;
+              childNode.parentNode.replaceChild(span, childNode);
+            }
+          }
+        };
+      }
+    }
+  }
+
+  var allParagraphs = document.getElementsByTagName("p");
+  var candidates = [];
+
+  for (var i = 0; i &lt; allParagraphs.length; ++i) {
+    var paragraph = allParagraphs[i];
+    var parentNode = paragraph.parentNode;
+    var grandParentNode = parentNode.parentNode;
+    var innerText = getInnerText(paragraph);
+    if (innerText.length &lt; 25) continue;
+    if (typeof parentNode.readability == 'undefined') {
+      initializeNode(parentNode);
+      candidates.push(parentNode);
+    }
+    if (typeof grandParentNode.readability == 'undefined') {
+      initializeNode(grandParentNode);
+      candidates.push(grandParentNode);
+    }
+
+    var contentScore = 0;
+    ++contentScore;
+    contentScore += innerText.replace('，', ',').split(',').length;
+    contentScore += Math.min(Math.floor(innerText.length / 100), 3);
+    parentNode.readability.contentScore += contentScore;
+    grandParentNode.readability.contentScore += contentScore / 2;
+  }
+
+  var topCandidate = null;
+  for (let candidate of candidates) {
+
+    candidate.readability.contentScore = candidate.readability.contentScore * (1 - getLinkDensity(candidate));
+    if (!topCandidate || candidate.readability.contentScore &gt; topCandidate.readability.contentScore) topCandidate = candidate;
+  };
+
+  if (topCandidate === null || topCandidate.tagName === 'BODY') {
+    if (!document.body) {
+      return new Error('No body tag was found.');
+    }
+    topCandidate = document.createElement('DIV');
+    topCandidate.innerHTML = document.body.innerHTML;
+    document.body.innerHTML = '';
+    document.body.appendChild(topCandidate);
+    initializeNode(topCandidate);
+  }
+
+
+  var articleContent = document.createElement('DIV');
+  articleContent.id = 'readability-content';
+  var siblingScoreThreshold = Math.max(10, topCandidate.readability.contentScore * 0.2);
+  var siblingNodes = topCandidate.parentNode.childNodes;
+  for (var i = 0, il = siblingNodes.length; i &lt; il; i++) {
+    var siblingNode = siblingNodes[i];
+    var append = false;
+
+    if (siblingNode === topCandidate) {
+      append = true;
+    }
+
+    if (typeof siblingNode.readability != 'undefined' &amp;&amp; siblingNode.readability.contentScore &gt;= siblingScoreThreshold) {
+      append = true;
+    }
+
+    if (siblingNode.nodeName == 'P') {
+      var linkDensity = getLinkDensity(siblingNode);
+      var nodeContent = getInnerText(siblingNode);
+      var nodeLength = nodeContent.length;
+
+      if (nodeLength &gt; 80 &amp;&amp; linkDensity &lt; 0.25) {
+        append = true;
+      } else if (nodeLength &lt; 80 &amp;&amp; linkDensity === 0 &amp;&amp; nodeContent.search(/\.( |$)/) !== -1) {
+        append = true;
+      }
+    }
+
+    if (append) {
+
+      articleContent.appendChild(siblingNode);
+      i--;
+      il--;
+    }
+  }
+
+  prepArticle(articleContent);
+
+  return articleContent;
+};</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>77362CA3-2E81-4F0D-AADA-B5B2F5AD4222</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>grabArticle</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>BF0E3020-4638-4084-A724-42FD5864CE44</string>
+				<key>WFTextActionText</key>
+				<string>function getInnerText(e, normalizeSpaces) {
+  var textContent = "";
+
+  normalizeSpaces = (typeof normalizeSpaces == 'undefined') ? true : normalizeSpaces;
+
+  textContent = e.textContent.trim();
+
+  if (normalizeSpaces) return textContent.replace(regexps.normalizeRe, " ");
+  else return textContent;
+}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>BF0E3020-4638-4084-A724-42FD5864CE44</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>getInnerText</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>3B54C3BB-24D5-455D-9098-31E89258F24F</string>
+				<key>WFTextActionText</key>
+				<string>function initializeNode(node) {
+  node.readability = { contentScore: 0 };
+
+  switch (node.tagName) {
+    case 'ARTICLE':
+      node.readability.contentScore += 10;
+      break;
+
+    case 'SECTION':
+      node.readability.contentScore += 8;
+      break;
+
+    case 'DIV':
+      node.readability.contentScore += 5;
+      break;
+
+    case 'PRE':
+    case 'TD':
+    case 'BLOCKQUOTE':
+      node.readability.contentScore += 3;
+      break;
+
+    case 'ADDRESS':
+    case 'OL':
+    case 'UL':
+    case 'DL':
+    case 'DD':
+    case 'DT':
+    case 'LI':
+    case 'FORM':
+      node.readability.contentScore -= 3;
+      break;
+
+    case 'H1':
+    case 'H2':
+    case 'H3':
+    case 'H4':
+    case 'H5':
+    case 'H6':
+    case 'TH':
+      node.readability.contentScore -= 5;
+      break;
+  }
+
+  if (node.attributes.itemscope) {
+    node.readability.contentScore += 5;
+    if (node.attributes.itemtype &amp;&amp;
+      regexps.attributeRe.test(node.getAttribute('itemtype'))) {
+      node.readability.contentScore += 30;
+    }
+  }
+
+  node.readability.contentScore += getClassWeight(node);
+}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>3B54C3BB-24D5-455D-9098-31E89258F24F</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>initializeNode</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>DD5E92B2-3A68-4490-942C-8F66FC5FBC01</string>
+				<key>WFTextActionText</key>
+				<string>function getClassWeight(e) {
+  var weight = 0;
+
+  if (e.className !== '') {
+    if (e.className.search(regexps.negativeRe) !== -1) weight -= 25;
+
+    if (e.className.search(regexps.positiveRe) !== -1) weight += 25;
+  }
+
+  if (typeof(e.id) == 'string' &amp;&amp; e.id != "") {
+    if (e.id.search(regexps.negativeRe) !== -1) weight -= 25;
+
+    if (e.id.search(regexps.positiveRe) !== -1) weight += 25;
+  }
+
+  return weight;
+}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>DD5E92B2-3A68-4490-942C-8F66FC5FBC01</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>getClassWeight</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>579A0476-88FD-4A9C-91C3-A0BC807EF069</string>
+				<key>WFTextActionText</key>
+				<string>function getLinkDensity(e) {
+  var links = e.getElementsByTagName("a");
+
+  var textLength = getInnerText(e).length;
+  var linkLength = 0;
+  for (let link of links) {
+    var href = link.getAttribute('href');
+    if (!href || (href.length &gt; 0 &amp;&amp; href[0] === '#')) continue;
+    linkLength += getInnerText(link).length;
+  }
+  return linkLength / textLength;
+}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>579A0476-88FD-4A9C-91C3-A0BC807EF069</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>getLinkDensity</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>5EDFE295-1D59-4475-80FA-79EA1D910228</string>
+				<key>WFTextActionText</key>
+				<string>function prepArticle(articleContent) {
+  cleanStyles(articleContent);
+  killBreaks(articleContent);
+
+  clean(articleContent, 'form');
+  clean(articleContent, 'object');
+  if (articleContent.getElementsByTagName('h1').length === 1) {
+    clean(articleContent, 'h1');
+  }
+  
+  if (articleContent.getElementsByTagName('h2').length === 1) clean(articleContent, "h2");
+
+  clean(articleContent, "iframe");
+
+  cleanHeaders(articleContent);
+
+  cleanConditionally(articleContent, "table");
+  cleanConditionally(articleContent, "ul");
+  cleanConditionally(articleContent, "div");
+
+  var articleParagraphs = articleContent.getElementsByTagName('p');
+  for (var i = articleParagraphs.length - 1; i &gt;= 0; i--) {
+    var imgCount = articleParagraphs[i].getElementsByTagName('img').length;
+    var embedCount = articleParagraphs[i].getElementsByTagName('embed').length;
+    var objectCount = articleParagraphs[i].getElementsByTagName('object').length;
+
+    if (imgCount == 0 &amp;&amp; embedCount == 0 &amp;&amp; objectCount == 0 &amp;&amp; getInnerText(articleParagraphs[i], false) == '') {
+      articleParagraphs[i].parentNode.removeChild(articleParagraphs[i]);
+    }
+  }
+
+  cleanSingleHeader(articleContent);
+
+  try {
+    articleContent.innerHTML = articleContent.innerHTML.replace(/&lt;br[^&gt;]*&gt;\s*&lt;p/gi, '&lt;p');
+  } catch (e) {}
+
+  fixLinks(articleContent);
+}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>5EDFE295-1D59-4475-80FA-79EA1D910228</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>prepArticle</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>DAAF423E-7F66-4D6E-B36C-DB3479305EA5</string>
+				<key>WFTextActionText</key>
+				<string>function cleanStyles(e) {
+  if (!e) return;
+  if (typeof e.removeAttribute == 'function' &amp;&amp; e.className != 'readability-styled') e.removeAttribute('style');
+  var cur = e.firstChild;
+  while (cur) {
+    if (cur.nodeType == 1) {
+      if (cur.className != "readability-styled") {
+        cur.removeAttribute("style");
+      }
+      cleanStyles(cur);
+    }
+    cur = cur.nextSibling;
+  }
+}
+
+
+
+function killBreaks(e) { e.innerHTML = e.innerHTML.replace(regexps.killBreaksRe, '&lt;br /&gt;'); }
+
+
+function clean(e, tag) {
+  var targetList = e.getElementsByTagName(tag);
+  var isEmbed = (tag == 'object' || tag == 'embed');
+
+
+
+  for (var y = targetList.length - 1; y &gt;= 0; y--) {
+    var validRule = false;
+    for (let cleanRule of cleanRules) {
+      if (cleanRules(targetList[y], tag) === true) {
+      validRule = true;
+      break;
+      }
+    }
+
+    if (validRule) {
+      continue;
+    }
+
+
+    if (isEmbed) {
+      if (targetList[y].innerHTML.search(regexps.videoRe) !== -1) {
+        continue;
+      }
+    }
+
+    targetList[y].parentNode.removeChild(targetList[y]);
+  }
+}
+
+
+function cleanHeaders(e) {
+  for (var headerIndex = 1; headerIndex &lt; 7; headerIndex++) {
+    var headers = e.getElementsByTagName('h' + headerIndex);
+    for (var i = headers.length - 1; i &gt;= 0; --i) {
+      if (getClassWeight(headers[i]) &lt; 0 || getLinkDensity(headers[i]) &gt; 0.33) {
+        headers[i].parentNode.removeChild(headers[i]);
+      }
+    }
+  }
+}
+
+function getCharCount(e, s) {
+  s = s || ",";
+  return getInnerText(e).split(s).length;
+}
+
+function cleanSingleHeader(e) {
+  for (var headerIndex = 1; headerIndex &lt; 7; headerIndex++) {
+    var headers = e.getElementsByTagName('h' + headerIndex);
+    for (var i = headers.length - 1; i &gt;= 0; --i) {
+      if (headers[i].nextSibling === null) {
+        headers[i].parentNode.removeChild(headers[i]);
+      }
+    }
+  }
+}
+
+
+
+function cleanConditionally(e, tag) {
+  var tagsList = e.getElementsByTagName(tag);
+  var curTagsLength = tagsList.length;
+  for (var i = curTagsLength - 1; i &gt;= 0; i--) {
+    var weight = getClassWeight(tagsList[i]);
+
+    if (weight &lt; 0) {
+      tagsList[i].parentNode.removeChild(tagsList[i]);
+    } else if (getCharCount(tagsList[i], ',') &lt; 10) {
+      var p = tagsList[i].getElementsByTagName("p").length;
+      var img = tagsList[i].getElementsByTagName("img").length;
+      var li = tagsList[i].getElementsByTagName("li").length - 100;
+      var input = tagsList[i].getElementsByTagName("input").length;
+
+      var embedCount = 0;
+      var embeds = tagsList[i].getElementsByTagName("embed");
+      for (let embed of embeds) {
+        if (embed.src &amp;&amp; embed.src.search(regexps.videoRe) == -1) {
+          embedCount++;
+        }
+      }
+
+      var linkDensity = getLinkDensity(tagsList[i]);
+      var contentLength = getInnerText(tagsList[i]).length;
+      var toRemove = false;
+
+      if (img &gt; p &amp;&amp; img &gt; 1) {
+        toRemove = true;
+      } else if (li &gt; p &amp;&amp; tag != "ul" &amp;&amp; tag != "ol") {
+        toRemove = true;
+      } else if (input &gt; Math.floor(p / 3)) {
+        toRemove = true;
+      } else if (contentLength &lt; 25 &amp;&amp; (img == 0 || img &gt; 2)) {
+        toRemove = true;
+      } else if (weight &lt; 25 &amp;&amp; linkDensity &gt; .2) {
+        toRemove = true;
+      } else if (weight &gt;= 25 &amp;&amp; linkDensity &gt; .5) {
+        toRemove = true;
+      } else if ((embedCount == 1 &amp;&amp; contentLength &lt; 75) || embedCount &gt; 1) {
+        toRemove = true;
+      }
+
+      if (toRemove) {
+        tagsList[i].parentNode.removeChild(tagsList[i]);
+      }
+    }
+  }
+}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>DAAF423E-7F66-4D6E-B36C-DB3479305EA5</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>clean</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>2B6060F5-8B4A-4115-9DB5-368AA3E6FF5E</string>
+				<key>WFTextActionText</key>
+				<string>function resolveUrl(/* ...urls */) {
+  var numUrls = arguments.length
+
+  if (numUrls === 0) {
+    throw new Error("resolveUrl requires at least one argument; got none.")
+  }
+
+  var base = document.createElement("base")
+  base.href = arguments[0]
+
+  if (numUrls === 1) {
+    return base.href
+  }
+
+  var head = document.getElementsByTagName("head")[0]
+  head.insertBefore(base, head.firstChild)
+
+  var a = document.createElement("a")
+  var resolved
+
+  for (var index = 1; index &lt; numUrls; index++) {
+    a.href = arguments[index]
+    resolved = a.href
+    base.href = resolved
+  }
+
+  head.removeChild(base)
+
+  return resolved
+}
+
+
+function fixLink(e,link){
+  var fixed = resolveUrl(link);//e.ownerDocument.originalURL, link);
+  return fixed;
+}
+
+
+function fixLinks(e) {
+  //if (!e.ownerDocument.originalURL) {
+    //return;
+  //}
+  var i;
+  var imgs = e.getElementsByTagName('img');
+  for (i = imgs.length - 1; i &gt;= 0; --i) {
+    var src = imgs[i].getAttribute('src');
+    if (src) {
+      imgs[i].setAttribute('src', fixLink(e,src));
+    }
+  }
+
+  var as = e.getElementsByTagName('a');
+  for (i = as.length - 1; i &gt;= 0; --i) {
+    var href = as[i].getAttribute('href');
+    if (href) {
+      as[i].setAttribute('href', fixLink(e,href));
+    }
+  }
+}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>2B6060F5-8B4A-4115-9DB5-368AA3E6FF5E</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>fixLinks</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>5E16F15C-AA3C-46B1-958E-5DC1782903AD</string>
+				<key>WFTextActionText</key>
+				<string>function getTextBody() {
+  var articleContent = grabArticle();
+  var rootElement = articleContent.childNodes[0];
+  var textBody = '';
+  if (rootElement) {
+    var textElements = rootElement.childNodes;
+    for (var i = 0; i &lt; textElements.length; i++) {
+      var el = textElements[i];
+      var text = getInnerText(el);
+      if (!text) continue;
+      textBody += text;
+      if ((i + 1) &lt; textElements.length) textBody += '\n';
+    }
+  }
+
+  return textBody;
+}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>5E16F15C-AA3C-46B1-958E-5DC1782903AD</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>getTextBody</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>2034E0EA-6711-4134-80A3-361ABBA4E2E5</string>
+				<key>WFTextActionText</key>
+				<string>function getCookie() { return document.cookie; }
+
+function getUserAgent() { return navigator.userAgent; }
+
+function getImages() {
+document.getElementsByTagName('html')[0].innerHTML = cache['article-content'];
+  var srclist = [];
+  imgs = document.getElementsByTagName("img");
+  for (let img of imgs) {
+    srclist.push(img.src);
+  }
+  return srclist;
+}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>2034E0EA-6711-4134-80A3-361ABBA4E2E5</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>getImages</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>D8608948-D41C-4CF9-8CA1-B25E82C2E64F</string>
+				<key>WFTextActionText</key>
+				<string>function main(){
+  cache['body'] = getBODY();
+  cache['html'] = getHTML(); 
+  prepDocument();
+  cache['article-title'] = getTitle();
+  cache['article-content'] = getContent();
+  cache['article-images']= getImages();
+  cache['cookie'] = getCookie();
+  cache['agent'] = getUserAgent();
+  recovery();
+  //cache['article-text-body'] = getTextBody();
+  completion(cache);
+}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>D8608948-D41C-4CF9-8CA1-B25E82C2E64F</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>main</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.runjavascriptonwebpage</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>CABD428B-48AC-4879-AC62-2F4C131482E3</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Type</key>
+						<string>ExtensionInput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFJavaScript</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{1189, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>getImages</string>
+							</dict>
+							<key>{1191, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>getTextBody</string>
+							</dict>
+							<key>{1193, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>fixLinks</string>
+							</dict>
+							<key>{1195, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>clean</string>
+							</dict>
+							<key>{1197, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>prepArticle</string>
+							</dict>
+							<key>{1199, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>getLinkDensity</string>
+							</dict>
+							<key>{1201, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>getInnerText</string>
+							</dict>
+							<key>{1203, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>getClassWeight</string>
+							</dict>
+							<key>{1205, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>prepDocument</string>
+							</dict>
+							<key>{1207, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>initializeNode</string>
+							</dict>
+							<key>{1209, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>grabArticle</string>
+							</dict>
+							<key>{1211, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>getContent</string>
+							</dict>
+							<key>{1213, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>getTitle</string>
+							</dict>
+							<key>{1215, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>main</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>var regexps = {
+  unlikelyCandidatesRe: /combx|modal|comment|disqus|foot|header|menu|meta|nav|rss|shoutbox|sidebar|sponsor|social|teaserlist|time|tweet|twitter/i,
+  okMaybeItsACandidateRe: /and|article|body|column|main|story|entry|^post/im,
+  positiveRe: /article|body|content|entry|hentry|page|pagination|post|section|chapter|description|main|blog|text/i,
+  negativeRe: /combx|comment|contact|foot|footer|footnote|link|media|meta|promo|related|scroll|shoutbox|sponsor|utility|tags|widget/i,
+  divToPElementsRe: /&lt;(a|blockquote|dl|div|img|ol|p|pre|table|ul)/i,
+  replaceBrsRe: /(&lt;br[^&gt;]*&gt;[ \n\r\t]*){2,}/gi,
+  replaceFontsRe: /&lt;(\/?)font[^&gt;]*&gt;/gi,
+  trimRe: /^\s+|\s+$/g,
+  normalizeRe: /\s{2,}/g,
+  killBreaksRe: /(&lt;br\s*\/?&gt;(\s|&amp;nbsp;?)*){1,}/g,
+  videoRe: /http:\/\/(www\.)?(youtube|vimeo|youku|tudou|56|yinyuetai)\.com/i,
+  attributeRe: /blog|post|article/i 
+};
+ var uselessTag = ["script","noscript"];
+ var cache = {};
+ var cleanRules = [];
+ main();
+
+
+function getBODY() { return document.body.innerHTML }
+
+function getHTML() { return document.getElementsByTagName('html')[0].innerHTML; }
+
+function recovery() { document.getElementsByTagName('html')[0].innerHTML = cache['html']; }
+
+
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getvalueforkey</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>6C0F14BE-470E-48E4-8B94-4E59382DFAE8</string>
+				<key>WFDictionaryKey</key>
+				<string>article-content</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>JavaScript结果</string>
+						<key>OutputUUID</key>
+						<string>CABD428B-48AC-4879-AC62-2F4C131482E3</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getrichtextfromhtml</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>8450996F-D728-4E0F-A291-B90C0EE50656</string>
+				<key>WFHTML</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>词典值</string>
+						<key>OutputUUID</key>
+						<string>6C0F14BE-470E-48E4-8B94-4E59382DFAE8</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getmarkdownfromrichtext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>733FC708-A50D-45C8-BEBF-A2ED79D39194</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>来自HTML的多信息文本</string>
+						<key>OutputUUID</key>
+						<string>8450996F-D728-4E0F-A291-B90C0EE50656</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>D20C469C-4F4E-47F5-8E29-9A7CD832FF5B</string>
+				<key>WFTextActionText</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{2, 1}</key>
+							<dict>
+								<key>Aggrandizements</key>
+								<array>
+									<dict>
+										<key>CoercionItemClass</key>
+										<string>WFDictionaryContentItem</string>
+										<key>Type</key>
+										<string>WFCoercionVariableAggrandizement</string>
+									</dict>
+									<dict>
+										<key>DictionaryKey</key>
+										<string>article-title</string>
+										<key>Type</key>
+										<string>WFDictionaryValueVariableAggrandizement</string>
+									</dict>
+								</array>
+								<key>OutputName</key>
+								<string>JavaScript Result</string>
+								<key>OutputUUID</key>
+								<string>CABD428B-48AC-4879-AC62-2F4C131482E3</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+							<key>{5, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>Markdown from Rich Text</string>
+								<key>OutputUUID</key>
+								<string>733FC708-A50D-45C8-BEBF-A2ED79D39194</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string># ￼
+
+￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.openin</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>D20C469C-4F4E-47F5-8E29-9A7CD832FF5B</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFOpenInAppIdentifier</key>
+				<string>pro.writer</string>
+				<key>WFOpenInAskWhenRun</key>
 				<false/>
 			</dict>
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
+			<string>is.workflow.actions.documentpicker.save</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
-				<key>GroupingIdentifier</key>
-				<string>18FAD053-2EF5-405D-AA95-A335FC1DCDC0</string>
 				<key>UUID</key>
-				<string>6D13CFBA-D31C-480C-95F8-33B31F4EE623</string>
-				<key>WFControlFlowMode</key>
-				<integer>2</integer>
+				<string>D0542294-08A7-4A30-8DBB-4ED00881397A</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>D20C469C-4F4E-47F5-8E29-9A7CD832FF5B</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
 			</dict>
 		</dict>
 	</array>
@@ -234,31 +2076,15 @@
 	<key>WFWorkflowIcon</key>
 	<dict>
 		<key>WFWorkflowIconGlyphNumber</key>
-		<integer>59764</integer>
+		<integer>59824</integer>
 		<key>WFWorkflowIconStartColor</key>
-		<integer>255</integer>
+		<integer>2071128575</integer>
 	</dict>
 	<key>WFWorkflowImportQuestions</key>
 	<array/>
 	<key>WFWorkflowInputContentItemClasses</key>
 	<array>
-		<string>WFAppStoreAppContentItem</string>
-		<string>WFArticleContentItem</string>
-		<string>WFContactContentItem</string>
-		<string>WFDateContentItem</string>
-		<string>WFEmailAddressContentItem</string>
-		<string>WFGenericFileContentItem</string>
-		<string>WFImageContentItem</string>
-		<string>WFiTunesProductContentItem</string>
-		<string>WFLocationContentItem</string>
-		<string>WFDCMapsLinkContentItem</string>
-		<string>WFAVAssetContentItem</string>
-		<string>WFPDFContentItem</string>
-		<string>WFPhoneNumberContentItem</string>
-		<string>WFRichTextContentItem</string>
 		<string>WFSafariWebPageContentItem</string>
-		<string>WFStringContentItem</string>
-		<string>WFURLContentItem</string>
 	</array>
 	<key>WFWorkflowMinimumClientVersion</key>
 	<integer>900</integer>
@@ -266,7 +2092,9 @@
 	<string>900</string>
 	<key>WFWorkflowTypes</key>
 	<array>
+		<string>NCWidget</string>
 		<string>WatchKit</string>
+		<string>ActionExtension</string>
 	</array>
 </dict>
 </plist>

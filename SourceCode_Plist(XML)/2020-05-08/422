@@ -6,161 +6,170 @@
 	<array>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
+			<string>is.workflow.actions.comment</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
-				<key>GroupingIdentifier</key>
-				<string>770141B3-A5E5-48CA-ADD1-2A82329EED86</string>
-				<key>WFControlFlowMode</key>
-				<integer>0</integer>
-				<key>WFMenuItems</key>
-				<array>
-					<string>正则表达式</string>
-					<string>手动</string>
-				</array>
+				<key>WFCommentActionText</key>
+				<string>作者：徐良
+来源：捷径盒 © 版权归作者所有
+发布时间：2020-04-01 16:47
+作品网址：https://jiejinghe.com/shortcuts/9361053312</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>770141B3-A5E5-48CA-ADD1-2A82329EED86</string>
-				<key>WFControlFlowMode</key>
-				<integer>1</integer>
-				<key>WFMenuItemTitle</key>
-				<string>正则表达式</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>BFCFE157-1CA7-4B51-B11A-B9F658904864</string>
-				<key>WFControlFlowMode</key>
-				<integer>0</integer>
-				<key>WFMenuItems</key>
-				<array>
-					<string>可视化-regex101</string>
-					<string>可视化-debuggex</string>
-					<string>可视化-regexper</string>
-				</array>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>BFCFE157-1CA7-4B51-B11A-B9F658904864</string>
-				<key>WFControlFlowMode</key>
-				<integer>1</integer>
-				<key>WFMenuItemTitle</key>
-				<string>可视化-regex101</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.openurl</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFInput</key>
-				<string>regex101.com</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>BFCFE157-1CA7-4B51-B11A-B9F658904864</string>
-				<key>WFControlFlowMode</key>
-				<integer>1</integer>
-				<key>WFMenuItemTitle</key>
-				<string>可视化-debuggex</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.openurl</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFInput</key>
-				<string>https://www.debuggex.com</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>BFCFE157-1CA7-4B51-B11A-B9F658904864</string>
-				<key>WFControlFlowMode</key>
-				<integer>1</integer>
-				<key>WFMenuItemTitle</key>
-				<string>可视化-regexper</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.openurl</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFInput</key>
-				<string>https://regexper.com</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>BFCFE157-1CA7-4B51-B11A-B9F658904864</string>
-				<key>WFControlFlowMode</key>
-				<integer>2</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>770141B3-A5E5-48CA-ADD1-2A82329EED86</string>
-				<key>WFControlFlowMode</key>
-				<integer>1</integer>
-				<key>WFMenuItemTitle</key>
-				<string>手动</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.gettext</string>
+			<string>com.jiejinghe.luke.ShortcutUpdateCheckIntent</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
 				<key>UUID</key>
-				<string>64959DCF-6E8C-4179-A024-7558A76CA66C</string>
-				<key>WFTextActionText</key>
-				<string>   </string>
+				<string>416508DA-031F-4FB4-BAA1-BC1A9CF8FF80</string>
+				<key>versionInfo</key>
+				<string>id:9361053312,v:1</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.text.match</string>
+			<string>is.workflow.actions.ask</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>CustomOutputName</key>
+				<string>发件人</string>
+				<key>UUID</key>
+				<string>39EA2BCF-4D5F-4705-AAB5-79CEFD02B6EB</string>
+				<key>WFAskActionDefaultAnswer</key>
+				<string>65492365@qq.com</string>
+				<key>WFAskActionPrompt</key>
+				<string>临时发件人</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.ask</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>CustomOutputName</key>
+				<string>授权码</string>
+				<key>UUID</key>
+				<string>3DEDBADC-4C37-43EB-A12F-A1C66445A457</string>
+				<key>WFAskActionDefaultAnswer</key>
+				<string>bswtcmtcfwkkcbea</string>
+				<key>WFAskActionPrompt</key>
+				<string>临时授权码</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.ask</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>CustomOutputName</key>
+				<string>收件人邮箱</string>
+				<key>UUID</key>
+				<string>7AF56E7A-C859-425B-9EC9-B9AB0706AC6F</string>
+				<key>WFAskActionPrompt</key>
+				<string>收件人邮箱</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>com.jiejinghe.luke.RunPythonIntent</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
 				<key>UUID</key>
-				<string>B9FC2342-A46D-421E-B290-FEE06950109E</string>
-				<key>WFMatchTextPattern</key>
-				<string>([\s\S]*)</string>
-				<key>text</key>
+				<string>E1BA61B2-A2EB-426E-8DDE-F7B0C242F298</string>
+				<key>code</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{100, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>发件人</string>
+								<key>OutputUUID</key>
+								<string>39EA2BCF-4D5F-4705-AAB5-79CEFD02B6EB</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+							<key>{150, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>授权码</string>
+								<key>OutputUUID</key>
+								<string>3DEDBADC-4C37-43EB-A12F-A1C66445A457</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+							<key>{208, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>收件人邮箱</string>
+								<key>OutputUUID</key>
+								<string>7AF56E7A-C859-425B-9EC9-B9AB0706AC6F</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>#! /usr/bin/env python#coding=utf-8
+
+import smtplib
+from email.mime.text import MIMEText
+
+msg_from='￼'                                 #发送方邮箱
+passwd='￼'                                   #填入发送方邮箱的授权码
+msg_to='￼'  
+#收件人邮箱
+
+subject="这个测试好玩吗"                                     #主题     
+content="我在测试用脚本发邮箱，我觉得蛮好玩的，要不要一起玩"      #正文
+msg = MIMEText(content)
+msg['Subject'] = subject
+msg['From'] = msg_from
+msg['To'] = msg_to
+try:
+    s = smtplib.SMTP_SSL("smtp.qq.com",465)#邮件服务器及端口号
+    s.login(msg_from, passwd)#登录SMTP服务器
+    s.sendmail(msg_from, msg_to, msg.as_string())#发邮件 as_string()把MIMEText对象变成str
+    msg='发送成功' 
+except s.SMTPException:
+    msg='发送失败' 
+finally:
+    s.quit()
+
+def main(): 
+  return msg
+
+ </string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+				<key>input</key>
+				<string>qq邮件</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.notification</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>代码输出</string>
+						<key>OutputUUID</key>
+						<string>E1BA61B2-A2EB-426E-8DDE-F7B0C242F298</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFNotificationActionBody</key>
 				<dict>
 					<key>Value</key>
 					<dict>
@@ -169,9 +178,9 @@
 							<key>{0, 1}</key>
 							<dict>
 								<key>OutputName</key>
-								<string>文本</string>
+								<string>代码输出</string>
 								<key>OutputUUID</key>
-								<string>64959DCF-6E8C-4179-A024-7558A76CA66C</string>
+								<string>E1BA61B2-A2EB-426E-8DDE-F7B0C242F298</string>
 								<key>Type</key>
 								<string>ActionOutput</string>
 							</dict>
@@ -184,88 +193,6 @@
 				</dict>
 			</dict>
 		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.detect.dictionary</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>95A16AF8-4AEF-4422-9746-9D5613F03681</string>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>匹配</string>
-						<key>OutputUUID</key>
-						<string>B9FC2342-A46D-421E-B290-FEE06950109E</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.statistics</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>Input</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>词典</string>
-						<key>OutputUUID</key>
-						<string>95A16AF8-4AEF-4422-9746-9D5613F03681</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>UUID</key>
-				<string>A06B4C47-6DE5-4D63-A404-2427272F3183</string>
-				<key>WFStatisticsOperation</key>
-				<string>Sum</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.previewdocument</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>Sum</string>
-						<key>OutputUUID</key>
-						<string>A06B4C47-6DE5-4D63-A404-2427272F3183</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>770141B3-A5E5-48CA-ADD1-2A82329EED86</string>
-				<key>UUID</key>
-				<string>2F770935-BEB7-4759-9F04-40C4578D9CE1</string>
-				<key>WFControlFlowMode</key>
-				<integer>2</integer>
-			</dict>
-		</dict>
 	</array>
 	<key>WFWorkflowClientRelease</key>
 	<string>3.0</string>
@@ -274,9 +201,9 @@
 	<key>WFWorkflowIcon</key>
 	<dict>
 		<key>WFWorkflowIconGlyphNumber</key>
-		<integer>59446</integer>
+		<integer>59774</integer>
 		<key>WFWorkflowIconStartColor</key>
-		<integer>1440408063</integer>
+		<integer>431817727</integer>
 	</dict>
 	<key>WFWorkflowImportQuestions</key>
 	<array/>
@@ -306,6 +233,7 @@
 	<string>900</string>
 	<key>WFWorkflowTypes</key>
 	<array>
+		<string>NCWidget</string>
 		<string>WatchKit</string>
 	</array>
 </dict>

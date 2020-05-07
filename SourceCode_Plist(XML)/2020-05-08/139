@@ -169,6 +169,8 @@
 			<string>is.workflow.actions.documentpicker.open</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
+				<key>SelectMultiple</key>
+				<false/>
 				<key>UUID</key>
 				<string>D532CBBD-9CA8-4DF3-8154-C0516ED18C05</string>
 			</dict>

@@ -6,153 +6,87 @@
 	<array>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.comment</string>
+			<string>is.workflow.actions.gettext</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
-				<key>WFCommentActionText</key>
-				<string>作者：徐良
-来源：捷径盒 © 版权归作者所有
-发布时间：2020-04-01 16:47
-作品网址：https://jiejinghe.com/shortcuts/9361053312</string>
+				<key>UUID</key>
+				<string>7789A26F-0DF5-4F13-B65A-983829977D7E</string>
+				<key>WFTextActionText</key>
+				<string>Bare Meter Reading =	1/8000	1/4000	1/2000	1/1000	1/500	1/250	1/125	1/60	1/30	1/15	1/8	1/4	1/2	1s	2s	4s	8s	15s	30s
+ND2 (1)	1/4000	1/2000	1/1000	1/500	1/250	1/125	1/60	1/30	1/15	1/8	1/4	1/2	1s	2s	4s	8s	15s	30s	1m
+CPL (1 2/3)*	1/2500	1/1250	1/640	1/320	1/160	1/80	1/40	1/20	1/10	1/5	2.5	1.3	1.6s	3s	6s	13s	25s	50s	1.66m
+ND4 (2)	1/2000	1/1000	1/500	1/250	1/125	1/60	1/30	1/15	1/8	1/4	1/2	1s	2s	4s	8s	15s	30s	1m	2m
+ND8 (3)	1/1000	1/500	1/250	1/125	1/60	1/30	1/15	1/8	1/4	1/2	1s	2s	4s	8s	15s	30s	1m	2m	4m
+2X ND4 or ND2 + ND3 (4)	1/500	1/250	1/125	1/60	1/30	1/15	1/8	1/4	1/2	1s	2s	4s	8s	15s	30s	1m	2m	4m	8m
+(5)	1/250	1/125	1/60	1/30	1/15	1/8	1/4	1/2	1s	2s	4s	8s	15s	30s	1m	2m	4m	8m	16m
+2X ND8 or ND64 (6)	1/125	1/60	1/30	1/15	1/8	1/4	1/2	1s	2s	4s	8s	15s	30s	1m	2m	4m	8m	16m	32m
+ND100 (6 2/3)	1/80	1/40	1/20	1/10	1/5	2.5	1.3	1.6s	3s	6s	13s	25s	50s	1m 40s	3m 20s	6m 40s	13m 20s	26m 40s	53m 20s
+(7)	1/60	1/30	1/15	1/8	1/4	1/2	1s	2s	4s	8s	15s	30s	1m	2m	4m	8m	16m	32m	64m
+ND4 + ND64 (8)	1/30	1/8	1/8	1/4	1/2	1s	2s	4s	8s	15s	30s	1m	2m	4m	8m	16m	32m	64m	128m
+ND400 (8 2/3)	1/40	1/20	1/10	1/2.5	1/1.3	1.6s	3s	6s	13s	25s	50s	1m 40s	3m 20s	6m 40s	13m 20s	26m 40s	53m 20s	1 hr 47m	3h 33m
+(9)	1/15	1/8	1/4	1/2	1s	2s	4s	8s	15s	30s	1m	2m	4m	8m	16m	32m	1h 4m	2h 8m	4h 16m
+(10)	1/8	1/4	1/2	1s	2s	4s	8s	15s	30s	1m	2m	4m	8m	16m	32m	1h 4m	2h 8m	4h 16m	8h 32m
+(11)	1/4	1/2	1s	2s	4s	8s	15s	30s	1m	2m	4m	8m	16m	32m	1h 4m	2h 8m	4h 16m	8h 32m	17h 4m
+2X ND64 (12)	1/2	1s	2s	4s	8s	15s	30s	1m	2m	4m	8m	16m	32m	1h 4m	2h 8m	4h 16m	8h 32m	17h 4m	1d 10h 8m
+ND10000 (13)	1s	2s	4s	8s	15s	30s	1m	2m	4m	8m	16m	32m	1h 4m	2h 8m	4h 16m	8h 32m	17h 4m	1d 10h 8m	2d 20h 16m
+(14)	2s	4s	8s	15s	30s	1m	2m	4m	8m	16m	32m	1h 4m	2h 8m	4h 16m	8h 32m	17h 4m	1d 10h 8m	2d 20h 16m	5d 16h 32m
+(15)	4s	8s	15s	30s	1m	2m	4m	8m	16m	32m	1h 4m	2h 8m	4h 16m	8h 32m	17h 4m	1d 10h 8m	2d 20h 16m	5d 16h 32m	11d 9h 4m
+(16)	8s	15s	30s	1m	2m	4m	8m	16m	32m	1h 4m	2h 8m	4h 16m	8h 32m	17h 4m	1d 10h 8m	2d 20h 16m	5d 16h 32m	11d 9h 4m	22d 18h 8m
+(17)	15s	30s	1m	2m	4m	8m	16m	32m	1h 4m	2h 8m	4h 16m	8h 32m	17h 4m	1d 10h 8m	2d 20h 16m	5d 16h 32m	11d 9h 4m	22d 18h 8m	45d12h16m
+(18)	30s	1m	2m	4m	8m	16m	32m	1h 4m	2h 8m	4h 16m	8h 32m	17h 4m	1d 10h 8m	2d 20h 16m	5d 16h 32m	11d 9h 4m	22d 18h 8m	45d12h16m	91d 32m
+(19)	1m	2m	4m	8m	16m	32m	1h 4m	2h 8m	4h 16m	8h 32m	17h 4m	1d 10h 8m	2d 20h 16m	5d 16h 32m	11d 9h 4m	22d 18h 8m	45d12h16m	91d 32m	182d 1h 4m
+ND1000000 (20)	2m	4m	8m	16m	32m</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
-			<string>com.jiejinghe.luke.ShortcutUpdateCheckIntent</string>
+			<string>is.workflow.actions.text.split</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
 				<key>UUID</key>
-				<string>416508DA-031F-4FB4-BAA1-BC1A9CF8FF80</string>
-				<key>versionInfo</key>
-				<string>id:9361053312,v:1</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.ask</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>CustomOutputName</key>
-				<string>发件人</string>
-				<key>UUID</key>
-				<string>39EA2BCF-4D5F-4705-AAB5-79CEFD02B6EB</string>
-				<key>WFAskActionDefaultAnswer</key>
-				<string>65492365@qq.com</string>
-				<key>WFAskActionPrompt</key>
-				<string>临时发件人</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.ask</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>CustomOutputName</key>
-				<string>授权码</string>
-				<key>UUID</key>
-				<string>3DEDBADC-4C37-43EB-A12F-A1C66445A457</string>
-				<key>WFAskActionDefaultAnswer</key>
-				<string>bswtcmtcfwkkcbea</string>
-				<key>WFAskActionPrompt</key>
-				<string>临时授权码</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.ask</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>CustomOutputName</key>
-				<string>收件人邮箱</string>
-				<key>UUID</key>
-				<string>7AF56E7A-C859-425B-9EC9-B9AB0706AC6F</string>
-				<key>WFAskActionPrompt</key>
-				<string>收件人邮箱</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>com.jiejinghe.luke.RunPythonIntent</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>E1BA61B2-A2EB-426E-8DDE-F7B0C242F298</string>
-				<key>code</key>
+				<string>12222ECA-9679-40C7-8DE1-046B651C97DF</string>
+				<key>text</key>
 				<dict>
 					<key>Value</key>
 					<dict>
-						<key>attachmentsByRange</key>
-						<dict>
-							<key>{100, 1}</key>
-							<dict>
-								<key>OutputName</key>
-								<string>发件人</string>
-								<key>OutputUUID</key>
-								<string>39EA2BCF-4D5F-4705-AAB5-79CEFD02B6EB</string>
-								<key>Type</key>
-								<string>ActionOutput</string>
-							</dict>
-							<key>{150, 1}</key>
-							<dict>
-								<key>OutputName</key>
-								<string>授权码</string>
-								<key>OutputUUID</key>
-								<string>3DEDBADC-4C37-43EB-A12F-A1C66445A457</string>
-								<key>Type</key>
-								<string>ActionOutput</string>
-							</dict>
-							<key>{208, 1}</key>
-							<dict>
-								<key>OutputName</key>
-								<string>收件人邮箱</string>
-								<key>OutputUUID</key>
-								<string>7AF56E7A-C859-425B-9EC9-B9AB0706AC6F</string>
-								<key>Type</key>
-								<string>ActionOutput</string>
-							</dict>
-						</dict>
-						<key>string</key>
-						<string>#! /usr/bin/env python#coding=utf-8
-
-import smtplib
-from email.mime.text import MIMEText
-
-msg_from='￼'                                 #发送方邮箱
-passwd='￼'                                   #填入发送方邮箱的授权码
-msg_to='￼'  
-#收件人邮箱
-
-subject="这个测试好玩吗"                                     #主题     
-content="我在测试用脚本发邮箱，我觉得蛮好玩的，要不要一起玩"      #正文
-msg = MIMEText(content)
-msg['Subject'] = subject
-msg['From'] = msg_from
-msg['To'] = msg_to
-try:
-    s = smtplib.SMTP_SSL("smtp.qq.com",465)#邮件服务器及端口号
-    s.login(msg_from, passwd)#登录SMTP服务器
-    s.sendmail(msg_from, msg_to, msg.as_string())#发邮件 as_string()把MIMEText对象变成str
-    msg='发送成功' 
-except s.SMTPException:
-    msg='发送失败' 
-finally:
-    s.quit()
-
-def main(): 
-  return msg
-
- </string>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>7789A26F-0DF5-4F13-B65A-983829977D7E</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
 					</dict>
 					<key>WFSerializationType</key>
-					<string>WFTextTokenString</string>
+					<string>WFTextTokenAttachment</string>
 				</dict>
-				<key>input</key>
-				<string>qq邮件</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.notification</string>
+			<string>is.workflow.actions.choosefromlist</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>37DC4918-79C7-4E92-9362-1C28E8CF5C00</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>拆分文本</string>
+						<key>OutputUUID</key>
+						<string>12222ECA-9679-40C7-8DE1-046B651C97DF</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setclipboard</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
 				<key>WFInput</key>
@@ -160,16 +94,34 @@ def main():
 					<key>Value</key>
 					<dict>
 						<key>OutputName</key>
-						<string>代码输出</string>
+						<string>选取的项目</string>
 						<key>OutputUUID</key>
-						<string>E1BA61B2-A2EB-426E-8DDE-F7B0C242F298</string>
+						<string>37DC4918-79C7-4E92-9362-1C28E8CF5C00</string>
 						<key>Type</key>
 						<string>ActionOutput</string>
 					</dict>
 					<key>WFSerializationType</key>
 					<string>WFTextTokenAttachment</string>
 				</dict>
-				<key>WFNotificationActionBody</key>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getclipboard</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>90C1A3CC-06C2-44FA-9158-17D009BDD01A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>2C6470B9-9216-4C56-AC64-70B99216EC56</string>
+				<key>WFTextActionText</key>
 				<dict>
 					<key>Value</key>
 					<dict>
@@ -178,9 +130,9 @@ def main():
 							<key>{0, 1}</key>
 							<dict>
 								<key>OutputName</key>
-								<string>代码输出</string>
+								<string>Clipboard</string>
 								<key>OutputUUID</key>
-								<string>E1BA61B2-A2EB-426E-8DDE-F7B0C242F298</string>
+								<string>90C1A3CC-06C2-44FA-9158-17D009BDD01A</string>
 								<key>Type</key>
 								<string>ActionOutput</string>
 							</dict>
@@ -193,6 +145,134 @@ def main():
 				</dict>
 			</dict>
 		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.text.split</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>F4A6DDAF-1E2E-4019-B4A6-DDAF1E2EB019</string>
+				<key>WFTextSeparator</key>
+				<string>Spaces</string>
+				<key>text</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>2C6470B9-9216-4C56-AC64-70B99216EC56</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setclipboard</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>拆分文本</string>
+						<key>OutputUUID</key>
+						<string>F4A6DDAF-1E2E-4019-B4A6-DDAF1E2EB019</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getclipboard</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>90C1A3CC-06C2-44FA-9158-17D009BDD01A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>105103B5-738D-4E4D-9051-03B5738D7E4D</string>
+				<key>WFTextActionText</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>Clipboard</string>
+								<key>OutputUUID</key>
+								<string>90C1A3CC-06C2-44FA-9158-17D009BDD01A</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setclipboard</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>105103B5-738D-4E4D-9051-03B5738D7E4D</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.previewdocument</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>105103B5-738D-4E4D-9051-03B5738D7E4D</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
 	</array>
 	<key>WFWorkflowClientRelease</key>
 	<string>3.0</string>
@@ -201,9 +281,9 @@ def main():
 	<key>WFWorkflowIcon</key>
 	<dict>
 		<key>WFWorkflowIconGlyphNumber</key>
-		<integer>59774</integer>
+		<integer>59727</integer>
 		<key>WFWorkflowIconStartColor</key>
-		<integer>431817727</integer>
+		<integer>4292093695</integer>
 	</dict>
 	<key>WFWorkflowImportQuestions</key>
 	<array/>
@@ -228,9 +308,9 @@ def main():
 		<string>WFURLContentItem</string>
 	</array>
 	<key>WFWorkflowMinimumClientVersion</key>
-	<integer>900</integer>
+	<integer>411</integer>
 	<key>WFWorkflowMinimumClientVersionString</key>
-	<string>900</string>
+	<string>411</string>
 	<key>WFWorkflowTypes</key>
 	<array>
 		<string>NCWidget</string>
