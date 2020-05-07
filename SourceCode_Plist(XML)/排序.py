@@ -31,12 +31,13 @@ str_sort_encode = sorted(str_update,key = lambda x: x.encode('utf-8'))
 sorted_a2z = []
 sorted_number = []
 sorted_emoji = []
+sorted_chinese = []
 sorted_char = []
 str_sorted = []
 
 for i in str_sort:
 	print("----------重复项目：----------\n%s" % (i))
-	first_char = re.search("^[.\.]", i)
+	first_char = re.search("^[\s\S]", i)
 	print("行首字符：\n", first_char)
 	match_a2z = re.search("^[a-z]", i)
 	print("匹配_a2z：\n", match_a2z)
@@ -45,6 +46,7 @@ for i in str_sort:
 	match_emoji = re.search(
 		"^[\ud83c-\udc00\ud83c-\udfff\ud83d-\udc00\ud83d-\udfff\u2600-\u27ff]", i)
 	print("匹配_emoji：\n", match_emoji)
+	match_chinese = re.search("^[u4E00-\u9FA5]|[^x00-xff]", i)
 	match_char = re.search("^[u4E00-\u9FA5]|[^x00-xff]", i)
 	print("匹配_char：\n", match_char)
 	# match_a2z = re.search("[a-zA-Z]", i)
@@ -61,12 +63,16 @@ for i in str_sort:
 				sorted_a2z.append(i)
 				print("排序_a2z：\n", sorted_a2z)
 			else:
-				if match_char is not None:
-					sorted_char.append(i)
-					print("排序_char：\n", sorted_char)
+				if match_chinese is not None:
+					sorted_chinese.append(i)
+					print("排序_char：\n", sorted_chinese)
 				else:
-					None
-	str_sorted = sorted_emoji + sorted_number + sorted_a2z + sorted_char
+					if match_char is not None:
+						sorted_char.append(i)
+						print("排序_char：\n", sorted_char)
+					else:
+						None
+	str_sorted = sorted_emoji + sorted_number + sorted_a2z + sorted_chinese + sorted_char
 
 print("----------自动排序----------\n%s" % str_sort)
 print("----------locale 排序----------\n%s" % str_sort_locale)
