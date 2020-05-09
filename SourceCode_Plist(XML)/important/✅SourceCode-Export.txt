@@ -152,7 +152,7 @@
 				<key>WFMenuItems</key>
 				<array>
 					<string>Export One</string>
-					<string>Export All ( WARNING ! ! ! no file name ! ! ! WARNING )</string>
+					<string>Export All Shortcuts</string>
 				</array>
 			</dict>
 		</dict>
@@ -406,7 +406,20 @@
 				<key>WFControlFlowMode</key>
 				<integer>1</integer>
 				<key>WFMenuItemTitle</key>
-				<string>Export All ( WARNING ! ! ! no file name ! ! ! WARNING )</string>
+				<string>Export All Shortcuts</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.alert</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFAlertActionCancelButtonShown</key>
+				<true/>
+				<key>WFAlertActionMessage</key>
+				<string></string>
+				<key>WFAlertActionTitle</key>
+				<string>WARNING ! ! ! no file name ! ! ! WARNING</string>
 			</dict>
 		</dict>
 		<dict>

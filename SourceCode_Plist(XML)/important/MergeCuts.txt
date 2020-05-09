@@ -1048,7 +1048,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Now please select your target shortcut with a *MergeCuts* comment:</string>
+																				<string>Now please select your target shortcut with a +++ comment:</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -1328,7 +1328,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>uses the share sheet functionality. If you want to transfer a shortcut that uses the share sheet, the *MergeCuts* comment should be the last action in the target shortcut, because all actions below that comment will be overwritten!</string>
+																				<string>uses the share sheet functionality. If you want to transfer a shortcut that uses the share sheet, the +++ comment should be the last action in the target shortcut, because all actions below that comment will be overwritten!</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -4720,7 +4720,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Wähle nun den Ziel-Kurzbefehl mit einem *MergeCuts* Kommentar aus:</string>
+																				<string>Wähle nun den Ziel-Kurzbefehl mit einem +++ Kommentar aus:</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -5000,7 +5000,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>nutzt die Share-Sheet Funktion. Wenn du einen Kurzbefehl übertragen möchtest, der das Share-Sheet verwendet, sollte der *MergeCuts*-Kommentar die letzte Aktion des Ziel-Kurzbefehls sein, da alle Aktionen unterhalb des Kommentars komplett überschrieben werden!</string>
+																				<string>nutzt die Share-Sheet Funktion. Wenn du einen Kurzbefehl übertragen möchtest, der das Share-Sheet verwendet, sollte der +++-Kommentar die letzte Aktion des Ziel-Kurzbefehls sein, da alle Aktionen unterhalb des Kommentars komplett überschrieben werden!</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -28570,7 +28570,7 @@ END:VCARD</string>
 			&lt;key&gt;WFWorkflowActionParameters&lt;/key&gt;
 			&lt;dict&gt;
 				&lt;key&gt;WFCommentActionText&lt;/key&gt;
-				&lt;string&gt;*MergeCuts*&lt;/string&gt;
+				&lt;string&gt;+++&lt;/string&gt;
 			&lt;/dict&gt;
 		&lt;/dict&gt;</string>
 			</dict>
@@ -29545,7 +29545,7 @@ END:VCARD</string>
 						<key>string</key>
 						<string>￼
 
-*MergeCuts*</string>
++++</string>
 					</dict>
 					<key>WFSerializationType</key>
 					<string>WFTextTokenString</string>
@@ -37002,7 +37002,7 @@ END:VCARD</string>
 	<key>WFWorkflowClientRelease</key>
 	<string>3.0</string>
 	<key>WFWorkflowClientVersion</key>
-	<string>1050.19</string>
+	<string>1050.22</string>
 	<key>WFWorkflowIcon</key>
 	<dict>
 		<key>WFWorkflowIconGlyphNumber</key>
