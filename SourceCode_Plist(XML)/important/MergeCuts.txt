@@ -336,7 +336,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Language Code</string>
+																				<string>Library</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -348,7 +348,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>cn</string>
+																				<string>MergeCuts Library</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -1748,7 +1748,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Add Shortcuts</string>
+																				<string>添加快捷指令</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -1776,7 +1776,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Add Actions</string>
+																				<string>添加操作（Actions）</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -1804,7 +1804,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Remove</string>
+																				<string>移除</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -1832,7 +1832,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Preview</string>
+																				<string>预览</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -1860,7 +1860,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Select the shortcut you want to save in your library:</string>
+																				<string>选择要添加到 Library 的快捷指令</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -1888,7 +1888,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Please enter a name for your entry:</string>
+																				<string>给这个片段起个名字</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -1916,7 +1916,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Select the entries you want to remove from your library:</string>
+																				<string>选择要删除的片段</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -1972,7 +1972,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>saved.</string>
+																				<string>已保存</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -2000,7 +2000,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Please choose another name.</string>
+																				<string>请选择别的名字</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -2028,7 +2028,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>removed.</string>
+																				<string>已移除</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -2056,7 +2056,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>snippets removed.</string>
+																				<string>移除片段</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -2084,7 +2084,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>No entry found</string>
+																				<string>没有找到</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -2196,7 +2196,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>No entry found</string>
+																				<string>没有找到</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -2336,7 +2336,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>already exists in your library. Do you want to overwrite it?</string>
+																				<string>Library 中已存在，你想覆盖它吗？</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -2588,7 +2588,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string> does not meet the requirements.</string>
+																				<string> 注释格式不正确</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -2644,7 +2644,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Back</string>
+																				<string>返回</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -2700,7 +2700,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Select a shortcut with *MergeActions* comment/s:</string>
+																				<string>选择带有 *MergeActions* 注释的快捷指令</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -2728,7 +2728,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Select Manually</string>
+																				<string>手动选择</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -2756,7 +2756,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Select All Initially</string>
+																				<string>默认选择全部</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -2784,7 +2784,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Update Check</string>
+																				<string>检查更新</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -2812,7 +2812,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Day</string>
+																				<string>天</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -2840,7 +2840,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Days</string>
+																				<string>天数</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -2868,7 +2868,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Every Time</string>
+																				<string>每次</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -2896,7 +2896,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Every Day</string>
+																				<string>每天</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -2924,7 +2924,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Every 3 Days</string>
+																				<string>每 3 天</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -2952,7 +2952,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Custom</string>
+																				<string>自定义更新频率</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -2980,7 +2980,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Selection</string>
+																				<string>选择</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -3036,7 +3036,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Default</string>
+																				<string>默认</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -3064,7 +3064,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Alphabetical</string>
+																				<string>字母顺序</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -3092,7 +3092,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Last Modified</string>
+																				<string>最近修改</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -3120,7 +3120,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Theme</string>
+																				<string>主题</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -3148,7 +3148,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Language</string>
+																				<string>语言</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -3176,7 +3176,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Current Setting</string>
+																				<string>当前设置</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -3260,7 +3260,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Check for Updates</string>
+																				<string>检查更新</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -3512,7 +3512,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>MergeCuts Theme</string>
+																				<string>MergeCuts 主题</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -3652,7 +3652,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Classic</string>
+																				<string>经典</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -3708,7 +3708,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Terms of Use</string>
+																				<string>使用条款</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -3764,7 +3764,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>You are almost done. Remember, you can change all these settings at any time (Go to "Settings"). Tip: MergeCuts has an integrated and detailed guide that explains the various functions in detail.</string>
+																				<string>You 马上就好，你可以稍后在“设置”中修改当前设置</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -3792,7 +3792,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Important: MergeCuts is not responsible for the loss of shortcuts or a corrupted database. No need to worry, this should not happen. To use MergeCuts, please confirm these terms of use.</string>
+																				<string>重要: MergeCuts 对于可能的快捷指令 App 数据库损坏或 App 内的快捷指令丢失不承担责任。你也无需担心，这种情况很少发生，如果担心的话，请为快捷指令 App 打开 iCloud 同步。如果要使用 MergeCuts, 请同意使用条款</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -3848,7 +3848,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>I Agree</string>
+																				<string>我同意</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -3876,7 +3876,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Step 1/4</string>
+																				<string>步骤 1/4</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -3904,7 +3904,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Step 2/4</string>
+																				<string>步骤 2/4</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -3932,7 +3932,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 																				<key>attachmentsByRange</key>
 																				<dict/>
 																				<key>string</key>
-																				<string>Step 3/4</string>
+																				<string>步骤 3/4</string>
 																			</dict>
 																			<key>WFSerializationType</key>
 																			<string>WFTextTokenString</string>
@@ -13662,9 +13662,9 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 				<integer>0</integer>
 				<key>WFMenuItems</key>
 				<array>
-					<string>English</string>
-					<string>Deutsch</string>
 					<string>Chinese</string>
+					<string>Deutsch</string>
+					<string>English</string>
 				</array>
 				<key>WFMenuPrompt</key>
 				<string>Choose your language • Wähle deine Sprache • 选择语言</string>
@@ -13680,7 +13680,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 				<key>WFControlFlowMode</key>
 				<integer>1</integer>
 				<key>WFMenuItemTitle</key>
-				<string>English</string>
+				<string>Chinese</string>
 			</dict>
 		</dict>
 		<dict>
@@ -13688,8 +13688,6 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 			<string>is.workflow.actions.setvalueforkey</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
-				<key>UUID</key>
-				<string>8DC1148C-3F8A-460F-BFD6-A9907712DE77</string>
 				<key>WFDictionary</key>
 				<dict>
 					<key>Value</key>
@@ -13705,7 +13703,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 				<key>WFDictionaryKey</key>
 				<string>lang</string>
 				<key>WFDictionaryValue</key>
-				<string>en</string>
+				<string>cn</string>
 			</dict>
 		</dict>
 		<dict>
@@ -13756,7 +13754,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 				<key>WFControlFlowMode</key>
 				<integer>1</integer>
 				<key>WFMenuItemTitle</key>
-				<string>Chinese</string>
+				<string>English</string>
 			</dict>
 		</dict>
 		<dict>
@@ -13764,6 +13762,8 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 			<string>is.workflow.actions.setvalueforkey</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
+				<key>UUID</key>
+				<string>8DC1148C-3F8A-460F-BFD6-A9907712DE77</string>
 				<key>WFDictionary</key>
 				<dict>
 					<key>Value</key>
@@ -13779,7 +13779,7 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 				<key>WFDictionaryKey</key>
 				<string>lang</string>
 				<key>WFDictionaryValue</key>
-				<string>cn</string>
+				<string>en</string>
 			</dict>
 		</dict>
 		<dict>
@@ -38776,7 +38776,6 @@ END:VCARD</string>
 ￼
 
 ￼
-
 
 𝗠𝗲𝗿𝗴𝗲𝗖𝘂𝘁𝘀 𝖼𝗋𝖾𝖺𝗍𝖾𝖽 𝖻𝗒
 𝗥𝗢𝗣𝖼𝗎𝗍𝗌 — 𝐚 𝐜𝐮𝐫𝐚𝐭𝐞𝐝 𝐒𝐡𝐨𝐫𝐭𝐜𝐮𝐭𝐬 𝐂𝐨𝐥𝐥𝐞𝐜𝐭𝐢𝐨𝐧
