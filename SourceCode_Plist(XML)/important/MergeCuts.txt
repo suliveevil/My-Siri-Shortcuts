@@ -13664,9 +13664,10 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 				<array>
 					<string>English</string>
 					<string>Deutsch</string>
+					<string>Chinese</string>
 				</array>
 				<key>WFMenuPrompt</key>
-				<string>Choose your language • Wähle deine Sprache</string>
+				<string>Choose your language • Wähle deine Sprache • 选择语言</string>
 			</dict>
 		</dict>
 		<dict>
@@ -13743,6 +13744,42 @@ Thanks to the help of robric18 the feature of transferring actions could be sign
 				<string>lang</string>
 				<key>WFDictionaryValue</key>
 				<string>de</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefrommenu</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>11B48448-02D4-440F-BEC6-DDCC0B90A16B</string>
+				<key>WFControlFlowMode</key>
+				<integer>1</integer>
+				<key>WFMenuItemTitle</key>
+				<string>Chinese</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvalueforkey</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFDictionary</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Type</key>
+						<string>Variable</string>
+						<key>VariableName</key>
+						<string>settingsFile</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFDictionaryKey</key>
+				<string>lang</string>
+				<key>WFDictionaryValue</key>
+				<string>cn</string>
 			</dict>
 		</dict>
 		<dict>
