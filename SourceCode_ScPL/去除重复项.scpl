@@ -1,0 +1,68 @@
+@Icon repeat
+@Color green
+Text "你好\n我们\n世界\n哈哈\n嘿嘿\n你好\n世界" -> mv:Text
+SplitText text=:raw{
+	"Value": {
+		"Type": "ActionOutput",
+		"OutputName": "文本",
+		"OutputUUID": "A3014967-60DD-4ED2-8821-43C48074365C"
+	},
+	"WFSerializationType": "WFTextTokenAttachment"
+} -> mv:"Split Text" // Warning: This action contains some parameters that are not supported. Editing them may cause errors.
+SetVariable variable=data_raw WFInput=:raw{
+	"Value": {
+		"Type": "ActionOutput",
+		"OutputName": "拆分文本",
+		"OutputUUID": "5916B32F-E203-4972-A470-F72BA9D5BC85"
+	},
+	"WFSerializationType": "WFTextTokenAttachment"
+} // Warning: This action contains some parameters that are not supported. Editing them may cause errors.
+SetVariable data_uniq
+RepeatwithEach WFInput=:raw{
+	"Value": {
+		"Type": "Variable",
+		"VariableName": "data_raw"
+	},
+	"WFSerializationType": "WFTextTokenAttachment"
+} // Warning: This action contains some parameters that are not supported. Editing them may cause errors.
+	If input=99 value=v:"Repeat Item" WFInput=:raw{
+		"Type": "Variable",
+		"Variable": {
+			"Value": {
+				"VariableName": "data_uniq",
+				"Type": "Variable"
+			},
+			"WFSerializationType": "WFTextTokenAttachment"
+		}
+	} // Warning: This action contains some parameters that are not supported. Editing them may cause errors.
+		Nothing
+	Otherwise
+		AddtoVariable variable=data_uniq WFInput=:raw{
+			"Value": {
+				"Type": "Variable",
+				"VariableName": "Repeat Item"
+			},
+			"WFSerializationType": "WFTextTokenAttachment"
+		} // Warning: This action contains some parameters that are not supported. Editing them may cause errors.
+	End -> mv:If
+End -> mv:"Repeat with Each"
+CombineText separator="New Lines" text=:raw{
+	"Value": {
+		"attachmentsByRange": {
+			"{0, 1}": {
+				"Type": "Variable",
+				"VariableName": "data_uniq"
+			}
+		},
+		"string": "￼"
+	},
+	"WFSerializationType": "WFTextTokenString"
+} -> mv:"Combine Text" // Warning: This action contains some parameters that are not supported. Editing them may cause errors.
+QuickLook WFInput=:raw{
+	"Value": {
+		"Type": "ActionOutput",
+		"OutputName": "合并后的文本",
+		"OutputUUID": "727AC1CD-51AC-4482-932C-1E1EA7E5F6E1"
+	},
+	"WFSerializationType": "WFTextTokenAttachment"
+} // Warning: This action contains some parameters that are not supported. Editing them may cause errors.
