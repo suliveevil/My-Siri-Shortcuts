@@ -185,6 +185,8 @@
 			<dict>
 				<key>UUID</key>
 				<string>CF7B8226-50E2-4944-B225-4EF18CEFF97C</string>
+				<key>WFChooseFromListActionPrompt</key>
+				<string>Choose Shortcut then export it</string>
 				<key>WFInput</key>
 				<dict>
 					<key>Value</key>
