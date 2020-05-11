@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WFWorkflowActions</key>
+	<array>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.comment</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFCommentActionText</key>
+				<string>作者：小谢谢
+来源：捷径盒 © 版权归作者所有
+发布时间：2020-02-14 13:36
+作品网址：https://jiejinghe.com/shortcuts/7554120844</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>com.jiejinghe.luke.ShortcutUpdateCheckIntent</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>8E176837-DFE6-462B-9953-49F306CBEC20</string>
+				<key>versionInfo</key>
+				<string>id:7554120844,v:2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.dictionary</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>F529EDC8-396D-45BE-94A9-88DA5B6AC4CE</string>
+				<key>WFItems</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>WFDictionaryFieldValueItems</key>
+						<array>
+							<dict>
+								<key>WFItemType</key>
+								<integer>0</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>二类</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>New/</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+							</dict>
+							<dict>
+								<key>WFItemType</key>
+								<integer>0</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>三类</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>nano/</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+							</dict>
+							<dict>
+								<key>WFItemType</key>
+								<integer>0</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>四类</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>Modern/</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+							</dict>
+							<dict>
+								<key>WFItemType</key>
+								<integer>0</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>CC</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>iOS系统音效</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+							</dict>
+						</array>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFDictionaryFieldValue</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefrommenu</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>81444380-C04D-4716-8899-3AE93AAA7362</string>
+				<key>WFControlFlowMode</key>
+				<integer>0</integer>
+				<key>WFMenuItems</key>
+				<array>
+					<string>一类</string>
+					<string>二类</string>
+					<string>三类</string>
+					<string>四类</string>
+				</array>
+				<key>WFMenuPrompt</key>
+				<string>请选择</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefrommenu</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>81444380-C04D-4716-8899-3AE93AAA7362</string>
+				<key>WFControlFlowMode</key>
+				<integer>1</integer>
+				<key>WFMenuItemTitle</key>
+				<string>一类</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>7C8E0BF3-B4DE-4482-BB17-E2BF7FD88A88</string>
+				<key>WFTextActionText</key>
+				<string>3rd_party_critical
+ReceivedMessage
+RingerChanged
+SIMToolkitCallDropped
+SIMToolkitGeneralBeep
+SIMToolkitNegativeACK
+SIMToolkitPositiveACK
+SIMToolkitSMS
+SentMessage
+Swish
+Tink
+Tock
+access_scan_complete
+acknowledgment_received
+acknowledgment_sent
+alarm
+begin_record
+camera_timer_countdown
+camera_timer_final_second
+connect_power
+ct-busy
+ct-congestion
+ct-error
+ct-keytone2
+ct-path-ack
+end_record
+focus_change_app_icon
+focus_change_keyboard
+focus_change_large
+focus_change_small
+go_to_sleep_alert
+health_notification
+jbl_ambiguous
+jbl_begin
+jbl_cancel
+jbl_confirm
+jbl_no_match
+key_press_click
+key_press_delete
+key_press_modifier
+keyboard_press_clear
+keyboard_press_delete
+keyboard_press_normal
+lock
+long_low_short_high
+low_power
+mail-sent
+middle_9_short_double_low
+multiway_invitation
+navigation_pop
+navigation_push
+new-mail
+nfc_scan_complete
+payment_failure
+payment_success
+photoShutter
+shake
+short_double_high
+short_double_low
+short_low_high
+sms-received1
+sms-received2
+sms-received3
+sms-received4
+sms-received5
+sms-received6
+tweet_sent
+ussd
+warsaw
+wheels_of_time</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefrommenu</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>81444380-C04D-4716-8899-3AE93AAA7362</string>
+				<key>WFControlFlowMode</key>
+				<integer>1</integer>
+				<key>WFMenuItemTitle</key>
+				<string>二类</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Aggrandizements</key>
+						<array>
+							<dict>
+								<key>DictionaryKey</key>
+								<string>二类</string>
+								<key>Type</key>
+								<string>WFDictionaryValueVariableAggrandizement</string>
+							</dict>
+						</array>
+						<key>OutputName</key>
+						<string>词典</string>
+						<key>OutputUUID</key>
+						<string>F529EDC8-396D-45BE-94A9-88DA5B6AC4CE</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>Q</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>EB25FFA3-5704-4EBA-B46E-E371C7E49CF2</string>
+				<key>WFTextActionText</key>
+				<string>Anticipate
+Bloom
+Calypso
+Choo_Choo
+Descent
+Fanfare
+Ladder
+Minuet
+News_Flash
+Noir
+Sherwood_Forest
+Spell
+Suspense
+Telegraph
+Tiptoes
+Typewriters
+Update</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefrommenu</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>81444380-C04D-4716-8899-3AE93AAA7362</string>
+				<key>WFControlFlowMode</key>
+				<integer>1</integer>
+				<key>WFMenuItemTitle</key>
+				<string>三类</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Aggrandizements</key>
+						<array>
+							<dict>
+								<key>DictionaryKey</key>
+								<string>三类</string>
+								<key>Type</key>
+								<string>WFDictionaryValueVariableAggrandizement</string>
+							</dict>
+						</array>
+						<key>OutputName</key>
+						<string>词典</string>
+						<key>OutputUUID</key>
+						<string>F529EDC8-396D-45BE-94A9-88DA5B6AC4CE</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>Q</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>32DD3423-7F50-46CD-8C64-760EC164D4FB</string>
+				<key>WFTextActionText</key>
+				<string>3rdParty_DirectionDown_Haptic
+3rdParty_DirectionUp_Haptic
+3rdParty_Failure_Haptic
+3rdParty_Retry_Haptic
+3rdParty_Start_Haptic
+3rdParty_Stop_Haptic
+3rdParty_Success_Haptic
+3rd_Party_Critical_Haptic
+AccessScanComplete_Haptic
+Acknowledgement_Exclamation
+Acknowledgement_Haha
+Acknowledgement_Heart
+Acknowledgement_QuestionMark
+Acknowledgement_ThumbsDown
+Acknowledgement_ThumbsUp
+Alarm_Haptic
+Alarm_Nightstand_Haptic
+Alert_1stParty_Haptic
+Alert_3rdParty_Haptic
+Alert_3rdParty_Salient_Haptic
+Alert_ActivityFriendsGoalAttained_Haptic
+Alert_ActivityGoalAttained_Haptic
+Alert_ActivityGoalAttained_Salient_Haptic
+Alert_ActivityGoalBehind_Haptic
+Alert_ActivityGoalBehind_Salient_Haptic
+Alert_ActivityGoalClose_Haptic
+Alert_BatteryLow_10p_Haptic
+Alert_BatteryLow_5p_Haptic
+Alert_BatteryLow_5p_Salient_Haptic
+Alert_Calendar_Haptic
+Alert_Calendar_Salient_Haptic
+Alert_Health_Haptic
+Alert_Mail_Haptic
+Alert_Mail_Salient_Haptic
+Alert_MapsDirectionsInApp_Haptic
+Alert_Messages_1_Haptic
+Alert_Messages_1_Salient_Haptic
+Alert_Messages_2_Haptic
+Alert_Messages_3_Haptic
+Alert_PassbookBalance_Haptic
+Alert_PassbookGeofence_Haptic
+Alert_PassbookGeofence_Salient_Haptic
+Alert_PhotostreamActivity_Haptic
+Alert_ReminderDue_Haptic
+Alert_ReminderDue_Salient_Haptic
+Alert_SpartanConnected_LowLatency_Haptic
+Alert_SpartanConnecting_Haptic
+Alert_SpartanConnecting_LowLatency_Haptic
+Alert_SpartanDisconnected_LowLatency_Haptic
+Alert_Voicemail_Haptic
+Alert_Voicemail_Salient_Haptic
+Alert_WalkieTalkie_Haptic
+AutoUnlock_Haptic
+BatteryMagsafe_Haptic
+Beat_Haptic
+BuddyMigrationStart_Haptic
+BuddyPairingFailure_Haptic
+BuddyPairingRemoteConnection_Haptic
+BuddyPairingRemoteTap_Haptic
+BuddyPairingSuccess_Haptic
+CameraCountdownImminent_Haptic
+CameraCountdownTick_Haptic
+CameraShutter_Haptic
+Detent_Haptic
+DoNotDisturb_Haptic
+ET_BeginNotification_Haptic
+ET_BeginNotification_Salient_Haptic
+ET_RemoteTap_Receive_Haptic
+ET_RemoteTap_Send_Haptic
+GoToSleep_Haptic
+HourlyChime_Haptic
+HummingbirdCompletion_Haptic
+HummingbirdNotification_Haptic
+MessagesIncoming_Haptic
+MessagesOutgoing_Haptic
+MultiwayInvitation
+MultiwayJoin
+MultiwayLeave
+NavigationGenericManeuver_Haptic
+NavigationGenericManeuver_Salient_Haptic
+NavigationLeftTurn_Haptic
+NavigationLeftTurn_Salient_Haptic
+NavigationRightTurn_Haptic
+NavigationRightTurn_Salient_Haptic
+Notification_Haptic
+Notification_Salient_Haptic
+OnOffPasscodeFailure_Haptic
+OnOffPasscodeUnlockCampanion_Haptic
+OnOffPasscodeUnlock_Haptic
+OrbExit_Haptic
+OrbLayers_Haptic
+PhoneAnswer_Haptic
+PhoneHangUp_Haptic
+PhoneHold_Haptic
+PhotosZoomDetent_Haptic
+Preview_AudioAndHaptic
+QB_Dictation_Haptic
+QB_Dictation_Off_Haptic
+RemoteCameraShutterBurstBegin_Haptic
+RemoteCameraShutterBurstEnd_Haptic
+RingtoneDucked_UK_Haptic
+RingtoneDucked_US_Haptic
+Ringtone_2_Ducked_Haptic-sashimi
+Ringtone_2_Haptic-sashimi
+Ringtone_UK_Haptic
+Ringtone_US_Haptic
+SOSEmergencyContactTextPrompt_Haptic
+SOSFallDetectionPromptEscalation_Haptic
+SOSFallDetectionPrompt_Haptic
+SalientNotification_Haptic
+SedentaryTimer_Haptic
+SedentaryTimer_Salient_Haptic
+SiriAutoSend_Haptic
+SiriStart_Haptic
+SiriStopFailure_Haptic
+SiriStopSuccess_Haptic
+StockholmActiveSingleCycle_Haptic
+StockholmActive_Haptic
+StockholmFailure_Haptic
+Stockholm_Haptic
+StopwatchLap_Haptic
+StopwatchReset_Haptic
+StopwatchStart_Haptic
+StopwatchStop_Haptic
+SwTest1_Haptic
+SystemStartup_Haptic
+System_Notification_Haptic
+TimerCancel_Haptic
+TimerPause_Haptic
+TimerStart_Haptic
+TimerWheelHoursDetent_Haptic
+TimerWheelMinutesDetent_Haptic
+Timer_Haptic
+UISwipe_Haptic
+UISwitch_Off_Haptic
+UISwitch_On_Haptic
+VoiceOver_Click_Haptic
+WalkieTalkieActiveEnd_Haptic
+WalkieTalkieActiveStart_Haptic
+WalkieTalkieReceiveEnd_Haptic
+WalkieTalkieReceiveStart_Haptic
+Warsaw_Haptic
+WorkoutCompleteAutodetect
+WorkoutComplete_Haptic
+WorkoutCountdown_Haptic
+WorkoutPaceAbove
+WorkoutPaceBelow
+WorkoutPausedAutoDetect
+WorkoutPaused_Haptic
+WorkoutPressStart_Haptic
+WorkoutResumedAutoDetect
+WorkoutResumed_Haptic
+WorkoutSaved_Haptic
+WorkoutSelect_Haptic
+WorkoutStartAutodetect
+busy_tone_ansi
+busy_tone_cept
+call_waiting_tone_ansi
+call_waiting_tone_cept
+ct-call-waiting
+dtmf-0
+dtmf-1
+dtmf-2
+dtmf-3
+dtmf-4
+dtmf-5
+dtmf-6
+dtmf-7
+dtmf-8
+dtmf-9
+dtmf-pound
+dtmf-star
+end_call_tone_cept
+jbl_begin
+jbl_cancel
+jbl_confirm
+ringback_tone_ansi
+ringback_tone_aus
+ringback_tone_cept
+ringback_tone_hk
+ringback_tone_uk
+sms-received1
+vc~ended
+vc~invitation-accepted
+vc~ringing
+vc~ringing_watch</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefrommenu</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>81444380-C04D-4716-8899-3AE93AAA7362</string>
+				<key>WFControlFlowMode</key>
+				<integer>1</integer>
+				<key>WFMenuItemTitle</key>
+				<string>四类</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Aggrandizements</key>
+						<array>
+							<dict>
+								<key>DictionaryKey</key>
+								<string>四类</string>
+								<key>Type</key>
+								<string>WFDictionaryValueVariableAggrandizement</string>
+							</dict>
+						</array>
+						<key>OutputName</key>
+						<string>词典</string>
+						<key>OutputUUID</key>
+						<string>F529EDC8-396D-45BE-94A9-88DA5B6AC4CE</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>Q</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>13EE4009-8C42-4CA6-A7B3-88428CED5CFA</string>
+				<key>WFTextActionText</key>
+				<string>camera_shutter_burst
+camera_shutter_burst_begin
+camera_shutter_burst_end</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefrommenu</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>81444380-C04D-4716-8899-3AE93AAA7362</string>
+				<key>UUID</key>
+				<string>B899E18D-6FCA-42FB-9830-3A3D74E4A044</string>
+				<key>WFControlFlowMode</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>菜单结果</string>
+						<key>OutputUUID</key>
+						<string>B899E18D-6FCA-42FB-9830-3A3D74E4A044</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>文件名称</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.text.split</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>45FD01E3-E697-4D6D-B45D-EBAA894DE830</string>
+				<key>text</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Type</key>
+						<string>Variable</string>
+						<key>VariableName</key>
+						<string>文件名称</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefromlist</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>42097E64-4130-4317-9984-BD65EF1397FA</string>
+				<key>WFChooseFromListActionPrompt</key>
+				<string>选择音效</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>拆分文本</string>
+						<key>OutputUUID</key>
+						<string>45FD01E3-E697-4D6D-B45D-EBAA894DE830</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>A21DA42B-055E-40F9-BD90-AE08841FBF4D</string>
+				<key>WFTextActionText</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{36, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>Q</string>
+							</dict>
+							<key>{37, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>选取的项目</string>
+								<key>OutputUUID</key>
+								<string>42097E64-4130-4317-9984-BD65EF1397FA</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>file:/System/Library/Audio/UISounds/￼￼.caf</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.url</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>AB2C6F56-9204-4640-981C-60E449D8FC6B</string>
+				<key>WFURLActionURL</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>文本</string>
+								<key>OutputUUID</key>
+								<string>A21DA42B-055E-40F9-BD90-AE08841FBF4D</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.notification</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>URL</string>
+						<key>OutputUUID</key>
+						<string>AB2C6F56-9204-4640-981C-60E449D8FC6B</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFNotificationActionBody</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>URL</string>
+								<key>OutputUUID</key>
+								<string>AB2C6F56-9204-4640-981C-60E449D8FC6B</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+				<key>WFNotificationActionSound</key>
+				<false/>
+				<key>WFNotificationActionTitle</key>
+				<string>已复制到剪贴板</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setclipboard</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFExpirationDate</key>
+				<string></string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>URL</string>
+						<key>OutputUUID</key>
+						<string>AB2C6F56-9204-4640-981C-60E449D8FC6B</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFLocalOnly</key>
+				<false/>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.playsound</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>URL</string>
+						<key>OutputUUID</key>
+						<string>AB2C6F56-9204-4640-981C-60E449D8FC6B</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.alert</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFAlertActionTitle</key>
+				<string>是否继续挑选？</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.runworkflow</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>EF88F4BF-B102-4DAB-9093-453164F04035</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>URL</string>
+						<key>OutputUUID</key>
+						<string>AB2C6F56-9204-4640-981C-60E449D8FC6B</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFShowWorkflow</key>
+				<false/>
+				<key>WFWorkflowName</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Aggrandizements</key>
+						<array>
+							<dict>
+								<key>DictionaryKey</key>
+								<string>CC</string>
+								<key>Type</key>
+								<string>WFDictionaryValueVariableAggrandizement</string>
+							</dict>
+						</array>
+						<key>OutputName</key>
+						<string>词典</string>
+						<key>OutputUUID</key>
+						<string>F529EDC8-396D-45BE-94A9-88DA5B6AC4CE</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.exit</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFResult</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>快捷指令结果</string>
+						<key>OutputUUID</key>
+						<string>EF88F4BF-B102-4DAB-9093-453164F04035</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+	<key>WFWorkflowClientRelease</key>
+	<string>3.0</string>
+	<key>WFWorkflowClientVersion</key>
+	<string>1050.22</string>
+	<key>WFWorkflowIcon</key>
+	<dict>
+		<key>WFWorkflowIconGlyphNumber</key>
+		<integer>59839</integer>
+		<key>WFWorkflowIconStartColor</key>
+		<integer>946986751</integer>
+	</dict>
+	<key>WFWorkflowImportQuestions</key>
+	<array/>
+	<key>WFWorkflowInputContentItemClasses</key>
+	<array>
+		<string>WFAppStoreAppContentItem</string>
+		<string>WFArticleContentItem</string>
+		<string>WFContactContentItem</string>
+		<string>WFDateContentItem</string>
+		<string>WFEmailAddressContentItem</string>
+		<string>WFGenericFileContentItem</string>
+		<string>WFImageContentItem</string>
+		<string>WFiTunesProductContentItem</string>
+		<string>WFLocationContentItem</string>
+		<string>WFDCMapsLinkContentItem</string>
+		<string>WFAVAssetContentItem</string>
+		<string>WFPDFContentItem</string>
+		<string>WFPhoneNumberContentItem</string>
+		<string>WFRichTextContentItem</string>
+		<string>WFSafariWebPageContentItem</string>
+		<string>WFStringContentItem</string>
+		<string>WFURLContentItem</string>
+	</array>
+	<key>WFWorkflowMinimumClientVersion</key>
+	<integer>900</integer>
+	<key>WFWorkflowMinimumClientVersionString</key>
+	<string>900</string>
+	<key>WFWorkflowTypes</key>
+	<array>
+		<string>NCWidget</string>
+		<string>WatchKit</string>
+	</array>
+</dict>
+</plist>

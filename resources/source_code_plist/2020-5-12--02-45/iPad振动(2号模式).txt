@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WFWorkflowActions</key>
+	<array>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.comment</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFCommentActionText</key>
+				<string>作者：fyb
+来源：捷径盒 © 版权归作者所有
+发布时间：2020-05-08 08:40
+作品网址：https://jiejinghe.com/shortcuts/8781363828</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>com.jiejinghe.luke.ShortcutUpdateCheckIntent</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>0AB8C55E-011B-4818-9375-A55AC78EF25A</string>
+				<key>versionInfo</key>
+				<string>id:8781363828,v:1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvolume</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFVolume</key>
+				<real>0.50335568189620972</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>AC528AAC-AB2B-4F7C-BDFC-FA82854CC47C</string>
+				<key>WFTextActionText</key>
+				<string>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
+J21pbmYAAAAQc21oZAAAAAAAAAAAAAAAJGRpbmYAAAAcZHJlZgAAAAAAAAABAAAADHVybCAAAAAB
+AAAA63N0YmwAAABnc3RzZAAAAAAAAAABAAAAV21wNGEAAAAAAAAAAQAAAAAAAAAAAAIAEAAAAACs
+RAAAAAAAM2VzZHMAAAAAA4CAgCIAAAAEgICAFEAUABgAAAH0AAAB9AAFgICAAhIQBoCAgAECAAAA
+GHN0dHMAAAAAAAAAAQAAAAgAAAQAAAAAHHN0c2MAAAAAAAAAAQAAAAEAAAAIAAAAAQAAADRzdHN6
+AAAAAAAAAAAAAAAIAAAArwAAAK4AAACoAAAAtQAAAKcAAADCAAAA0AAAAM0AAAAUc3RjbwAAAAAA
+AAABAAAALAAAAPp1ZHRhAAAA8m1ldGEAAAAAAAAAImhkbHIAAAAAAAAAAG1kaXIAAAAAAAAAAAAA
+AAAAAAAAAMRpbHN0AAAAvC0tLS0AAAAcbWVhbgAAAABjb20uYXBwbGUuaVR1bmVzAAAAFG5hbWUA
+AAAAaVR1blNNUEIAAACEZGF0YQAAAAEAAAAAIDAwMDAwMDAwIDAwMDAwNEMwIDAwMDAwMDAwIDAw
+MDAwMDAwMDAwMDFCNDAgMDAwMDAwMDAgMDAwMDAwMDAgMDAwMDAwMDAgMDAwMDAwMDAgMDAwMDAw
+MDAgMDAwMDAwMDAgMDAwMDAwMDAgMDAwMDAwMDA=</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.base64encode</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>35902821-57E7-4B4E-AC64-B3A3EE5FD2A1</string>
+				<key>WFEncodeMode</key>
+				<string>Decode</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>AC528AAC-AB2B-4F7C-BDFC-FA82854CC47C</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.playsound</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Base64已编码内容</string>
+						<key>OutputUUID</key>
+						<string>35902821-57E7-4B4E-AC64-B3A3EE5FD2A1</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.delay</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict/>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.runworkflow</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFShowWorkflow</key>
+				<false/>
+				<key>WFWorkflowName</key>
+				<string>iPad振动(2号模式)</string>
+			</dict>
+		</dict>
+	</array>
+	<key>WFWorkflowClientRelease</key>
+	<string>3.0</string>
+	<key>WFWorkflowClientVersion</key>
+	<string>1050.22</string>
+	<key>WFWorkflowIcon</key>
+	<dict>
+		<key>WFWorkflowIconGlyphNumber</key>
+		<integer>59743</integer>
+		<key>WFWorkflowIconStartColor</key>
+		<integer>4274264319</integer>
+	</dict>
+	<key>WFWorkflowImportQuestions</key>
+	<array/>
+	<key>WFWorkflowInputContentItemClasses</key>
+	<array>
+		<string>WFAppStoreAppContentItem</string>
+		<string>WFArticleContentItem</string>
+		<string>WFContactContentItem</string>
+		<string>WFDateContentItem</string>
+		<string>WFEmailAddressContentItem</string>
+		<string>WFGenericFileContentItem</string>
+		<string>WFImageContentItem</string>
+		<string>WFiTunesProductContentItem</string>
+		<string>WFLocationContentItem</string>
+		<string>WFDCMapsLinkContentItem</string>
+		<string>WFAVAssetContentItem</string>
+		<string>WFPDFContentItem</string>
+		<string>WFPhoneNumberContentItem</string>
+		<string>WFRichTextContentItem</string>
+		<string>WFSafariWebPageContentItem</string>
+		<string>WFStringContentItem</string>
+		<string>WFURLContentItem</string>
+	</array>
+	<key>WFWorkflowMinimumClientVersion</key>
+	<integer>900</integer>
+	<key>WFWorkflowMinimumClientVersionString</key>
+	<string>900</string>
+	<key>WFWorkflowTypes</key>
+	<array>
+		<string>NCWidget</string>
+		<string>WatchKit</string>
+	</array>
+</dict>
+</plist>

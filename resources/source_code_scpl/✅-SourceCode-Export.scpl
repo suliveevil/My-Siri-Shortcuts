@@ -1,0 +1,259 @@
+@ShowInWidget false
+@Icon databasenetwork
+@Color lightpurple
+SetVariable variable=init_time WFInput=:raw{
+	"Value": {
+		"Type": "CurrentDate"
+	},
+	"WFSerializationType": "WFTextTokenAttachment"
+} // Warning: This action contains some parameters that are not supported. Editing them may cause errors.
+Dictionary {"shortcut-name": "✅-SourceCode-Export", author: suliveevil, version: "2"} -> mv:Dictionary
+ChoosefromMenu items=["Export One", "Export All ( WARNING ! ! ! no file name ! ! ! WARNING )"]
+Case WFMenuItemTitle=:raw"Export One" // Warning: This action contains some parameters that are not supported. Editing them may cause errors.
+	GetMyShortcuts -> mv:"Get My Shortcuts"
+	ChoosefromList WFInput=:raw{
+		"Value": {
+			"Type": "ActionOutput",
+			"OutputName": "我的快捷指令",
+			"OutputUUID": "60CED148-4AAC-41BF-972A-E4D52ABC1002"
+		},
+		"WFSerializationType": "WFTextTokenAttachment"
+	} -> mv:"Choose from List" // Warning: This action contains some parameters that are not supported. Editing them may cause errors.
+	GetName WFInput=:raw{
+		"Value": {
+			"Type": "ActionOutput",
+			"OutputName": "选取的项目",
+			"OutputUUID": "CF7B8226-50E2-4944-B225-4EF18CEFF97C"
+		},
+		"WFSerializationType": "WFTextTokenAttachment"
+	} -> mv:"Get Name" // Warning: This action contains some parameters that are not supported. Editing them may cause errors.
+	AddtoVariable variable="file-name" WFInput=:raw{
+		"Value": {
+			"Type": "ActionOutput",
+			"OutputName": "名称",
+			"OutputUUID": "A9045464-B66A-4297-9E36-7D595598FA0F"
+		},
+		"WFSerializationType": "WFTextTokenAttachment"
+	} -> mv:"Add to Variable" // Warning: This action contains some parameters that are not supported. Editing them may cause errors.
+	SetName name="\(mv:"Choose from List").plist" dontIncludeFileExtension=true WFInput=:raw{
+		"Value": {
+			"Type": "ActionOutput",
+			"OutputName": "选取的项目",
+			"OutputUUID": "CF7B8226-50E2-4944-B225-4EF18CEFF97C"
+		},
+		"WFSerializationType": "WFTextTokenAttachment"
+	} -> mv:"Set Name" // Warning: This action contains some parameters that are not supported. Editing them may cause errors.
+	CopytoClipboard WFInput=:raw{
+		"Value": {
+			"Type": "Variable",
+			"VariableName": "file-name"
+		},
+		"WFSerializationType": "WFTextTokenAttachment"
+	} // Warning: This action contains some parameters that are not supported. Editing them may cause errors.
+	ShowNotification title="File Name is on Clipboard：\(v:"file-name")" body=v:"file-name" playSound=false
+	SaveFile WFInput=:raw{
+		"Value": {
+			"Type": "ActionOutput",
+			"Aggrandizements": [
+				{
+					"CoercionItemClass": "WFStringContentItem",
+					"Type": "WFCoercionVariableAggrandizement"
+				}
+			],
+			"OutputName": "重新命名的项目",
+			"OutputUUID": "A153A080-60B9-41ED-9AA5-D928F0BEDCBD"
+		},
+		"WFSerializationType": "WFTextTokenAttachment"
+	} -> mv:"Save File" // Warning: This action contains some parameters that are not supported. Editing them may cause errors.
+Case WFMenuItemTitle=:raw"Export All ( WARNING ! ! ! no file name ! ! ! WARNING )" // Warning: This action contains some parameters that are not supported. Editing them may cause errors.
+	Date -> mv:Date
+	Text s:currentDate -> mv:Text
+	AddtoVariable variable=folder WFInput=:raw{
+		"Value": {
+			"Type": "ActionOutput",
+			"OutputName": "文本",
+			"OutputUUID": "6C38EE01-4544-4063-9693-B9CD533576D3"
+		},
+		"WFSerializationType": "WFTextTokenAttachment"
+	} // Warning: This action contains some parameters that are not supported. Editing them may cause errors.
+	CreateFolder path="000-source-code/\(v:folder)"
+	GetMyShortcuts -> mv:"Get My Shortcuts1"
+	Count Input=:raw{
+		"Value": {
+			"Type": "ActionOutput",
+			"OutputName": "我的快捷指令",
+			"OutputUUID": "327C6287-AD7A-4059-9679-13604F4A3518"
+		},
+		"WFSerializationType": "WFTextTokenAttachment"
+	} -> mv:Count // Warning: This action contains some parameters that are not supported. Editing them may cause errors.
+	SetVariable variable=numbers WFInput=:raw{
+		"Value": {
+			"Type": "ActionOutput",
+			"OutputName": "数量",
+			"OutputUUID": "281F7AE5-F3BA-41EC-AB4E-3F937F729FE1"
+		},
+		"WFSerializationType": "WFTextTokenAttachment"
+	} // Warning: This action contains some parameters that are not supported. Editing them may cause errors.
+	Calculate operation="÷" operand=10 WFInput=:raw{
+		"Value": {
+			"Type": "Variable",
+			"VariableName": "numbers"
+		},
+		"WFSerializationType": "WFTextTokenAttachment"
+	} -> mv:Calculate // Warning: This action contains some parameters that are not supported. Editing them may cause errors.
+	RoundNumber WFInput=:raw{
+		"Value": {
+			"Type": "ActionOutput",
+			"OutputName": "计算结果",
+			"OutputUUID": "6154F38D-139F-40BF-8AD5-AF0595E849A9"
+		},
+		"WFSerializationType": "WFTextTokenAttachment"
+	} -> mv:"Round Number" // Warning: This action contains some parameters that are not supported. Editing them may cause errors.
+	SetVariable variable=step WFInput=:raw{
+		"Value": {
+			"Type": "ActionOutput",
+			"OutputName": "取整后的数字",
+			"OutputUUID": "18F2574B-7458-490E-9106-D398B154FC90"
+		},
+		"WFSerializationType": "WFTextTokenAttachment"
+	} // Warning: This action contains some parameters that are not supported. Editing them may cause errors.
+	Number 0 -> mv:Number
+	SetVariable variable=zero WFInput=:raw{
+		"Value": {
+			"Type": "ActionOutput",
+			"OutputName": "数字",
+			"OutputUUID": "56B92F09-A69F-4B50-B3AF-6E36DA5B37A0"
+		},
+		"WFSerializationType": "WFTextTokenAttachment"
+	} // Warning: This action contains some parameters that are not supported. Editing them may cause errors.
+	RepeatwithEach WFInput=:raw{
+		"Value": {
+			"Type": "ActionOutput",
+			"OutputName": "我的快捷指令",
+			"OutputUUID": "327C6287-AD7A-4059-9679-13604F4A3518"
+		},
+		"WFSerializationType": "WFTextTokenAttachment"
+	} // Warning: This action contains some parameters that are not supported. Editing them may cause errors.
+		SetName name="\(v:"Repeat Item"{as: text}).plist" dontIncludeFileExtension=true WFInput=:raw{
+			"Value": {
+				"Type": "Variable",
+				"VariableName": "Repeat Item"
+			},
+			"WFSerializationType": "WFTextTokenAttachment"
+		} -> mv:"Set Name1" // Warning: This action contains some parameters that are not supported. Editing them may cause errors.
+		SaveFile askWheretoSave=false destinationPath="000-source-code/\(v:folder)/" WFInput=:raw{
+			"Value": {
+				"Type": "ActionOutput",
+				"Aggrandizements": [
+					{
+						"CoercionItemClass": "WFStringContentItem",
+						"Type": "WFCoercionVariableAggrandizement"
+					}
+				],
+				"OutputName": "重新命名的项目",
+				"OutputUUID": "71151E5E-840E-401D-806F-197891132AA4"
+			},
+			"WFSerializationType": "WFTextTokenAttachment"
+		} -> mv:"Save File1" // Warning: This action contains some parameters that are not supported. Editing them may cause errors.
+		Calculate operation="…" scientificOperation=Modulus operand2=v:step WFInput=:raw{
+			"Value": {
+				"Type": "Variable",
+				"VariableName": "Repeat Index"
+			},
+			"WFSerializationType": "WFTextTokenAttachment"
+		} -> mv:Calculate1 // Warning: This action contains some parameters that are not supported. Editing them may cause errors.
+		If input=4 number=v:zero WFInput=:raw{
+			"Type": "Variable",
+			"Variable": {
+				"Value": {
+					"OutputUUID": "F91A2218-08DC-416C-BC0E-FFC37A400970",
+					"Type": "ActionOutput",
+					"OutputName": "计算结果"
+				},
+				"WFSerializationType": "WFTextTokenAttachment"
+			}
+		} // Warning: This action contains some parameters that are not supported. Editing them may cause errors.
+			Calculate operation="÷" operand=v:numbers WFInput=:raw{
+				"Value": {
+					"Type": "Variable",
+					"VariableName": "Repeat Index"
+				},
+				"WFSerializationType": "WFTextTokenAttachment"
+			} -> mv:Calculate2 // Warning: This action contains some parameters that are not supported. Editing them may cause errors.
+			Calculate operation="×" operand=100 WFInput=:raw{
+				"Value": {
+					"Type": "ActionOutput",
+					"OutputName": "计算结果",
+					"OutputUUID": "7B67AA11-9EE3-4F1A-B92F-D1982837BF58"
+				},
+				"WFSerializationType": "WFTextTokenAttachment"
+			} -> mv:Calculate3 // Warning: This action contains some parameters that are not supported. Editing them may cause errors.
+			RoundNumber WFInput=:raw{
+				"Value": {
+					"Type": "ActionOutput",
+					"OutputName": "计算结果",
+					"OutputUUID": "4F7A3282-09AD-47FE-BB28-77F2E341E3C3"
+				},
+				"WFSerializationType": "WFTextTokenAttachment"
+			} -> mv:"Round Number1" // Warning: This action contains some parameters that are not supported. Editing them may cause errors.
+			SetVariable variable=percent WFInput=:raw{
+				"Value": {
+					"Type": "ActionOutput",
+					"OutputName": "取整后的数字",
+					"OutputUUID": "A1C81E36-0FCB-4CC4-882B-612320ADC514"
+				},
+				"WFSerializationType": "WFTextTokenAttachment"
+			} // Warning: This action contains some parameters that are not supported. Editing them may cause errors.
+			SetVariable variable=time_now WFInput=:raw{
+				"Value": {
+					"Type": "CurrentDate"
+				},
+				"WFSerializationType": "WFTextTokenAttachment"
+			} // Warning: This action contains some parameters that are not supported. Editing them may cause errors.
+			GetTimeBetweenDates in=Seconds WFInput=:raw{
+				"Value": {
+					"attachmentsByRange": {
+						"{0, 1}": {
+							"Type": "Variable",
+							"Aggrandizements": [
+								{
+									"CoercionItemClass": "WFDateContentItem",
+									"Type": "WFCoercionVariableAggrandizement"
+								}
+							],
+							"VariableName": "time_now"
+						}
+					},
+					"string": "￼"
+				},
+				"WFSerializationType": "WFTextTokenString"
+			} WFTimeUntilFromDate=:raw{
+				"Value": {
+					"attachmentsByRange": {
+						"{0, 1}": {
+							"Type": "Variable",
+							"Aggrandizements": [
+								{
+									"CoercionItemClass": "WFDateContentItem",
+									"Type": "WFCoercionVariableAggrandizement"
+								}
+							],
+							"VariableName": "init_time"
+						}
+					},
+					"string": "￼"
+				},
+				"WFSerializationType": "WFTextTokenString"
+			} -> mv:"Get Time Between Dates" // Warning: This action contains some parameters that are not supported. Editing them may cause errors.
+			SetVariable variable=time_spend WFInput=:raw{
+				"Value": {
+					"Type": "ActionOutput",
+					"OutputName": "日期之间的时长",
+					"OutputUUID": "36E1EB04-F61E-41C8-95AC-A750AC211852"
+				},
+				"WFSerializationType": "WFTextTokenAttachment"
+			} // Warning: This action contains some parameters that are not supported. Editing them may cause errors.
+			ShowNotification title="\(v:percent) %" body="\(v:time_spend) s" playSound=false
+		Otherwise
+			Nothing
+		End -> mv:If

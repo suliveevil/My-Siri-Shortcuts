@@ -1,0 +1,53 @@
+{
+    "WFWorkflowActions": [
+        {
+            "WFWorkflowActionIdentifier": "is.workflow.actions.setclipboard",
+            "WFWorkflowActionParameters": {
+                "WFInput": {
+                    "Value": {
+                        "Type": "ExtensionInput"
+                    },
+                    "WFSerializationType": "WFTextTokenAttachment"
+                }
+            }
+        },
+        {
+            "WFWorkflowActionIdentifier": "is.workflow.actions.gettext",
+            "WFWorkflowActionParameters": {
+                "WFTextActionText": "拷贝到剪贴板\n文本"
+            }
+        }
+    ],
+    "WFWorkflowClientRelease": "3.0",
+    "WFWorkflowClientVersion": "1050.19",
+    "WFWorkflowIcon": {
+        "WFWorkflowIconGlyphNumber": 59771,
+        "WFWorkflowIconStartColor": 2846468607
+    },
+    "WFWorkflowImportQuestions": [],
+    "WFWorkflowInputContentItemClasses": [
+        "WFAppStoreAppContentItem",
+        "WFArticleContentItem",
+        "WFContactContentItem",
+        "WFDateContentItem",
+        "WFEmailAddressContentItem",
+        "WFGenericFileContentItem",
+        "WFImageContentItem",
+        "WFiTunesProductContentItem",
+        "WFLocationContentItem",
+        "WFDCMapsLinkContentItem",
+        "WFAVAssetContentItem",
+        "WFPDFContentItem",
+        "WFPhoneNumberContentItem",
+        "WFRichTextContentItem",
+        "WFSafariWebPageContentItem",
+        "WFStringContentItem",
+        "WFURLContentItem"
+    ],
+    "WFWorkflowMinimumClientVersion": 900,
+    "WFWorkflowMinimumClientVersionString": "900",
+    "WFWorkflowTypes": [
+        "WatchKit",
+        "ActionExtension"
+    ]
+}
