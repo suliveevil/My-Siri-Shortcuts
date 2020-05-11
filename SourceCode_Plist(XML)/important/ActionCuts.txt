@@ -30164,7 +30164,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 	<key>WFWorkflowClientRelease</key>
 	<string>3.0</string>
 	<key>WFWorkflowClientVersion</key>
-	<string>1050.19</string>
+	<string>1050.22</string>
 	<key>WFWorkflowIcon</key>
 	<dict>
 		<key>WFWorkflowIconGlyphNumber</key>
