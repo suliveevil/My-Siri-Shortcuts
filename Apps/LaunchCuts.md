@@ -1,4 +1,0 @@
-# LaunchCuts
-
-https://launchcuts.com
-
