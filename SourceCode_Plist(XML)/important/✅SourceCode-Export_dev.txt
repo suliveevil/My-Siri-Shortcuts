@@ -1579,7 +1579,6 @@
 	<key>WFWorkflowTypes</key>
 	<array>
 		<string>WatchKit</string>
-		<string>NCWidget</string>
 	</array>
 </dict>
 </plist>
