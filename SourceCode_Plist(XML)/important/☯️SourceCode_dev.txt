@@ -185,12 +185,10 @@
 				<dict>
 					<key>Value</key>
 					<dict>
-						<key>OutputName</key>
-						<string>文件</string>
-						<key>OutputUUID</key>
-						<string>D532CBBD-9CA8-4DF3-8154-C0516ED18C05</string>
 						<key>Type</key>
-						<string>ActionOutput</string>
+						<string>Variable</string>
+						<key>VariableName</key>
+						<string>file</string>
 					</dict>
 					<key>WFSerializationType</key>
 					<string>WFTextTokenAttachment</string>
@@ -228,7 +226,7 @@
 				<key>UUID</key>
 				<string>56410E7C-4C74-43B7-A381-F9278D347C94</string>
 				<key>WFDontIncludeFileExtension</key>
-				<false/>
+				<true/>
 				<key>WFInput</key>
 				<dict>
 					<key>Value</key>
@@ -310,6 +308,15 @@
 						<dict>
 							<key>{0, 1}</key>
 							<dict>
+								<key>Aggrandizements</key>
+								<array>
+									<dict>
+										<key>CoercionItemClass</key>
+										<string>WFURLContentItem</string>
+										<key>Type</key>
+										<string>WFCoercionVariableAggrandizement</string>
+									</dict>
+								</array>
 								<key>OutputName</key>
 								<string>文件链接</string>
 								<key>OutputUUID</key>
@@ -1832,9 +1839,9 @@
 	<key>WFWorkflowIcon</key>
 	<dict>
 		<key>WFWorkflowIconGlyphNumber</key>
-		<integer>59771</integer>
+		<integer>59758</integer>
 		<key>WFWorkflowIconStartColor</key>
-		<integer>463140863</integer>
+		<integer>2071128575</integer>
 	</dict>
 	<key>WFWorkflowImportQuestions</key>
 	<array/>
