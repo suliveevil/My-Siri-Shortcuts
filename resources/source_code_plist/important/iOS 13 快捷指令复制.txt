@@ -56,15 +56,7 @@ All rights reserved.</string>
 								<key>WFValue</key>
 								<dict>
 									<key>Value</key>
-									<dict>
-										<key>Value</key>
-										<dict>
-											<key>Type</key>
-											<string>Ask</string>
-										</dict>
-										<key>WFSerializationType</key>
-										<string>WFTextTokenAttachment</string>
-									</dict>
+									<true/>
 									<key>WFSerializationType</key>
 									<string>WFNumberSubstitutableState</string>
 								</dict>
@@ -2217,7 +2209,6 @@ document.body.innerHTML = [document.body.innerHTML,arg].join(" ");}￼&lt;/scrip
 	<key>WFWorkflowTypes</key>
 	<array>
 		<string>WatchKit</string>
-		<string>NCWidget</string>
 	</array>
 </dict>
 </plist>
