@@ -1540,6 +1540,29 @@ document.body.innerHTML = [document.body.innerHTML,arg].join(" ");}￼&lt;/scrip
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>词典</string>
+						<key>OutputUUID</key>
+						<string>257B31EB-3A52-40B8-BD28-9E756DAE1709</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>plist_escape</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
 			<string>is.workflow.actions.gettext</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
@@ -1553,12 +1576,10 @@ document.body.innerHTML = [document.body.innerHTML,arg].join(" ");}￼&lt;/scrip
 						<dict>
 							<key>{4064, 1}</key>
 							<dict>
-								<key>OutputName</key>
-								<string>词典</string>
-								<key>OutputUUID</key>
-								<string>257B31EB-3A52-40B8-BD28-9E756DAE1709</string>
 								<key>Type</key>
-								<string>ActionOutput</string>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>plist_escape</string>
 							</dict>
 							<key>{4068, 1}</key>
 							<dict>
