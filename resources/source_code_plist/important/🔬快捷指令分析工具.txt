@@ -57134,7 +57134,7 @@
 					<string>WFTextTokenAttachment</string>
 				</dict>
 				<key>WFVariableName</key>
-				<string>plist2json</string>
+				<string>plist_escape</string>
 			</dict>
 		</dict>
 		<dict>
@@ -57716,7 +57716,7 @@ PlistParser.toPlist = function(obj){
 								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
-								<string>plist2json</string>
+								<string>plist_escape</string>
 							</dict>
 							<key>{248, 1}</key>
 							<dict>
