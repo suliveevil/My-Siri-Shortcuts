@@ -56194,7 +56194,7 @@
 															<key>attachmentsByRange</key>
 															<dict/>
 															<key>string</key>
-															<string>⊲</string>
+															<string>⊲**</string>
 														</dict>
 														<key>WFSerializationType</key>
 														<string>WFTextTokenString</string>
@@ -56222,7 +56222,7 @@
 															<key>attachmentsByRange</key>
 															<dict/>
 															<key>string</key>
-															<string>⊳</string>
+															<string>**⊳</string>
 														</dict>
 														<key>WFSerializationType</key>
 														<string>WFTextTokenString</string>
@@ -59494,7 +59494,7 @@ Glyph 颜色 : ￼
 					<dict>
 						<key>attachmentsByRange</key>
 						<dict>
-							<key>{348, 1}</key>
+							<key>{323, 1}</key>
 							<dict>
 								<key>OutputName</key>
 								<string>来自多信息文本的HTML</string>
@@ -59515,7 +59515,7 @@ Glyph 颜色 : ￼
 						<string>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
-&lt;title&gt; ￼ - 𝖲𝗁𝗈𝗋𝗍𝖼𝗎𝗍 𝖨𝗇𝗌𝗉𝖾𝖼𝗍𝗈𝗋&lt;/title&gt;
+&lt;title&gt; ￼ - 🔬快捷指令分析工具&lt;/title&gt;
     &lt;meta charset="utf-8" /&gt;
     &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
     &lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"&gt;
@@ -59849,6 +59849,8 @@ Glyph 颜色 : ￼
 			<string>is.workflow.actions.runworkflow</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
+				<key>WFShowWorkflow</key>
+				<false/>
 				<key>WFWorkflowName</key>
 				<string>🔬快捷指令分析工具</string>
 			</dict>
