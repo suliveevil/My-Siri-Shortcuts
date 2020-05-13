@@ -868,6 +868,29 @@ All rights reserved.</string>
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>词典</string>
+						<key>OutputUUID</key>
+						<string>397647CF-C862-4A34-BA9A-B0620D401952</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>plist_escape</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
 			<string>is.workflow.actions.gettext</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
@@ -881,12 +904,10 @@ All rights reserved.</string>
 						<dict>
 							<key>{3985, 1}</key>
 							<dict>
-								<key>OutputName</key>
-								<string>词典</string>
-								<key>OutputUUID</key>
-								<string>397647CF-C862-4A34-BA9A-B0620D401952</string>
 								<key>Type</key>
-								<string>ActionOutput</string>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>plist_escape</string>
 							</dict>
 							<key>{3989, 1}</key>
 							<dict>
@@ -1953,6 +1974,29 @@ document.body.innerHTML = [document.body.innerHTML,arg].join(" ");}￼&lt;/scrip
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>词典</string>
+						<key>OutputUUID</key>
+						<string>55BC983C-0AD5-4454-B8FA-2B975F926906</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>plist_escape</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
 			<string>is.workflow.actions.gettext</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
@@ -1973,12 +2017,10 @@ document.body.innerHTML = [document.body.innerHTML,arg].join(" ");}￼&lt;/scrip
 							</dict>
 							<key>{8406, 1}</key>
 							<dict>
-								<key>OutputName</key>
-								<string>词典</string>
-								<key>OutputUUID</key>
-								<string>55BC983C-0AD5-4454-B8FA-2B975F926906</string>
 								<key>Type</key>
-								<string>ActionOutput</string>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>plist_escape</string>
 							</dict>
 						</dict>
 						<key>string</key>
@@ -1987,6 +2029,29 @@ document.body.innerHTML = [document.body.innerHTML,arg].join(" ");}￼&lt;/scrip
 					<key>WFSerializationType</key>
 					<string>WFTextTokenString</string>
 				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>4689E0E1-F574-4C48-A779-823F8B077C03</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>sc</string>
 			</dict>
 		</dict>
 		<dict>
@@ -2024,12 +2089,10 @@ document.body.innerHTML = [document.body.innerHTML,arg].join(" ");}￼&lt;/scrip
 							</dict>
 							<key>{8440, 1}</key>
 							<dict>
-								<key>OutputName</key>
-								<string>词典</string>
-								<key>OutputUUID</key>
-								<string>397647CF-C862-4A34-BA9A-B0620D401952</string>
 								<key>Type</key>
-								<string>ActionOutput</string>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>plist_escape</string>
 							</dict>
 						</dict>
 						<key>string</key>
@@ -2038,6 +2101,29 @@ document.body.innerHTML = [document.body.innerHTML,arg].join(" ");}￼&lt;/scrip
 					<key>WFSerializationType</key>
 					<string>WFTextTokenString</string>
 				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>BCD21C8D-C106-4094-89A5-43BB5A6498DE</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>sc</string>
 			</dict>
 		</dict>
 		<dict>
@@ -2068,12 +2154,10 @@ document.body.innerHTML = [document.body.innerHTML,arg].join(" ");}￼&lt;/scrip
 						<dict>
 							<key>{413, 1}</key>
 							<dict>
-								<key>OutputName</key>
-								<string>菜单结果</string>
-								<key>OutputUUID</key>
-								<string>DB5E7963-7B69-4749-8FBB-DE367C36759C</string>
 								<key>Type</key>
-								<string>ActionOutput</string>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>sc</string>
 							</dict>
 						</dict>
 						<key>string</key>
