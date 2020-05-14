@@ -1556,7 +1556,7 @@
 "shortcut_type":"快捷指令类型",
 "dependency":"依赖",
 "list":"动作列表",
-"content_class":"使用到的数据类型",
+"content_class":"Content Class",
 "comment":"注释内容" }</string>
 			</dict>
 		</dict>
@@ -2234,7 +2234,7 @@
 "shortcut_type":"Shortcut Type",
 "dependency":"Dependencies",
 "list":"Action List",
-"content_class":"Data Type Used",
+"content_class":"Content Class",
 "comment":"Comments" }</string>
 			</dict>
 		</dict>
@@ -5216,7 +5216,7 @@ var deviceModel = "device";
 								<array>
 									<dict>
 										<key>DictionaryKey</key>
-										<string>list</string>
+										<string>comment</string>
 										<key>Type</key>
 										<string>WFDictionaryValueVariableAggrandizement</string>
 									</dict>
@@ -5242,20 +5242,20 @@ var deviceModel = "device";
 								<key>VariableName</key>
 								<string>html&amp;md</string>
 							</dict>
-							<key>{116, 1}</key>
+							<key>{114, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
-								<string>action_list</string>
+								<string>Comments</string>
 							</dict>
-							<key>{126, 1}</key>
+							<key>{124, 1}</key>
 							<dict>
 								<key>Aggrandizements</key>
 								<array>
 									<dict>
 										<key>DictionaryKey</key>
-										<string>comment</string>
+										<string>list</string>
 										<key>Type</key>
 										<string>WFDictionaryValueVariableAggrandizement</string>
 									</dict>
@@ -5270,7 +5270,7 @@ var deviceModel = "device";
 								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
-								<string>Comments</string>
+								<string>action_list</string>
 							</dict>
 							<key>{15, 1}</key>
 							<dict>
@@ -5556,17 +5556,19 @@ var deviceModel = "device";
 
 ￼
 
+## ￼:
+
+```text
+￼
+```
+
 ## ￼ : 
 
 ```text
 ￼
 ```
 
-## ￼:
-
-```text
-￼
-```</string>
+</string>
 					</dict>
 					<key>WFSerializationType</key>
 					<string>WFTextTokenString</string>
