@@ -221,6 +221,330 @@
 									<string>WFDictionaryFieldValue</string>
 								</dict>
 							</dict>
+							<dict>
+								<key>WFItemType</key>
+								<integer>1</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>special_thanks</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>Value</key>
+										<dict>
+											<key>WFDictionaryFieldValueItems</key>
+											<array>
+												<dict>
+													<key>WFItemType</key>
+													<integer>1</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>CopyPaste Action Parser</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>Value</key>
+															<dict>
+																<key>WFDictionaryFieldValueItems</key>
+																<array>
+																	<dict>
+																		<key>WFItemType</key>
+																		<integer>0</integer>
+																		<key>WFKey</key>
+																		<dict>
+																			<key>Value</key>
+																			<dict>
+																				<key>attachmentsByRange</key>
+																				<dict/>
+																				<key>string</key>
+																				<string>author</string>
+																			</dict>
+																			<key>WFSerializationType</key>
+																			<string>WFTextTokenString</string>
+																		</dict>
+																		<key>WFValue</key>
+																		<dict>
+																			<key>Value</key>
+																			<dict>
+																				<key>attachmentsByRange</key>
+																				<dict/>
+																				<key>string</key>
+																				<string>schl3ck</string>
+																			</dict>
+																			<key>WFSerializationType</key>
+																			<string>WFTextTokenString</string>
+																		</dict>
+																	</dict>
+																	<dict>
+																		<key>WFItemType</key>
+																		<integer>0</integer>
+																		<key>WFKey</key>
+																		<dict>
+																			<key>Value</key>
+																			<dict>
+																				<key>attachmentsByRange</key>
+																				<dict/>
+																				<key>string</key>
+																				<string>website</string>
+																			</dict>
+																			<key>WFSerializationType</key>
+																			<string>WFTextTokenString</string>
+																		</dict>
+																		<key>WFValue</key>
+																		<dict>
+																			<key>Value</key>
+																			<dict>
+																				<key>attachmentsByRange</key>
+																				<dict/>
+																				<key>string</key>
+																				<string></string>
+																			</dict>
+																			<key>WFSerializationType</key>
+																			<string>WFTextTokenString</string>
+																		</dict>
+																	</dict>
+																</array>
+															</dict>
+															<key>WFSerializationType</key>
+															<string>WFDictionaryFieldValue</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFDictionaryFieldValue</string>
+													</dict>
+												</dict>
+												<dict>
+													<key>WFItemType</key>
+													<integer>1</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>iOS 13 快捷指令复制</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>Value</key>
+															<dict>
+																<key>WFDictionaryFieldValueItems</key>
+																<array>
+																	<dict>
+																		<key>WFItemType</key>
+																		<integer>0</integer>
+																		<key>WFKey</key>
+																		<dict>
+																			<key>Value</key>
+																			<dict>
+																				<key>attachmentsByRange</key>
+																				<dict/>
+																				<key>string</key>
+																				<string>author</string>
+																			</dict>
+																			<key>WFSerializationType</key>
+																			<string>WFTextTokenString</string>
+																		</dict>
+																		<key>WFValue</key>
+																		<dict>
+																			<key>Value</key>
+																			<dict>
+																				<key>attachmentsByRange</key>
+																				<dict/>
+																				<key>string</key>
+																				<string>Veritas</string>
+																			</dict>
+																			<key>WFSerializationType</key>
+																			<string>WFTextTokenString</string>
+																		</dict>
+																	</dict>
+																	<dict>
+																		<key>WFItemType</key>
+																		<integer>0</integer>
+																		<key>WFKey</key>
+																		<dict>
+																			<key>Value</key>
+																			<dict>
+																				<key>attachmentsByRange</key>
+																				<dict/>
+																				<key>string</key>
+																				<string>website</string>
+																			</dict>
+																			<key>WFSerializationType</key>
+																			<string>WFTextTokenString</string>
+																		</dict>
+																		<key>WFValue</key>
+																		<dict>
+																			<key>Value</key>
+																			<dict>
+																				<key>attachmentsByRange</key>
+																				<dict/>
+																				<key>string</key>
+																				<string></string>
+																			</dict>
+																			<key>WFSerializationType</key>
+																			<string>WFTextTokenString</string>
+																		</dict>
+																	</dict>
+																</array>
+															</dict>
+															<key>WFSerializationType</key>
+															<string>WFDictionaryFieldValue</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFDictionaryFieldValue</string>
+													</dict>
+												</dict>
+												<dict>
+													<key>WFItemType</key>
+													<integer>1</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>Shortcut Inspector</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>Value</key>
+															<dict>
+																<key>WFDictionaryFieldValueItems</key>
+																<array>
+																	<dict>
+																		<key>WFItemType</key>
+																		<integer>0</integer>
+																		<key>WFKey</key>
+																		<dict>
+																			<key>Value</key>
+																			<dict>
+																				<key>attachmentsByRange</key>
+																				<dict/>
+																				<key>string</key>
+																				<string>author</string>
+																			</dict>
+																			<key>WFSerializationType</key>
+																			<string>WFTextTokenString</string>
+																		</dict>
+																		<key>WFValue</key>
+																		<dict>
+																			<key>Value</key>
+																			<dict>
+																				<key>attachmentsByRange</key>
+																				<dict/>
+																				<key>string</key>
+																				<string>entee</string>
+																			</dict>
+																			<key>WFSerializationType</key>
+																			<string>WFTextTokenString</string>
+																		</dict>
+																	</dict>
+																	<dict>
+																		<key>WFItemType</key>
+																		<integer>0</integer>
+																		<key>WFKey</key>
+																		<dict>
+																			<key>Value</key>
+																			<dict>
+																				<key>attachmentsByRange</key>
+																				<dict/>
+																				<key>string</key>
+																				<string>website</string>
+																			</dict>
+																			<key>WFSerializationType</key>
+																			<string>WFTextTokenString</string>
+																		</dict>
+																		<key>WFValue</key>
+																		<dict>
+																			<key>Value</key>
+																			<dict>
+																				<key>attachmentsByRange</key>
+																				<dict/>
+																				<key>string</key>
+																				<string>https://routinehub.co/shortcut/3327</string>
+																			</dict>
+																			<key>WFSerializationType</key>
+																			<string>WFTextTokenString</string>
+																		</dict>
+																	</dict>
+																</array>
+															</dict>
+															<key>WFSerializationType</key>
+															<string>WFDictionaryFieldValue</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFDictionaryFieldValue</string>
+													</dict>
+												</dict>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>PlistParser</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>Todd Gehman</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
+											</array>
+										</dict>
+										<key>WFSerializationType</key>
+										<string>WFDictionaryFieldValue</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFDictionaryFieldValue</string>
+								</dict>
+							</dict>
 						</array>
 					</dict>
 					<key>WFSerializationType</key>
@@ -4658,69 +4982,14 @@ var deviceModel = "device";
 					<dict>
 						<key>attachmentsByRange</key>
 						<dict>
-							<key>{10, 1}</key>
-							<dict>
-								<key>Aggrandizements</key>
-								<array>
-									<dict>
-										<key>DictionaryKey</key>
-										<string>info</string>
-										<key>Type</key>
-										<string>WFDictionaryValueVariableAggrandizement</string>
-									</dict>
-								</array>
-								<key>Type</key>
-								<string>Variable</string>
-								<key>VariableName</key>
-								<string>html&amp;md</string>
-							</dict>
-							<key>{103, 1}</key>
+							<key>{100, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
 								<string>action_list</string>
 							</dict>
-							<key>{113, 1}</key>
-							<dict>
-								<key>Aggrandizements</key>
-								<array>
-									<dict>
-										<key>DictionaryKey</key>
-										<string>content_class</string>
-										<key>Type</key>
-										<string>WFDictionaryValueVariableAggrandizement</string>
-									</dict>
-								</array>
-								<key>Type</key>
-								<string>Variable</string>
-								<key>VariableName</key>
-								<string>html&amp;md</string>
-							</dict>
-							<key>{119, 1}</key>
-							<dict>
-								<key>Type</key>
-								<string>Variable</string>
-								<key>VariableName</key>
-								<string>Classes</string>
-							</dict>
-							<key>{125, 1}</key>
-							<dict>
-								<key>Aggrandizements</key>
-								<array>
-									<dict>
-										<key>DictionaryKey</key>
-										<string>comment</string>
-										<key>Type</key>
-										<string>WFDictionaryValueVariableAggrandizement</string>
-									</dict>
-								</array>
-								<key>Type</key>
-								<string>Variable</string>
-								<key>VariableName</key>
-								<string>html&amp;md</string>
-							</dict>
-							<key>{13, 1}</key>
+							<key>{11, 1}</key>
 							<dict>
 								<key>Aggrandizements</key>
 								<array>
@@ -4736,21 +5005,60 @@ var deviceModel = "device";
 								<key>VariableName</key>
 								<string>html&amp;md</string>
 							</dict>
-							<key>{133, 1}</key>
+							<key>{110, 1}</key>
+							<dict>
+								<key>Aggrandizements</key>
+								<array>
+									<dict>
+										<key>DictionaryKey</key>
+										<string>content_class</string>
+										<key>Type</key>
+										<string>WFDictionaryValueVariableAggrandizement</string>
+									</dict>
+								</array>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>html&amp;md</string>
+							</dict>
+							<key>{116, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>Classes</string>
+							</dict>
+							<key>{122, 1}</key>
+							<dict>
+								<key>Aggrandizements</key>
+								<array>
+									<dict>
+										<key>DictionaryKey</key>
+										<string>comment</string>
+										<key>Type</key>
+										<string>WFDictionaryValueVariableAggrandizement</string>
+									</dict>
+								</array>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>html&amp;md</string>
+							</dict>
+							<key>{134, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
 								<string>Comments</string>
 							</dict>
-							<key>{17, 1}</key>
+							<key>{15, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
 								<string>sc_name</string>
 							</dict>
-							<key>{19, 1}</key>
+							<key>{17, 1}</key>
 							<dict>
 								<key>Aggrandizements</key>
 								<array>
@@ -4773,7 +5081,7 @@ var deviceModel = "device";
 								<key>VariableName</key>
 								<string>sc_name</string>
 							</dict>
-							<key>{22, 1}</key>
+							<key>{20, 1}</key>
 							<dict>
 								<key>OutputName</key>
 								<string>Count</string>
@@ -4782,7 +5090,7 @@ var deviceModel = "device";
 								<key>Type</key>
 								<string>ActionOutput</string>
 							</dict>
-							<key>{24, 1}</key>
+							<key>{22, 1}</key>
 							<dict>
 								<key>Aggrandizements</key>
 								<array>
@@ -4798,14 +5106,14 @@ var deviceModel = "device";
 								<key>VariableName</key>
 								<string>html&amp;md</string>
 							</dict>
-							<key>{27, 1}</key>
+							<key>{25, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
 								<string>file_size</string>
 							</dict>
-							<key>{30, 1}</key>
+							<key>{28, 1}</key>
 							<dict>
 								<key>Aggrandizements</key>
 								<array>
@@ -4821,14 +5129,14 @@ var deviceModel = "device";
 								<key>VariableName</key>
 								<string>html&amp;md</string>
 							</dict>
-							<key>{33, 1}</key>
+							<key>{31, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
 								<string>magic_variables</string>
 							</dict>
-							<key>{35, 1}</key>
+							<key>{33, 1}</key>
 							<dict>
 								<key>Aggrandizements</key>
 								<array>
@@ -4844,21 +5152,14 @@ var deviceModel = "device";
 								<key>VariableName</key>
 								<string>html&amp;md</string>
 							</dict>
-							<key>{38, 1}</key>
+							<key>{36, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
 								<string>custom_variables</string>
 							</dict>
-							<key>{4, 1}</key>
-							<dict>
-								<key>Type</key>
-								<string>Variable</string>
-								<key>VariableName</key>
-								<string>file_ext</string>
-							</dict>
-							<key>{41, 1}</key>
+							<key>{39, 1}</key>
 							<dict>
 								<key>Aggrandizements</key>
 								<array>
@@ -4874,7 +5175,7 @@ var deviceModel = "device";
 								<key>VariableName</key>
 								<string>html&amp;md</string>
 							</dict>
-							<key>{46, 1}</key>
+							<key>{44, 1}</key>
 							<dict>
 								<key>OutputName</key>
 								<string>Dictionary Value</string>
@@ -4883,7 +5184,7 @@ var deviceModel = "device";
 								<key>Type</key>
 								<string>ActionOutput</string>
 							</dict>
-							<key>{48, 1}</key>
+							<key>{46, 1}</key>
 							<dict>
 								<key>Aggrandizements</key>
 								<array>
@@ -4899,7 +5200,7 @@ var deviceModel = "device";
 								<key>VariableName</key>
 								<string>html&amp;md</string>
 							</dict>
-							<key>{53, 1}</key>
+							<key>{51, 1}</key>
 							<dict>
 								<key>OutputName</key>
 								<string>Dictionary Value</string>
@@ -4908,7 +5209,7 @@ var deviceModel = "device";
 								<key>Type</key>
 								<string>ActionOutput</string>
 							</dict>
-							<key>{56, 1}</key>
+							<key>{54, 1}</key>
 							<dict>
 								<key>Aggrandizements</key>
 								<array>
@@ -4924,7 +5225,7 @@ var deviceModel = "device";
 								<key>VariableName</key>
 								<string>html&amp;md</string>
 							</dict>
-							<key>{62, 1}</key>
+							<key>{60, 1}</key>
 							<dict>
 								<key>OutputName</key>
 								<string>Dictionary Value</string>
@@ -4933,7 +5234,7 @@ var deviceModel = "device";
 								<key>Type</key>
 								<string>ActionOutput</string>
 							</dict>
-							<key>{68, 1}</key>
+							<key>{66, 1}</key>
 							<dict>
 								<key>Aggrandizements</key>
 								<array>
@@ -4949,21 +5250,37 @@ var deviceModel = "device";
 								<key>VariableName</key>
 								<string>html&amp;md</string>
 							</dict>
-							<key>{73, 1}</key>
+							<key>{71, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
 								<string>Dependencies</string>
 							</dict>
-							<key>{87, 1}</key>
+							<key>{8, 1}</key>
+							<dict>
+								<key>Aggrandizements</key>
+								<array>
+									<dict>
+										<key>DictionaryKey</key>
+										<string>info</string>
+										<key>Type</key>
+										<string>WFDictionaryValueVariableAggrandizement</string>
+									</dict>
+								</array>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>html&amp;md</string>
+							</dict>
+							<key>{84, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
 								<string>Urls</string>
 							</dict>
-							<key>{93, 1}</key>
+							<key>{90, 1}</key>
 							<dict>
 								<key>Aggrandizements</key>
 								<array>
@@ -4981,7 +5298,7 @@ var deviceModel = "device";
 							</dict>
 						</dict>
 						<key>string</key>
-						<string># ￼.￼
+						<string># ￼
 
 ## ￼
 
@@ -5003,7 +5320,7 @@ var deviceModel = "device";
 
 ￼
 
-## URLs :
+## URL :
 
 ￼
 
@@ -5019,7 +5336,7 @@ var deviceModel = "device";
 
 ## ￼:
 
-```
+```text
 ￼
 ```</string>
 					</dict>
