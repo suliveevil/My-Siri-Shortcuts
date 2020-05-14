@@ -6,27 +6,6 @@
 	<array>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.comment</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFCommentActionText</key>
-				<string>Copyright © 2019.10.8 Veritas. 
-All rights reserved.</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.comment</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFCommentActionText</key>
-				<string>原创作者：Veritas
-更新时间：2019-11-03 10点14分
-建议意见：https://jiejinghe.com/shortcuts/6027285089</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
 			<string>is.workflow.actions.gettext</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
@@ -850,8 +829,8 @@ document.body.innerHTML = [document.body.innerHTML,arg].join(" ");}￼&lt;/scrip
 				<integer>0</integer>
 				<key>WFMenuItems</key>
 				<array>
-					<string>全选</string>
-					<string>手动</string>
+					<string>✳️Select All</string>
+					<string>✅Manually</string>
 				</array>
 			</dict>
 		</dict>
@@ -865,7 +844,7 @@ document.body.innerHTML = [document.body.innerHTML,arg].join(" ");}￼&lt;/scrip
 				<key>WFControlFlowMode</key>
 				<integer>1</integer>
 				<key>WFMenuItemTitle</key>
-				<string>全选</string>
+				<string>✳️Select All</string>
 			</dict>
 		</dict>
 		<dict>
@@ -907,7 +886,7 @@ document.body.innerHTML = [document.body.innerHTML,arg].join(" ");}￼&lt;/scrip
 				<key>WFControlFlowMode</key>
 				<integer>1</integer>
 				<key>WFMenuItemTitle</key>
-				<string>手动</string>
+				<string>✅Manually</string>
 			</dict>
 		</dict>
 		<dict>
@@ -915,6 +894,8 @@ document.body.innerHTML = [document.body.innerHTML,arg].join(" ");}￼&lt;/scrip
 			<string>is.workflow.actions.choosefromlist</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
+				<key>UUID</key>
+				<string>C509CDC4-9C24-4233-B18F-547337022E37</string>
 				<key>WFChooseFromListActionPrompt</key>
 				<string>选择要复制的动作</string>
 				<key>WFChooseFromListActionSelectMultiple</key>
@@ -1017,8 +998,8 @@ document.body.innerHTML = [document.body.innerHTML,arg].join(" ");}￼&lt;/scrip
 				<integer>0</integer>
 				<key>WFMenuItems</key>
 				<array>
-					<string>另一快捷指令</string>
-					<string>新建快捷指令</string>
+					<string>Merge to</string>
+					<string>Create</string>
 				</array>
 				<key>WFMenuPrompt</key>
 				<string>复制到</string>
@@ -1034,7 +1015,7 @@ document.body.innerHTML = [document.body.innerHTML,arg].join(" ");}￼&lt;/scrip
 				<key>WFControlFlowMode</key>
 				<integer>1</integer>
 				<key>WFMenuItemTitle</key>
-				<string>另一快捷指令</string>
+				<string>Merge to</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1660,7 +1641,7 @@ document.body.innerHTML = [document.body.innerHTML,arg].join(" ");}￼&lt;/scrip
 				<key>WFControlFlowMode</key>
 				<integer>1</integer>
 				<key>WFMenuItemTitle</key>
-				<string>新建快捷指令</string>
+				<string>Create</string>
 			</dict>
 		</dict>
 		<dict>
