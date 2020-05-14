@@ -1,0 +1,1946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WFWorkflowActions</key>
+	<array>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.dictionary</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>BEC02F49-BDC0-4106-B2AA-D4818045FC67</string>
+				<key>WFItems</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>WFDictionaryFieldValueItems</key>
+						<array>
+							<dict>
+								<key>WFItemType</key>
+								<integer>0</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>fork</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>CopyPaste Action Parser</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+							</dict>
+							<dict>
+								<key>WFItemType</key>
+								<integer>1</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>variable</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>Value</key>
+										<dict>
+											<key>WFDictionaryFieldValueItems</key>
+											<array>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>a_</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>☯️💲</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>_b</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>💲☯️</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
+											</array>
+										</dict>
+										<key>WFSerializationType</key>
+										<string>WFDictionaryFieldValue</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFDictionaryFieldValue</string>
+								</dict>
+							</dict>
+						</array>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFDictionaryFieldValue</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getvalueforkey</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>7A41F83A-2218-4828-BEAB-5FD7C9F36498</string>
+				<key>WFDictionaryKey</key>
+				<string>variable</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>词典</string>
+						<key>OutputUUID</key>
+						<string>BEC02F49-BDC0-4106-B2AA-D4818045FC67</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Aggrandizements</key>
+						<array>
+							<dict>
+								<key>CoercionItemClass</key>
+								<string>WFDictionaryContentItem</string>
+								<key>Type</key>
+								<string>WFCoercionVariableAggrandizement</string>
+							</dict>
+						</array>
+						<key>OutputName</key>
+						<string>词典值</string>
+						<key>OutputUUID</key>
+						<string>7A41F83A-2218-4828-BEAB-5FD7C9F36498</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>variable</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Aggrandizements</key>
+						<array>
+							<dict>
+								<key>CoercionItemClass</key>
+								<string>WFDictionaryContentItem</string>
+								<key>Type</key>
+								<string>WFCoercionVariableAggrandizement</string>
+							</dict>
+							<dict>
+								<key>DictionaryKey</key>
+								<string>a_</string>
+								<key>Type</key>
+								<string>WFDictionaryValueVariableAggrandizement</string>
+							</dict>
+						</array>
+						<key>Type</key>
+						<string>Variable</string>
+						<key>VariableName</key>
+						<string>variable</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>variable opening char</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Aggrandizements</key>
+						<array>
+							<dict>
+								<key>CoercionItemClass</key>
+								<string>WFDictionaryContentItem</string>
+								<key>Type</key>
+								<string>WFCoercionVariableAggrandizement</string>
+							</dict>
+							<dict>
+								<key>DictionaryKey</key>
+								<string>_b</string>
+								<key>Type</key>
+								<string>WFDictionaryValueVariableAggrandizement</string>
+							</dict>
+						</array>
+						<key>Type</key>
+						<string>Variable</string>
+						<key>VariableName</key>
+						<string>variable</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>variable closing char</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.documentpicker.open</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>177251F0-3084-433D-B77B-09D8FEB8E95A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.detect.text</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>966ADF33-B178-4351-8FDE-DAC2D45793D5</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文件</string>
+						<key>OutputUUID</key>
+						<string>177251F0-3084-433D-B77B-09D8FEB8E95A</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.dictionary</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>F1993EF6-A26B-4DFC-94E1-B09FDB543582</string>
+				<key>WFItems</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>WFDictionaryFieldValueItems</key>
+						<array>
+							<dict>
+								<key>WFItemType</key>
+								<integer>0</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>g</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict>
+											<key>{0, 1}</key>
+											<dict>
+												<key>OutputName</key>
+												<string>Text</string>
+												<key>OutputUUID</key>
+												<string>966ADF33-B178-4351-8FDE-DAC2D45793D5</string>
+												<key>Type</key>
+												<string>ActionOutput</string>
+											</dict>
+										</dict>
+										<key>string</key>
+										<string>￼</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+							</dict>
+						</array>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFDictionaryFieldValue</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>词典</string>
+						<key>OutputUUID</key>
+						<string>F1993EF6-A26B-4DFC-94E1-B09FDB543582</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>sc</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>C2C85E0D-2C24-49C0-96C4-6055C3836EDB</string>
+				<key>WFTextActionText</key>
+				<string>
+var wflowVariableTranslations = {
+  "ActionOutput": "OutputName",
+  "Ask": "Ask when Run",
+  "Clipboard": "Get Clipboard",
+  "CurrentDate": "Current Date",
+  "ExtensionInput": "Workflow Input",
+  "Variable": "VariableName"
+};
+
+//function cl(...o) {
+  //console.log(JSON.stringify(o, null, 2));
+//}
+
+function parseFormat(format, params) {
+  var res = params[format.condition];
+  if (!res)
+    return format.empty || format.default;
+  res = format.cases[res] || format.default;
+  if (typeof res !== "string")
+    return parseFormat(res, params);
+  return res;
+}
+
+function getFirstNotNull(ar, def) {
+  if (!Array.isArray(ar))
+    throw "getFirstNotNull should be called with an array!";
+  var l = ar.length;
+  if (l &lt; 1)
+    throw "getFirstNotNull should be called with an array with at least one element!";
+  for (var i = 0; i &lt; l; i++)
+    if ("undefined" !== typeof ar[i])
+return ar[i];
+
+  return "undefined" !== typeof def ? def : ar[l - 1];
+}
+
+function getAggrandizement(o) {
+  //cl("aggrandizement", o);
+  if (!o || !o.Aggrandizements || !o.Aggrandizements.length) {
+    return "";
+  }
+  var agg = o.Aggrandizements;
+  for (var i = 0; i &lt; agg.length; i++)
+  if (agg[i].Type === "WFPropertyVariableAggrandizement")
+    return "|" + agg[i].PropertyName;
+  else if(agg[i].Type === "WFDictionaryValueVariableAggrandizement")
+    return "|" + agg[i].DictionaryKey;
+  
+  //cl(agg);
+  return "";
+}
+
+function getWflowVariableName(dict) {
+  return "undefined" !== typeof dict["Type"] ? variableOpeningChar +  getFirstNotNull([ dict[wflowVariableTranslations[dict["Type"]]], wflowVariableTranslations[dict["Type"]], dict["Type"] ]) + getAggrandizement(dict) + variableClosingChar : dict;
+}
+
+function roundNumber(num, scale) {
+  if(!("" + num).includes("e")) {
+    return +(Math.round(num + "e+" + scale) + "e-" + scale);
+  } else {
+    var arr = ("" + num).split("e");
+    var sig = "";
+    if(+arr[1] + scale &gt; 0) {
+      sig = "+";
+    }
+    return +(Math.round(+arr[0] + "e" + sig + (+arr[1] + scale)) + "e-" + scale);
+  }
+}
+
+
+var formatRegex = /((?!\\\{)\{(?:\\\}|[^\}])+\}|(?:\\\{|[^\{])+)/g;
+var isNumRegex = /^\s*-?[0-9]+(?:[.,][0-9]+)?\s*$/;
+var getIndexFromRangeRegex = /^\{(\d+), \d+\}$/;
+var maxCodeBlockContentLength = deviceModel === "iPad" ? 30 : 10;
+
+try {
+  wflow = PlistParser.parse(wflow.g);
+  wflow = JSON.parse(JSON.stringify(wflow, null, 0), function (k, v) { return typeof v === "number" || typeof v === "date" ? v.toString() : typeof v === "boolean" ? v ? "1" : "0" : v; });
+  var result = [],
+      codeBlocks = [],
+      codeBlocksId = {
+   "is.workflow.actions.conditional": true,
+   "is.workflow.actions.repeat.count": true,
+   "is.workflow.actions.repeat.each": true,
+ "is.workflow.actions.choosefrommenu": true
+};
+  var actionIndex = 0, codeBlock = "";
+  wflow.WFWorkflowActions
+    .forEach(function(action) {
+    actionIndex++;
+    codeBlock = "";
+    var content = "";
+    var id = action.WFWorkflowActionIdentifier;
+    var name = getFirstNotNull([actionNamesTranslation[id], id]);
+    var paramsFromWflow = action.WFWorkflowActionParameters;
+    var paramsToExtract = allActionParams[id];
+    var parsedFormat = "";
+
+    if (typeof paramsToExtract !== "undefined") {
+      var format = paramsToExtract.format;
+      format = (typeof format !== "string") ? parseFormat(format, paramsFromWflow) : format;
+      var match;
+      var nVars = 0, failed = 0;
+
+      while ((match = formatRegex.exec(format)) != null) {
+        if (match[0].startsWith("{")) {
+          nVars++;
+          var variable = match[0].substring(1, match[0].length - 1);
+          var list = [];
+          var parts = variable.split("|");
+          for (var i = 0; i &lt; parts.length; i++)
+            if (typeof paramsFromWflow[parts[i].split(":")[0]] !== "undefined")
+              list.push(parts[i]);
+          variable = (list.length &gt; 0 ? list[0] : variable.split("|")[0]);
+          var comma = variable.split(":").length &gt; 1 ? variable.split(":")[1] : 3;
+          variable = variable.split(":")[0];
+          content = paramsFromWflow[variable] || paramsToExtract.empty &amp;&amp; paramsToExtract.empty[variable];
+          if (typeof content === "undefined") failed++;
+          if (isNumRegex.test(content)) content = roundNumber(content, comma).toString();
+          content = (paramsToExtract.replace &amp;&amp; paramsToExtract.replace[variable] &amp;&amp; paramsToExtract.replace[variable][content]) || content;
+
+          //cl(actionIndex, content);
+
+          if (typeof content === "object") {
+            // (magic) variables are used
+            switch (content.WFSerializationType) {
+            case "WFTextTokenAttachment":
+              content = getWflowVariableName(content.Value);
+              break;
+            case "WFTextTokenString":
+              list = content.Value.string.split("");
+              var keyList = [];
+              var abr = content.Value.attachmentsByRange;
+              Object.keys(abr)
+                .forEach(function (k) { keyList[parseInt(getIndexFromRangeRegex.exec(k)[1])] = getWflowVariableName(abr[k]); });
+
+              if (content.Value.string.includes("\ufffc")) {
+                content = "";
+                for (var i = 0; i &lt; list.length; i++) {
+                  var n = list[i];
+                  if (n === "\ufffc") {
+                    while (typeof (n = keyList.shift()) === "undefined" &amp;&amp; keyList.length &gt; 0) ;
+                  }
+                  content += n;
+                }
+              } else {
+                for (var i = 0; i &lt; keyList.length; i++)
+                  if (keyList[i])
+                    list.splice(i, 0, keyList[i]);
+                content = list.join("");
+              }
+              break;
+            case "WFTimeOffsetValue":
+              content = content.Value;
+              content = content.Operation.replace("Add", "+").replace("Subtract", "-") + " " + getWflowVariableName(content.Value) + " " + content.Unit + (parseFloat(content.Value) != 1 ? "s" : "");
+              break;
+            case "WFContentPredicateTableTemplate":
+            case "WFContactFieldValue":
+            case "WFQuantityFieldValue":
+              failed++;
+              break;
+            default:
+              failed++;
+              break;
+            }
+          }
+          parsedFormat += content || "";
+        } else
+          parsedFormat += match[0];
+      }
+    }
+    // format done
+    // save "code blocks" (if, repeat, repeat with each, choose from menu)
+    codeBlock = "";
+    if (codeBlocksId[id]) {
+      var mode = paramsFromWflow.WFControlFlowMode;
+      if (Array.isArray(name))
+        name = name[mode];
+      if (mode == 0) {
+        codeBlocks.push(actionIndex + ", " + (parsedFormat.length &gt; maxCodeBlockContentLength ? parsedFormat.substr(0, maxCodeBlockContentLength - 2) + "..." : parsedFormat));
+      } else {
+        codeBlock = " (" + codeBlocks[codeBlocks.length - 1] + ")";
+        if (mode == 2)
+          codeBlocks.pop();
+      }
+    }
+    result.push(actionIndex + codeBlock + ": " + name + (parsedFormat &amp;&amp; parsedFormat.length &gt; 0 &amp;&amp; failed &lt; nVars ? " (" + parsedFormat.replace(/[\r\n]+/g, "⏎") + ")": ""));
+  });
+
+  result = { list: result };
+  document.body.appendChild(document.createTextNode(JSON.stringify(result, null, 4)));
+} catch (ex) {
+  document.body.appendChild(document.createTextNode(JSON.stringify({ type: ex.name, msg: ex.message, line: ex.line, column: ex.column, sourceURL: ex.sourceURL}, null, 0)));
+  throw ex;
+}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Text</string>
+						<key>OutputUUID</key>
+						<string>C2C85E0D-2C24-49C0-96C4-6055C3836EDB</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>script</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getdevicedetails</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>531FE85B-4F2C-43C7-9C4C-FD16BB6BE777</string>
+				<key>WFDeviceDetail</key>
+				<string>Device Model</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>FC3DB4E4-3B4D-45E5-A9F8-D78A44B58D44</string>
+				<key>WFTextActionText</key>
+				<string>{
+"com.agiletortoise.Drafts4.addto":
+"Add to Draft",
+"com.agiletortoise.Drafts4.get":
+"Get Contents of Draft",
+"com.agiletortoise.Drafts4.open":
+"Open Draft",
+"com.agiletortoise.Drafts4.runAction":
+"Run Drafts Action",
+"com.agiletortoise.Tally2.get":
+"Get Tally",
+"com.agiletortoise.Tally2.updatetally":
+"Update Tally",
+"com.apple.facetime.facetime":
+"FaceTime",
+"com.apple.iBooks.openin":
+"Open in iBooks",
+"com.apple.mobilenotes.SharingExtension":
+"Create Note",
+"com.apple.mobilephone.call":
+"Call",
+"com.blackfoggames.TextTool.transform":
+"Transform Text",
+"com.boonbits.captio.appendtonote":
+"Append to Note",
+"com.boonbits.captio.sendnote":
+"Send Note",
+"com.burbn.instagram.openin":
+"Post to Instagram",
+"com.culturedcode.ThingsTouch.addtask":
+"Add Things To-Do",
+"com.dayonelog.dayoneiphone.post":
+"Create Day One Entry",
+"com.flexibits.fantastical2.addevent":
+"Add Event via Fantastical",
+"com.flexibits.fantastical2.addreminder":
+"Add Reminder via Fantastical",
+"com.flexibits.fantastical2.showinfantastical":
+"Show in Fantastical",
+"com.google.chrome.ios.openurl":
+"Open URLs in Chrome",
+"com.guidedways.2Do.add":
+"Add 2Do Task",
+"com.omnigroup.OmniFocus2.iPhone.newitem":
+"Add OmniFocus Item",
+"com.omnigroup.OmniFocus2.iPhone.pastetaskpaper":
+"Add TaskPaper to OmniFocus",
+"com.omz-software.Editorial.runworkflow":
+"Run Editorial Workflow",
+"com.omz-software.Pythonista.editscript":
+"Edit Script",
+"com.omz-software.Pythonista.runscript":
+"Run Script",
+"com.outerspaceapps.itranslate.translate":
+"Show in iTranslate",
+"com.panic.iOS.Transmit.Share":
+"Save with Transmit",
+"com.phocusllp.due.add":
+"Add Due Reminder",
+"com.potionfactory.TheHitListMobile.tasks":
+"Add Task to The Hit List",
+"com.realmacsoftware.clear.createlist":
+"Add Clear List",
+"com.realmacsoftware.clear.createtask":
+"Add Clear Task",
+"com.skype.skype.call":
+"Call via Skype",
+"com.soulmen.ulysses.pad.attach":
+"Attach to Ulysses Sheet",
+"com.soulmen.ulysses.pad.insert":
+"Add to Ulysses Sheet",
+"com.soulmen.ulysses.pad.new-group":
+"New Ulysses Group",
+"com.soulmen.ulysses.pad.new-sheet":
+"New Ulysses Sheet",
+"com.soulmen.ulysses.pad.open":
+"Open Ulysses",
+"com.soulmen.ulysses.pad.read-sheet":
+"Get Ulysses Sheet",
+"com.squibner.Blink.convert":
+"Convert URL with Blink",
+"com.squibner.Blink.search":
+"Search in Blink",
+"com.tapbots.Tweetbot.opentweetbot":
+"Open Tweetbot",
+"com.tapbots.Tweetbot.searchtext":
+"Search Text",
+"com.tapbots.Tweetbot.tweet":
+"Tweet (Tweetbot)",
+"com.tapbots.Tweetbot.viewprofile":
+"View Profile in Tweetbot",
+"com.tijo.opener.Opener.show-options":
+"Open URL in Opener",
+"fm.overcast.overcast.add":
+"Add to Overcast",
+"is.workflow.actions.addframetogif":
+"Add Frame to GIF",
+"is.workflow.actions.addmusictoupnext":
+"Add to Up Next",
+"is.workflow.actions.addnewevent":
+"Add New Event",
+"is.workflow.actions.addnewreminder":
+"Add New Reminder",
+"is.workflow.actions.address":
+"Street Address",
+"is.workflow.actions.addtoplaylist":
+"Add to Playlist",
+"is.workflow.actions.adjustdate":
+"Adjust Date",
+"is.workflow.actions.airdropdocument":
+"AirDrop",
+"is.workflow.actions.alert":
+"Show Alert",
+"is.workflow.actions.appendvariable":
+"Add to Variable",
+"is.workflow.actions.ask":
+"Ask for Input",
+"is.workflow.actions.avairyeditphoto":
+"Edit Image",
+"is.workflow.actions.base64encode":
+"Base64 Encode",
+"is.workflow.actions.choosefromlist":
+"Choose from List",
+"is.workflow.actions.choosefrommenu":
+["Choose from Menu", "Choose", "End Chose from Menu"],
+"is.workflow.actions.clearupnext":
+"Clear Up Next",
+"is.workflow.actions.cloudapp.upload":
+"Upload to CloudApp",
+"is.workflow.actions.comment":
+"Comment",
+"is.workflow.actions.conditional":
+["If", "Otherwise", "End If"],
+"is.workflow.actions.contacts":
+"Contacts",
+"is.workflow.actions.correctspelling":
+"Correct Spelling",
+"is.workflow.actions.count":
+"Count",
+"is.workflow.actions.createplaylist":
+"Create Playlist",
+"is.workflow.actions.date":
+"Date",
+"is.workflow.actions.delay":
+"Wait",
+"is.workflow.actions.deletephotos":
+"Delete Photos",
+"is.workflow.actions.deskconnect.send":
+"Send via DeskConnect",
+"is.workflow.actions.detect.address":
+"Get Addressesfrom Input",
+"is.workflow.actions.detect.contacts":
+"Get Contacts from Input",
+"is.workflow.actions.detect.date":
+"Get Date from Input",
+"is.workflow.actions.detect.dictionary":
+"Get Dictionary from Input",
+"is.workflow.actions.detect.emailaddress":
+"Get Email Addresses from Input",
+"is.workflow.actions.detect.images":
+"Get Images from Input",
+"is.workflow.actions.detect.link":
+"Get URLs from Input",
+"is.workflow.actions.detect.phonenumber":
+"Get Phone Numbers from Input",
+"is.workflow.actions.detect.text":
+"Get Text from Input",
+"is.workflow.actions.detectlanguage":
+"Detect Language",
+"is.workflow.actions.dictatetext":
+"Dictate Text",
+"is.workflow.actions.dictionary":
+"Dictionary",
+"is.workflow.actions.documentpicker.open":
+"Get File",
+"is.workflow.actions.documentpicker.save":
+"Save File",
+"is.workflow.actions.downloadurl":
+"Get Contents of URL",
+"is.workflow.actions.email":
+"Email Address",
+"is.workflow.actions.encodemedia":
+"Encode Media",
+"is.workflow.actions.evernote.append":
+"Append to Note",
+"is.workflow.actions.evernote.delete":
+"Delete Notes",
+"is.workflow.actions.evernote.get":
+"Get Notes",
+"is.workflow.actions.evernote.getlink":
+"Get Note Link",
+"is.workflow.actions.evernote.new":
+"Create New Note",
+"is.workflow.actions.exit":
+"Exit Workflow",
+"is.workflow.actions.exportsong":
+"Select Music",
+"is.workflow.actions.file.append":
+"Append to File",
+"is.workflow.actions.file.createfolder":
+"Create Folder",
+"is.workflow.actions.file.delete":
+"Delete Files",
+"is.workflow.actions.file.getlink":
+"Get Link to File",
+"is.workflow.actions.filter.articles":
+"Filter Articles",
+"is.workflow.actions.filter.calendarevents":
+"Find Calendar Events Where",
+"is.workflow.actions.filter.contacts":
+"Find Contacts",
+"is.workflow.actions.filter.eventattendees":
+"Filter Event Attendees",
+"is.workflow.actions.filter.files":
+"Filter Files",
+"is.workflow.actions.filter.health.quantity":
+"Find Healt Samples Where",
+"is.workflow.actions.filter.images":
+"Filter Images",
+"is.workflow.actions.filter.locations":
+"Filter Locations",
+"is.workflow.actions.filter.music":
+"Find Music",
+"is.workflow.actions.filter.photos":
+"Find Photos",
+"is.workflow.actions.filter.reminders":
+"Find Reminders",
+"is.workflow.actions.flashlight":
+"Set Flashlight",
+"is.workflow.actions.format.date":
+"Format Date",
+"is.workflow.actions.format.filesize":
+"Format File Size",
+"is.workflow.actions.format.number":
+"Format Number",
+"is.workflow.actions.generatebarcode":
+"Generate QR Code",
+"is.workflow.actions.get.playlist":
+"Get Playlist",
+"is.workflow.actions.getarticle":
+"Get Article from Web Page",
+"is.workflow.actions.getbatterylevel":
+"Get Battery Level",
+"is.workflow.actions.getclipboard":
+"Get Clipboard",
+"is.workflow.actions.getcurrentlocation":
+"Get Current Location",
+"is.workflow.actions.getcurrentsong":
+"Get Current Sond",
+"is.workflow.actions.getdevicedetails":
+"Get Device Details",
+"is.workflow.actions.getdirections":
+"Show Directions",
+"is.workflow.actions.getdistance":
+"Get Distance",
+"is.workflow.actions.getframesfromimage":
+"Get Frames from Image",
+"is.workflow.actions.gethalfwaypoint":
+"Get Halfway Point",
+"is.workflow.actions.gethtmlfromrichtext":
+"Make HTML from Rich Text",
+"is.workflow.actions.getipaddress":
+"Get Current IP Address",
+"is.workflow.actions.getitemfromlist":
+"Get Item from List",
+"is.workflow.actions.getitemname":
+"Get Name",
+"is.workflow.actions.getitemtype":
+"Get Type",
+"is.workflow.actions.getlastphoto":
+"Get Latest Photos",
+"is.workflow.actions.getlastscreenshot":
+"Get Latest Screenshots",
+"is.workflow.actions.getlastvideo":
+"Get Latest Videos",
+"is.workflow.actions.getlatestbursts":
+"Get Latest Bursts",
+"is.workflow.actions.getlatestlivephotos":
+"Get Latest Live Photos",
+"is.workflow.actions.getmapslink":
+"Get Maps URL",
+"is.workflow.actions.getmarkdownfromrichtext":
+"Make Markdown from Rich Text",
+"is.workflow.actions.getmyworkflows":
+"Get My Workflows",
+"is.workflow.actions.getnameofemoji":
+"Get Name of Emoji",
+"is.workflow.actions.getrichtextfromhtml":
+"Make Rich Text from HTML",
+"is.workflow.actions.getrichtextfrommarkdown":
+"Make Rich Text from Markdown",
+"is.workflow.actions.gettext":
+"Text",
+"is.workflow.actions.gettimebetweendates":
+"Get Time Between Dates",
+"is.workflow.actions.gettraveltime":
+"Get Travel Time",
+"is.workflow.actions.getupcomingevents":
+"Get Upcoming Events",
+"is.workflow.actions.getupcomingreminders":
+"Get Upcoming Remiders",
+"is.workflow.actions.geturlcomponent":
+"Get Component of URL",
+"is.workflow.actions.getvalueforkey":
+"Get Dictionary Value",
+"is.workflow.actions.getvariable":
+"Get Variable",
+"is.workflow.actions.getwebpagecontents":
+"Get Contents of Web Page",
+"is.workflow.actions.getwifi":
+"Get Network Details",
+"is.workflow.actions.giphy":
+"Search Giphy",
+"is.workflow.actions.goodreader.open":
+"Open in GoodReader",
+"is.workflow.actions.handoff":
+"Continue Workflow in App",
+"is.workflow.actions.hash":
+"Generate Hash",
+"is.workflow.actions.health.quantity.log":
+"Log Health Sample",
+"is.workflow.actions.health.workout.log":
+"Log Workout",
+"is.workflow.actions.ifttt":
+"Trigger IFTTT Applet",
+"is.workflow.actions.image.combine":
+"Combine Images",
+"is.workflow.actions.image.convert":
+"Convert Image",
+"is.workflow.actions.image.crop":
+"Crop Image",
+"is.workflow.actions.image.flip":
+"Flip Image",
+"is.workflow.actions.image.resize":
+"Resize Image",
+"is.workflow.actions.image.rotate":
+"Rotate Image",
+"is.workflow.actions.imgur.upload":
+"Upload to Imgur",
+"is.workflow.actions.instapaper.add":
+"Add to Instapaper",
+"is.workflow.actions.instapaper.get":
+"Get Instapaper Bookmarks",
+"is.workflow.actions.list":
+"List",
+"is.workflow.actions.makegif":
+"Make GIF",
+"is.workflow.actions.makepdf":
+"Make PDF",
+"is.workflow.actions.makevideofromgif":
+"Make Video from GIF",
+"is.workflow.actions.makezip":
+"Make Archive",
+"is.workflow.actions.math":
+"Calculate",
+"is.workflow.actions.nothing":
+"Nothing",
+"is.workflow.actions.notication":
+"Show Notification",
+"is.workflow.actions.number":
+"Number",
+"is.workflow.actions.number.random":
+"Random Number",
+"is.workflow.actions.openapp":
+"Open App",
+"is.workflow.actions.openin":
+"Open In...",
+"is.workflow.actions.openurl":
+"Open URLs",
+"is.workflow.actions.openxcallbackurl":
+"Open X-Callback URL",
+"is.workflow.actions.overlayimageonimage":
+"Overlay Image",
+"is.workflow.actions.pausemusic":
+"Pause Music",
+"is.workflow.actions.phonenumber":
+"Phone Number",
+"is.workflow.actions.pinboard.add":
+"Add to Pinboard",
+"is.workflow.actions.pinboard.get":
+"Get Pinboard Bookmarks",
+"is.workflow.actions.playmusic":
+"Play Music",
+"is.workflow.actions.playsound":
+"Play Sound",
+"is.workflow.actions.pocket.add":
+"Add to Pocket",
+"is.workflow.actions.pocket.get":
+"Get Items from Pocket",
+"is.workflow.actions.postonfacebook":
+"Post on Facebook",
+"is.workflow.actions.previewdocument":
+"Quick Look",
+"is.workflow.actions.print":
+"Print",
+"is.workflow.actions.properties.appstore":
+"Get Details of App Store App",
+"is.workflow.actions.properties.articles":
+"Get Details of Articles",
+"is.workflow.actions.properties.calendarevents":
+"Get Details of Calendar Events",
+"is.workflow.actions.properties.contacts":
+"Get Details of Contacts",
+"is.workflow.actions.properties.eventattendees":
+"Get Details of Event Attendees",
+"is.workflow.actions.properties.files":
+"Get Details of Files",
+"is.workflow.actions.properties.health.quantity":
+"Get Details of Health Sample",
+"is.workflow.actions.properties.images":
+"Get Details of Images",
+"is.workflow.actions.properties.itunesartist":
+"Get Details of iTunes Artist",
+"is.workflow.actions.properties.itunesartist":
+"Get Details of iTunes Artist",
+"is.workflow.actions.properties.itunesstore":
+"Get Details of iTunes Prduct",
+"is.workflow.actions.properties.itunesstore":
+"Get Details of iTunes Product",
+"is.workflow.actions.properties.locations":
+"Get Details of Locations",
+"is.workflow.actions.properties.music":
+"Get Details of Music",
+"is.workflow.actions.properties.reminders":
+"Get Details of Reminders",
+"is.workflow.actions.properties.safariwebpage":
+"Get Details of Safari Web Page",
+"is.workflow.actions.properties.trello":
+"Get Details of Trello Item",
+"is.workflow.actions.properties.ulysses.sheet":
+"Get Details of Ulysses Sheet",
+"is.workflow.actions.readinglist":
+"Add to Reading List",
+"is.workflow.actions.recordaudio":
+"Record Audio",
+"is.workflow.actions.removeevents":
+"Remove Events",
+"is.workflow.actions.removereminders":
+"Remove Reminders",
+"is.workflow.actions.repeat.count":
+["Repeat", "", "End Repeat"],
+"is.workflow.actions.repeat.each":
+["Repeat with Each", "", "End Repeat with Each"],
+"is.workflow.actions.round":
+"Round Number",
+"is.workflow.actions.rss":
+"Get Items from RSS Feed",
+"is.workflow.actions.rss.extract":
+"Get RSS Feeds from Page",
+"is.workflow.actions.runextension":
+"Share with Extensions",
+"is.workflow.actions.runsshscript":
+"Run Script Over SSH",
+"is.workflow.actions.runworkflow":
+"Run Workflow",
+"is.workflow.actions.savetocameraroll":
+"Save to Photo Album",
+"is.workflow.actions.scanbarcode":
+"Scan QR/Bar Code",
+"is.workflow.actions.searchappstore":
+"Search App Store",
+"is.workflow.actions.searchitunes":
+"Search iTunes Store",
+"is.workflow.actions.searchitunes":
+"Search iTunes Store",
+"is.workflow.actions.searchlocalbusinesses":
+"Search Local Businesses",
+"is.workflow.actions.searchmaps":
+"Show in Maps",
+"is.workflow.actions.searchweb":
+"Search Web",
+"is.workflow.actions.selectcontacts":
+"Select Contact",
+"is.workflow.actions.selectemail":
+"Select Email Address",
+"is.workflow.actions.selectphone":
+"Select Phone Number",
+"is.workflow.actions.selectphoto":
+"Select Photos",
+"is.workflow.actions.sendemail":
+"Send Email",
+"is.workflow.actions.sendmessage":
+"Send Message",
+"is.workflow.actions.setbrightness":
+"Set Brightness",
+"is.workflow.actions.setclipboard":
+"Copy to Clipboard",
+"is.workflow.actions.setitemname":
+"Set Name",
+"is.workflow.actions.setvalueforkey":
+"Set Dictionary Value",
+"is.workflow.actions.setvariable":
+"Set Variable",
+"is.workflow.actions.setvolume":
+"Set Volume",
+"is.workflow.actions.setvolume":
+"Set Volume",
+"is.workflow.actions.share":
+"Share",
+"is.workflow.actions.showdefinition":
+"Show Definition",
+"is.workflow.actions.showinblindsquare":
+"Show in BlindSquare",
+"is.workflow.actions.showinblindsquare":
+"Show in BlindSquare",
+"is.workflow.actions.showincalendar":
+"Show in Calendar",
+"is.workflow.actions.showinstore":
+"Show in iTunes Store",
+"is.workflow.actions.showinstore":
+"Show in iTunes Store",
+"is.workflow.actions.showwebpage":
+"Show Web Page",
+"is.workflow.actions.skipback":
+"Skip Back",
+"is.workflow.actions.skipforward":
+"Skip Forward",
+"is.workflow.actions.slack.send":
+"Post to Slack",
+"is.workflow.actions.speaktext":
+"Speak Text",
+"is.workflow.actions.statistics":
+"Calculate Statistics",
+"is.workflow.actions.takephoto":
+"Take Photo",
+"is.workflow.actions.takevideo":
+"Take Video",
+"is.workflow.actions.text.changecase":
+"Change Case",
+"is.workflow.actions.text.combine":
+"Combine Text",
+"is.workflow.actions.text.match":
+"Match Text",
+"is.workflow.actions.text.match.getgroup":
+"Get Group from Matched Text",
+"is.workflow.actions.text.replace":
+"Replace Text",
+"is.workflow.actions.text.split":
+"Split Text",
+"is.workflow.actions.text.translate":
+"Translate Text",
+"is.workflow.actions.todoist.add":
+"Add Todoist Item",
+"is.workflow.actions.trello.add.board":
+"Create Trello Board",
+"is.workflow.actions.trello.add.card":
+"Add Trello Card",
+"is.workflow.actions.trello.add.list":
+"Create Trello List",
+"is.workflow.actions.trello.get":
+"Get Trello Items",
+"is.workflow.actions.trimvideo":
+"Trim Media",
+"is.workflow.actions.tumblr.post":
+"Post to Tumblr",
+"is.workflow.actions.tweet":
+"Tweet (Twitter)",
+"is.workflow.actions.unzip":
+"Extract Archive",
+"is.workflow.actions.url":
+"URL",
+"is.workflow.actions.url.expand":
+"Expand URL",
+"is.workflow.actions.url.getheaders":
+"Get Headers of URL",
+"is.workflow.actions.urlencode":
+"URL Encode",
+"is.workflow.actions.venmo.pay":
+"Send Money (Venmo)",
+"is.workflow.actions.venmo.request":
+"Request Money (Venmo)",
+"is.workflow.actions.vibrate":
+"Vibrate Device",
+"is.workflow.actions.viewresult":
+"View Content Graph",
+"is.workflow.actions.waittoreturn":
+"Wait to Return",
+"is.workflow.actions.wordpress.post":
+"Post to WordPress",
+"is.workflow.actions.wunderlist.add":
+"Add Wunderlist Task",
+"net.shinyfrog.bear-IOS.add":
+"Add to Bear Note",
+"net.shinyfrog.bear-IOS.contents":
+"Get Contents of Bear Note",
+"net.shinyfrog.bear-IOS.create":
+"Create Bear Note",
+"net.shinyfrog.bear-IOS.grab":
+"Create Bear Note from URL",
+"net.shinyfrog.bear-IOS.open":
+"Open Bear Note",
+"net.shinyfrog.bear-IOS.search":
+"Search in Bear",
+"net.whatsapp.WhatsApp.openin":
+"Send Photo via WhatsApp",
+"net.whatsapp.WhatsApp.send":
+"Send Message via WhatsApp",
+"squibner.AmazonLinker.convert":
+"Convert URL with Associate",
+"squibner.AmazonLinker.search":
+"Search in Associate",
+"is.workflow.actions.image.mask":
+"Mask Image",
+"is.workflow.actions.runjavascriptonwebpage":
+"Run JavaScript on Web Page",
+"is.workflow.actions.avairyeditphoto":
+"Markup",
+"is.workflow.actions.dnd.set":
+"Set Do not Disturb",
+"is.workflow.actions.cellulardata.set":
+"Set Cellular Data",
+"is.workflow.actions.bluetooth.set":
+"Set Bluetooth",
+"is.workflow.actions.airplanemode.set":
+"Set Airplane Mode"
+}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Text</string>
+						<key>OutputUUID</key>
+						<string>FC3DB4E4-3B4D-45E5-A9F8-D78A44B58D44</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>action names</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>1CA19792-CC3C-40C9-A18A-A31CE5388017</string>
+				<key>WFTextActionText</key>
+				<string>{"is.workflow.actions.properties.itunesartist":{"format":"{WFContentItemPropertyName}"},"is.workflow.actions.format.date":{"replace":{"WFISO8601IncludeTime":{"0":"out ","1":" "}},"format":{"condition":"WFDateFormatStyle","cases":{"Relative":"Date: Relative\/{WFRelativeDateFormatStyle}, Time: {WFTimeFormatStyle}","ISO 8601":"Date: ISO 8601, with{WFISO8601IncludeTime}Time","RFC 2822":"Date: RFC 2822"},"default":"Date: {WFDateFormatStyle}, Time: {WFTimeFormatStyle}"}},"is.workflow.actions.getupcomingreminders":{"empty":{"WFGetUpcomingItemCount":"1","WFGetUpcomingItemCalendar":"All"},"format":{"condition":"WFDateSpecifier","default":"List: {WFGetUpcomingItemCalendar}, {WFGetUpcomingItemCount} events","cases":{"Specified Day":"List: {WFGetUpcomingItemCalendar}, {WFGetUpcomingItemCount} events"}}},"is.workflow.actions.playmusic":{"format":"Repeat {WFPlayMusicActionRepeat}, shuffle {WFPlayMusicActionShuffle}"},"is.workflow.actions.getlatestlivephotos":{"format":{"condition":"WFGetLatestPhotoCount","default":"{WFGetLatestPhotoCount} Live Photos","cases":{"1":"1 Live Photo"}}},"is.workflow.actions.runjavascriptonwebpage":{"format":"{OnValue}"},"is.workflow.actions.exportsong":{"replace":{"WFExportSongActionSelectMultiple":{"0":"one","1":"multiple"}},"format":"Select {WFExportSongActionSelectMultiple}"},"is.workflow.actions.choosefromlist":{"replace":{"WFChooseFromListActionSelectAll":{"0":"none","1":"all"}},"format":{"condition":"WFChooseFromListActionSelectMultiple","default":"Q: \"{WFChooseFromListActionPrompt}\", Select One","cases":{"1":"Q: \"{WFChooseFromListActionPrompt}\", Select Multiple, Select {WFChooseFromListActionSelectAll} initially"}},"empty":{"WFChooseFromListActionSelectAll":"none"}},"is.workflow.actions.addtoplaylist":{"format":"{WFPlaylistName}"},"is.workflow.actions.text.replace":{"replace":{"WFReplaceTextCaseSensitive":{"0":"No","1":"Yes"},"WFReplaceTextRegularExpression":{"0":"No","1":"Yes"}},"format":"Replace {WFReplaceTextFind} with {WFReplaceTextReplace}, Regex: {WFReplaceTextRegularExpression}, Case Sensitive: {WFReplaceTextCaseSensitive}","empty":{"WFReplaceTextCaseSensitive":"Yes","WFReplaceTextRegularExpression":"No"}},"is.workflow.actions.takephoto":{"format":{"condition":"WFCameraCaptureShowPreview","default":{"condition":"WFPhotoCount","default":"Show Preview, Take {WFPhotoCount} Photos, {WFCameraCaptureDevice} Camera","cases":{"1":"Show Preview, Take 1 Photo, {WFCameraCaptureDevice} Camera"}},"cases":{"0":"Don’t Show Preview, {WFCameraCaptureDevice} Camera"}}},"is.workflow.actions.properties.safariwebpage":{"format":"{WFContentItemPropertyName}"},"is.workflow.actions.cellulardata.set":{"replace":{"OnValue":{"0":"Off","1":"On"}},"format":"{OnValue}","empty":{"OnValue":"Off"}},"is.workflow.actions.address":{"format":"{WFAddressLine1}, {WFAddressLine2}, {WFPostalCode}, {WFCity}, {WFCountry}, {WFState}"},"is.workflow.actions.dictatetext":{"format":"{WFSpeechLanguage}"},"is.workflow.actions.ask":{"format":{"condition":"WFInputType","default":"Q: \"{WFAskActionPrompt}\", Default: \"{WFAskActionDefaultAnswer}\", Ask for {WFInputType}","cases":{"Date":"Q: \"{WFAskActionPrompt}\", Default: \"{WFAskActionDefaultAnswer}\", Ask for {WFAskActionDateGranularity}"}}},"is.workflow.actions.addnewevent":{"format":"{WFCalendarItemTitle}"},"is.workflow.actions.hash":{"format":"Type: {WFHashType}"},"is.workflow.actions.airplanemode.set":{"replace":{"OnValue":{"0":"Off","1":"On"}},"format":"{OnValue}","empty":{"OnValue":"Off"}},"is.workflow.actions.selectphoto":{"replace":{"WFSelectMultiplePhotos":{"0":"one","1":"multiple"}},"format":"Select {WFSelectMultiplePhotos}"},"is.workflow.actions.properties.contacts":{"format":"{WFContentItemPropertyName}"},"is.workflow.actions.getupcomingevents":{"empty":{"WFGetUpcomingItemCount":"1","WFGetUpcomingItemCalendar":"All"},"format":{"condition":"WFDateSpecifier","default":"Cal: {WFGetUpcomingItemCalendar}, Day: {WFDateSpecifier}, {WFGetUpcomingItemCount} events","cases":{"Specified Day":"Cal: {WFGetUpcomingItemCalendar}, Day: {WFSpecifiedDate}, {WFGetUpcomingItemCount} events"}}},"is.workflow.actions.generatebarcode":{"format":"{WFQRErrorCorrectionLevel}"},"is.workflow.actions.properties.music":{"format":"{WFContentItemPropertyName}"},"is.workflow.actions.getdevicedetails":{"format":"{WFDeviceDetail}"},"is.workflow.actions.searchmaps":{"empty":{"WFSearchMapsActionApp":"Maps"},"format":"In {WFSearchMapsActionApp}"},"is.workflow.actions.properties.images":{"format":"{WFContentItemPropertyName}"},"is.workflow.actions.gettraveltime":{"format":{"condition":"WFGetDirectionsFrom","default":"From current location via {WFGetDirectionsActionMode}","cases":{"Custom Location":"From {WFGetDirectionsCustomLocation} via {WFGetDirectionsActionMode}"}}},"is.workflow.actions.takevideo":{"format":"{WFCameraCaptureDevice} Camera, {WFCameraCaptureQuality} Quality"},"com.apple.facetime.facetime":{"format":"{WFFaceTimeType}"},"is.workflow.actions.text.combine":{"format":{"condition":"WFTextSeparator","default":"Separator: \"{WFTextSeparator}\"","cases":{"Custom":"Separator: \"{WFTextCustomSeparator}\""}}},"is.workflow.actions.flashlight":{"format":{"condition":"WFFlashlightSetting","default":"{WFFlashlightSetting}, Brightness {WFFlashlightLevel:3} [0..1]","cases":{"Off":"Off"}}},"is.workflow.actions.getvalueforkey":{"format":{"condition":"WFGetDictionaryValueType","default":"{WFGetDictionaryValueType}","empty":"Key: {WFDictionaryKey}","cases":{"Value":"Key: {WFDictionaryKey}"}}},"is.workflow.actions.makegif":{"format":{"condition":"WFMakeGIFActionAutoSize","default":{"condition":"WFMakeGIFActionLoopEnabled","default":"{WFMakeGIFActionDelayTime:3}s per Photo, ∞ Loops, Size: Auto","cases":{"0":{"condition":"WFMakeGIFActionLoopCount","default":"{WFMakeGIFActionDelayTime:3}s per Photo, {WFMakeGIFActionLoopCount} Loops, Size: Auto","cases":{"1":"{WFMakeGIFActionDelayTime:3}s per Photo, 1 Loop, Size: Auto"}}}},"cases":{"0":{"condition":"WFMakeGIFActionLoopEnabled","default":"{WFMakeGIFActionDelayTime:3}s per Photo, ∞ Loops, Size: {WFMakeGIFActionManualSizeWidth}x{WFMakeGIFActionManualSizeHeight}","cases":{"0":{"condition":"WFMakeGIFActionLoopCount","default":"{WFMakeGIFActionDelayTime:3}s per Photo, {WFMakeGIFActionLoopCount} Loops, Size: {WFMakeGIFActionManualSizeWidth}x{WFMakeGIFActionManualSizeHeight}","cases":{"1":"{WFMakeGIFActionDelayTime:3}s per Photo, 1 Loop, Size: {WFMakeGIFActionManualSizeWidth}x{WFMakeGIFActionManualSizeHeight}"}}}}}}},"is.workflow.actions.math":{"format":{"condition":"WFMathOperation","default":"{WFMathOperation} {WFMathOperand}","cases":{"…":{"condition":"WFScientificMathOperation","default":"{WFScientificMathOperation}","cases":{"Modulus":"Modulus {WFScientificMathOperand}","x^y":"x^y {WFScientificMathOperand}"}}}}},"is.workflow.actions.properties.eventattendees":{"format":"{WFContentItemPropertyName}"},"is.workflow.actions.setbrightness":{"format":"{WFBrightness:3} [0..1]"},"is.workflow.actions.image.resize":{"empty":{"WFImageResizeHeight":"Auto","WFImageResizeWidth":"Auto"},"format":"{WFImageResizeWidth} x {WFImageResizeHeight}"},"is.workflow.actions.image.crop":{"format":{"condition":"WFImageCropPosition","default":"Position {WFImageCropPosition}, w:{WFImageCropWidth} h:{WFImageCropHeight}","cases":{"Custom":"Position Custom, x:{WFImageCropX} y:{WFImageCropY} w:{WFImageCropWidth} h:{WFImageCropHeight}"}}},"is.workflow.actions.notification":{"replace":{"WFNotificationActionSound":{"0":"No","1":"Yes"}},"format":"Title: {WFNotificationActionTitle}, Message: {WFNotificationActionBody}, Play Sound: {WFNotificationActionSound}"},"is.workflow.actions.openapp":{"format":"{WFAppIdentifier}"},"is.workflow.actions.getipaddress":{"format":"{WFIPAddressSourceOption}, {WFIPAddressTypeOption}"},"is.workflow.actions.sendemail":{"format":{"condition":"WFSendEmailActionShowComposeSheet","default":"Show Compose Sheet, From: {WFSendEmailActionFrom}, Subject: {WFSendEmailActionSubject}","cases":{"0":"Don’t Show Compose Sheet, From: {WFEmailAccountActionSelectedAccount}, Subject: {WFSendEmailActionSubject}"}}},"is.workflow.actions.setitemname":{"replace":{"WFDontIncludeFileExtension":{"0":"","1":"out"}},"format":"{WFName}, with{WFDontIncludeFileExtension} File Extension","empty":{"WFDontIncludeFileExtension":""}},"is.workflow.actions.documentpicker.open":{"format":{"condition":"WFShowFilePicker","default":"Show File Picker","cases":{"0":"{WFGetFilePath}"}}},"is.workflow.actions.properties.appstore":{"format":"{WFContentItemPropertyName}"},"is.workflow.actions.savetocameraroll":{"format":"{WFCameraRollSelectedGroup}"},"is.workflow.actions.text.changecase":{"format":"{WFCaseType}"},"is.workflow.actions.get.playlist":{"format":"{WFPlaylistName}"},"is.workflow.actions.properties.locations":{"format":"{WFContentItemPropertyName}"},"is.workflow.actions.overlayimageonimage":{"format":{"condition":"WFShouldShowImageEditor","default":"Image {WFImage}, Show Editor","cases":{"0":{"condition":"WFImagePosition","default":"Image {WFImage}, Pos: {WFImagePosition}, Size: {WFImageWidth}x{WFImageHeight}, Rot: {WFRotation}°, Op: {WFOverlayImageOpacity}%","cases":{"Custom":"Image {WFImage}, Pos: {WFImageX}x{WFImageY}, Size: {WFImageWidth}x{WFImageHeight}, Rot: {WFRotation}°, Op: {WFOverlayImageOpacity}%"}}}}},"is.workflow.actions.geturlcomponent":{"format":"{WFURLComponent}"},"is.workflow.actions.image.flip":{"format":"{WFImageFlipDirection}"},"is.workflow.actions.text.split":{"format":{"condition":"WFTextSeparator","default":"Separator: \"{WFTextSeparator}\"","cases":{"Custom":"Separator: \"{WFTextCustomSeparator}\""}}},"is.workflow.actions.bluetooth.set":{"replace":{"OnValue":{"0":"Off","1":"On"}},"format":"{OnValue}","empty":{"OnValue":"Off"}},"is.workflow.actions.properties.calendarevents":{"format":"{WFContentItemPropertyName}"},"is.workflow.actions.addframetogif":{"format":{"condition":"WFGIFAutoSize","default":"Image: {WFImage}, delay {WFGIFDelayTime:3}s, auto size","cases":{"0":"Image: {WFImage}, delay {WFGIFDelayTime:3}s, {WFGIFManualSizeWidth}x{WFGIFManualSizeHeight}"}}},"is.workflow.actions.file.append":{"format":"File: \"{WFFilePath}\""},"is.workflow.actions.url":{"format":"{WFURLActionURL}"},"is.workflow.actions.image.convert":{"replace":{"WFImagePreserveMetadata":{"0":"discard","1":"keep"}},"format":{"condition":"WFImageFormat","default":"{WFImageFormat}, {WFImagePreserveMetadata} Metadata","cases":{"JPEG-2000":"JPEG-2000, Quality {WFImageCompressionQuality:2} [0..1]","JPEG":"JPEG, Quality {WFImageCompressionQuality:2} [0..1], {WFImagePreserveMetadata} Metadata","BMP":"BMP","GIF":"GIF","PDF":"PDF"}},"empty":{"WFImagePreserveMetadata":"keep"}},"is.workflow.actions.properties.ulysses.sheet":{"format":"{WFContentItemPropertyName}"},"is.workflow.actions.runsshscript":{"format":"Host: {WFSSHHost}"},"is.workflow.actions.setvalueforkey":{"format":"Key: {WFDictionaryKey}, Value: {WFDictionaryValue}"},"is.workflow.actions.number":{"format":"{WFNumberActionNumber}"},"is.workflow.actions.round":{"format":{"condition":"WFRoundDecimalPlaces","default":"Round {WFRoundType}, Mode: {WFRoundType}, {WFRoundDecimalPlaces} Decimal Places","cases":{"1":"Round {WFRoundType}, Mode: {WFRoundMode}, 1 Decimal Place"}}},"is.workflow.actions.getdistance":{"format":{"condition":"WFGetDirectionsFrom","default":"From current location via {WFGetDirectionsActionMode} in {WFDistanceUnit}","cases":{"Custom Location":"From {WFGetDirectionsCustomLocation} via {WFGetDirectionsActionMode} in {WFDistanceUnit}"}}},"is.workflow.actions.alert":{"replace":{"WFAlertActionCancelButtonShown":{"0":"Hide","1":"Show"}},"format":"Title: {WFAlertActionTitle}, Message: {WFAlertActionMessage}, {WFAlertActionCancelButtonShown} Cancel Button"},"is.workflow.actions.getvariable":{"format":"{WFVariable}"},"is.workflow.actions.delay":{"format":{"condition":"WFDelayTime","default":"{WFDelayTime} Seconds","cases":{"1":"1 Second"}}},"is.workflow.actions.setvolume":{"format":"[0-1]: {WFVolume:2}"},"is.workflow.actions.count":{"format":"{WFCountType}"},"is.workflow.actions.runworkflow":{"replace":{"WFShowWorkflow":{"0":"Don’t ","1":""}},"format":"Workflow \"{WFWorkflowName}\", {WFShowWorkflow}Show When Run"},"is.workflow.actions.skipback":{"format":"{WFSkipBackBehavior}"},"is.workflow.actions.giphy":{"replace":{"WFGiphySelectMultiple":{"0":"One","1":"Multiple"}},"format":{"condition":"WFGiphyShowPicker","default":"Search: {WFGiphyQuery}, Show Picker, Select {WFGiphySelectMultiple}","cases":{"0":{"condition":"WFGiphyLimit","default":"Search: {WFGiphyQuery}, Get {WFGiphyLimit} GIFs","cases":{"1":"Search: {WFGiphyQuery}, Get 1 GIF"}}}}},"is.workflow.actions.searchweb":{"format":"{WFSearchWebDestination}"},"is.workflow.actions.format.number":{"format":{"condition":"WFNumberFormatDecimalPlaces","default":"{WFNumberFormatDecimalPlaces} Decimal Places","cases":{"1":"1 Decimal Place"}}},"is.workflow.actions.text.match":{"replace":{"WFMatchTextCaseSensitive":{"0":"No","1":"Yes"}},"format":"Case Sensitive: {WFMatchTextCaseSensitive}, Pattern: {WFMatchTextPattern}","empty":{"WFMatchTextCaseSensitive":"Yes"}},"is.workflow.actions.setclipboard":{"replace":{"WFLocalOnly":{"0":"No","1":"Yes"}},"format":"Local Only: {WFLocalOnly}, Expire: {WFExpirationDate}"},"is.workflow.actions.makevideofromgif":{"format":{"condition":"WFMakeVideoFromGIFActionLoopCount","default":"{WFMakeVideoFromGIFActionLoopCount} Loops","cases":{"1":"1 Loop"}}},"is.workflow.actions.setvariable":{"format":"{WFVariableName}"},"is.workflow.actions.speaktext":{"replace":{"WFSpeakTextWait":{"0":"No","1":"Yes"}},"format":"Wait until finished: {WFSpeakTextWait}, Speed: {WFSpeakTextRate:2} [0..1], Pitch: {WFSpeakTextPitch:2} [0..1], Language: {WFSpeakTextLanguage}","empty":{"WFSpeakTextWait":"Yes"}},"is.workflow.actions.image.combine":{"format":{"condition":"WFImageCombineMode","defult":"Side-by-Side, {WFImageCombineDirection}, spacing {WFImageCombineSpacing","cases":{"Grid":"Grid, spacing {WFImageCombineSpacing}"}}},"is.workflow.actions.downloadurl":{"format":{"condition":"Advanced","default":"","cases":{"1":{"condition":"WFHTTPMethod","default":"Request Type: {WFHTTPMethod}, Request Body Type: {WFHTTPBodyType}","cases":{"GET":"Request Type: GET"}}}}},"is.workflow.actions.properties.health.quantity":{"format":"{WFContentItemPropertyName}"},"is.workflow.actions.conditional":{"replace":{"WFCondition":{"Is Greater Than":"&gt;","Equals":"=","Is Less Than":"&lt;"}},"format":{"condition":"WFCondition","cases":{"Is Greater Than":"{WFCondition} {WFNumberValue}","Is Less Than":"{WFCondition} {WFNumberValue}"},"default":"{WFCondition} {WFConditionalActionString}"}},"is.workflow.actions.getlastscreenshot":{"format":{"condition":"WFGetLatestPhotoCount","default":"{WFGetLatestPhotoCount} Screenshots","cases":{"1":"1 Screenshot"}}},"is.workflow.actions.getwifi":{"format":{"condition":"WFNetworkDetailsNetwork","default":"WiFi, {WFWiFiDetail}","cases":{"Cellular":"Cellular, {WFCellularDetail}"}}},"is.workflow.actions.getlastvideo":{"format":{"condition":"WFGetLatestPhotoCount","default":"{WFGetLatestPhotoCount} Videos","cases":{"1":"1 Video"}}},"is.workflow.actions.statistics":{"format":"{WFStatisticsOperation}"},"is.workflow.actions.documentpicker.save":{"format":{"condition":"WFAskWhereToSave","default":"Ask","cases":{"0":"{WFFileDestinationPath}"}}},"is.workflow.actions.getlatestbursts":{"format":{"condition":"WFGetLatestPhotoCount","default":"{WFGetLatestPhotoCount} Bursts","cases":{"1":"1 Burst"}}},"is.workflow.actions.avairyeditphoto":{"format":"Tool {WFAviaryPrimaryTool}"},"is.workflow.actions.gethalfwaypoint":{"format":"From {WFGetHalfwayPointFirstLocation} to {WFGetHalfwayPointSecondLocation}"},"is.workflow.actions.gettext":{"format":"{WFTextActionText}"},"is.workflow.actions.searchlocalbusinesses":{"format":"\"{WFSearchQuery}\" in {WFSearchRadius} km"},"is.workflow.actions.properties.itunesstore":{"format":"{WFContentItemPropertyName}"},"is.workflow.actions.makepdf":{"replace":{"WFPDFIncludeMargin":{"0":"exclude","1":"include"}},"format":{"condition":"WFPDFIncludedPages","default":"All Pages, {WFPDFIncludeMargin} margin","cases":{"Single Page":"Page {WFPDFSinglePage}, {WFPDFIncludeMargin} margin","Page Range":"Pages {WFPDFPageRangeStart} - {WFPDFPageRangeEnd}, {WFPDFIncludeMargin} margin"}}},"is.workflow.actions.getlastphoto":{"replace":{"WFGetLatestPhotosActionIncludeScreenshots":{"0":"don’t ","1":""}},"format":{"condition":"WFGetLatestPhotoCount","default":"{WFGetLatestPhotoCount} Photos, {WFGetLatestPhotosActionIncludeScreenshots}include Screenshots","cases":{"1":"1 Photo, {WFGetLatestPhotosActionIncludeScreenshots}include Screenshots"}}},"is.workflow.actions.image.mask":{"format":{"condition":"WFMaskType","default":"{WFMaskType}","cases":{"Rounded Rectangle":"Rounded Rectangle, Corner Radius: {WFMaskCornerRadius}","Custom Image":"Custom Image: {WFCustomMaskImage}"}}},"is.workflow.actions.gettimebetweendates":{"format":{"condition":"WFTimeUntilReferenceDate","default":"between {WFTimeUntilReferenceDate} in {WFTimeUntilUnit}","cases":{"Other":"between {WFTimeUntilCustomDate} in {WFTimeUntilUnit}"}}},"is.workflow.actions.getdirections":{"empty":{"WFGetDirectionsActionMode":"Driving","WFGetDirectionsActionApp":"Maps"},"format":"In {WFGetDirectionsActionApp} via {WFGetDirectionsActionMode}"},"is.workflow.actions.getitemfromlist":{"empty":{"WFItemRangeStart":"Start","WFItemRangeEnd":"End"},"format":{"condition":"WFItemSpecifier","default":"{WFItemSpecifier}","cases":{"Item At Index":"Item at Index {WFItemIndex}","Items in Range":"Items in Range, {WFItemRangeStart} to {WFItemRangeEnd}"}}},"is.workflow.actions.recordaudio":{"format":{"condition":"WFRecordingEnd","default":"Quality {WFRecordingCompression}, Start {WFRecordingStart}, End On Tap","cases":{"After Time":"Quality {WFRecordingCompression}, Start {WFRecordingStart}, End After {WFRecordingTimeInterval}s"}}},"is.workflow.actions.text.match.getgroup":{"format":{"condition":"WFGetGroupType","default":"Groupe at Index {WFGroupIndex}","cases":{"All Groups":"All Groups"}}},"is.workflow.actions.selectcontacts":{"replace":{"WFSelectMultiple":{"0":"one","1":"multiple"}},"format":"Select {WFSelectMultiple}"},"is.workflow.actions.addnewreminder":{"format":"{WFCalendarItemTitle}"},"is.workflow.actions.text.translate":{"format":"From {WFSelectedFromLanguage} to {WFSelectedLanguage}"},"is.workflow.actions.appendvariable":{"format":"{WFVariableName}"},"is.workflow.actions.number.random":{"format":"Range: {WFRandomNumberMinimum} to {WFRandomNumberMaximum}"},"is.workflow.actions.dnd.set":{"replace":{"Enabled":{"0":"Off","1":"On"}},"format":{"default":"{Enabled}, Until {AssertionType}","condition":"AssertionType","cases":{"Time":"{Enabled}, Until {Time}"}},"empty":{"Enabled":"On","AssertionType":"Turned Off"}},"is.workflow.actions.properties.files":{"format":"{WFContentItemPropertyName}"},"is.workflow.actions.comment":{"format":"{WFCommentActionText}"},"is.workflow.actions.repeat.count":{"format":"{WFRepeatCount} repetitions"},"is.workflow.actions.file.delete":{"replace":{"WFDeleteFileConfirmDeletion":{"0":"No","1":"Yes"}},"format":"Confirm: {WFDeleteFileConfirmDeletion}","empty":{"WFDeleteFileConfirmDeletion":"Yes"}},"is.workflow.actions.searchitunes":{"format":"\"{WFSearchTerm}\" in {WFAttribute}, category {WFMediaType}, result {WFEntity}"},"is.workflow.actions.addmusictoupnext":{"format":"Play {WFWhenToPlay}"},"is.workflow.actions.file.createfolder":{"format":"Path: \"{WFFilePath}\""},"is.workflow.actions.date":{"format":{"condition":"WFDateActionMode","cases":{"Specified Date":"{WFDateActionDate}"},"default":"{WFDateActionMode}"}},"is.workflow.actions.format.filesize":{"format":"{WFFileSizeFormat}"},"is.workflow.actions.searchappstore":{"format":"{WFSearchTerm}"},"is.workflow.actions.urlencode":{"format":"{WFEncodeMode}"},"is.workflow.actions.encodemedia":{"format":{"condition":"WFMediaAudioOnly","default":{"condition":"WFMediaSpeed","default":"Size {WFMediaSize}, Speed {WFMediaSpeed}","cases":{"Custom":"Size {WFMediaSize}, Speed {WFMediaCustomSpeed}x"}},"cases":{"1":{"condition":"WFMediaAudioFormat","default":"Audio only, Format {WFMediaAudioFormat}","cases":{"M4A":{"condition":"WFMediaSpeed","default":"Audio only, Format M4A, Speed {WFMediaSpeed}","cases":{"Custom":"Audio only, Format M4A, Speed {WFMediaCustomSpeed}x"}},"MP3":"Audio only, Format MP3, Bitrate {WFMediaBitrate} kbit\/s, {WFMediaStereoMode}"}}}}},"is.workflow.actions.image.rotate":{"format":"{WFImageRotateAmount}°"},"is.workflow.actions.base64encode":{"format":{"condition":"WFEncodeMode","default":"Encode, Line Breaks {WFBase64LineBreakMode}","cases":{"Decode":"Decode"}}},"is.workflow.actions.choosefrommenu":{"format":"{WFMenuItemTitle|WFMenuPrompt}"},"is.workflow.actions.properties.reminders":{"format":"{WFContentItemPropertyName}"},"is.workflow.actions.properties.articles":{"format":"{WFContentItemPropertyName}"},"is.workflow.actions.rss":{"format":"{WFRSSFeedURL}"},"is.workflow.actions.adjustdate":{"format":"{WFAdjustOffsetPicker}"},"is.workflow.actions.createplaylist":{"format":"\"{WFPlaylistName}\", from {WFPlaylistAuthor}; {WFPlaylistDescription}"},"is.workflow.actions.makezip":{"format":"{WFZIPName}.{WFArchiveFormat}"}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Text</string>
+						<key>OutputUUID</key>
+						<string>1CA19792-CC3C-40C9-A18A-A31CE5388017</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>action params</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>50449A1F-27B4-4B57-8BD8-B126047C3BA2</string>
+				<key>WFTextActionText</key>
+				<string>/**
+ PlistParser: a JavaScript utility to process Plist XML into JSON
+ @author Todd Gehman (toddgehman@gmail.com)
+ Copyright (c) 2010 Todd Gehman
+
+ --- 
+
+ Usage:
+   var jsonString = PlistParser.parse(xmlString);
+
+ ---
+ 
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+*/
+
+var PlistParser = {};
+
+PlistParser.parse = function(plist_xml){
+  // Special case XML munging if we're running in Appcelerator Titanium
+  try{
+    if (typeof Titanium.XML != 'undefined'){
+      plist_xml = Titanium.XML.parseString(plist_xml);
+    }
+  } catch(e){
+    var parser = new DOMParser();
+		  plist_xml = parser.parseFromString(plist_xml, 'text/xml');
+  }
+    
+  var result = this._xml_to_json(plist_xml.getElementsByTagName('plist').item(0));
+  return result;
+};
+
+PlistParser._xml_to_json = function(xml_node) {
+  var parser = this;
+  var parent_node = xml_node;
+  var parent_node_name = parent_node.nodeName;
+
+  // console.log("Working on parent node: ");
+  // console.log(parent_node);
+
+  var child_nodes = [];
+  for(var i = 0; i &lt; parent_node.childNodes.length; ++i){
+    var child = parent_node.childNodes.item(i);
+    if (child.nodeName != '#text'){
+      child_nodes.push(child);
+    };
+  };
+  
+  switch(parent_node_name){
+
+    case 'plist':
+      if (child_nodes.length &gt; 1){
+        // I'm not actually sure if it is legal to have multiple
+        // top-level nodes just below &lt;plist&gt;. But I originally 
+        // wrote it to handle an array of nodes at that level,
+        // so I'm leaving this handling in for now.
+        var plist_array = [];
+        for(var i = 0; i &lt; child_nodes.length; ++i){
+           plist_array.push(parser._xml_to_json(child_nodes[i]));
+        };
+        // var plist_hash = {};
+        // plist_hash['plist'] = plist_array;
+        // return plist_hash;
+        return plist_array;
+      } else {
+        // THIS is the standard case. The top-most node under
+        // &lt;plist&gt; is either a &lt;dict&gt; or an &lt;array&gt;.
+        return parser._xml_to_json(child_nodes[0]);
+      }
+      break;
+
+    case 'dict':
+
+      var dictionary = {};
+      var key_name;
+      var key_value;
+      for(var i = 0; i &lt; child_nodes.length; ++i){
+        var child = child_nodes[i];
+        if (child.nodeName == '#text'){
+          // ignore empty text children
+        } else if (child.nodeName == 'key'){
+          key_name = PlistParser._textValue(child.firstChild);
+        } else {
+          key_value = parser._xml_to_json(child);
+          dictionary[key_name] = key_value;
+        }
+      }
+
+      return dictionary;
+
+    case 'array':
+
+      var standard_array = [];
+      for(var i = 0; i &lt; child_nodes.length; ++i){
+        var child = child_nodes[i];
+        standard_array.push(parser._xml_to_json(child));
+      }
+      return standard_array;
+
+    case 'string':
+
+      return PlistParser._textValue(parent_node);
+
+    case 'date':
+
+      var date = PlistParser._parseDate(PlistParser._textValue(parent_node));
+      return date.toString();
+
+    case 'integer':
+    
+      // Second argument (radix parameter) forces string to be interpreted in base 10.
+      return parseInt(PlistParser._textValue(parent_node), 10);
+
+    case 'real':
+    
+      return parseFloat(PlistParser._textValue(parent_node));
+
+    case 'data':
+
+      return PlistParser._textValue(parent_node);
+
+    case 'true':
+
+      return true;
+
+    case 'false':
+    
+      return false;
+      
+    
+    case '#text':
+
+      break;
+  };
+};
+
+
+PlistParser._textValue = function(node) {
+  if (node.text){
+    return node.text;
+  } else {
+    return node.textContent;
+  };
+};
+
+// Handle date parsing in non-FF browsers
+// Thanks to http://www.west-wind.com/weblog/posts/729630.aspx
+PlistParser._parseDate = function(date_string){
+  var reISO = /^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2}(?:\.\d*)?)Z$/;
+  var matched_date = reISO.exec(date_string);
+  if (matched_date){ 
+    return new Date(Date.UTC(+matched_date[1], +matched_date[2] - 1, +matched_date[3], +matched_date[4], +matched_date[5], +matched_date[6]));
+  };
+};
+
+
+// Lifted (then modified) from: 
+// http://blog.stchur.com/2007/04/06/serializing-objects-in-javascript/
+PlistParser.serialize = function(_obj) {
+  // Let Gecko browsers do this the easy way
+  try{
+    if (typeof _obj.toSource !== 'undefined' &amp;&amp; typeof _obj.callee === 'undefined') {
+      return _obj.toSource();
+    }
+  } catch(e) {
+    // Keep on truckin'.
+  }
+
+  // Other browsers must do it the hard way
+  switch (typeof _obj)
+  {
+    // numbers, booleans, and functions are trivial:
+    // just return the object itself since its default .toString()
+    // gives us exactly what we want
+    case 'number':
+    case 'boolean':
+    case 'function':
+      return _obj;
+
+    // for JSON format, strings need to be wrapped in quotes
+    case 'string':
+      return '\'' + _obj + '\'';
+
+    case 'object':
+      var str;
+      if (_obj.constructor === Array || typeof _obj.callee !== 'undefined')
+      {
+        str = '[';
+        var i, len = _obj.length;
+        for (i = 0; i &lt; len-1; i++) { str += PlistParser.serialize(_obj[i]) + ','; }
+        str += PlistParser.serialize(_obj[i]) + ']';
+      }
+      else
+      {
+        str = '{';
+        var key;
+        for (key in _obj) { 
+          // "The body of a for in should be wrapped in an if statement to filter unwanted properties from the prototype."
+          if (_obj.hasOwnProperty(key)) {
+            str += key + ':' + PlistParser.serialize(_obj[key]) + ','; 
+          };
+        };
+        str = str.replace(/\,$/, '') + '}';
+      }
+      return str;
+
+    default:
+      return 'UNKNOWN';
+  };
+};
+
+PlistParser.toPlist = function(obj){
+  var xml = '&lt;?xml version="1.0" encoding="UTF-8"?&gt;';
+  xml += '&lt;!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;';
+
+  var container = document.createElement('xml');
+  var plist = document.createElement('plist');
+  plist.setAttribute('version','1.0');
+  container.appendChild(plist);
+  
+  var root = document.createElement('dict');
+  plist.appendChild(root);
+
+  var getISOString = function(date){
+    function pad(n) { return n &lt; 10 ? '0' + n : n }
+    return date.getUTCFullYear() + '-'
+      + pad(date.getUTCMonth() + 1) + '-'
+      + pad(date.getUTCDate()) + 'T'
+      + pad(date.getUTCHours()) + ':'
+      + pad(date.getUTCMinutes()) + ':'
+      + pad(date.getUTCSeconds()) + 'Z';
+  }
+
+  var walkObj = function(target, obj, callback){
+    for(var i in obj){
+      callback(target, i, obj[i]);
+    }
+  }
+
+  var processObject = function(target, name, value){
+    var key = document.createElement('key');
+    key.innerHTML = name;
+    target.appendChild(key);
+    if(typeof value == 'object'){
+      if(value instanceof Date){
+        var date = document.createElement('date');
+        date.innerHTML = getISOString(value);
+        target.appendChild(date);
+      }else{
+        var dict = document.createElement('dict');
+        walkObj(dict, value, processObject)
+        target.appendChild(dict);
+      }
+    }else if(typeof value == 'boolean'){
+      var bool = document.createElement(value.toString());
+      target.appendChild(bool);
+    }else{
+      var string = document.createElement('string');
+      string.innerHTML = value;
+      target.appendChild(string);
+    }
+  };
+  walkObj(root, obj, processObject);
+
+  return xml+container.innerHTML;
+};
+</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>50449A1F-27B4-4B57-8BD8-B126047C3BA2</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>plistparser</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>0AE0E044-7F10-4990-9055-B2EB9CC10415</string>
+				<key>WFTextActionText</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{202, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>plistparser</string>
+							</dict>
+							<key>{216, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>sc</string>
+							</dict>
+							<key>{248, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>action names</string>
+							</dict>
+							<key>{273, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>action params</string>
+							</dict>
+							<key>{303, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>variable opening char</string>
+							</dict>
+							<key>{330, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>variable closing char</string>
+							</dict>
+							<key>{353, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>Device Details</string>
+								<key>OutputUUID</key>
+								<string>531FE85B-4F2C-43C7-9C4C-FD16BB6BE777</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+							<key>{357, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>script</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;meta name="viewport" content="initial-scale=1, width=device-width"&gt;
+&lt;style&gt;
+body {
+font-family: monospace;
+white-space: pre;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;script&gt;
+￼
+var wflow = ￼;
+var actionNamesTranslation = ￼;
+var allActionParams = ￼;
+var variableOpeningChar = "￼", variableClosingChar = "￼";
+var deviceModel = "￼";
+￼
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setitemname</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>89D372F5-1394-49B2-A5B6-72C024D339B8</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Text</string>
+						<key>OutputUUID</key>
+						<string>0AE0E044-7F10-4990-9055-B2EB9CC10415</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFName</key>
+				<string>t.html</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.base64encode</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>D2E3D207-EB9A-480C-A5B0-85DDAEFEBC06</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Renamed Item</string>
+						<key>OutputUUID</key>
+						<string>89D372F5-1394-49B2-A5B6-72C024D339B8</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.url</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>3AF428F8-65CC-4CA6-B6AF-2164FF3DF9AD</string>
+				<key>WFURLActionURL</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{22, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>Base64 Encoded</string>
+								<key>OutputUUID</key>
+								<string>D2E3D207-EB9A-480C-A5B0-85DDAEFEBC06</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>data:text/html;base64,￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getwebpagecontents</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>18258DBF-45EA-4DEB-B04A-EB45BAFA45A4</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>URL</string>
+								<key>OutputUUID</key>
+								<string>3AF428F8-65CC-4CA6-B6AF-2164FF3DF9AD</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.detect.text</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>6C645714-3113-4C4A-BF8B-89F090126A77</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Contents of Web Page</string>
+						<key>OutputUUID</key>
+						<string>18258DBF-45EA-4DEB-B04A-EB45BAFA45A4</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.detect.dictionary</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>B60460AE-3F58-4815-BCB6-DAD3A7A856BA</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Text</string>
+						<key>OutputUUID</key>
+						<string>6C645714-3113-4C4A-BF8B-89F090126A77</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.previewdocument</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>词典</string>
+						<key>OutputUUID</key>
+						<string>B60460AE-3F58-4815-BCB6-DAD3A7A856BA</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+	<key>WFWorkflowClientRelease</key>
+	<string>3.0</string>
+	<key>WFWorkflowClientVersion</key>
+	<string>1050.22</string>
+	<key>WFWorkflowIcon</key>
+	<dict>
+		<key>WFWorkflowIconGlyphNumber</key>
+		<integer>59722</integer>
+		<key>WFWorkflowIconStartColor</key>
+		<integer>4274264319</integer>
+	</dict>
+	<key>WFWorkflowImportQuestions</key>
+	<array/>
+	<key>WFWorkflowInputContentItemClasses</key>
+	<array>
+		<string>WFAppStoreAppContentItem</string>
+		<string>WFArticleContentItem</string>
+		<string>WFContactContentItem</string>
+		<string>WFDateContentItem</string>
+		<string>WFEmailAddressContentItem</string>
+		<string>WFGenericFileContentItem</string>
+		<string>WFImageContentItem</string>
+		<string>WFiTunesProductContentItem</string>
+		<string>WFLocationContentItem</string>
+		<string>WFDCMapsLinkContentItem</string>
+		<string>WFAVAssetContentItem</string>
+		<string>WFPDFContentItem</string>
+		<string>WFPhoneNumberContentItem</string>
+		<string>WFRichTextContentItem</string>
+		<string>WFSafariWebPageContentItem</string>
+		<string>WFStringContentItem</string>
+		<string>WFURLContentItem</string>
+	</array>
+	<key>WFWorkflowMinimumClientVersion</key>
+	<integer>900</integer>
+	<key>WFWorkflowMinimumClientVersionString</key>
+	<string>900</string>
+	<key>WFWorkflowTypes</key>
+	<array>
+		<string>WatchKit</string>
+	</array>
+</dict>
+</plist>
