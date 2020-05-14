@@ -2313,7 +2313,7 @@ document.body.innerHTML = [document.body.innerHTML,arg].join(" ");}￼&lt;/scrip
 		<key>WFWorkflowIconGlyphNumber</key>
 		<integer>59730</integer>
 		<key>WFWorkflowIconStartColor</key>
-		<integer>2071128575</integer>
+		<integer>3679049983</integer>
 	</dict>
 	<key>WFWorkflowImportQuestions</key>
 	<array/>
