@@ -1,160 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>WFWorkflowActions</key>
-	<array>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.comment</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFCommentActionText</key>
-				<string>原创作者：hi94740
-更新时间：2019-12-07 17点55分
-建议意见：https://jiejinghe.com/shortcuts/6787213307</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>com.jiejinghe.luke.ShortcutUpdateCheckIntent</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>543FDC4B-777F-4323-BA0A-12EF679482B0</string>
-				<key>versionInfo</key>
-				<string>id:6787213307,v:1</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.getdevicedetails</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>6E46DC16-1C64-4416-9604-45A62CDF3332</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.runsshscript</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFSSHAuthenticationType</key>
-				<string>Password</string>
-				<key>WFSSHScript</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>attachmentsByRange</key>
-						<dict>
-							<key>{302, 1}</key>
-							<dict>
-								<key>OutputName</key>
-								<string>设备名称</string>
-								<key>OutputUUID</key>
-								<string>6E46DC16-1C64-4416-9604-45A62CDF3332</string>
-								<key>Type</key>
-								<string>ActionOutput</string>
-							</dict>
-						</dict>
-						<key>string</key>
-						<string>osascript -e 'tell application "System Preferences"	quitend telltell application "System Preferences"	activateend telltell application "System Events"	tell process "System Preferences"		tell menu bar 1
-			tell menu bar item 5				tell menu 1					click (every menu item whose name contains "￼")				end tell			end tell		end tell	end tellend telltell application "System Preferences"	quitend tell'</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenString</string>
-				</dict>
-			</dict>
-		</dict>
-	</array>
-	<key>WFWorkflowClientRelease</key>
-	<string>3.0</string>
-	<key>WFWorkflowClientVersion</key>
-	<string>1050.22</string>
-	<key>WFWorkflowIcon</key>
-	<dict>
-		<key>WFWorkflowIconGlyphNumber</key>
-		<integer>59851</integer>
-		<key>WFWorkflowIconStartColor</key>
-		<integer>946986751</integer>
-	</dict>
-	<key>WFWorkflowImportQuestions</key>
-	<array>
-		<dict>
-			<key>ActionIndex</key>
-			<integer>26</integer>
-			<key>Category</key>
-			<string>Parameter</string>
-			<key>ParameterKey</key>
-			<string>WFSSHHost</string>
-			<key>Text</key>
-			<string>使用前请确保：
-1. 已在Mac上开启ssh服务（开启方法：【系统偏好设置】-【共享】-  勾选【☑️远程登录】）
-2. Mac处于唤醒状态
-3. Mac与iPad处于同一网络
-
-请在Mac上打开：【系统偏好设置】-【网络】查看IP地址
-⬇️输入Mac的IP地址⬇️</string>
-		</dict>
-		<dict>
-			<key>ActionIndex</key>
-			<integer>26</integer>
-			<key>Category</key>
-			<string>Parameter</string>
-			<key>ParameterKey</key>
-			<string>WFSSHUser</string>
-			<key>Text</key>
-			<string>使用前请确保在Mac上能连接至iPad
-如果有多个iPad可与Mac连接，请确保每个iPad名称不同
-iPad设备名称的更改：请在iPad上打开【设置】-【通用】-【关于本机】-【名称】
-
-⬇️输入Mac的用户名⬇️</string>
-		</dict>
-		<dict>
-			<key>ActionIndex</key>
-			<integer>26</integer>
-			<key>Category</key>
-			<string>Parameter</string>
-			<key>ParameterKey</key>
-			<string>WFSSHPassword</string>
-			<key>Text</key>
-			<string>完成设置后请先运行一次
-Mac上会弹出要求辅助功能等权限的提示
-请根据提示给予相应的权限
-全部授权完成后再次运行方可正常使用
-
-⬇️输入Mac用户名对应的密码⬇️</string>
-		</dict>
-	</array>
-	<key>WFWorkflowInputContentItemClasses</key>
-	<array>
-		<string>WFAppStoreAppContentItem</string>
-		<string>WFArticleContentItem</string>
-		<string>WFContactContentItem</string>
-		<string>WFDateContentItem</string>
-		<string>WFEmailAddressContentItem</string>
-		<string>WFGenericFileContentItem</string>
-		<string>WFImageContentItem</string>
-		<string>WFiTunesProductContentItem</string>
-		<string>WFLocationContentItem</string>
-		<string>WFDCMapsLinkContentItem</string>
-		<string>WFAVAssetContentItem</string>
-		<string>WFPDFContentItem</string>
-		<string>WFPhoneNumberContentItem</string>
-		<string>WFRichTextContentItem</string>
-		<string>WFSafariWebPageContentItem</string>
-		<string>WFStringContentItem</string>
-		<string>WFURLContentItem</string>
-	</array>
-	<key>WFWorkflowMinimumClientVersion</key>
-	<integer>900</integer>
-	<key>WFWorkflowMinimumClientVersionString</key>
-	<string>900</string>
-	<key>WFWorkflowTypes</key>
-	<array>
-		<string>NCWidget</string>
-		<string>WatchKit</string>
-	</array>
-</dict>
-</plist>

@@ -1,4263 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>WFWorkflowActions</key>
-	<array>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.comment</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFCommentActionText</key>
-				<string>作者：无良的北极
-来源：捷径盒 © 版权归作者所有
-发布时间：2020-05-09 20:03
-作品网址：https://jiejinghe.com/shortcuts/5815877784</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>com.jiejinghe.luke.ShortcutUpdateCheckIntent</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>versionInfo</key>
-				<string>id:5815877784,v:28</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.documentpicker.open</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>59923D32-59B4-4F79-B5EE-C3948C9998D0</string>
-				<key>WFFileErrorIfNotFound</key>
-				<false/>
-				<key>WFGetFilePath</key>
-				<string>mydays/days.txt</string>
-				<key>WFShowFilePicker</key>
-				<false/>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.conditional</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>F1285CDB-948D-4607-9182-09B827753BFF</string>
-				<key>WFCondition</key>
-				<integer>100</integer>
-				<key>WFControlFlowMode</key>
-				<integer>0</integer>
-				<key>WFInput</key>
-				<dict>
-					<key>Type</key>
-					<string>Variable</string>
-					<key>Variable</key>
-					<dict>
-						<key>Value</key>
-						<dict>
-							<key>OutputName</key>
-							<string>文件</string>
-							<key>OutputUUID</key>
-							<string>59923D32-59B4-4F79-B5EE-C3948C9998D0</string>
-							<key>Type</key>
-							<string>ActionOutput</string>
-						</dict>
-						<key>WFSerializationType</key>
-						<string>WFTextTokenAttachment</string>
-					</dict>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.text.split</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>733566AD-35C6-47A8-AA3B-F29A49CBB51F</string>
-				<key>WFTextCustomSeparator</key>
-				<string>;</string>
-				<key>WFTextSeparator</key>
-				<string>New Lines</string>
-				<key>text</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>Aggrandizements</key>
-						<array>
-							<dict>
-								<key>CoercionItemClass</key>
-								<string>WFStringContentItem</string>
-								<key>Type</key>
-								<string>WFCoercionVariableAggrandizement</string>
-							</dict>
-						</array>
-						<key>OutputName</key>
-						<string>文件</string>
-						<key>OutputUUID</key>
-						<string>59923D32-59B4-4F79-B5EE-C3948C9998D0</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.setvariable</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>拆分文本</string>
-						<key>OutputUUID</key>
-						<string>733566AD-35C6-47A8-AA3B-F29A49CBB51F</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>WFVariableName</key>
-				<string>全部日子列表</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.conditional</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>F1285CDB-948D-4607-9182-09B827753BFF</string>
-				<key>WFControlFlowMode</key>
-				<integer>1</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.file.createfolder</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFFilePath</key>
-				<string>mydays</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.gettext</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>DA602522-29E5-46C5-B90D-615340290489</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.documentpicker.save</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>B176ED6F-016A-4BE9-B833-F789042F7700</string>
-				<key>WFAskWhereToSave</key>
-				<false/>
-				<key>WFFileDestinationPath</key>
-				<string>mydays/days.txt</string>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>文本</string>
-						<key>OutputUUID</key>
-						<string>DA602522-29E5-46C5-B90D-615340290489</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>WFSaveFileOverwrite</key>
-				<true/>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.conditional</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>F1285CDB-948D-4607-9182-09B827753BFF</string>
-				<key>UUID</key>
-				<string>DA28EB36-740A-4959-830E-5644D7E64D33</string>
-				<key>WFControlFlowMode</key>
-				<integer>2</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.documentpicker.open</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>F6262042-2B0F-4900-B9D4-8FCF1ADE42B0</string>
-				<key>WFFileErrorIfNotFound</key>
-				<false/>
-				<key>WFGetFilePath</key>
-				<string>mydays/config2.txt</string>
-				<key>WFShowFilePicker</key>
-				<false/>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.gettext</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>E49DD3C0-2B7D-41F1-9717-699C71FDE002</string>
-				<key>WFTextActionText</key>
-				<string>[0,10,30,60,100,365,500,1000]
-backgroundColor
-["#00838F","#00695C","#2E7D32","#558B2F","#9E9D24","#F9A825","#FF8F00","#EF6C00"]</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.conditional</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>34F1473C-30A3-404F-A64E-587A99DB0850</string>
-				<key>WFCondition</key>
-				<integer>101</integer>
-				<key>WFControlFlowMode</key>
-				<integer>0</integer>
-				<key>WFInput</key>
-				<dict>
-					<key>Type</key>
-					<string>Variable</string>
-					<key>Variable</key>
-					<dict>
-						<key>Value</key>
-						<dict>
-							<key>OutputName</key>
-							<string>文件</string>
-							<key>OutputUUID</key>
-							<string>F6262042-2B0F-4900-B9D4-8FCF1ADE42B0</string>
-							<key>Type</key>
-							<string>ActionOutput</string>
-						</dict>
-						<key>WFSerializationType</key>
-						<string>WFTextTokenAttachment</string>
-					</dict>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.documentpicker.save</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>D56CACF3-EF4B-4C99-A56C-266A0B57135A</string>
-				<key>WFAskWhereToSave</key>
-				<false/>
-				<key>WFFileDestinationPath</key>
-				<string>mydays/config2.txt</string>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>文本</string>
-						<key>OutputUUID</key>
-						<string>E49DD3C0-2B7D-41F1-9717-699C71FDE002</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>WFSaveFileOverwrite</key>
-				<true/>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.setvariable</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>Aggrandizements</key>
-						<array>
-							<dict>
-								<key>CoercionItemClass</key>
-								<string>WFStringContentItem</string>
-								<key>Type</key>
-								<string>WFCoercionVariableAggrandizement</string>
-							</dict>
-						</array>
-						<key>OutputName</key>
-						<string>已存储的文件</string>
-						<key>OutputUUID</key>
-						<string>D56CACF3-EF4B-4C99-A56C-266A0B57135A</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>WFVariableName</key>
-				<string>config2</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.conditional</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>34F1473C-30A3-404F-A64E-587A99DB0850</string>
-				<key>WFControlFlowMode</key>
-				<integer>1</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.setvariable</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>Aggrandizements</key>
-						<array>
-							<dict>
-								<key>CoercionItemClass</key>
-								<string>WFStringContentItem</string>
-								<key>Type</key>
-								<string>WFCoercionVariableAggrandizement</string>
-							</dict>
-						</array>
-						<key>OutputName</key>
-						<string>文件</string>
-						<key>OutputUUID</key>
-						<string>F6262042-2B0F-4900-B9D4-8FCF1ADE42B0</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>WFVariableName</key>
-				<string>config2</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.conditional</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>34F1473C-30A3-404F-A64E-587A99DB0850</string>
-				<key>UUID</key>
-				<string>3C1E6A54-2A35-4764-B089-45ABC5F53546</string>
-				<key>WFControlFlowMode</key>
-				<integer>2</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.text.split</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>88D3649F-3792-4B97-AA92-5A2FAE5EB1D2</string>
-				<key>text</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>Type</key>
-						<string>Variable</string>
-						<key>VariableName</key>
-						<string>config2</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.getitemfromlist</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>0679C732-1FD1-4C36-83E9-5AF5EC229631</string>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>拆分文本</string>
-						<key>OutputUUID</key>
-						<string>88D3649F-3792-4B97-AA92-5A2FAE5EB1D2</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>WFItemRangeEnd</key>
-				<string>3</string>
-				<key>WFItemRangeStart</key>
-				<string>1</string>
-				<key>WFItemSpecifier</key>
-				<string>First Item</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.setvariable</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>来自列表的项目</string>
-						<key>OutputUUID</key>
-						<string>0679C732-1FD1-4C36-83E9-5AF5EC229631</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>WFVariableName</key>
-				<string>level</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.getitemfromlist</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>ED0835B3-4894-42C5-AC3A-8D763D50959D</string>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>拆分文本</string>
-						<key>OutputUUID</key>
-						<string>88D3649F-3792-4B97-AA92-5A2FAE5EB1D2</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>WFItemIndex</key>
-				<string>2</string>
-				<key>WFItemSpecifier</key>
-				<string>Item At Index</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.setvariable</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>来自列表的项目</string>
-						<key>OutputUUID</key>
-						<string>ED0835B3-4894-42C5-AC3A-8D763D50959D</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>WFVariableName</key>
-				<string>style</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.getitemfromlist</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>45313842-D2F9-4476-96DF-24826477E647</string>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>拆分文本</string>
-						<key>OutputUUID</key>
-						<string>88D3649F-3792-4B97-AA92-5A2FAE5EB1D2</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>WFItemIndex</key>
-				<string>3</string>
-				<key>WFItemSpecifier</key>
-				<string>Item At Index</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.setvariable</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>来自列表的项目</string>
-						<key>OutputUUID</key>
-						<string>45313842-D2F9-4476-96DF-24826477E647</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>WFVariableName</key>
-				<string>colors</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.number</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>102ECE1B-3411-4E21-85C5-ECD7448EE98B</string>
-				<key>WFNumberActionNumber</key>
-				<string>1</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.documentpicker.open</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>5FC1F939-1C3A-4D74-8252-C8DA78E35481</string>
-				<key>WFFileErrorIfNotFound</key>
-				<false/>
-				<key>WFGetFilePath</key>
-				<string>mydays/cals.txt</string>
-				<key>WFShowFilePicker</key>
-				<false/>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.conditional</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>234BF46C-D3B5-42F9-BCCA-5E7CA9859EB0</string>
-				<key>WFCondition</key>
-				<integer>101</integer>
-				<key>WFControlFlowMode</key>
-				<integer>0</integer>
-				<key>WFInput</key>
-				<dict>
-					<key>Type</key>
-					<string>Variable</string>
-					<key>Variable</key>
-					<dict>
-						<key>Value</key>
-						<dict>
-							<key>OutputName</key>
-							<string>文件</string>
-							<key>OutputUUID</key>
-							<string>5FC1F939-1C3A-4D74-8252-C8DA78E35481</string>
-							<key>Type</key>
-							<string>ActionOutput</string>
-						</dict>
-						<key>WFSerializationType</key>
-						<string>WFTextTokenAttachment</string>
-					</dict>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.setvariable</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>数字</string>
-						<key>OutputUUID</key>
-						<string>102ECE1B-3411-4E21-85C5-ECD7448EE98B</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>WFVariableName</key>
-				<string>bool</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.conditional</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>234BF46C-D3B5-42F9-BCCA-5E7CA9859EB0</string>
-				<key>WFControlFlowMode</key>
-				<integer>1</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.text.split</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>B7F5B692-B4B2-4323-9EF1-F615B67EA5E9</string>
-				<key>WFTextCustomSeparator</key>
-				<string>;</string>
-				<key>WFTextSeparator</key>
-				<string>New Lines</string>
-				<key>text</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>Aggrandizements</key>
-						<array>
-							<dict>
-								<key>CoercionItemClass</key>
-								<string>WFStringContentItem</string>
-								<key>Type</key>
-								<string>WFCoercionVariableAggrandizement</string>
-							</dict>
-						</array>
-						<key>OutputName</key>
-						<string>文件</string>
-						<key>OutputUUID</key>
-						<string>5FC1F939-1C3A-4D74-8252-C8DA78E35481</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.getitemfromlist</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>D16C0A78-F694-4E6B-9587-76C7E53937E2</string>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>拆分文本</string>
-						<key>OutputUUID</key>
-						<string>B7F5B692-B4B2-4323-9EF1-F615B67EA5E9</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>WFItemSpecifier</key>
-				<string>Last Item</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.text.split</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>A5777991-7305-4136-8D03-FB81402D0A01</string>
-				<key>WFTextCustomSeparator</key>
-				<string>;</string>
-				<key>WFTextSeparator</key>
-				<string>Custom</string>
-				<key>text</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>来自列表的项目</string>
-						<key>OutputUUID</key>
-						<string>D16C0A78-F694-4E6B-9587-76C7E53937E2</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.getitemfromlist</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>8541A682-AAC6-4F2B-B97D-69431A7EB0D0</string>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>拆分文本</string>
-						<key>OutputUUID</key>
-						<string>A5777991-7305-4136-8D03-FB81402D0A01</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>WFItemSpecifier</key>
-				<string>Last Item</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.text.split</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>6BF6CA69-73C6-473B-AFDD-38758281730C</string>
-				<key>WFTextCustomSeparator</key>
-				<string>/</string>
-				<key>WFTextSeparator</key>
-				<string>Custom</string>
-				<key>text</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>来自列表的项目</string>
-						<key>OutputUUID</key>
-						<string>8541A682-AAC6-4F2B-B97D-69431A7EB0D0</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.getitemfromlist</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>BCCDC87D-0261-4C40-881E-D575352EA1DB</string>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>拆分文本</string>
-						<key>OutputUUID</key>
-						<string>6BF6CA69-73C6-473B-AFDD-38758281730C</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>WFItemIndex</key>
-				<string>2</string>
-				<key>WFItemSpecifier</key>
-				<string>Item At Index</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.detect.date</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>2D32E422-ED2B-4998-B284-B599DECE886B</string>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>来自列表的项目</string>
-						<key>OutputUUID</key>
-						<string>BCCDC87D-0261-4C40-881E-D575352EA1DB</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.gettimebetweendates</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>0DC2EE51-D6E9-4B7D-97D5-73AF2FFB980C</string>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>attachmentsByRange</key>
-						<dict>
-							<key>{0, 1}</key>
-							<dict>
-								<key>OutputName</key>
-								<string>日期</string>
-								<key>OutputUUID</key>
-								<string>2D32E422-ED2B-4998-B284-B599DECE886B</string>
-								<key>Type</key>
-								<string>ActionOutput</string>
-							</dict>
-						</dict>
-						<key>string</key>
-						<string>￼</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenString</string>
-				</dict>
-				<key>WFTimeUntilFromDate</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>attachmentsByRange</key>
-						<dict>
-							<key>{0, 1}</key>
-							<dict>
-								<key>Type</key>
-								<string>CurrentDate</string>
-							</dict>
-						</dict>
-						<key>string</key>
-						<string>￼</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenString</string>
-				</dict>
-				<key>WFTimeUntilUnit</key>
-				<string>Days</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.conditional</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>3CEB8005-2DC2-4E7F-81CC-B305B36A1064</string>
-				<key>WFCondition</key>
-				<integer>0</integer>
-				<key>WFControlFlowMode</key>
-				<integer>0</integer>
-				<key>WFInput</key>
-				<dict>
-					<key>Type</key>
-					<string>Variable</string>
-					<key>Variable</key>
-					<dict>
-						<key>Value</key>
-						<dict>
-							<key>OutputName</key>
-							<string>日期之间的时长</string>
-							<key>OutputUUID</key>
-							<string>0DC2EE51-D6E9-4B7D-97D5-73AF2FFB980C</string>
-							<key>Type</key>
-							<string>ActionOutput</string>
-						</dict>
-						<key>WFSerializationType</key>
-						<string>WFTextTokenAttachment</string>
-					</dict>
-				</dict>
-				<key>WFNumberValue</key>
-				<string>0</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.setvariable</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>数字</string>
-						<key>OutputUUID</key>
-						<string>102ECE1B-3411-4E21-85C5-ECD7448EE98B</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>WFVariableName</key>
-				<string>bool</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.conditional</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>3CEB8005-2DC2-4E7F-81CC-B305B36A1064</string>
-				<key>WFControlFlowMode</key>
-				<integer>1</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.getitemfromlist</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>42F26BE8-6EDA-4013-9C96-7A9912FA120D</string>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>拆分文本</string>
-						<key>OutputUUID</key>
-						<string>B7F5B692-B4B2-4323-9EF1-F615B67EA5E9</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.setvariable</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>来自列表的项目</string>
-						<key>OutputUUID</key>
-						<string>42F26BE8-6EDA-4013-9C96-7A9912FA120D</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>WFVariableName</key>
-				<string>num</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.getitemfromlist</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>9D10266D-9ECA-46D4-8365-921D9C84275A</string>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>拆分文本</string>
-						<key>OutputUUID</key>
-						<string>B7F5B692-B4B2-4323-9EF1-F615B67EA5E9</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>WFItemSpecifier</key>
-				<string>Last Item</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.setvariable</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>来自列表的项目</string>
-						<key>OutputUUID</key>
-						<string>9D10266D-9ECA-46D4-8365-921D9C84275A</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>WFVariableName</key>
-				<string>全部日程</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.conditional</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>3CEB8005-2DC2-4E7F-81CC-B305B36A1064</string>
-				<key>WFControlFlowMode</key>
-				<integer>2</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.conditional</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>234BF46C-D3B5-42F9-BCCA-5E7CA9859EB0</string>
-				<key>UUID</key>
-				<string>943DD805-F61D-4A6E-8338-FF3804CACCCE</string>
-				<key>WFControlFlowMode</key>
-				<integer>2</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.conditional</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>08915EA4-F7F6-4DD9-80D5-C858160F9686</string>
-				<key>WFCondition</key>
-				<integer>100</integer>
-				<key>WFControlFlowMode</key>
-				<integer>0</integer>
-				<key>WFInput</key>
-				<dict>
-					<key>Type</key>
-					<string>Variable</string>
-					<key>Variable</key>
-					<dict>
-						<key>Value</key>
-						<dict>
-							<key>Type</key>
-							<string>Variable</string>
-							<key>VariableName</key>
-							<string>bool</string>
-						</dict>
-						<key>WFSerializationType</key>
-						<string>WFTextTokenAttachment</string>
-					</dict>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.getupcomingevents</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>1E860734-DE8B-409A-9F61-2625D08063DC</string>
-				<key>WFGetUpcomingItemCount</key>
-				<real>50</real>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.repeat.each</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>60BC92E8-95B5-4BAE-8F00-EB317DE680F0</string>
-				<key>WFControlFlowMode</key>
-				<integer>0</integer>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>临近日程</string>
-						<key>OutputUUID</key>
-						<string>1E860734-DE8B-409A-9F61-2625D08063DC</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.properties.calendarevents</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>1C2FEF79-9E9F-4617-B497-F278D17021F9</string>
-				<key>WFContentItemPropertyName</key>
-				<string>Title</string>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>Type</key>
-						<string>Variable</string>
-						<key>VariableName</key>
-						<string>Repeat Item</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.properties.calendarevents</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>8B654514-1C4F-4A02-AD62-49696F122818</string>
-				<key>WFContentItemPropertyName</key>
-				<string>Start Date</string>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>Type</key>
-						<string>Variable</string>
-						<key>VariableName</key>
-						<string>Repeat Item</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.gettimebetweendates</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>4B43696B-D4F0-4898-AD27-AC316DBE0D09</string>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>attachmentsByRange</key>
-						<dict>
-							<key>{0, 1}</key>
-							<dict>
-								<key>OutputName</key>
-								<string>开始日期</string>
-								<key>OutputUUID</key>
-								<string>8B654514-1C4F-4A02-AD62-49696F122818</string>
-								<key>Type</key>
-								<string>ActionOutput</string>
-							</dict>
-						</dict>
-						<key>string</key>
-						<string>￼</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenString</string>
-				</dict>
-				<key>WFTimeUntilFromDate</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>attachmentsByRange</key>
-						<dict>
-							<key>{0, 1}</key>
-							<dict>
-								<key>Type</key>
-								<string>CurrentDate</string>
-							</dict>
-						</dict>
-						<key>string</key>
-						<string>￼</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenString</string>
-				</dict>
-				<key>WFTimeUntilUnit</key>
-				<string>Days</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.gettext</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>A482E294-E58D-4168-8F5F-E31537151D0A</string>
-				<key>WFTextActionText</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>attachmentsByRange</key>
-						<dict>
-							<key>{0, 1}</key>
-							<dict>
-								<key>OutputName</key>
-								<string>标题</string>
-								<key>OutputUUID</key>
-								<string>1C2FEF79-9E9F-4617-B497-F278D17021F9</string>
-								<key>Type</key>
-								<string>ActionOutput</string>
-							</dict>
-							<key>{2, 1}</key>
-							<dict>
-								<key>Aggrandizements</key>
-								<array>
-									<dict>
-										<key>Type</key>
-										<string>WFDateFormatVariableAggrandizement</string>
-										<key>WFDateFormat</key>
-										<string>yyyy年MM月dd日 HH:mm:ss</string>
-										<key>WFDateFormatStyle</key>
-										<string>Custom</string>
-										<key>WFISO8601IncludeTime</key>
-										<false/>
-									</dict>
-								</array>
-								<key>OutputName</key>
-								<string>开始日期</string>
-								<key>OutputUUID</key>
-								<string>8B654514-1C4F-4A02-AD62-49696F122818</string>
-								<key>Type</key>
-								<string>ActionOutput</string>
-							</dict>
-						</dict>
-						<key>string</key>
-						<string>￼/￼</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenString</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.appendvariable</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>文本</string>
-						<key>OutputUUID</key>
-						<string>A482E294-E58D-4168-8F5F-E31537151D0A</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>WFVariableName</key>
-				<string>日程</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.repeat.each</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>60BC92E8-95B5-4BAE-8F00-EB317DE680F0</string>
-				<key>UUID</key>
-				<string>C8B81F40-A0F2-4C6F-AC5F-38A0FC16613B</string>
-				<key>WFControlFlowMode</key>
-				<integer>2</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.gettext</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>C5B900EE-CC99-4923-A767-E0F1404313D1</string>
-				<key>WFTextActionText</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>attachmentsByRange</key>
-						<dict>
-							<key>{0, 1}</key>
-							<dict>
-								<key>Type</key>
-								<string>Variable</string>
-								<key>VariableName</key>
-								<string>日程</string>
-							</dict>
-						</dict>
-						<key>string</key>
-						<string>￼</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenString</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.text.replace</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>8524DE5A-7E92-4C0E-9754-9DBAD17C95FA</string>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>attachmentsByRange</key>
-						<dict>
-							<key>{0, 1}</key>
-							<dict>
-								<key>OutputName</key>
-								<string>文本</string>
-								<key>OutputUUID</key>
-								<string>C5B900EE-CC99-4923-A767-E0F1404313D1</string>
-								<key>Type</key>
-								<string>ActionOutput</string>
-							</dict>
-						</dict>
-						<key>string</key>
-						<string>￼</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenString</string>
-				</dict>
-				<key>WFReplaceTextFind</key>
-				<string>\n</string>
-				<key>WFReplaceTextRegularExpression</key>
-				<true/>
-				<key>WFReplaceTextReplace</key>
-				<string>;</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.number</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>A13404F2-D7F2-4976-906E-83B52B87C8DA</string>
-				<key>WFNumberActionNumber</key>
-				<string>2</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.gettext</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>EFDDC454-2631-4E3E-95E6-603C169D91A4</string>
-				<key>WFTextActionText</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>attachmentsByRange</key>
-						<dict>
-							<key>{0, 1}</key>
-							<dict>
-								<key>OutputName</key>
-								<string>数字</string>
-								<key>OutputUUID</key>
-								<string>A13404F2-D7F2-4976-906E-83B52B87C8DA</string>
-								<key>Type</key>
-								<string>ActionOutput</string>
-							</dict>
-							<key>{2, 1}</key>
-							<dict>
-								<key>OutputName</key>
-								<string>更新后的文本</string>
-								<key>OutputUUID</key>
-								<string>8524DE5A-7E92-4C0E-9754-9DBAD17C95FA</string>
-								<key>Type</key>
-								<string>ActionOutput</string>
-							</dict>
-						</dict>
-						<key>string</key>
-						<string>￼
-￼</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenString</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.documentpicker.save</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>B90DDC39-3AEA-4F3E-80EA-210B12D49A89</string>
-				<key>WFAskWhereToSave</key>
-				<false/>
-				<key>WFFileDestinationPath</key>
-				<string>mydays/cals.txt</string>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>文本</string>
-						<key>OutputUUID</key>
-						<string>EFDDC454-2631-4E3E-95E6-603C169D91A4</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>WFSaveFileOverwrite</key>
-				<true/>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.setvariable</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>更新后的文本</string>
-						<key>OutputUUID</key>
-						<string>8524DE5A-7E92-4C0E-9754-9DBAD17C95FA</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>WFVariableName</key>
-				<string>全部日程</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.setvariable</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>数字</string>
-						<key>OutputUUID</key>
-						<string>A13404F2-D7F2-4976-906E-83B52B87C8DA</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>WFVariableName</key>
-				<string>num</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.conditional</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>08915EA4-F7F6-4DD9-80D5-C858160F9686</string>
-				<key>UUID</key>
-				<string>8CD5C508-7C20-484B-839A-CFB674EC6DA2</string>
-				<key>WFControlFlowMode</key>
-				<integer>2</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.text.replace</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>FC39A720-47F8-479F-A27D-03DCE9DDFD27</string>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>attachmentsByRange</key>
-						<dict>
-							<key>{0, 1}</key>
-							<dict>
-								<key>Aggrandizements</key>
-								<array>
-									<dict>
-										<key>CoercionItemClass</key>
-										<string>WFStringContentItem</string>
-										<key>Type</key>
-										<string>WFCoercionVariableAggrandizement</string>
-									</dict>
-								</array>
-								<key>OutputName</key>
-								<string>文件</string>
-								<key>OutputUUID</key>
-								<string>59923D32-59B4-4F79-B5EE-C3948C9998D0</string>
-								<key>Type</key>
-								<string>ActionOutput</string>
-							</dict>
-						</dict>
-						<key>string</key>
-						<string>￼</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenString</string>
-				</dict>
-				<key>WFReplaceTextFind</key>
-				<string>\n</string>
-				<key>WFReplaceTextRegularExpression</key>
-				<true/>
-				<key>WFReplaceTextReplace</key>
-				<string>;</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.setvariable</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>更新后的文本</string>
-						<key>OutputUUID</key>
-						<string>FC39A720-47F8-479F-A27D-03DCE9DDFD27</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>WFVariableName</key>
-				<string>日子js</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.gettext</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>CustomOutputName</key>
-				<string>icon-url</string>
-				<key>UUID</key>
-				<string>A54B98DA-7ED9-4340-B42D-C8CC927B5F87</string>
-				<key>WFTextActionText</key>
-				<string>https://ftp.bmp.ovh/imgs/2020/05/d9384103e3ec7d39.png</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.gettext</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>EC1753B9-75F7-4575-9422-D5BA91F41383</string>
-				<key>WFTextActionText</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>attachmentsByRange</key>
-						<dict>
-							<key>{13149, 1}</key>
-							<dict>
-								<key>Type</key>
-								<string>Variable</string>
-								<key>VariableName</key>
-								<string>num</string>
-							</dict>
-							<key>{13164, 1}</key>
-							<dict>
-								<key>Type</key>
-								<string>Variable</string>
-								<key>VariableName</key>
-								<string>全部日程</string>
-							</dict>
-							<key>{13179, 1}</key>
-							<dict>
-								<key>Type</key>
-								<string>Variable</string>
-								<key>VariableName</key>
-								<string>日子js</string>
-							</dict>
-							<key>{15682, 1}</key>
-							<dict>
-								<key>Type</key>
-								<string>Variable</string>
-								<key>VariableName</key>
-								<string>level</string>
-							</dict>
-							<key>{15697, 1}</key>
-							<dict>
-								<key>Type</key>
-								<string>Variable</string>
-								<key>VariableName</key>
-								<string>colors</string>
-							</dict>
-							<key>{15714, 1}</key>
-							<dict>
-								<key>Type</key>
-								<string>Variable</string>
-								<key>VariableName</key>
-								<string>style</string>
-							</dict>
-							<key>{513, 1}</key>
-							<dict>
-								<key>OutputName</key>
-								<string>icon-url</string>
-								<key>OutputUUID</key>
-								<string>A54B98DA-7ED9-4340-B42D-C8CC927B5F87</string>
-								<key>Type</key>
-								<string>ActionOutput</string>
-							</dict>
-						</dict>
-						<key>string</key>
-						<string>&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;	&lt;meta charset="UTF-8"&gt;	&lt;meta http-equiv="cache-control"content="no-cache"/&gt;	&lt;meta content="yes"name="apple-touch-fullscreen"&gt;	&lt;meta content="yes"name="apple-mobile-web-app-capable"&gt;	&lt;meta content="black"name="apple-mobile-web-app-status-bar-style"&gt;	&lt;meta name="apple-mobile-web-app-capable"content="yes"&gt;	&lt;meta name="viewport"content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;	&lt;link rel="apple-touch-icon-precomposed" sizes="144x144" href="￼" /&gt;&lt;script&gt;	var now = new Date();	var year = now.getFullYear(); //得到年份	var month = now.getMonth();//得到月份	var date = now.getDate();//得到日期	var day = now.getDay();//得到周几	var hour = now.getHours();//得到小时	var minu = now.getMinutes();//得到分钟	var sec = now.getSeconds();//得到秒	var daypass= (hour*60+minu)*60+sec;//计算剩余秒数	var dayleft=86400-daypass;	var weekpass=parseInt(now.getDay());if(weekpass==0)weekpass=7	var weekleft=7-weekpass;	var monthend=new Date(now.getMonth()+'/'+'1'+'/'+now.getFullYear());monthend.setMonth(now.getMonth()+1);	mleft = parseInt(Math.abs(monthend - now) / 1000 / 60 / 60 / 24);	mdays=mleft+parseInt(now.getDate());	var yearend=new Date('1'+'/'+'1'+'/'+now.getFullYear());yearend.setFullYear(now.getFullYear()+1);console.log()	yleft = parseInt(Math.abs(yearend - now) / 1000 / 60 / 60 / 24);	var yearst=new Date('1'+'/'+'1'+'/'+now.getFullYear());	ydays = parseInt(Math.abs(yearend - yearst) / 1000 / 60 / 60 / 24);		var ppt=1-(yleft/ydays);	ppt-=0.00001;	document.documentElement.style.setProperty('--ppt',ppt);	var i=Math.floor(ppt*4);	pcolor1=["#388e3c","#1e88e5","#f4511e","#dd2c00"];	document.documentElement.style.setProperty('--pcolor',pcolor1[i]);	var DayAngle=parseInt(daypass/86400*360)	var WeekAngle=parseInt(weekpass/7*360)	var MonthAngle=parseInt((mdays-mleft)/mdays*360)	console.log(DayAngle+" "+WeekAngle+" "+MonthAngle)	&lt;/script&gt;&lt;title&gt;我的日子&lt;/title&gt;	&lt;!-- whole --&gt;    &lt;style&gt;    :root{    	--weight:20px;		--pheight:100px;--pwidth:84vw;--ppt:0.1;		/* ppt为进度百分比 */		--piwidth:calc(var(--pwidth) * var(--ppt));		--pcolor:#f4511e;    	--color1:#fa114f;--color2:#92e82a;--color3:#1eeaef;     }    *{    margin: 0; padding: 0;    font-family: "SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;    }    body {    	background-color:black;    }    .ring-body{    	transition-duration: var(--test2);    	top: 3%;left: 3%;    	width:100%;    	position: fixed;    	z-index: -1;    }	&lt;/style&gt;	&lt;!-- cirle1 --&gt;	&lt;style type="text/css"&gt;    .wrap{    	top: 3%;left: 3%;    	display: inline-block;	    position: absolute;	    width: 200px;		height: 200px;		text-align: center;		    }    &lt;/style&gt;	&lt;!-- else --&gt;    &lt;style type="text/css"&gt;    .fix1{    	z-index: 100;    	position: relative;    	right: 8%;    	height: 20px;    	text-align: right;    	color:white;    	font-size: 0.95em;    }    .days{    	z-index: 100;    	position: relative;    	right: 8%;    	text-align: right;    	color:white;    	font-size: 0.95em;    	    }    &lt;/style&gt;	&lt;!-- prograssbar --&gt;	&lt;style&gt;	.prograss-bar{    	display: inline-block;	    position: absolute;		top: 250px;	    width: 100%;		height: var(--pheight);		text-align: left;	}	.pouter,.pinner{		left: calc(3% + var(--weight) / 2);	}	.pouter{		position:absolute;		width: var(--pwidth);		height: var(--weight);		border: none;		padding: 0;		margin-right: 0;		border-radius: 0;		background-color: var(--pcolor);		opacity: 0.3;	}	.pouter::before{		content: '';		position: absolute;		display: block;		width: var(--weight);		height: var(--weight);		box-sizing: border-box;		top: 0;		left: calc(var(--weight) * -0.5);		border: 0 solid var(--color1);		border-right: transparent;		border-radius:  100%;		z-index: 2;		background-color: var(--pcolor);	}	.pouter::after{		content: '';		position: absolute;		display: block;		width: var(--weight);		height: var(--weight);		box-sizing: border-box;		top: 0;		left: calc(var(--pwidth) - var(--weight) / 2);		border: 0 solid var(--color1);		border-right: transparent;		border-radius:  100%;		z-index: 2;		background-color: var(--pcolor);	}	.pinner{		--piw:0px;		position:absolute;		top:0;		width: var(--piw);		height: var(--weight);		border: none;		border-radius: 0;		background-color: var(--pcolor);		animation: 1s growbar ease forwards;	}	.pinner::before{		content: '';		position: absolute;		display: block;		width: var(--weight);		height: var(--weight);		box-sizing: border-box;		top: 0;		left: calc(var(--weight) * -0.5);		border: 0 solid var(--color1);		border-right: transparent;		border-radius:  100%;		z-index: 2;		background-color: var(--pcolor);	}	.pinner::after{		content: '';		position: absolute;		display: block;		width: var(--weight);		height: var(--weight);		box-sizing: border-box;		top: 0;		left: calc(var(--piw) - var(--weight) / 2);		border: 0 solid var(--color1);		border-right: transparent;		border-radius:  100%;		background-color: var(--pcolor);		animation: 1s growbar-af ease forwards;	}	.years{		position: relative;		right: 8%;		top: -20px;		font-size: 0.95em;		color: white;	}	.years strong{		font-size: 2.25em;		color: var(--pcolor);	}	@keyframes growbar {		0%{			width: 0;		}		100%{			width: var(--piwidth);		}	}	@keyframes growbar-af {		0%{			left: calc(var(--piw) - var(--weight) / 2);		}		100%{			left: calc(var(--piwidth) - var(--weight) / 2);		}	}	&lt;/style&gt;	&lt;!-- content --&gt;    &lt;style type="text/css"&gt;    .fix{    	width: 100%;    	height: calc(var(--pheight) + 220px);		z-index: 9;    	opacity: 0;    }	.content{		overflow-y: hidden;		background-color: #efeff2;		z-index: 999;		width: 100%;		min-height: 60vh;		border-radius: 10px 10px 0 0;		box-shadow: 0 0 10px rgba(95,95,95,.48);	}	.content .title{		text-align:center;		padding-top: 5px;  		padding-left: 10px;		font-size: 1em;		font-weight: bold;	}	ul{		padding:10px;		position: inherit;		opacity: 0;		animation: 1s ul-show linear;		animation-fill-mode: forwards;	}	ul li{		list-style: none;		padding:10px;		margin-bottom: 10px;		font-size: 20px;		height: 80px;		border: 1px solid rgba(200,200,200,0.5);		border-radius: 10px;		box-shadow: 0 0 10px rgba(95,95,95,.48);	}	.li-left{		position: relative;		text-align:left;		color: white;		left: 0px;		top: 58px;	}	.li-right{		position: relative;		text-align:right;		color: white;		right: 0px;		top: 8px;	}	.li-left strong{		color: white;	}	.li-right strong{		font-size: 40px;		color: white;	}	.footer{		padding: 0;		margin: 0;		border: none;		overflow-y: hidden;		background-color: #efeff2;		z-index: 999;		width: 100%;		height: 50px;		text-align: center;		font-size: 8px;		color: gray;	}	@keyframes ul-show{		0%{		top: -100px;		opacity: 0;		}		100%{		top: 0;		opacity: 1;		}	}	&lt;/style&gt;&lt;/head&gt;&lt;body&gt;	&lt;div class="ring-body"&gt;		&lt;div class="wrap"&gt;			&lt;canvas id="myCanvas" width="400" height="400" style="zoom:0.5"&gt;&lt;/canvas&gt;			&lt;script&gt;			  var canvas = document.getElementById('myCanvas')			  function ring(R1,r1,Target1,color1,canvas1){			  var P=Math.PI			  var angle=0			  this.R=R1			  this.r=r1			  this.color=color1			  this.canvas=canvas1			  this.Target=Target1			  var R=this.R			  var r=this.r			  var color=this.color			  var Target=this.Target			  var canvas=this.canvas			  var context = canvas.getContext('2d');			  var A=canvas.width/2			  var B=canvas.height/2			  this.drawRing=function(){				  if(angle&gt;=Target){					window.clearRequestAnimationFrame(Id)				  }					  context.clearRect(0,0,800,800)					  var angleH=P/180*angle					  context.beginPath()					  context.lineWidth=r+4					  context.strokeStyle='#64071f'					  context.moveTo(B,A-R-r/2)					  context.arc(B,A,R+r/2,1.5*P,P*3.5)					  context.stroke()					  context.beginPath()					  context.lineWidth=r+4					  context.strokeStyle='#3a5d11'					  context.moveTo(B,A-100-40/2)					  context.arc(B,A,100+40/2,1.5*P,P*3.5)					  context.stroke()					  context.beginPath()					  context.lineWidth=r+4					  context.strokeStyle='#0c5d5f'					  context.moveTo(B,A-50-40/2)					  context.arc(B,A,50+40/2,1.5*P,P*3.5)					  context.stroke()					  context.fillStyle='#fa114f'					  context.strokeStyle='#fa114f'					  context.lineWidth=1					  context.beginPath()					  context.moveTo(B,A-R)					  context.arc(B,A-R-r/2,r/2,P*0.5,P*1.5,false)					  context.arc(B,A,R+r,P*1.5,P*1.5+angleH,false)					  context.arc(B+Math.sin(angleH)*(R+r/2),A-Math.cos(angleH)*(R+r/2),r/2,angleH-P*0.5,P*0.5+angleH,false)					  context.arc(B,A,R,P*1.5+angleH,P*1.5,true)					  context.stroke()					  context.fill()					  					  if(angle&lt;Target/2)angle+=angle/5+0.1					  else angle+=(Target-angle)*0.1					  var Id=window.requestAnimationFrame(arguments.callee)				}			  }			  function ring2(R1,r1,Target1,color1,canvas1){			  var P=Math.PI			  var angle=0			  this.R=R1			  this.r=r1			  this.color=color1			  this.canvas=canvas1			  this.Target=Target1			  var R=this.R			  var r=this.r			  var color=this.color			  var Target=this.Target			  var canvas=this.canvas			  var context = canvas.getContext('2d');			  var A=canvas.width/2			  var B=canvas.height/2			  this.drawRing=function(){				  if(angle&gt;=Target){					window.clearRequestAnimationFrame(Id)				  }					  //context.clearRect(0,0,800,800)					  //context.clearRect(0,0,800,800)					//   var angleH=P/180*angle					//   context.beginPath()					//   context.lineWidth=r +4					//   context.strokeStyle='#3a5d11'					//   context.moveTo(B,A-R-r/2)					//   context.arc(B,A,R+r/2,1.5*P,P*3.5)					//   context.stroke()					  var angleH=P/180*angle					  context.fillStyle='#92e82a'					  context.strokeStyle='#92e82a'					  context.beginPath()					  context.moveTo(B,A-R)					  context.arc(B,A-R-r/2,r/2,P*0.5,P*1.5,false)					  context.arc(B,A,R+r,P*1.5,P*1.5+angleH,false)					  context.arc(B+Math.sin(angleH)*(R+r/2),A-Math.cos(angleH)*(R+r/2),r/2,angleH-P*0.5,P*0.5+angleH,false)					  context.arc(B,A,R,P*1.5+angleH,P*1.5,true)					  context.stroke()					  context.fill()					  if(angle&lt;Target/2)angle+=angle/5+0.1					  else angle+=(Target-angle)*0.1					  var Id=window.requestAnimationFrame(arguments.callee)				}			  }			  function ring3(R3,r3,Target3,color3,canvas3){			  var P=Math.PI			  var angle=0			  this.R=R3			  this.r=r3			  this.color=color3			  this.canvas=canvas3			  this.Target=Target3			  var R=this.R			  var r=this.r			  var color=this.color			  var Target=this.Target			  var canvas=this.canvas			  var context = canvas.getContext('2d');			  var A=canvas.width/2			  var B=canvas.height/2			  this.drawRing=function(){				  if(angle&gt;=Target){					window.clearRequestAnimationFrame(Id)				  }					  //context.clearRect(0,0,800,800)					  //context.clearRect(0,0,800,800)					//   var angleH=P/180*angle					//   context.beginPath()					//   context.lineWidth=r+4					//   context.strokeStyle='#0c5d5f'					//   context.moveTo(B,A-R-r/2)					//   context.arc(B,A,R+r/2,1.5*P,P*3.5)					//   context.stroke()					  var angleH=P/180*angle					  context.fillStyle='#1eeaef'					  context.strokeStyle='#1eeaef'					  context.beginPath()					  context.moveTo(B,A-R)					  context.arc(B,A-R-r/2,r/2,P*0.5,P*1.5,false)					  context.arc(B,A,R+r,P*1.5,P*1.5+angleH,false)					  context.arc(B+Math.sin(angleH)*(R+r/2),A-Math.cos(angleH)*(R+r/2),r/2,angleH-P*0.5,P*0.5+angleH,false)					  context.arc(B,A,R,P*1.5+angleH,P*1.5,true)					  context.stroke()					  context.fill()					  if(angle&lt;Target/2)angle+=angle/5+0.1					  else angle+=(Target-angle)*0.1					  var Id=window.requestAnimationFrame(arguments.callee)				}			  }			  			  var ring=new ring(150,40,DayAngle,'#fa114f',canvas)			  var ring2=new ring2(100,40,WeekAngle,'#92e82a',canvas)			  var ring3=new ring3(50,40,MonthAngle,'#1eeaef',canvas)			  ring.drawRing()			  ring2.drawRing()			  ring3.drawRing()			 			&lt;/script&gt;		&lt;/div&gt;		&lt;div class="fix1"&gt;&lt;/div&gt;		&lt;p class="days"&gt;时间在流逝：&lt;/p&gt;		&lt;p class="days" id="p1"&gt;&lt;span&gt;今年还有&lt;/span&gt;&lt;strong style="color: var(--pcolor);font-size: 2.25em;"&gt;365&lt;/strong&gt;天&lt;/p&gt;		&lt;p class="days" id="p2"&gt;&lt;span&gt;本周剩余&lt;/span&gt;&lt;strong style="color: var(--color2);font-size: 2.25em;"&gt;4&lt;/strong&gt;/7天&lt;/p&gt;		&lt;p class="days" id="p3"&gt;&lt;span&gt;本月剩余&lt;/span&gt;&lt;strong style="color: var(--color3);font-size: 2.25em;"&gt;10&lt;/strong&gt;&lt;span&gt;/30&lt;/span&gt;天&lt;/p&gt;		&lt;p class="days" id="p4"&gt;&lt;span&gt;今日还剩下&lt;/span&gt;&lt;strong  id="sec" style="color: var(--color1); font-size:2.5em;"&gt;86400&lt;/strong&gt;秒&lt;/p&gt;		&lt;div class="prograss-bar"&gt;			&lt;div class="pouter"&gt;&lt;/div&gt;			&lt;div class="pinner"&gt;&lt;/div&gt;		&lt;/div&gt;	&lt;/div&gt;		&lt;div class="fix"&gt;&lt;/div&gt;	&lt;div class="content" id="all-content"&gt;&lt;p class="title" id='title1'&gt;临近日程&lt;/p&gt;		&lt;ul id="cal_list"&gt;		&lt;/ul&gt;&lt;p class="title" id='title2'&gt;我的日子&lt;/p&gt;		&lt;ul id="my_list"&gt;		&lt;/ul&gt;
-
-	&lt;div class="footer"&gt;Copyright  2020 无良的北极 Rights Reserved.&lt;/div&gt;	&lt;/div&gt;&lt;/body&gt;&lt;script&gt;var NUM=￼var CalDays='￼'var MyDays='￼'var cals=CalDays.split(';')var cal_list=document.getElementById("cal_list")var cal_start=-1for(var i=0;i&lt;cals.length;i++){	if(cals[i] &amp;&amp; getDayDate(cals[i])&lt;=0){cal_start=i;break}}if(cal_start!=-1){	for(i=cal_start;i&lt;cal_start+NUM;i++){	 if(Math.abs(getDayDate(cals[i]))==0){
-			var li='&lt;li&gt;&lt;div class="li-left"&gt;今天是&lt;strong&gt;'+getDayName(cals[i])+'&lt;\/strong&gt;&lt;\/div&gt;&lt;div class="li-right"&gt;&lt;strong&gt;'+'&lt;\/strong&gt;&lt;\/div&gt;&lt;\/li&gt;'
-			cal_list.innerHTML+=li
-		}
-		else{
-			var li='&lt;li&gt;&lt;div class="li-left"&gt;距离&lt;strong&gt;'+getDayName(cals[i])+'&lt;\/strong&gt;还有&lt;\/div&gt;&lt;div class="li-right"&gt;&lt;strong&gt;'+Math.abs(getDayDate(cals[i]))+'&lt;\/strong&gt;天&lt;\/div&gt;&lt;\/li&gt;'
-			cal_list.innerHTML+=li
-				}	}}else{	document.getElementById('title1').innerHTML='暂无临近日程'}var mys=MyDays.split(';')var my_list=document.getElementById("my_list")mys.forEach(item =&gt; {	if(item){		 if(getDayDate(item)&gt;0)var x='已经过了'
-		else var x='还有'
-		var li='&lt;li&gt;&lt;div class="li-left"&gt;距离&lt;strong&gt;'+getDayName(item)+'&lt;\/strong&gt;'+x+'&lt;\/div&gt;&lt;div class="li-right"&gt;&lt;strong&gt;'+Math.abs(getDayDate(item))+'&lt;\/strong&gt;天&lt;\/div&gt;&lt;\/li&gt;'		my_list.innerHTML+=li	}else{		document.getElementById('title2').innerHTML='暂无我的日子'	}});function getDayName(str){	if(str){		return str.split("/")[0]	}	else return null}
-function getDayDate(str){	if(str){		var date=str.split("/")[1].toString()		if (date.indexOf("年")!=-1){			date=date.replace('年','/').replace('月','/').replace('日','').replace('上午','').replace("下午","")			console.log(date)			var now=new Date()			date=new Date(date)						return Math.floor(((now.getTime()-date.getTime()))/(24*3600*1000))		}		else {			var now=new Date()			date1=new Date(now.getFullYear()+'/'+date.replace('月','/').replace('日','').replace('上午','').replace("下午",""))			date2=new Date(parseInt(now.getFullYear()+1)+'/'+date.replace('月','/').replace('日','').replace('上午','').replace("下午",""))			console.log(date1+" "+date2)			var d1=parseInt(((now.getTime()-date1.getTime()))/(24*3600*1000))			var d2=parseInt(((now.getTime()-date2.getTime()))/(24*3600*1000))			console.log(d1+" "+d2)			if(d1&gt;0)return d2			else return d1		}	}else return null}
-&lt;/script&gt;&lt;script type="text/javascript"&gt;	var lefts=document.getElementsByClassName("li-left");	for (let j = 0; j &lt; lefts.length; j++) {		var lcontents=lefts[j].getElementsByTagName("strong");		if(lcontents[0].innerHTML.length&gt;10)		lcontents[0].innerHTML=lcontents[0].innerHTML.substring(0,10);		//console.log(lcontents[0].innerHTML)				}	var level=￼;	var colors=￼;	var mystyle='￼'	var all=document.getElementById("all-content");	var ul=all.getElementsByTagName('ul');	var li=document.getElementsByTagName('li');	var lis=Array.from(li);	lis.forEach(setbgcolor);	function setbgcolor(e,index){		var strongs=li[index].getElementsByTagName("strong");		var nums=strongs[1];		var num=parseInt(nums.innerHTML);		var i=0;		var l=colors.length-1;		for(i=0;i&lt;level.length;i++){			if(num&gt;=level[i] &amp;&amp; num&lt;level[i+1]){l=i;break;}		}		if(mystyle=='backgroundColor'){li[index].style.backgroundColor =colors[l];}		else {li[index].style.backgroundImage =colors[l];}	}	var frontmsg1=["今年还有","本周剩余","本月剩余","今日还剩下"];	var frontmsg2=["今年已过","本周已过","本月已过","今日已过了"];	var timeflag;	showleft();	var boool=true;	document.getElementsByClassName("fix")[0].onclick=function(){		boool=!boool;		clearInterval(timeflag)		if(boool){			showleft();		}else{			showpass();		}	}		var dayleft1=dayleft;	var daypass1=daypass;	setInterval(function(){		var seconds=document.getElementById("sec");		dayleft1=dayleft1-1;		daypass1=daypass1+1		if(boool){seconds.innerHTML=parseInt(dayleft1);}		else {seconds.innerHTML=parseInt(daypass1);}	},'1000')	function showpass(){		document.getElementById("p1").getElementsByTagName("strong")[0].innerHTML=parseInt(ydays-yleft);		document.getElementById("p1").getElementsByTagName("span")[0].innerHTML=frontmsg2[0];				document.getElementById("p2").getElementsByTagName("strong")[0].innerHTML=weekpass;		document.getElementById("p2").getElementsByTagName("span")[0].innerHTML=frontmsg2[1];		document.getElementById("p3").getElementsByTagName("strong")[0].innerHTML=parseInt(mdays-mleft);		document.getElementById("p3").getElementsByTagName("span")[0].innerHTML=frontmsg2[2];		document.getElementById("p3").getElementsByTagName("span")[1].innerHTML="/"+mdays;				document.getElementById("p4").getElementsByTagName("span")[0].innerHTML=frontmsg2[3];		document.getElementById("p4").getElementsByTagName("strong")[0].innerHTML=parseInt(daypass);	}	function showleft(){		document.getElementById("p1").getElementsByTagName("strong")[0].innerHTML=yleft;		document.getElementById("p1").getElementsByTagName("span")[0].innerHTML=frontmsg1[0];				document.getElementById("p2").getElementsByTagName("strong")[0].innerHTML=weekleft;		document.getElementById("p2").getElementsByTagName("span")[0].innerHTML=frontmsg1[1];		document.getElementById("p3").getElementsByTagName("strong")[0].innerHTML=mleft;		document.getElementById("p3").getElementsByTagName("span")[0].innerHTML=frontmsg1[2];		document.getElementById("p3").getElementsByTagName("span")[1].innerHTML="/"+mdays;				document.getElementById("p4").getElementsByTagName("span")[0].innerHTML=frontmsg1[3];		document.getElementById("p4").getElementsByTagName("strong")[0].innerHTML=dayleft;	}&lt;/script&gt;&lt;/html&gt;</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenString</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.getrichtextfromhtml</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>12D93971-5BEE-47E3-87DF-73182FC88953</string>
-				<key>WFHTML</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>文本</string>
-						<key>OutputUUID</key>
-						<string>EC1753B9-75F7-4575-9422-D5BA91F41383</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.showwebpage</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFURL</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>attachmentsByRange</key>
-						<dict>
-							<key>{0, 1}</key>
-							<dict>
-								<key>OutputName</key>
-								<string>来自HTML的多信息文本</string>
-								<key>OutputUUID</key>
-								<string>12D93971-5BEE-47E3-87DF-73182FC88953</string>
-								<key>Type</key>
-								<string>ActionOutput</string>
-							</dict>
-						</dict>
-						<key>string</key>
-						<string>￼</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenString</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>8E1CECD1-222D-4318-9FAE-97F4D4B3CE1D</string>
-				<key>WFControlFlowMode</key>
-				<integer>0</integer>
-				<key>WFMenuItems</key>
-				<array>
-					<string>➕添加日子</string>
-					<string>✔️修改日子</string>
-					<string>◾️桌面PWA</string>
-					<string>设置</string>
-				</array>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>8E1CECD1-222D-4318-9FAE-97F4D4B3CE1D</string>
-				<key>WFControlFlowMode</key>
-				<integer>1</integer>
-				<key>WFMenuItemTitle</key>
-				<string>➕添加日子</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.dictionary</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>CustomOutputName</key>
-				<string>要求输入</string>
-				<key>UUID</key>
-				<string>09EE107D-9C0B-467E-94DE-0AE3EB39E335</string>
-				<key>WFItems</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>WFDictionaryFieldValueItems</key>
-						<array>
-							<dict>
-								<key>WFItemType</key>
-								<integer>0</integer>
-								<key>WFKey</key>
-								<dict>
-									<key>Value</key>
-									<dict>
-										<key>attachmentsByRange</key>
-										<dict/>
-										<key>string</key>
-										<string>纪念日名称</string>
-									</dict>
-									<key>WFSerializationType</key>
-									<string>WFTextTokenString</string>
-								</dict>
-								<key>WFValue</key>
-								<dict>
-									<key>Value</key>
-									<dict>
-										<key>attachmentsByRange</key>
-										<dict>
-											<key>{0, 1}</key>
-											<dict>
-												<key>Type</key>
-												<string>Ask</string>
-											</dict>
-										</dict>
-										<key>string</key>
-										<string>￼</string>
-									</dict>
-									<key>WFSerializationType</key>
-									<string>WFTextTokenString</string>
-								</dict>
-							</dict>
-							<dict>
-								<key>WFItemType</key>
-								<integer>0</integer>
-								<key>WFKey</key>
-								<dict>
-									<key>Value</key>
-									<dict>
-										<key>attachmentsByRange</key>
-										<dict/>
-										<key>string</key>
-										<string>时间</string>
-									</dict>
-									<key>WFSerializationType</key>
-									<string>WFTextTokenString</string>
-								</dict>
-								<key>WFValue</key>
-								<dict>
-									<key>Value</key>
-									<dict>
-										<key>attachmentsByRange</key>
-										<dict>
-											<key>{0, 1}</key>
-											<dict>
-												<key>Aggrandizements</key>
-												<array>
-													<dict>
-														<key>Type</key>
-														<string>WFDateFormatVariableAggrandizement</string>
-														<key>WFDateFormat</key>
-														<string>yyyy年MM月dd日</string>
-														<key>WFDateFormatStyle</key>
-														<string>Custom</string>
-														<key>WFISO8601IncludeTime</key>
-														<false/>
-													</dict>
-												</array>
-												<key>Type</key>
-												<string>CurrentDate</string>
-											</dict>
-										</dict>
-										<key>string</key>
-										<string>￼</string>
-									</dict>
-									<key>WFSerializationType</key>
-									<string>WFTextTokenString</string>
-								</dict>
-							</dict>
-							<dict>
-								<key>WFItemType</key>
-								<integer>4</integer>
-								<key>WFKey</key>
-								<dict>
-									<key>Value</key>
-									<dict>
-										<key>attachmentsByRange</key>
-										<dict/>
-										<key>string</key>
-										<string>是否提前提醒</string>
-									</dict>
-									<key>WFSerializationType</key>
-									<string>WFTextTokenString</string>
-								</dict>
-								<key>WFValue</key>
-								<dict>
-									<key>Value</key>
-									<false/>
-									<key>WFSerializationType</key>
-									<string>WFNumberSubstitutableState</string>
-								</dict>
-							</dict>
-							<dict>
-								<key>WFItemType</key>
-								<integer>3</integer>
-								<key>WFKey</key>
-								<dict>
-									<key>Value</key>
-									<dict>
-										<key>attachmentsByRange</key>
-										<dict/>
-										<key>string</key>
-										<string>提前几天？</string>
-									</dict>
-									<key>WFSerializationType</key>
-									<string>WFTextTokenString</string>
-								</dict>
-								<key>WFValue</key>
-								<dict>
-									<key>Value</key>
-									<dict>
-										<key>attachmentsByRange</key>
-										<dict/>
-										<key>string</key>
-										<string>3</string>
-									</dict>
-									<key>WFSerializationType</key>
-									<string>WFTextTokenString</string>
-								</dict>
-							</dict>
-						</array>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFDictionaryFieldValue</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.getvalueforkey</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>CustomOutputName</key>
-				<string>纪念日名称</string>
-				<key>UUID</key>
-				<string>2EA9474A-7B5D-40F5-ADA2-9D90712C5D08</string>
-				<key>WFDictionaryKey</key>
-				<string>纪念日名称</string>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>要求输入</string>
-						<key>OutputUUID</key>
-						<string>09EE107D-9C0B-467E-94DE-0AE3EB39E335</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.getvalueforkey</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>CustomOutputName</key>
-				<string>时间</string>
-				<key>UUID</key>
-				<string>DD34B07F-F64F-49A0-BEC3-8251D9575DF1</string>
-				<key>WFDictionaryKey</key>
-				<string>时间</string>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>要求输入</string>
-						<key>OutputUUID</key>
-						<string>09EE107D-9C0B-467E-94DE-0AE3EB39E335</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.getvalueforkey</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>CustomOutputName</key>
-				<string>是否提前提醒</string>
-				<key>UUID</key>
-				<string>BDAE1D32-DA27-49AB-B7C7-555D11EC747B</string>
-				<key>WFDictionaryKey</key>
-				<string>是否提前提醒</string>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>要求输入</string>
-						<key>OutputUUID</key>
-						<string>09EE107D-9C0B-467E-94DE-0AE3EB39E335</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.gettext</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>AAFE02F0-28CD-43B4-A1CC-BB07A8779B47</string>
-				<key>WFTextActionText</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>attachmentsByRange</key>
-						<dict>
-							<key>{0, 1}</key>
-							<dict>
-								<key>OutputName</key>
-								<string>纪念日名称</string>
-								<key>OutputUUID</key>
-								<string>2EA9474A-7B5D-40F5-ADA2-9D90712C5D08</string>
-								<key>Type</key>
-								<string>ActionOutput</string>
-							</dict>
-							<key>{2, 1}</key>
-							<dict>
-								<key>Aggrandizements</key>
-								<array>
-									<dict>
-										<key>CoercionItemClass</key>
-										<string>WFStringContentItem</string>
-										<key>Type</key>
-										<string>WFCoercionVariableAggrandizement</string>
-									</dict>
-								</array>
-								<key>OutputName</key>
-								<string>时间</string>
-								<key>OutputUUID</key>
-								<string>DD34B07F-F64F-49A0-BEC3-8251D9575DF1</string>
-								<key>Type</key>
-								<string>ActionOutput</string>
-							</dict>
-							<key>{4, 1}</key>
-							<dict>
-								<key>OutputName</key>
-								<string>是否提前提醒</string>
-								<key>OutputUUID</key>
-								<string>BDAE1D32-DA27-49AB-B7C7-555D11EC747B</string>
-								<key>Type</key>
-								<string>ActionOutput</string>
-							</dict>
-						</dict>
-						<key>string</key>
-						<string>￼/￼/￼</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenString</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.appendvariable</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>文本</string>
-						<key>OutputUUID</key>
-						<string>AAFE02F0-28CD-43B4-A1CC-BB07A8779B47</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>WFVariableName</key>
-				<string>全部日子列表</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.getupcomingreminders</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>CC80C047-EC01-457C-8B95-1CADA4A4A773</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.properties.reminders</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>560092B3-7078-4B25-AEA7-BE751B86DDF6</string>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>临近日程</string>
-						<key>OutputUUID</key>
-						<string>CC80C047-EC01-457C-8B95-1CADA4A4A773</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.gettext</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>4E0B81E1-ABCE-4C59-9E54-D4FA3DED1FEB</string>
-				<key>WFTextActionText</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>attachmentsByRange</key>
-						<dict>
-							<key>{0, 1}</key>
-							<dict>
-								<key>OutputName</key>
-								<string>列表</string>
-								<key>OutputUUID</key>
-								<string>560092B3-7078-4B25-AEA7-BE751B86DDF6</string>
-								<key>Type</key>
-								<string>ActionOutput</string>
-							</dict>
-						</dict>
-						<key>string</key>
-						<string>￼</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenString</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.conditional</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>B86752B2-AA76-420C-8DE0-2D434442AF21</string>
-				<key>WFCondition</key>
-				<integer>4</integer>
-				<key>WFControlFlowMode</key>
-				<integer>0</integer>
-				<key>WFInput</key>
-				<dict>
-					<key>Type</key>
-					<string>Variable</string>
-					<key>Variable</key>
-					<dict>
-						<key>Value</key>
-						<dict>
-							<key>Aggrandizements</key>
-							<array>
-								<dict>
-									<key>CoercionItemClass</key>
-									<string>WFBooleanContentItem</string>
-									<key>Type</key>
-									<string>WFCoercionVariableAggrandizement</string>
-								</dict>
-							</array>
-							<key>OutputName</key>
-							<string>是否提前提醒</string>
-							<key>OutputUUID</key>
-							<string>BDAE1D32-DA27-49AB-B7C7-555D11EC747B</string>
-							<key>Type</key>
-							<string>ActionOutput</string>
-						</dict>
-						<key>WFSerializationType</key>
-						<string>WFTextTokenAttachment</string>
-					</dict>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.getvalueforkey</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>638803EC-4F4E-40DA-9870-E1826FC2C521</string>
-				<key>WFDictionaryKey</key>
-				<string>提前几天？</string>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>要求输入</string>
-						<key>OutputUUID</key>
-						<string>09EE107D-9C0B-467E-94DE-0AE3EB39E335</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.adjustdate</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>905299A6-9DB9-48C6-ACC8-CA4C2CAEB180</string>
-				<key>WFAdjustOperation</key>
-				<string>Subtract</string>
-				<key>WFDate</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>attachmentsByRange</key>
-						<dict>
-							<key>{0, 1}</key>
-							<dict>
-								<key>OutputName</key>
-								<string>时间</string>
-								<key>OutputUUID</key>
-								<string>DD34B07F-F64F-49A0-BEC3-8251D9575DF1</string>
-								<key>Type</key>
-								<string>ActionOutput</string>
-							</dict>
-						</dict>
-						<key>string</key>
-						<string>￼</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenString</string>
-				</dict>
-				<key>WFDuration</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>Magnitude</key>
-						<dict>
-							<key>Aggrandizements</key>
-							<array>
-								<dict>
-									<key>CoercionItemClass</key>
-									<string>WFNumberContentItem</string>
-									<key>Type</key>
-									<string>WFCoercionVariableAggrandizement</string>
-								</dict>
-							</array>
-							<key>OutputName</key>
-							<string>词典值</string>
-							<key>OutputUUID</key>
-							<string>638803EC-4F4E-40DA-9870-E1826FC2C521</string>
-							<key>Type</key>
-							<string>ActionOutput</string>
-						</dict>
-						<key>Unit</key>
-						<string>days</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFQuantityFieldValue</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.addnewreminder</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>5B993692-86EC-45BC-AD40-842AF4E23099</string>
-				<key>WFAlertCustomTime</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>attachmentsByRange</key>
-						<dict>
-							<key>{0, 1}</key>
-							<dict>
-								<key>OutputName</key>
-								<string>调整后的日期</string>
-								<key>OutputUUID</key>
-								<string>905299A6-9DB9-48C6-ACC8-CA4C2CAEB180</string>
-								<key>Type</key>
-								<string>ActionOutput</string>
-							</dict>
-						</dict>
-						<key>string</key>
-						<string>￼</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenString</string>
-				</dict>
-				<key>WFAlertEnabled</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>文本</string>
-						<key>OutputUUID</key>
-						<string>4E0B81E1-ABCE-4C59-9E54-D4FA3DED1FEB</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>WFCalendarItemCalendar</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>文本</string>
-						<key>OutputUUID</key>
-						<string>4E0B81E1-ABCE-4C59-9E54-D4FA3DED1FEB</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>WFCalendarItemNotes</key>
-				<string>---时间不多了---</string>
-				<key>WFCalendarItemTitle</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>attachmentsByRange</key>
-						<dict>
-							<key>{2, 1}</key>
-							<dict>
-								<key>OutputName</key>
-								<string>纪念日名称</string>
-								<key>OutputUUID</key>
-								<string>2EA9474A-7B5D-40F5-ADA2-9D90712C5D08</string>
-								<key>Type</key>
-								<string>ActionOutput</string>
-							</dict>
-							<key>{5, 1}</key>
-							<dict>
-								<key>OutputName</key>
-								<string>词典值</string>
-								<key>OutputUUID</key>
-								<string>638803EC-4F4E-40DA-9870-E1826FC2C521</string>
-								<key>Type</key>
-								<string>ActionOutput</string>
-							</dict>
-						</dict>
-						<key>string</key>
-						<string>距离￼还有￼天</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenString</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.conditional</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>F3370CAC-5B05-4ED4-9F32-98BC5326CE86</string>
-				<key>WFCondition</key>
-				<integer>999</integer>
-				<key>WFConditionalActionString</key>
-				<string>年</string>
-				<key>WFControlFlowMode</key>
-				<integer>0</integer>
-				<key>WFInput</key>
-				<dict>
-					<key>Type</key>
-					<string>Variable</string>
-					<key>Variable</key>
-					<dict>
-						<key>Value</key>
-						<dict>
-							<key>OutputName</key>
-							<string>文本</string>
-							<key>OutputUUID</key>
-							<string>AAFE02F0-28CD-43B4-A1CC-BB07A8779B47</string>
-							<key>Type</key>
-							<string>ActionOutput</string>
-						</dict>
-						<key>WFSerializationType</key>
-						<string>WFTextTokenAttachment</string>
-					</dict>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.notification</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFNotificationActionBody</key>
-				<string>需要手动设置重复提醒</string>
-				<key>WFNotificationActionSound</key>
-				<false/>
-				<key>WFNotificationActionTitle</key>
-				<string>捷径无法设置每年重复的提醒</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.reminders.showlist</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFList</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>文本</string>
-						<key>OutputUUID</key>
-						<string>4E0B81E1-ABCE-4C59-9E54-D4FA3DED1FEB</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.waittoreturn</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict/>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.conditional</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>F3370CAC-5B05-4ED4-9F32-98BC5326CE86</string>
-				<key>WFControlFlowMode</key>
-				<integer>2</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.conditional</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>B86752B2-AA76-420C-8DE0-2D434442AF21</string>
-				<key>WFControlFlowMode</key>
-				<integer>1</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.conditional</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>B86752B2-AA76-420C-8DE0-2D434442AF21</string>
-				<key>WFControlFlowMode</key>
-				<integer>2</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.gettext</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>C3CD0675-3496-41E9-AE44-0415BEA23179</string>
-				<key>WFTextActionText</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>attachmentsByRange</key>
-						<dict>
-							<key>{0, 1}</key>
-							<dict>
-								<key>Type</key>
-								<string>Variable</string>
-								<key>VariableName</key>
-								<string>全部日子列表</string>
-							</dict>
-						</dict>
-						<key>string</key>
-						<string>￼</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenString</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.documentpicker.save</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>4D89DD45-1751-4E47-8908-FB1DE3CD5DF1</string>
-				<key>WFAskWhereToSave</key>
-				<false/>
-				<key>WFFileDestinationPath</key>
-				<string>mydays/days.txt</string>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>文本</string>
-						<key>OutputUUID</key>
-						<string>C3CD0675-3496-41E9-AE44-0415BEA23179</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>WFSaveFileOverwrite</key>
-				<true/>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>8E1CECD1-222D-4318-9FAE-97F4D4B3CE1D</string>
-				<key>WFControlFlowMode</key>
-				<integer>1</integer>
-				<key>WFMenuItemTitle</key>
-				<string>✔️修改日子</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.repeat.each</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>3DB5FCE8-57BC-4D74-8C86-40B6BB74743A</string>
-				<key>WFControlFlowMode</key>
-				<integer>0</integer>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>Type</key>
-						<string>Variable</string>
-						<key>VariableName</key>
-						<string>全部日子列表</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.gettext</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>1D7A91D3-BA83-4FE9-B9CE-305E6EE6CB43</string>
-				<key>WFTextActionText</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>attachmentsByRange</key>
-						<dict>
-							<key>{1, 1}</key>
-							<dict>
-								<key>Type</key>
-								<string>Variable</string>
-								<key>VariableName</key>
-								<string>Repeat Index</string>
-							</dict>
-							<key>{5, 1}</key>
-							<dict>
-								<key>Type</key>
-								<string>Variable</string>
-								<key>VariableName</key>
-								<string>Repeat Item</string>
-							</dict>
-						</dict>
-						<key>string</key>
-						<string>"￼":"￼",</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenString</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.repeat.each</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>3DB5FCE8-57BC-4D74-8C86-40B6BB74743A</string>
-				<key>UUID</key>
-				<string>7FE8AC0F-577A-4272-AF57-1F28EF087BC8</string>
-				<key>WFControlFlowMode</key>
-				<integer>2</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.gettext</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>B37FEEF2-1B30-40CE-8EC5-CB09D101F9FC</string>
-				<key>WFTextActionText</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>attachmentsByRange</key>
-						<dict>
-							<key>{2, 1}</key>
-							<dict>
-								<key>OutputName</key>
-								<string>重复结果</string>
-								<key>OutputUUID</key>
-								<string>7FE8AC0F-577A-4272-AF57-1F28EF087BC8</string>
-								<key>Type</key>
-								<string>ActionOutput</string>
-							</dict>
-						</dict>
-						<key>string</key>
-						<string>{
-￼
-}</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenString</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.detect.dictionary</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>ABAAC3A4-DBC7-410C-BD0A-023546B763A1</string>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>文本</string>
-						<key>OutputUUID</key>
-						<string>B37FEEF2-1B30-40CE-8EC5-CB09D101F9FC</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.list</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>5B32AF1D-6CF4-463D-A261-9FBB5DC6E4CD</string>
-				<key>WFItems</key>
-				<array>
-					<dict>
-						<key>WFItemType</key>
-						<integer>0</integer>
-						<key>WFValue</key>
-						<dict>
-							<key>Value</key>
-							<dict>
-								<key>attachmentsByRange</key>
-								<dict>
-									<key>{0, 1}</key>
-									<dict>
-										<key>Aggrandizements</key>
-										<array>
-											<dict>
-												<key>DictionaryKey</key>
-												<string>1</string>
-												<key>Type</key>
-												<string>WFDictionaryValueVariableAggrandizement</string>
-											</dict>
-										</array>
-										<key>OutputName</key>
-										<string>词典</string>
-										<key>OutputUUID</key>
-										<string>ABAAC3A4-DBC7-410C-BD0A-023546B763A1</string>
-										<key>Type</key>
-										<string>ActionOutput</string>
-									</dict>
-									<key>{1, 1}</key>
-									<dict>
-										<key>Type</key>
-										<string>Ask</string>
-									</dict>
-								</dict>
-								<key>string</key>
-								<string>￼￼</string>
-							</dict>
-							<key>WFSerializationType</key>
-							<string>WFTextTokenString</string>
-						</dict>
-					</dict>
-					<dict>
-						<key>WFItemType</key>
-						<integer>0</integer>
-						<key>WFValue</key>
-						<dict>
-							<key>Value</key>
-							<dict>
-								<key>attachmentsByRange</key>
-								<dict>
-									<key>{0, 1}</key>
-									<dict>
-										<key>Aggrandizements</key>
-										<array>
-											<dict>
-												<key>DictionaryKey</key>
-												<string>2</string>
-												<key>Type</key>
-												<string>WFDictionaryValueVariableAggrandizement</string>
-											</dict>
-										</array>
-										<key>OutputName</key>
-										<string>词典</string>
-										<key>OutputUUID</key>
-										<string>ABAAC3A4-DBC7-410C-BD0A-023546B763A1</string>
-										<key>Type</key>
-										<string>ActionOutput</string>
-									</dict>
-									<key>{1, 1}</key>
-									<dict>
-										<key>Type</key>
-										<string>Ask</string>
-									</dict>
-								</dict>
-								<key>string</key>
-								<string>￼￼</string>
-							</dict>
-							<key>WFSerializationType</key>
-							<string>WFTextTokenString</string>
-						</dict>
-					</dict>
-					<dict>
-						<key>WFItemType</key>
-						<integer>0</integer>
-						<key>WFValue</key>
-						<dict>
-							<key>Value</key>
-							<dict>
-								<key>attachmentsByRange</key>
-								<dict>
-									<key>{0, 1}</key>
-									<dict>
-										<key>Aggrandizements</key>
-										<array>
-											<dict>
-												<key>DictionaryKey</key>
-												<string>3</string>
-												<key>Type</key>
-												<string>WFDictionaryValueVariableAggrandizement</string>
-											</dict>
-										</array>
-										<key>OutputName</key>
-										<string>词典</string>
-										<key>OutputUUID</key>
-										<string>ABAAC3A4-DBC7-410C-BD0A-023546B763A1</string>
-										<key>Type</key>
-										<string>ActionOutput</string>
-									</dict>
-									<key>{1, 1}</key>
-									<dict>
-										<key>Type</key>
-										<string>Ask</string>
-									</dict>
-								</dict>
-								<key>string</key>
-								<string>￼￼</string>
-							</dict>
-							<key>WFSerializationType</key>
-							<string>WFTextTokenString</string>
-						</dict>
-					</dict>
-					<dict>
-						<key>WFItemType</key>
-						<integer>0</integer>
-						<key>WFValue</key>
-						<dict>
-							<key>Value</key>
-							<dict>
-								<key>attachmentsByRange</key>
-								<dict>
-									<key>{0, 1}</key>
-									<dict>
-										<key>Aggrandizements</key>
-										<array>
-											<dict>
-												<key>DictionaryKey</key>
-												<string>4</string>
-												<key>Type</key>
-												<string>WFDictionaryValueVariableAggrandizement</string>
-											</dict>
-										</array>
-										<key>OutputName</key>
-										<string>词典</string>
-										<key>OutputUUID</key>
-										<string>ABAAC3A4-DBC7-410C-BD0A-023546B763A1</string>
-										<key>Type</key>
-										<string>ActionOutput</string>
-									</dict>
-									<key>{1, 1}</key>
-									<dict>
-										<key>Type</key>
-										<string>Ask</string>
-									</dict>
-								</dict>
-								<key>string</key>
-								<string>￼￼</string>
-							</dict>
-							<key>WFSerializationType</key>
-							<string>WFTextTokenString</string>
-						</dict>
-					</dict>
-					<dict>
-						<key>WFItemType</key>
-						<integer>0</integer>
-						<key>WFValue</key>
-						<dict>
-							<key>Value</key>
-							<dict>
-								<key>attachmentsByRange</key>
-								<dict>
-									<key>{0, 1}</key>
-									<dict>
-										<key>Aggrandizements</key>
-										<array>
-											<dict>
-												<key>DictionaryKey</key>
-												<string>5</string>
-												<key>Type</key>
-												<string>WFDictionaryValueVariableAggrandizement</string>
-											</dict>
-										</array>
-										<key>OutputName</key>
-										<string>词典</string>
-										<key>OutputUUID</key>
-										<string>ABAAC3A4-DBC7-410C-BD0A-023546B763A1</string>
-										<key>Type</key>
-										<string>ActionOutput</string>
-									</dict>
-									<key>{1, 1}</key>
-									<dict>
-										<key>Type</key>
-										<string>Ask</string>
-									</dict>
-								</dict>
-								<key>string</key>
-								<string>￼￼</string>
-							</dict>
-							<key>WFSerializationType</key>
-							<string>WFTextTokenString</string>
-						</dict>
-					</dict>
-					<dict>
-						<key>WFItemType</key>
-						<integer>0</integer>
-						<key>WFValue</key>
-						<dict>
-							<key>Value</key>
-							<dict>
-								<key>attachmentsByRange</key>
-								<dict>
-									<key>{0, 1}</key>
-									<dict>
-										<key>Aggrandizements</key>
-										<array>
-											<dict>
-												<key>DictionaryKey</key>
-												<string>6</string>
-												<key>Type</key>
-												<string>WFDictionaryValueVariableAggrandizement</string>
-											</dict>
-										</array>
-										<key>OutputName</key>
-										<string>词典</string>
-										<key>OutputUUID</key>
-										<string>ABAAC3A4-DBC7-410C-BD0A-023546B763A1</string>
-										<key>Type</key>
-										<string>ActionOutput</string>
-									</dict>
-									<key>{1, 1}</key>
-									<dict>
-										<key>Type</key>
-										<string>Ask</string>
-									</dict>
-								</dict>
-								<key>string</key>
-								<string>￼￼</string>
-							</dict>
-							<key>WFSerializationType</key>
-							<string>WFTextTokenString</string>
-						</dict>
-					</dict>
-					<dict>
-						<key>WFItemType</key>
-						<integer>0</integer>
-						<key>WFValue</key>
-						<dict>
-							<key>Value</key>
-							<dict>
-								<key>attachmentsByRange</key>
-								<dict>
-									<key>{0, 1}</key>
-									<dict>
-										<key>Aggrandizements</key>
-										<array>
-											<dict>
-												<key>DictionaryKey</key>
-												<string>7</string>
-												<key>Type</key>
-												<string>WFDictionaryValueVariableAggrandizement</string>
-											</dict>
-										</array>
-										<key>OutputName</key>
-										<string>词典</string>
-										<key>OutputUUID</key>
-										<string>ABAAC3A4-DBC7-410C-BD0A-023546B763A1</string>
-										<key>Type</key>
-										<string>ActionOutput</string>
-									</dict>
-									<key>{1, 1}</key>
-									<dict>
-										<key>Type</key>
-										<string>Ask</string>
-									</dict>
-								</dict>
-								<key>string</key>
-								<string>￼￼</string>
-							</dict>
-							<key>WFSerializationType</key>
-							<string>WFTextTokenString</string>
-						</dict>
-					</dict>
-					<dict>
-						<key>WFItemType</key>
-						<integer>0</integer>
-						<key>WFValue</key>
-						<dict>
-							<key>Value</key>
-							<dict>
-								<key>attachmentsByRange</key>
-								<dict>
-									<key>{0, 1}</key>
-									<dict>
-										<key>Aggrandizements</key>
-										<array>
-											<dict>
-												<key>DictionaryKey</key>
-												<string>8</string>
-												<key>Type</key>
-												<string>WFDictionaryValueVariableAggrandizement</string>
-											</dict>
-										</array>
-										<key>OutputName</key>
-										<string>词典</string>
-										<key>OutputUUID</key>
-										<string>ABAAC3A4-DBC7-410C-BD0A-023546B763A1</string>
-										<key>Type</key>
-										<string>ActionOutput</string>
-									</dict>
-									<key>{1, 1}</key>
-									<dict>
-										<key>Type</key>
-										<string>Ask</string>
-									</dict>
-								</dict>
-								<key>string</key>
-								<string>￼￼</string>
-							</dict>
-							<key>WFSerializationType</key>
-							<string>WFTextTokenString</string>
-						</dict>
-					</dict>
-					<dict>
-						<key>WFItemType</key>
-						<integer>0</integer>
-						<key>WFValue</key>
-						<dict>
-							<key>Value</key>
-							<dict>
-								<key>attachmentsByRange</key>
-								<dict>
-									<key>{0, 1}</key>
-									<dict>
-										<key>Aggrandizements</key>
-										<array>
-											<dict>
-												<key>DictionaryKey</key>
-												<string>9</string>
-												<key>Type</key>
-												<string>WFDictionaryValueVariableAggrandizement</string>
-											</dict>
-										</array>
-										<key>OutputName</key>
-										<string>词典</string>
-										<key>OutputUUID</key>
-										<string>ABAAC3A4-DBC7-410C-BD0A-023546B763A1</string>
-										<key>Type</key>
-										<string>ActionOutput</string>
-									</dict>
-									<key>{1, 1}</key>
-									<dict>
-										<key>Type</key>
-										<string>Ask</string>
-									</dict>
-								</dict>
-								<key>string</key>
-								<string>￼￼</string>
-							</dict>
-							<key>WFSerializationType</key>
-							<string>WFTextTokenString</string>
-						</dict>
-					</dict>
-					<dict>
-						<key>WFItemType</key>
-						<integer>0</integer>
-						<key>WFValue</key>
-						<dict>
-							<key>Value</key>
-							<dict>
-								<key>attachmentsByRange</key>
-								<dict>
-									<key>{0, 1}</key>
-									<dict>
-										<key>Aggrandizements</key>
-										<array>
-											<dict>
-												<key>DictionaryKey</key>
-												<string>10</string>
-												<key>Type</key>
-												<string>WFDictionaryValueVariableAggrandizement</string>
-											</dict>
-										</array>
-										<key>OutputName</key>
-										<string>词典</string>
-										<key>OutputUUID</key>
-										<string>ABAAC3A4-DBC7-410C-BD0A-023546B763A1</string>
-										<key>Type</key>
-										<string>ActionOutput</string>
-									</dict>
-									<key>{1, 1}</key>
-									<dict>
-										<key>Type</key>
-										<string>Ask</string>
-									</dict>
-								</dict>
-								<key>string</key>
-								<string>￼￼</string>
-							</dict>
-							<key>WFSerializationType</key>
-							<string>WFTextTokenString</string>
-						</dict>
-					</dict>
-				</array>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.repeat.each</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>E3613F5E-B06B-46DE-9513-50B9F3F49755</string>
-				<key>WFControlFlowMode</key>
-				<integer>0</integer>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>列表</string>
-						<key>OutputUUID</key>
-						<string>5B32AF1D-6CF4-463D-A261-9FBB5DC6E4CD</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.conditional</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>E76BD623-E703-430C-8580-1B7C7819202B</string>
-				<key>WFCondition</key>
-				<integer>100</integer>
-				<key>WFControlFlowMode</key>
-				<integer>0</integer>
-				<key>WFInput</key>
-				<dict>
-					<key>Type</key>
-					<string>Variable</string>
-					<key>Variable</key>
-					<dict>
-						<key>Value</key>
-						<dict>
-							<key>Type</key>
-							<string>Variable</string>
-							<key>VariableName</key>
-							<string>Repeat Item</string>
-						</dict>
-						<key>WFSerializationType</key>
-						<string>WFTextTokenAttachment</string>
-					</dict>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.appendvariable</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>Type</key>
-						<string>Variable</string>
-						<key>VariableName</key>
-						<string>Repeat Item</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>WFVariableName</key>
-				<string>排序后列表</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.conditional</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>E76BD623-E703-430C-8580-1B7C7819202B</string>
-				<key>WFControlFlowMode</key>
-				<integer>1</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.conditional</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>E76BD623-E703-430C-8580-1B7C7819202B</string>
-				<key>WFControlFlowMode</key>
-				<integer>2</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.repeat.each</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>E3613F5E-B06B-46DE-9513-50B9F3F49755</string>
-				<key>UUID</key>
-				<string>99B10281-542A-4FB3-9999-8658766F4D94</string>
-				<key>WFControlFlowMode</key>
-				<integer>2</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.repeat.each</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>A4B93DB6-D865-476F-95E8-147B27E65D3A</string>
-				<key>WFControlFlowMode</key>
-				<integer>0</integer>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>Type</key>
-						<string>Variable</string>
-						<key>VariableName</key>
-						<string>全部日子列表</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.conditional</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>244308E7-4D71-40FE-BC62-6530235B7527</string>
-				<key>WFCondition</key>
-				<integer>999</integer>
-				<key>WFConditionalActionString</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>attachmentsByRange</key>
-						<dict>
-							<key>{0, 1}</key>
-							<dict>
-								<key>Type</key>
-								<string>Variable</string>
-								<key>VariableName</key>
-								<string>Repeat Item</string>
-							</dict>
-						</dict>
-						<key>string</key>
-						<string>￼</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenString</string>
-				</dict>
-				<key>WFControlFlowMode</key>
-				<integer>0</integer>
-				<key>WFInput</key>
-				<dict>
-					<key>Type</key>
-					<string>Variable</string>
-					<key>Variable</key>
-					<dict>
-						<key>Value</key>
-						<dict>
-							<key>Type</key>
-							<string>Variable</string>
-							<key>VariableName</key>
-							<string>排序后列表</string>
-						</dict>
-						<key>WFSerializationType</key>
-						<string>WFTextTokenAttachment</string>
-					</dict>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.text.split</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>34AFE9C2-69D9-4156-96FD-E2DA81923F8B</string>
-				<key>WFTextCustomSeparator</key>
-				<string>/</string>
-				<key>WFTextSeparator</key>
-				<string>Custom</string>
-				<key>text</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>Type</key>
-						<string>Variable</string>
-						<key>VariableName</key>
-						<string>Repeat Item</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.getitemfromlist</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>BEDB080A-CB90-4A94-96C3-691964526234</string>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>拆分文本</string>
-						<key>OutputUUID</key>
-						<string>34AFE9C2-69D9-4156-96FD-E2DA81923F8B</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.filter.reminders</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>2311EF84-9B12-4D35-A872-6B3915966369</string>
-				<key>WFContentItemFilter</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>WFActionParameterFilterPrefix</key>
-						<integer>1</integer>
-						<key>WFActionParameterFilterTemplates</key>
-						<array>
-							<dict>
-								<key>Operator</key>
-								<integer>99</integer>
-								<key>Property</key>
-								<string>Name</string>
-								<key>Removable</key>
-								<true/>
-								<key>Values</key>
-								<dict>
-									<key>String</key>
-									<dict>
-										<key>Value</key>
-										<dict>
-											<key>attachmentsByRange</key>
-											<dict>
-												<key>{0, 1}</key>
-												<dict>
-													<key>OutputName</key>
-													<string>来自列表的项目</string>
-													<key>OutputUUID</key>
-													<string>BEDB080A-CB90-4A94-96C3-691964526234</string>
-													<key>Type</key>
-													<string>ActionOutput</string>
-												</dict>
-											</dict>
-											<key>string</key>
-											<string>￼</string>
-										</dict>
-										<key>WFSerializationType</key>
-										<string>WFTextTokenString</string>
-									</dict>
-								</dict>
-							</dict>
-							<dict>
-								<key>Operator</key>
-								<integer>4</integer>
-								<key>Property</key>
-								<string>Notes</string>
-								<key>Removable</key>
-								<true/>
-								<key>Values</key>
-								<dict>
-									<key>String</key>
-									<string>---时间不多了---</string>
-								</dict>
-							</dict>
-						</array>
-						<key>WFContentPredicateBoundedDate</key>
-						<false/>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFContentPredicateTableTemplate</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.appendvariable</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>查找提醒事项的条件</string>
-						<key>OutputUUID</key>
-						<string>2311EF84-9B12-4D35-A872-6B3915966369</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>WFVariableName</key>
-				<string>要被移除的提醒</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.conditional</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>244308E7-4D71-40FE-BC62-6530235B7527</string>
-				<key>WFControlFlowMode</key>
-				<integer>1</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.conditional</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>244308E7-4D71-40FE-BC62-6530235B7527</string>
-				<key>WFControlFlowMode</key>
-				<integer>2</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.repeat.each</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>A4B93DB6-D865-476F-95E8-147B27E65D3A</string>
-				<key>UUID</key>
-				<string>29A863E1-ADB2-4A77-962E-D48371FE9945</string>
-				<key>WFControlFlowMode</key>
-				<integer>2</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.conditional</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>B8B0DE45-4647-4AE7-81E6-CCD93EBF4933</string>
-				<key>WFCondition</key>
-				<integer>100</integer>
-				<key>WFControlFlowMode</key>
-				<integer>0</integer>
-				<key>WFInput</key>
-				<dict>
-					<key>Type</key>
-					<string>Variable</string>
-					<key>Variable</key>
-					<dict>
-						<key>Value</key>
-						<dict>
-							<key>Type</key>
-							<string>Variable</string>
-							<key>VariableName</key>
-							<string>要被移除的提醒</string>
-						</dict>
-						<key>WFSerializationType</key>
-						<string>WFTextTokenAttachment</string>
-					</dict>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.removereminders</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFInputReminders</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>Type</key>
-						<string>Variable</string>
-						<key>VariableName</key>
-						<string>要被移除的提醒</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.conditional</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>B8B0DE45-4647-4AE7-81E6-CCD93EBF4933</string>
-				<key>WFControlFlowMode</key>
-				<integer>2</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.gettext</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>89ECE948-2F94-4137-BFF3-9469F3C6740D</string>
-				<key>WFTextActionText</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>attachmentsByRange</key>
-						<dict>
-							<key>{0, 1}</key>
-							<dict>
-								<key>Type</key>
-								<string>Variable</string>
-								<key>VariableName</key>
-								<string>排序后列表</string>
-							</dict>
-						</dict>
-						<key>string</key>
-						<string>￼</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenString</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.documentpicker.save</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFAskWhereToSave</key>
-				<false/>
-				<key>WFFileDestinationPath</key>
-				<string>mydays/days.txt</string>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>文本</string>
-						<key>OutputUUID</key>
-						<string>89ECE948-2F94-4137-BFF3-9469F3C6740D</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>WFSaveFileOverwrite</key>
-				<true/>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>8E1CECD1-222D-4318-9FAE-97F4D4B3CE1D</string>
-				<key>WFControlFlowMode</key>
-				<integer>1</integer>
-				<key>WFMenuItemTitle</key>
-				<string>◾️桌面PWA</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.base64encode</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>AC2B583B-4377-475F-893F-41277F5B856C</string>
-				<key>WFBase64LineBreakMode</key>
-				<string>None</string>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>来自HTML的多信息文本</string>
-						<key>OutputUUID</key>
-						<string>12D93971-5BEE-47E3-87DF-73182FC88953</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.url</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>24133F14-8F52-4521-BF77-33095FFCEA2D</string>
-				<key>WFURLActionURL</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>attachmentsByRange</key>
-						<dict>
-							<key>{22, 1}</key>
-							<dict>
-								<key>OutputName</key>
-								<string>Base64已编码内容</string>
-								<key>OutputUUID</key>
-								<string>AC2B583B-4377-475F-893F-41277F5B856C</string>
-								<key>Type</key>
-								<string>ActionOutput</string>
-							</dict>
-						</dict>
-						<key>string</key>
-						<string>data:text/html;base64,￼</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenString</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.openurl</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>URL</string>
-						<key>OutputUUID</key>
-						<string>24133F14-8F52-4521-BF77-33095FFCEA2D</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.notification</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFNotificationActionBody</key>
-				<string>等待图标加载出来添加即可
-桌面应用不支持修改日子，如要修改日子请从捷径内修改，并重新设置PWA应用</string>
-				<key>WFNotificationActionSound</key>
-				<false/>
-				<key>WFNotificationActionTitle</key>
-				<string>点击分享按钮，然后将网页添加到主屏幕即可</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.exit</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict/>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>8E1CECD1-222D-4318-9FAE-97F4D4B3CE1D</string>
-				<key>WFControlFlowMode</key>
-				<integer>1</integer>
-				<key>WFMenuItemTitle</key>
-				<string>设置</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>0580A1F6-1B09-4308-BE15-BAE884981908</string>
-				<key>WFControlFlowMode</key>
-				<integer>0</integer>
-				<key>WFMenuItems</key>
-				<array>
-					<string>修改日历日程数</string>
-					<string>修改主题</string>
-					<string>支付宝打赏作者</string>
-				</array>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>0580A1F6-1B09-4308-BE15-BAE884981908</string>
-				<key>WFControlFlowMode</key>
-				<integer>1</integer>
-				<key>WFMenuItemTitle</key>
-				<string>修改日历日程数</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.ask</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>87B5842A-AB57-4730-8707-ABBDEDFC0116</string>
-				<key>WFAskActionDefaultAnswerNumber</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>Type</key>
-						<string>Variable</string>
-						<key>VariableName</key>
-						<string>num</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>WFAskActionPrompt</key>
-				<string>请输入最多显示多少日程数量</string>
-				<key>WFInputType</key>
-				<string>Number</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.text.split</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>3BFF6339-C50A-47E3-9861-DBAF50C5026F</string>
-				<key>text</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>文件</string>
-						<key>OutputUUID</key>
-						<string>5FC1F939-1C3A-4D74-8252-C8DA78E35481</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.getitemfromlist</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>9774CA12-FB70-42D0-92D2-1CE2FFE7FE2C</string>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>拆分文本</string>
-						<key>OutputUUID</key>
-						<string>3BFF6339-C50A-47E3-9861-DBAF50C5026F</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>WFItemSpecifier</key>
-				<string>Last Item</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.gettext</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>754E5BC9-1202-4556-8A70-EF60030E8F14</string>
-				<key>WFTextActionText</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>attachmentsByRange</key>
-						<dict>
-							<key>{0, 1}</key>
-							<dict>
-								<key>OutputName</key>
-								<string>提供的输入</string>
-								<key>OutputUUID</key>
-								<string>87B5842A-AB57-4730-8707-ABBDEDFC0116</string>
-								<key>Type</key>
-								<string>ActionOutput</string>
-							</dict>
-							<key>{2, 1}</key>
-							<dict>
-								<key>OutputName</key>
-								<string>来自列表的项目</string>
-								<key>OutputUUID</key>
-								<string>9774CA12-FB70-42D0-92D2-1CE2FFE7FE2C</string>
-								<key>Type</key>
-								<string>ActionOutput</string>
-							</dict>
-						</dict>
-						<key>string</key>
-						<string>￼
-￼</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenString</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.documentpicker.save</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFAskWhereToSave</key>
-				<false/>
-				<key>WFFileDestinationPath</key>
-				<string>mydays/cals.txt</string>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>文本</string>
-						<key>OutputUUID</key>
-						<string>754E5BC9-1202-4556-8A70-EF60030E8F14</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>WFSaveFileOverwrite</key>
-				<true/>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>0580A1F6-1B09-4308-BE15-BAE884981908</string>
-				<key>WFControlFlowMode</key>
-				<integer>1</integer>
-				<key>WFMenuItemTitle</key>
-				<string>修改主题</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>054836CE-AB91-4E61-91F2-0B8D252F366D</string>
-				<key>WFControlFlowMode</key>
-				<integer>0</integer>
-				<key>WFMenuItems</key>
-				<array>
-					<string>渐变色</string>
-					<string>纯色</string>
-					<string>自定义</string>
-				</array>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>054836CE-AB91-4E61-91F2-0B8D252F366D</string>
-				<key>WFControlFlowMode</key>
-				<integer>1</integer>
-				<key>WFMenuItemTitle</key>
-				<string>渐变色</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.gettext</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFTextActionText</key>
-				<string>[0,10,30,60,100,365,500]
-backgroundImage
-["linear-gradient(160deg, #00ffd5 20%,#008cff 80%)","linear-gradient(160deg, #b100ff 20%,#00b3ff 80%)","linear-gradient(160deg, #0078ff 20%,#002abb 80%)","linear-gradient(160deg, #ffce00 20%,#ff8b00 80%)","linear-gradient(160deg, #ff0064 20%,#ca00ff 80%)","linear-gradient(160deg, #a200ff 20%,#cf3700 80%)"]</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>054836CE-AB91-4E61-91F2-0B8D252F366D</string>
-				<key>WFControlFlowMode</key>
-				<integer>1</integer>
-				<key>WFMenuItemTitle</key>
-				<string>纯色</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.gettext</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFTextActionText</key>
-				<string>[0,10,30,60,100,365,500,1000]
-backgroundColor
-["#00838F","#00695C","#2E7D32","#558B2F","#9E9D24","#F9A825","#FF8F00","#EF6C00"]</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>054836CE-AB91-4E61-91F2-0B8D252F366D</string>
-				<key>WFControlFlowMode</key>
-				<integer>1</integer>
-				<key>WFMenuItemTitle</key>
-				<string>自定义</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.gettext</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>5229D39A-D65C-45C3-A5B3-07683C3DDBA8</string>
-				<key>WFTextActionText</key>
-				<string>第一行为颜色级别，每个数值代表显示该颜色所需的最少天数；
-第二行为li css style属性，颜色为backgroundColor，渐变为backgroundImage，注意大小写；
-第三行为每一级别的颜色代码</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.notification</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFNotificationActionBody</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>attachmentsByRange</key>
-						<dict>
-							<key>{0, 1}</key>
-							<dict>
-								<key>OutputName</key>
-								<string>文本</string>
-								<key>OutputUUID</key>
-								<string>5229D39A-D65C-45C3-A5B3-07683C3DDBA8</string>
-								<key>Type</key>
-								<string>ActionOutput</string>
-							</dict>
-						</dict>
-						<key>string</key>
-						<string>￼</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenString</string>
-				</dict>
-				<key>WFNotificationActionSound</key>
-				<false/>
-				<key>WFNotificationActionTitle</key>
-				<string>请按照格式填写配置文件，如果显示不正确请选择默认配色</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.ask</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>5FA3C39D-1014-407C-B818-5B1886300E4B</string>
-				<key>WFAskActionDefaultAnswer</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>attachmentsByRange</key>
-						<dict>
-							<key>{0, 1}</key>
-							<dict>
-								<key>OutputName</key>
-								<string>文本</string>
-								<key>OutputUUID</key>
-								<string>E49DD3C0-2B7D-41F1-9717-699C71FDE002</string>
-								<key>Type</key>
-								<string>ActionOutput</string>
-							</dict>
-						</dict>
-						<key>string</key>
-						<string>￼</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenString</string>
-				</dict>
-				<key>WFAskActionPrompt</key>
-				<string>请输入配置文件</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.gettext</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFTextActionText</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>attachmentsByRange</key>
-						<dict>
-							<key>{0, 1}</key>
-							<dict>
-								<key>OutputName</key>
-								<string>提供的输入方式</string>
-								<key>OutputUUID</key>
-								<string>5FA3C39D-1014-407C-B818-5B1886300E4B</string>
-								<key>Type</key>
-								<string>ActionOutput</string>
-							</dict>
-						</dict>
-						<key>string</key>
-						<string>￼</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenString</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>054836CE-AB91-4E61-91F2-0B8D252F366D</string>
-				<key>UUID</key>
-				<string>78219BA6-CF04-4961-B3CD-3E1C71F0A37C</string>
-				<key>WFControlFlowMode</key>
-				<integer>2</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.gettext</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>617F1970-D8FE-425D-B208-4ABC738073A4</string>
-				<key>WFTextActionText</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>attachmentsByRange</key>
-						<dict>
-							<key>{0, 1}</key>
-							<dict>
-								<key>OutputName</key>
-								<string>菜单结果</string>
-								<key>OutputUUID</key>
-								<string>78219BA6-CF04-4961-B3CD-3E1C71F0A37C</string>
-								<key>Type</key>
-								<string>ActionOutput</string>
-							</dict>
-						</dict>
-						<key>string</key>
-						<string>￼</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenString</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.documentpicker.save</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFAskWhereToSave</key>
-				<false/>
-				<key>WFFileDestinationPath</key>
-				<string>mydays/config2.txt</string>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>文本</string>
-						<key>OutputUUID</key>
-						<string>617F1970-D8FE-425D-B208-4ABC738073A4</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>WFSaveFileOverwrite</key>
-				<true/>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>0580A1F6-1B09-4308-BE15-BAE884981908</string>
-				<key>WFControlFlowMode</key>
-				<integer>1</integer>
-				<key>WFMenuItemTitle</key>
-				<string>支付宝打赏作者</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.url</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>A5DCAB41-3F96-4C76-B867-07A98E2CF2B4</string>
-				<key>WFURLActionURL</key>
-				<string>alipayqr://platformapi/startapp?saId=10000007&amp;qrcode=https%3A%2F%2Fqr.alipay.com%2Ffkx17562yuujdjicf0fhf80</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.openurl</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>URL</string>
-						<key>OutputUUID</key>
-						<string>A5DCAB41-3F96-4C76-B867-07A98E2CF2B4</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>0580A1F6-1B09-4308-BE15-BAE884981908</string>
-				<key>WFControlFlowMode</key>
-				<integer>2</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>8E1CECD1-222D-4318-9FAE-97F4D4B3CE1D</string>
-				<key>UUID</key>
-				<string>6A6291D2-C016-4CE8-8E84-F4E783C85B76</string>
-				<key>WFControlFlowMode</key>
-				<integer>2</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.runworkflow</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFShowWorkflow</key>
-				<false/>
-				<key>WFWorkflowName</key>
-				<string>我的日子</string>
-			</dict>
-		</dict>
-	</array>
-	<key>WFWorkflowClientRelease</key>
-	<string>3.0</string>
-	<key>WFWorkflowClientVersion</key>
-	<string>1050.22</string>
-	<key>WFWorkflowIcon</key>
-	<dict>
-		<key>WFWorkflowIconGlyphNumber</key>
-		<integer>59763</integer>
-		<key>WFWorkflowIconStartColor</key>
-		<integer>4282601983</integer>
-	</dict>
-	<key>WFWorkflowImportQuestions</key>
-	<array/>
-	<key>WFWorkflowInputContentItemClasses</key>
-	<array>
-		<string>WFAppStoreAppContentItem</string>
-		<string>WFArticleContentItem</string>
-		<string>WFContactContentItem</string>
-		<string>WFDateContentItem</string>
-		<string>WFEmailAddressContentItem</string>
-		<string>WFGenericFileContentItem</string>
-		<string>WFImageContentItem</string>
-		<string>WFiTunesProductContentItem</string>
-		<string>WFLocationContentItem</string>
-		<string>WFDCMapsLinkContentItem</string>
-		<string>WFAVAssetContentItem</string>
-		<string>WFPDFContentItem</string>
-		<string>WFPhoneNumberContentItem</string>
-		<string>WFRichTextContentItem</string>
-		<string>WFSafariWebPageContentItem</string>
-		<string>WFStringContentItem</string>
-		<string>WFURLContentItem</string>
-	</array>
-	<key>WFWorkflowMinimumClientVersion</key>
-	<integer>900</integer>
-	<key>WFWorkflowMinimumClientVersionString</key>
-	<string>900</string>
-	<key>WFWorkflowTypes</key>
-	<array>
-		<string>NCWidget</string>
-		<string>WatchKit</string>
-	</array>
-</dict>
-</plist>

@@ -1,0 +1,3967 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WFWorkflowActions</key>
+	<array>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.dictionary</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>1AB3C322-3019-48C6-9E5B-BDF6FBF9DF75</string>
+				<key>WFItems</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>WFDictionaryFieldValueItems</key>
+						<array>
+							<dict>
+								<key>WFItemType</key>
+								<integer>0</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>Shortcut Name</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>iOS 13 快捷指令复制</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+							</dict>
+							<dict>
+								<key>WFItemType</key>
+								<integer>0</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>Author</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>Veritas</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+							</dict>
+							<dict>
+								<key>WFItemType</key>
+								<integer>2</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>Copyright</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<array>
+										<string>Copyright © 2019.10.8 Veritas. </string>
+										<string>All rights reserved.</string>
+									</array>
+									<key>WFSerializationType</key>
+									<string>WFArrayParameterState</string>
+								</dict>
+							</dict>
+							<dict>
+								<key>WFItemType</key>
+								<integer>2</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>info</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<array>
+										<string>https://jiejinghe.com/shortcuts/6027285089</string>
+									</array>
+									<key>WFSerializationType</key>
+									<string>WFArrayParameterState</string>
+								</dict>
+							</dict>
+							<dict>
+								<key>WFItemType</key>
+								<integer>0</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>update</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>2019-11-03 10点14分</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+							</dict>
+							<dict>
+								<key>WFItemType</key>
+								<integer>1</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>config</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>Value</key>
+										<dict>
+											<key>WFDictionaryFieldValueItems</key>
+											<array>
+												<dict>
+													<key>WFItemType</key>
+													<integer>4</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>choose_all</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<false/>
+														<key>WFSerializationType</key>
+														<string>WFNumberSubstitutableState</string>
+													</dict>
+												</dict>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>new_sc_name</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>111</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
+											</array>
+										</dict>
+										<key>WFSerializationType</key>
+										<string>WFDictionaryFieldValue</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFDictionaryFieldValue</string>
+								</dict>
+							</dict>
+						</array>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFDictionaryFieldValue</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Aggrandizements</key>
+						<array>
+							<dict>
+								<key>DictionaryKey</key>
+								<string>config</string>
+								<key>Type</key>
+								<string>WFDictionaryValueVariableAggrandizement</string>
+							</dict>
+						</array>
+						<key>OutputName</key>
+						<string>词典</string>
+						<key>OutputUUID</key>
+						<string>1AB3C322-3019-48C6-9E5B-BDF6FBF9DF75</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>config</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.dictionary</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>EE557E10-CB34-4E5A-B6D8-6813F541904A</string>
+				<key>WFItems</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>WFDictionaryFieldValueItems</key>
+						<array>
+							<dict>
+								<key>WFItemType</key>
+								<integer>1</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>md_en</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>Value</key>
+										<dict>
+											<key>WFDictionaryFieldValueItems</key>
+											<array>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>info</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string></string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>name</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>Shortcut</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>actions</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>Action Count</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>filesize</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>File Size</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>magic_var</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>Magic  Variable</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>custom_var</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>Custom Variable</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>glyph_num</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>Glyph Number</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>glyph_color</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>Glyph  Color</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>shortcut_type</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>Shortcut Type</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>dependency</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>Dependencies</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>action_list</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>Action List</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>content_class</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>Data Type Used</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>comment</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>Comments</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
+											</array>
+										</dict>
+										<key>WFSerializationType</key>
+										<string>WFDictionaryFieldValue</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFDictionaryFieldValue</string>
+								</dict>
+							</dict>
+							<dict>
+								<key>WFItemType</key>
+								<integer>1</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>md_cn</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>Value</key>
+										<dict>
+											<key>WFDictionaryFieldValueItems</key>
+											<array>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>info</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>快捷指令信息</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>name</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>快捷指令</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>actions</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>动作数量</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>filesize</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>文件大小</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>magic_var</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>魔术变量数量</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>custom_var</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>自定义变量数量</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>glyph_num</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>Glyph 编号</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>glyph_color</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>Glyph 颜色</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>shortcut_type</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>快捷指令类型</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>dependency</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>依赖</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>action_list</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>动作列表</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>content_class</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>使用到的数据类型</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>comment</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>注释内容</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
+											</array>
+										</dict>
+										<key>WFSerializationType</key>
+										<string>WFDictionaryFieldValue</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFDictionaryFieldValue</string>
+								</dict>
+							</dict>
+							<dict>
+								<key>WFItemType</key>
+								<integer>1</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>html_en</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>Value</key>
+										<dict>
+											<key>WFDictionaryFieldValueItems</key>
+											<array>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>title</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>🔬Shortcut Analyser</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
+											</array>
+										</dict>
+										<key>WFSerializationType</key>
+										<string>WFDictionaryFieldValue</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFDictionaryFieldValue</string>
+								</dict>
+							</dict>
+							<dict>
+								<key>WFItemType</key>
+								<integer>1</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>html</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>Value</key>
+										<dict>
+											<key>WFDictionaryFieldValueItems</key>
+											<array>
+												<dict>
+													<key>WFItemType</key>
+													<integer>0</integer>
+													<key>WFKey</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>title</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+													<key>WFValue</key>
+													<dict>
+														<key>Value</key>
+														<dict>
+															<key>attachmentsByRange</key>
+															<dict/>
+															<key>string</key>
+															<string>🔬快捷指令分析工具</string>
+														</dict>
+														<key>WFSerializationType</key>
+														<string>WFTextTokenString</string>
+													</dict>
+												</dict>
+											</array>
+										</dict>
+										<key>WFSerializationType</key>
+										<string>WFDictionaryFieldValue</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFDictionaryFieldValue</string>
+								</dict>
+							</dict>
+						</array>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFDictionaryFieldValue</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>词典</string>
+						<key>OutputUUID</key>
+						<string>EE557E10-CB34-4E5A-B6D8-6813F541904A</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>lang</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefrommenu</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>A77437DB-5202-4798-9012-2D2DF806507F</string>
+				<key>WFControlFlowMode</key>
+				<integer>0</integer>
+				<key>WFMenuItems</key>
+				<array>
+					<string>默认全选</string>
+					<string>手动选择</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefrommenu</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>A77437DB-5202-4798-9012-2D2DF806507F</string>
+				<key>WFControlFlowMode</key>
+				<integer>1</integer>
+				<key>WFMenuItemTitle</key>
+				<string>默认全选</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvalueforkey</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>BB38E83F-8707-46A5-830A-50603DE5F40A</string>
+				<key>WFDictionary</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Type</key>
+						<string>Variable</string>
+						<key>VariableName</key>
+						<string>config</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFDictionaryKey</key>
+				<string>choose_all</string>
+				<key>WFDictionaryValue</key>
+				<string>真</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefrommenu</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>A77437DB-5202-4798-9012-2D2DF806507F</string>
+				<key>WFControlFlowMode</key>
+				<integer>1</integer>
+				<key>WFMenuItemTitle</key>
+				<string>手动选择</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvalueforkey</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFDictionary</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Type</key>
+						<string>Variable</string>
+						<key>VariableName</key>
+						<string>config</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFDictionaryKey</key>
+				<string>choose_all</string>
+				<key>WFDictionaryValue</key>
+				<string>假</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefrommenu</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>A77437DB-5202-4798-9012-2D2DF806507F</string>
+				<key>UUID</key>
+				<string>CC3A717B-DC36-42F2-8CE2-630ACC3D4E09</string>
+				<key>WFControlFlowMode</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefrommenu</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>BDF96AB7-3BCD-4E9A-8C2D-C6E4254EBAA4</string>
+				<key>WFControlFlowMode</key>
+				<integer>0</integer>
+				<key>WFMenuItems</key>
+				<array>
+					<string>中文</string>
+					<string>英文</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefrommenu</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>BDF96AB7-3BCD-4E9A-8C2D-C6E4254EBAA4</string>
+				<key>WFControlFlowMode</key>
+				<integer>1</integer>
+				<key>WFMenuItemTitle</key>
+				<string>中文</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>16F95F34-B7AD-4114-AAD2-4E5F99567D08</string>
+				<key>WFTextActionText</key>
+				<string>{
+"com.agiletortoise.Drafts4.addto":"添加到草稿",
+"com.agiletortoise.Drafts4.get":"获取草稿内容",
+"com.agiletortoise.Drafts4.open":"打开草稿",
+"com.agiletortoise.Drafts4.runAction":"运行 Drafts 操作",
+"com.agiletortoise.Tally2.get":"获取 Tally",
+"com.agiletortoise.Tally2.updatetally":"更新 Tally",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXSetLargeTextIntent":"设定文字大小",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXStartGuidedAccessIntent":"开始引导式访问",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXStartMagnifierIntent":"打开放大器",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXStartSpeakScreenIntent":"开始朗读屏幕",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleAssistiveTouchIntent":"设定辅助触控",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleAudioDescriptionsIntent":"设定口述影像",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleCaptionsIntent":"设定隐藏式字幕 + 听障人士字幕",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleClassicInvertIntent":"设定经典反转",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleContrastIntent":"设定增强对比度",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleLEDFlashIntent":"设定 LED 闪烁",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleMonoAudioIntent":"设定单音道音频",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleReduceMotionIntent":"设定减弱动态效果",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleSmartInvertIntent":"设定智能反转",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleSwitchControlIntent":"设定切换控制",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleTransparencyIntent":"设定降低透明度",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleVoiceControlIntent":"设定语音控制",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleVoiceOverIntent":"设定旁白",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleWhitePointIntent":"设定白点",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleZoomIntent":"设定缩放",
+"com.apple.TVRemoteUIService.LaunchApplicationIntent":"在 Apple TV 上打开 App",
+"com.apple.TVRemoteUIService.LaunchRemoteIntent":"显示遥控器",
+"com.apple.TVRemoteUIService.PauseContentIntent":"播放/暂停 Apple TV",
+"com.apple.TVRemoteUIService.SleepAppleTVIntent":"使 Apple TV 进入睡眠",
+"com.apple.TVRemoteUIService.WakeAppleTVIntent":"唤醒 Apple TV",
+"com.apple.facetime.facetime":"FaceTime 通话",
+"com.apple.iBooks.openin":"将 PDF 添加到“图书”",
+"com.apple.mobilenotes.SharingExtension":"创建备忘录",
+"com.apple.mobilephone.call":"呼叫",
+"com.apple.mobileslideshow.StreamShareService":"发布到共享相簿",
+"com.apple.mobileslideshow.StreamShareService":"发布到共享相簿",
+"com.apple.mobiletimer-framework.MobileTimerIntents.MTCreateAlarmIntent":"创建闹钟",
+"com.apple.mobiletimer-framework.MobileTimerIntents.MTGetAlarmsIntent":"获取所有闹钟",
+"com.apple.mobiletimer-framework.MobileTimerIntents.MTToggleAlarmIntent":"开关闹钟",
+"com.appliedphasor.working-copy.CheckoutBranchIntent":"Checkout Branch",
+"com.appliedphasor.working-copy.CommitLogIntent":"Repository History",
+"com.appliedphasor.working-copy.CommitRepositoryIntent":"Commit Repository",
+"com.appliedphasor.working-copy.GetFilesIntent":"Get Repository Files",
+"com.appliedphasor.working-copy.OpenIntent":"Open in Working Copy",
+"com.appliedphasor.working-copy.PullRepositoryIntent":"Pull Repository",
+"com.appliedphasor.working-copy.PushRepositoryIntent":"Push Repository",
+"com.appliedphasor.working-copy.StageFilesIntent":"Stage for Commit",
+"com.appliedphasor.working-copy.WriteFileIntent":"Write Repository File",
+"com.burbn.instagram.openin":"发布到 Instagram",
+"com.google.chrome.ios.openurl":"在 Chrome 中 打开 URL",
+"com.google.chrome.ios.openurl":"在 Chrome 中打开 URL",
+"com.omz-software.Editorial.runworkflow":"运行 Editorial 工作流程",
+"com.omz-software.Pythonista.editscript":"编辑脚本",
+"com.omz-software.Pythonista.runscript":"运行脚本",
+"com.soulmen.ulysses.pad.attach":"附加到 Ulysses 文稿",
+"com.soulmen.ulysses.pad.insert":"添加到 Ulysses 文稿",
+"com.soulmen.ulysses.pad.new-group":"创建 Ulysses 组",
+"com.soulmen.ulysses.pad.new-sheet":"创建 Ulysses 文稿",
+"com.soulmen.ulysses.pad.open":"打开 Ulysses",
+"com.soulmen.ulysses.pad.read-sheet":"获取 Ulysses 文稿",
+"com.tapbots.Tweetbot.opentweetbot":"打开 Tweetbot",
+"com.tapbots.Tweetbot.searchtext":"搜索文本",
+"com.tapbots.Tweetbot.tweet":"发推",
+"com.tapbots.Tweetbot.viewprofile":"在 Tweetbot 中显示个人资料",
+"com.tijo.opener.Opener.show-options":"在 Opener 中打开URL",
+"dk.simonbs.Jayson.GetFileIntent":"获取文件",
+"dk.simonbs.Jayson.ViewJSONIntent":"View JSON",
+"dk.simonbs.Scriptable.CreateFileBookmarkIntent":"Create File Bookmark",
+"dk.simonbs.Scriptable.ParameterizedRunScriptIntent":"运行脚本",
+"fm.overcast.overcast.add":"添加到 Overcast",
+"is.workflow.actions.addframetogif":"为 GIF 添加帧",
+"is.workflow.actions.addmusictoupnext":"添加到待播清单",
+"is.workflow.actions.addnewevent":"添加新日程",
+"is.workflow.actions.addnewreminder":"添加新提醒事项",
+"is.workflow.actions.address":"街道地址",
+"is.workflow.actions.addtoplaylist":"添加到播放列表",
+"is.workflow.actions.airdropdocument":"隔空投送",
+"is.workflow.actions.airplanemode.set":"设定飞行模式",
+"is.workflow.actions.alert":"显示提醒",
+"is.workflow.actions.appearance":"设定外观",
+"is.workflow.actions.appendnote":"追加到备忘录",
+"is.workflow.actions.appendvariable":"添加到变量",
+"is.workflow.actions.ask":"要求输入",
+"is.workflow.actions.avairyeditphoto":"标记",
+"is.workflow.actions.avairyeditphoto":"标记",
+"is.workflow.actions.base64encode":"Base64 编码",
+"is.workflow.actions.bluetooth.set":"设定蓝牙",
+"is.workflow.actions.cellulardata.set":"设定蜂窝数据",
+"is.workflow.actions.choosefromlist":"从列表中选取",
+"is.workflow.actions.choosefrommenu":"从菜单中选取",
+"is.workflow.actions.clearupnext":"清除待播清单",
+"is.workflow.actions.cloudapp.upload":"上传到 CloudApp",
+"is.workflow.actions.comment":"注释",
+"is.workflow.actions.conditional":"如果",
+"is.workflow.actions.contacts":"通讯录",
+"is.workflow.actions.correctspelling":"纠正拼写",
+"is.workflow.actions.count":"计数",
+"is.workflow.actions.createplaylist":"创建播放列表",
+"is.workflow.actions.delay":"等待",
+"is.workflow.actions.deletephotos":"删除照片",
+"is.workflow.actions.detect.address":"从输入中获取地址",
+"is.workflow.actions.detect.contacts":"从输入中获取联系人",
+"is.workflow.actions.detect.dictionary":"从输入中获取词典",
+"is.workflow.actions.detect.emailaddress":"从输入中获取电子邮件地址",
+"is.workflow.actions.detect.images":"从输入中获取图像",
+"is.workflow.actions.detect.link":"从输入中获取 URL",
+"is.workflow.actions.detect.number":"从输入中获取数字",
+"is.workflow.actions.detect.text":"从输入中获取文本",
+"is.workflow.actions.detectlanguage":"使用 Microsoft 检测语言",
+"is.workflow.actions.dictatetext":"听写文本",
+"is.workflow.actions.dictionary":"词典",
+"is.workflow.actions.dnd.set":"设定“勿扰模式”",
+"is.workflow.actions.documentpicker.open":"获取文件",
+"is.workflow.actions.documentpicker.save":"存储文件",
+"is.workflow.actions.downloadurl":"获取 URL 内容",
+"is.workflow.actions.email":"电子邮件地址",
+"is.workflow.actions.encodemedia":"编码媒体",
+"is.workflow.actions.evernote.append":"追加到“印象笔记中”",
+"is.workflow.actions.evernote.delete":"删除笔记",
+"is.workflow.actions.evernote.get":"获取笔记",
+"is.workflow.actions.evernote.getlink":"获取笔记链接",
+"is.workflow.actions.evernote.new":"创建新笔记",
+"is.workflow.actions.exit":"退出快捷指令",
+"is.workflow.actions.exportsong":"选择音乐",
+"is.workflow.actions.file.append":"追加到文件",
+"is.workflow.actions.file.createfolder":"创建文件夹",
+"is.workflow.actions.file.delete":"删除文件",
+"is.workflow.actions.file.getlink":"获取文件链接",
+"is.workflow.actions.filter.articles":"过滤文章",
+"is.workflow.actions.filter.calendarevents":"查找日历日程",
+"is.workflow.actions.filter.contacts":"查找联系人",
+"is.workflow.actions.filter.eventattendees":"过滤日程参与者",
+"is.workflow.actions.filter.files":"过滤文件",
+"is.workflow.actions.filter.health.quantity":"查找健康样本",
+"is.workflow.actions.filter.images":"过滤图像",
+"is.workflow.actions.filter.locations":"过滤位置",
+"is.workflow.actions.filter.music":"查找音乐",
+"is.workflow.actions.filter.notes":"查找备忘录",
+"is.workflow.actions.filter.photos":"查找照片",
+"is.workflow.actions.filter.reminders":"查找提醒事项",
+"is.workflow.actions.flashlight":"设定手电筒",
+"is.workflow.actions.format.filesize":"格式化文件大小",
+"is.workflow.actions.format.number":"格式化数字",
+"is.workflow.actions.generatebarcode":"生成二维码",
+"is.workflow.actions.get.playlist":"获取播放列表",
+"is.workflow.actions.getarticle":"使用Safari阅读器获取文章",
+"is.workflow.actions.getbatterylevel":"获取电池电量",
+"is.workflow.actions.getclipboard":"获取剪贴板",
+"is.workflow.actions.getcurrentlocation":"获取当前位置",
+"is.workflow.actions.getcurrentsong":"获取当前歌曲",
+"is.workflow.actions.getdevicedetails":"获取设备的详细信息",
+"is.workflow.actions.getdirections":"显示路线",
+"is.workflow.actions.getdistance":"获取距离",
+"is.workflow.actions.getepisodesforpodcast":"获取播客单集",
+"is.workflow.actions.getframesfromimage":"从图像中获取帧",
+"is.workflow.actions.gethalfwaypoint":"获取中点",
+"is.workflow.actions.gethomeaccessorystate":"获取我的家的状态",
+"is.workflow.actions.gethtmlfromrichtext":"用多信息文本制作 HTML",
+"is.workflow.actions.getipaddress":"获取当前 IP 地址",
+"is.workflow.actions.getitemfromlist":"从列表中获取项目",
+"is.workflow.actions.getitemname":"获取名称",
+"is.workflow.actions.getitemtype":"获取类型",
+"is.workflow.actions.getlastphoto":"获取最新的照片",
+"is.workflow.actions.getlastscreenshot":"获取最新截屏",
+"is.workflow.actions.getlastvideo":"获取最新的视频",
+"is.workflow.actions.getlatestbursts":"获取最新的连拍快照",
+"is.workflow.actions.getlatestbursts":"获取最新的连拍快照",
+"is.workflow.actions.getlatestlivephotos":"获取最新的实况照片",
+"is.workflow.actions.getlatestphotoimport":"获取最新导入的照片",
+"is.workflow.actions.getmapslink":"获取地图 URL",
+"is.workflow.actions.getmarkdownfromrichtext":"从多信息文本制作 Markdown",
+"is.workflow.actions.getmyworkflows":"获取我的快捷指令",
+"is.workflow.actions.getnameofemoji":"获取表情符号名称",
+"is.workflow.actions.getpodcastsfromlibrary":"从资料库获取播客",
+"is.workflow.actions.getrichtextfromhtml":"从 HTML 制作多信息文本",
+"is.workflow.actions.getrichtextfrommarkdown":"从 Markdown 制作多信息文本",
+"is.workflow.actions.gettext":"文本",
+"is.workflow.actions.gettraveltime":"获取行程时间",
+"is.workflow.actions.getupcomingevents":"获取临近日程",
+"is.workflow.actions.getupcomingreminders":"获取临近提醒事项",
+"is.workflow.actions.geturlcomponent":"获取 URL 组件",
+"is.workflow.actions.getvalueforkey":"获取词典值",
+"is.workflow.actions.getvariable":"获取变量",
+"is.workflow.actions.getwebpagecontents":"获取网页内容",
+"is.workflow.actions.getwifi":"获取网络的详细信息",
+"is.workflow.actions.giphy":"在 Giphy 中搜索",
+"is.workflow.actions.goodreader.open":"在 GoodReader 中打开",
+"is.workflow.actions.handoff":"在“快捷指令” App 中继续",
+"is.workflow.actions.hash":"生成哈希值",
+"is.workflow.actions.health.quantity.log":"记录健康样本",
+"is.workflow.actions.health.workout.log":"记录体能训练",
+"is.workflow.actions.homeaccessory":"控制我的家",
+"is.workflow.actions.image.combine":"拼接图像",
+"is.workflow.actions.image.convert":"转换图像",
+"is.workflow.actions.image.crop":"裁剪图像",
+"is.workflow.actions.image.flip":"翻转图像",
+"is.workflow.actions.image.mask":"蒙版图像",
+"is.workflow.actions.image.resize":"调整图像大小",
+"is.workflow.actions.image.rotate":"旋转图像",
+"is.workflow.actions.imgur.upload":"上传到 Imgur",
+"is.workflow.actions.instapaper.add":"添加到 Instapaper",
+"is.workflow.actions.instapaper.get":"获取 Instapaper 书签",
+"is.workflow.actions.lightroom.import":"导入到 Lightroom",
+"is.workflow.actions.list":"列表",
+"is.workflow.actions.location":"位置",
+"is.workflow.actions.lowpowermode.set":"设定低电量模式",
+"is.workflow.actions.makegif":"制作 GIF",
+"is.workflow.actions.makepdf":"制作 PDF",
+"is.workflow.actions.makevideofromgif":"从 GIF 制作视频",
+"is.workflow.actions.makezip":"制作压缩包",
+"is.workflow.actions.math":"计算",
+"is.workflow.actions.measurement.convert":"转换测量",
+"is.workflow.actions.measurement.create":"测量",
+"is.workflow.actions.nothing":"无",
+"is.workflow.actions.notification":"显示通知",
+"is.workflow.actions.number":"数字",
+"is.workflow.actions.number.random":"随机数",
+"is.workflow.actions.openapp":"打开 App",
+"is.workflow.actions.openin":"打开方式...",
+"is.workflow.actions.openurl":"打开 URL",
+"is.workflow.actions.openxcallbackurl":"打开 X-Callback URL",
+"is.workflow.actions.overlayimageonimage":"叠放图像",
+"is.workflow.actions.pausemusic":"播放/暂停",
+"is.workflow.actions.pinboard.add":"添加到 Pinboard",
+"is.workflow.actions.pinboard.get":"获取 Pinboard 书签",
+"is.workflow.actions.playmusic":"播放音乐",
+"is.workflow.actions.playpodcast":"播放播客",
+"is.workflow.actions.playsound":"播放声音",
+"is.workflow.actions.pocket.add":"添加到 Pocket",
+"is.workflow.actions.pocket.get":"从 Pocket 中获取项目",
+"is.workflow.actions.podcasts.subscribe":"订阅播客",
+"is.workflow.actions.postonfacebook":"上传到 Facebook",
+"is.workflow.actions.previewdocument":"快速查看",
+"is.workflow.actions.print":"打印",
+"is.workflow.actions.properties.appstore":"获取 App Store App 详细信息",
+"is.workflow.actions.properties.articles":"获取文章的详细信息",
+"is.workflow.actions.properties.calendarevents":"获取日历日程的详细信息",
+"is.workflow.actions.properties.contacts":"获取联系人的详细信息",
+"is.workflow.actions.properties.eventattendees":"获取日程参与者的详细信息",
+"is.workflow.actions.properties.files":"获取文件的详细信息",
+"is.workflow.actions.properties.health.quantity":"获取健康样本的详细信息",
+"is.workflow.actions.properties.images":"获取图像的详细信息",
+"is.workflow.actions.properties.itunesartist":"获取 iTunes 艺人的详细信息",
+"is.workflow.actions.properties.itunesstore":"获取 iTunes 产品的详细信息",
+"is.workflow.actions.properties.locations":"获取位置的详细信息",
+"is.workflow.actions.properties.music":"获取音乐的详细信息",
+"is.workflow.actions.properties.podcast":"获取播客的详细信息",
+"is.workflow.actions.properties.reminders":"获取提醒事项的详细信息",
+"is.workflow.actions.properties.safariwebpage":"获取 Safari 浏览器网页的详细信息",
+"is.workflow.actions.properties.ulysses.sheet":"获取 Ulysses 文稿的详细信息",
+"is.workflow.actions.properties.weather.conditions":"获取天气状况的详细信息",
+"is.workflow.actions.readinglist":"添加到阅读列表",
+"is.workflow.actions.recordaudio":"录制音频",
+"is.workflow.actions.reminders.showlist":"显示提醒事项列表",
+"is.workflow.actions.removeevents":"移除日程",
+"is.workflow.actions.removereminders":"移除提醒事项",
+"is.workflow.actions.repeat.count":"重复",
+"is.workflow.actions.repeat.each":"为每个项目重复",
+"is.workflow.actions.round":"为数字取整",
+"is.workflow.actions.rss":"从 RSS 提要中获取项目",
+"is.workflow.actions.rss.extract":"从页面中获取 RSS 提要",
+"is.workflow.actions.runextension":"通过扩展共享",
+"is.workflow.actions.runjavascriptonwebpage":"在网页上运行 JavaScript",
+"is.workflow.actions.runsshscript":"通过 SSH 运行脚本",
+"is.workflow.actions.runworkflow":"运行快捷指令",
+"is.workflow.actions.savetocameraroll":"存储到相簿",
+"is.workflow.actions.scanbarcode":"扫描二维码/条形码",
+"is.workflow.actions.searchappstore":"搜索 App Store",
+"is.workflow.actions.searchitunes":"搜索 iTunes Store",
+"is.workflow.actions.searchlocalbusinesses":"搜索本地商户",
+"is.workflow.actions.searchmaps":"在地图中显示",
+"is.workflow.actions.searchpodcasts":"搜索播客",
+"is.workflow.actions.searchweb":"搜索网页",
+"is.workflow.actions.selectcontacts":"选择联系人",
+"is.workflow.actions.selectemail":"选择电子邮件地址",
+"is.workflow.actions.selectphoto":"选择照片",
+"is.workflow.actions.sendemail":"发送电子邮件",
+"is.workflow.actions.sendmessage":"发送信息",
+"is.workflow.actions.setbrightness":"设定亮度",
+"is.workflow.actions.setclipboard":"拷贝至剪贴板",
+"is.workflow.actions.setitemname":"设定名称",
+"is.workflow.actions.setplaybackdestination":"设定播放位置",
+"is.workflow.actions.setvalueforkey":"设定词典值",
+"is.workflow.actions.setvariable":"设定变量",
+"is.workflow.actions.setvolume":"设定音量",
+"is.workflow.actions.share":"共享",
+"is.workflow.actions.showdefinition":"显示定义",
+"is.workflow.actions.showinblindsquare":"在 BlindSquare 中显示",
+"is.workflow.actions.showincalendar":"在日历中显示",
+"is.workflow.actions.showinstore":"在 iTunes Store 中显示",
+"is.workflow.actions.shownote":"显示备忘录",
+"is.workflow.actions.showresult":"显示结果",
+"is.workflow.actions.showwebpage":"显示网页",
+"is.workflow.actions.sirikit.donation.handle":"Siri 操作",
+"is.workflow.actions.sirikit.donation.handle":"在 Chrome 中搜索",
+"is.workflow.actions.skipback":"上一首",
+"is.workflow.actions.skipforward":"下一首",
+"is.workflow.actions.speaktext":"朗读文本",
+"is.workflow.actions.statistics":"计算统计数据",
+"is.workflow.actions.takephoto":"拍照",
+"is.workflow.actions.takevideo":"录像",
+"is.workflow.actions.text.changecase":"更改大小写",
+"is.workflow.actions.text.combine":"合并文本",
+"is.workflow.actions.text.match":"匹配文本",
+"is.workflow.actions.text.match.getgroup":"获取匹配文本的组",
+"is.workflow.actions.text.replace":"替换文本",
+"is.workflow.actions.text.split":"拆分文本",
+"is.workflow.actions.text.translate":"使用 Microsoft 翻译文本",
+"is.workflow.actions.timer.start":"开始计时",
+"is.workflow.actions.trimvideo":"修建媒体",
+"is.workflow.actions.tumblr.post":"发布到 Tumblr",
+"is.workflow.actions.tweet":"发推",
+"is.workflow.actions.unzip":"从归档中提取",
+"is.workflow.actions.url":"URL",
+"is.workflow.actions.url.expand":"扩展 URL",
+"is.workflow.actions.url.getheaders":"获取 URL 标题",
+"is.workflow.actions.urlencode":"编码 URL",
+"is.workflow.actions.useractivity.open":"用户活动打开",
+"is.workflow.actions.venmo.pay":"付款",
+"is.workflow.actions.venmo.request":"收款",
+"is.workflow.actions.vibrate":"使设备振动",
+"is.workflow.actions.viewresult":"显示内容图",
+"is.workflow.actions.waittoreturn":"等待返回",
+"is.workflow.actions.weather.currentconditions":"获取当前天气",
+"is.workflow.actions.weather.forecast":"获取天气预报",
+"is.workflow.actions.wifi.set":"设定无线局域网",
+"is.workflow.actions.wordpress.post":"发布到 WordPress",
+"net.shinyfrog.bear-IOS.add":"添加到熊掌记笔记",
+"net.shinyfrog.bear-IOS.contents":"获取熊掌记笔记内容",
+"net.shinyfrog.bear-IOS.create":"创建熊掌记笔记",
+"net.shinyfrog.bear-IOS.grab":"从 URL 创建熊掌记笔记",
+"net.shinyfrog.bear-IOS.open":"打开熊掌记笔记",
+"net.shinyfrog.bear-IOS.search":"在熊掌记中搜索",
+"net.whatsapp.WhatsApp.openin":"通过 WhatsApp 发送照片",
+"net.whatsapp.WhatsApp.send":"通过 WhatsApp 发送信息",
+"squibner.AmazonLinker.convert":"使用 Associate 转换 URL",
+"squibner.AmazonLinker.search":"在 Associate 中搜索"
+}
+</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>16F95F34-B7AD-4114-AAD2-4E5F99567D08</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>map</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefrommenu</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>BDF96AB7-3BCD-4E9A-8C2D-C6E4254EBAA4</string>
+				<key>WFControlFlowMode</key>
+				<integer>1</integer>
+				<key>WFMenuItemTitle</key>
+				<string>英文</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>6163CB84-38D0-48ED-85A4-6D4A62090CFB</string>
+				<key>WFTextActionText</key>
+				<string>{
+"com.agiletortoise.Drafts4.addto":"Add to Draft",
+"com.agiletortoise.Drafts4.get":"Get Contents of Draft",
+"com.agiletortoise.Drafts4.open":"Open Draft",
+"com.agiletortoise.Drafts4.runAction":"Run Drafts Action",
+"com.agiletortoise.Tally2.get":"Get Tally",
+"com.agiletortoise.Tally2.updatetally":"Update Tally",
+"com.apple.facetime.facetime":"FaceTime",
+"com.apple.iBooks.openin":"Open in iBooks",
+"com.apple.mobilenotes.SharingExtension":"Create Note",
+"com.apple.mobilephone.call":"Call",
+"com.blackfoggames.TextTool.transform":"Transform Text",
+"com.boonbits.captio.appendtonote":"Append to Note",
+"com.boonbits.captio.sendnote":"Send Note",
+"com.burbn.instagram.openin":"Post to Instagram",
+"com.culturedcode.ThingsTouch.addtask":"Add Things To-Do",
+"com.dayonelog.dayoneiphone.post":"Create Day One Entry",
+"com.flexibits.fantastical2.addevent":"Add Event via Fantastical",
+"com.flexibits.fantastical2.addreminder":"Add Reminder via Fantastical",
+"com.flexibits.fantastical2.showinfantastical":"Show in Fantastical",
+"com.google.chrome.ios.openurl":"Open URLs in Chrome",
+"com.guidedways.2Do.add":"Add 2Do Task",
+"com.omnigroup.OmniFocus2.iPhone.newitem":"Add OmniFocus Item",
+"com.omnigroup.OmniFocus2.iPhone.pastetaskpaper":"Add TaskPaper to OmniFocus",
+"com.omz-software.Editorial.runworkflow":"Run Editorial Workflow",
+"com.omz-software.Pythonista.editscript":"Edit Script",
+"com.omz-software.Pythonista.runscript":"Run Script",
+"com.outerspaceapps.itranslate.translate":"Show in iTranslate",
+"com.panic.iOS.Transmit.Share":"Save with Transmit",
+"com.phocusllp.due.add":"Add Due Reminder",
+"com.potionfactory.TheHitListMobile.tasks":"Add Task to The Hit List",
+"com.realmacsoftware.clear.createlist":"Add Clear List",
+"com.realmacsoftware.clear.createtask":"Add Clear Task",
+"com.skype.skype.call":"Call via Skype",
+"com.soulmen.ulysses.pad.attach":"Attach to Ulysses Sheet",
+"com.soulmen.ulysses.pad.insert":"Add to Ulysses Sheet",
+"com.soulmen.ulysses.pad.new-group":"New Ulysses Group",
+"com.soulmen.ulysses.pad.new-sheet":"New Ulysses Sheet",
+"com.soulmen.ulysses.pad.open":"Open Ulysses",
+"com.soulmen.ulysses.pad.read-sheet":"Get Ulysses Sheet",
+"com.squibner.Blink.convert":"Convert URL with Blink",
+"com.squibner.Blink.search":"Search in Blink",
+"com.tapbots.Tweetbot.opentweetbot":"Open Tweetbot",
+"com.tapbots.Tweetbot.searchtext":"Search Text",
+"com.tapbots.Tweetbot.tweet":"Tweet (Tweetbot)",
+"com.tapbots.Tweetbot.viewprofile":"View Profile in Tweetbot",
+"com.tijo.opener.Opener.show-options":"Open URL in Opener",
+"fm.overcast.overcast.add":"Add to Overcast",
+"is.workflow.actions.addframetogif":"Add Frame to GIF",
+"is.workflow.actions.addmusictoupnext":"Add to Up Next",
+"is.workflow.actions.addnewevent":"Add New Event",
+"is.workflow.actions.addnewreminder":"Add New Reminder",
+"is.workflow.actions.address":"Street Address",
+"is.workflow.actions.addtoplaylist":"Add to Playlist",
+"is.workflow.actions.adjustdate":"Adjust Date",
+"is.workflow.actions.airdropdocument":"AirDrop",
+"is.workflow.actions.airplanemode.set":"Set Airplane Mode",
+"is.workflow.actions.alert":"Show Alert",
+"is.workflow.actions.appendvariable":"Add to Variable",
+"is.workflow.actions.ask":"Ask for Input",
+"is.workflow.actions.avairyeditphoto":"Edit Image",
+"is.workflow.actions.avairyeditphoto":"Markup",
+"is.workflow.actions.base64encode":"Base64 Encode",
+"is.workflow.actions.bluetooth.set":"Set Bluetooth",
+"is.workflow.actions.cellulardata.set":"Set Cellular Data",
+"is.workflow.actions.choosefromlist":"Choose from List",
+"is.workflow.actions.choosefrommenu":["Choose from Menu", "Choose", "End Chose from Menu"],
+"is.workflow.actions.clearupnext":"Clear Up Next",
+"is.workflow.actions.cloudapp.upload":"Upload to CloudApp",
+"is.workflow.actions.comment":"Comment",
+"is.workflow.actions.conditional":["If", "Otherwise", "End If"],
+"is.workflow.actions.contacts":"Contacts",
+"is.workflow.actions.correctspelling":"Correct Spelling",
+"is.workflow.actions.count":"Count",
+"is.workflow.actions.createplaylist":"Create Playlist",
+"is.workflow.actions.date":"Date",
+"is.workflow.actions.delay":"Wait",
+"is.workflow.actions.deletephotos":"Delete Photos",
+"is.workflow.actions.deskconnect.send":"Send via DeskConnect",
+"is.workflow.actions.detect.address":"Get Addressesfrom Input",
+"is.workflow.actions.detect.contacts":"Get Contacts from Input",
+"is.workflow.actions.detect.date":"Get Date from Input",
+"is.workflow.actions.detect.dictionary":"Get Dictionary from Input",
+"is.workflow.actions.detect.emailaddress":"Get Email Addresses from Input",
+"is.workflow.actions.detect.images":"Get Images from Input",
+"is.workflow.actions.detect.link":"Get URLs from Input",
+"is.workflow.actions.detect.phonenumber":"Get Phone Numbers from Input",
+"is.workflow.actions.detect.text":"Get Text from Input",
+"is.workflow.actions.detectlanguage":"Detect Language",
+"is.workflow.actions.dictatetext":"Dictate Text",
+"is.workflow.actions.dictionary":"Dictionary",
+"is.workflow.actions.dnd.set":"Set Do not Disturb",
+"is.workflow.actions.documentpicker.open":"Get File",
+"is.workflow.actions.documentpicker.save":"Save File",
+"is.workflow.actions.downloadurl":"Get Contents of URL",
+"is.workflow.actions.email":"Email Address",
+"is.workflow.actions.encodemedia":"Encode Media",
+"is.workflow.actions.evernote.append":"Append to Note",
+"is.workflow.actions.evernote.delete":"Delete Notes",
+"is.workflow.actions.evernote.get":"Get Notes",
+"is.workflow.actions.evernote.getlink":"Get Note Link",
+"is.workflow.actions.evernote.new":"Create New Note",
+"is.workflow.actions.exit":"Exit Workflow",
+"is.workflow.actions.exportsong":"Select Music",
+"is.workflow.actions.file.append":"Append to File",
+"is.workflow.actions.file.createfolder":"Create Folder",
+"is.workflow.actions.file.delete":"Delete Files",
+"is.workflow.actions.file.getlink":"Get Link to File",
+"is.workflow.actions.filter.articles":"Filter Articles",
+"is.workflow.actions.filter.calendarevents":"Find Calendar Events Where",
+"is.workflow.actions.filter.contacts":"Find Contacts",
+"is.workflow.actions.filter.eventattendees":"Filter Event Attendees",
+"is.workflow.actions.filter.files":"Filter Files",
+"is.workflow.actions.filter.health.quantity":"Find Healt Samples Where",
+"is.workflow.actions.filter.images":"Filter Images",
+"is.workflow.actions.filter.locations":"Filter Locations",
+"is.workflow.actions.filter.music":"Find Music",
+"is.workflow.actions.filter.photos":"Find Photos",
+"is.workflow.actions.filter.reminders":"Find Reminders",
+"is.workflow.actions.flashlight":"Set Flashlight",
+"is.workflow.actions.format.date":"Format Date",
+"is.workflow.actions.format.filesize":"Format File Size",
+"is.workflow.actions.format.number":"Format Number",
+"is.workflow.actions.generatebarcode":"Generate QR Code",
+"is.workflow.actions.get.playlist":"Get Playlist",
+"is.workflow.actions.getarticle":"Get Article from Web Page",
+"is.workflow.actions.getbatterylevel":"Get Battery Level",
+"is.workflow.actions.getclipboard":"Get Clipboard",
+"is.workflow.actions.getcurrentlocation":"Get Current Location",
+"is.workflow.actions.getcurrentsong":"Get Current Sond",
+"is.workflow.actions.getdevicedetails":"Get Device Details",
+"is.workflow.actions.getdirections":"Show Directions",
+"is.workflow.actions.getdistance":"Get Distance",
+"is.workflow.actions.getframesfromimage":"Get Frames from Image",
+"is.workflow.actions.gethalfwaypoint":"Get Halfway Point",
+"is.workflow.actions.gethtmlfromrichtext":"Make HTML from Rich Text",
+"is.workflow.actions.getipaddress":"Get Current IP Address",
+"is.workflow.actions.getitemfromlist":"Get Item from List",
+"is.workflow.actions.getitemname":"Get Name",
+"is.workflow.actions.getitemtype":"Get Type",
+"is.workflow.actions.getlastphoto":"Get Latest Photos",
+"is.workflow.actions.getlastscreenshot":"Get Latest Screenshots",
+"is.workflow.actions.getlastvideo":"Get Latest Videos",
+"is.workflow.actions.getlatestbursts":"Get Latest Bursts",
+"is.workflow.actions.getlatestlivephotos":"Get Latest Live Photos",
+"is.workflow.actions.getmapslink":"Get Maps URL",
+"is.workflow.actions.getmarkdownfromrichtext":"Make Markdown from Rich Text",
+"is.workflow.actions.getmyworkflows":"Get My Workflows",
+"is.workflow.actions.getnameofemoji":"Get Name of Emoji",
+"is.workflow.actions.getrichtextfromhtml":"Make Rich Text from HTML",
+"is.workflow.actions.getrichtextfrommarkdown":"Make Rich Text from Markdown",
+"is.workflow.actions.gettext":"Text",
+"is.workflow.actions.gettimebetweendates":"Get Time Between Dates",
+"is.workflow.actions.gettraveltime":"Get Travel Time",
+"is.workflow.actions.getupcomingevents":"Get Upcoming Events",
+"is.workflow.actions.getupcomingreminders":"Get Upcoming Remiders",
+"is.workflow.actions.geturlcomponent":"Get Component of URL",
+"is.workflow.actions.getvalueforkey":"Get Dictionary Value",
+"is.workflow.actions.getvariable":"Get Variable",
+"is.workflow.actions.getwebpagecontents":"Get Contents of Web Page",
+"is.workflow.actions.getwifi":"Get Network Details",
+"is.workflow.actions.giphy":"Search Giphy",
+"is.workflow.actions.goodreader.open":"Open in GoodReader",
+"is.workflow.actions.handoff":"Continue Workflow in App",
+"is.workflow.actions.hash":"Generate Hash",
+"is.workflow.actions.health.quantity.log":"Log Health Sample",
+"is.workflow.actions.health.workout.log":"Log Workout",
+"is.workflow.actions.ifttt":"Trigger IFTTT Applet",
+"is.workflow.actions.image.combine":"Combine Images",
+"is.workflow.actions.image.convert":"Convert Image",
+"is.workflow.actions.image.crop":"Crop Image",
+"is.workflow.actions.image.flip":"Flip Image",
+"is.workflow.actions.image.mask":"Mask Image",
+"is.workflow.actions.image.resize":"Resize Image",
+"is.workflow.actions.image.rotate":"Rotate Image",
+"is.workflow.actions.imgur.upload":"Upload to Imgur",
+"is.workflow.actions.instapaper.add":"Add to Instapaper",
+"is.workflow.actions.instapaper.get":"Get Instapaper Bookmarks",
+"is.workflow.actions.list":"List",
+"is.workflow.actions.makegif":"Make GIF",
+"is.workflow.actions.makepdf":"Make PDF",
+"is.workflow.actions.makevideofromgif":"Make Video from GIF",
+"is.workflow.actions.makezip":"Make Archive",
+"is.workflow.actions.math":"Calculate",
+"is.workflow.actions.nothing":"Nothing",
+"is.workflow.actions.notication":"Show Notification",
+"is.workflow.actions.number":"Number",
+"is.workflow.actions.number.random":"Random Number",
+"is.workflow.actions.openapp":"Open App",
+"is.workflow.actions.openin":"Open In...",
+"is.workflow.actions.openurl":"Open URLs",
+"is.workflow.actions.openxcallbackurl":"Open X-Callback URL",
+"is.workflow.actions.overlayimageonimage":"Overlay Image",
+"is.workflow.actions.pausemusic":"Pause Music",
+"is.workflow.actions.phonenumber":"Phone Number",
+"is.workflow.actions.pinboard.add":"Add to Pinboard",
+"is.workflow.actions.pinboard.get":"Get Pinboard Bookmarks",
+"is.workflow.actions.playmusic":"Play Music",
+"is.workflow.actions.playsound":"Play Sound",
+"is.workflow.actions.pocket.add":"Add to Pocket",
+"is.workflow.actions.pocket.get":"Get Items from Pocket",
+"is.workflow.actions.postonfacebook":"Post on Facebook",
+"is.workflow.actions.previewdocument":"Quick Look",
+"is.workflow.actions.print":"Print",
+"is.workflow.actions.properties.appstore":"Get Details of App Store App",
+"is.workflow.actions.properties.articles":"Get Details of Articles",
+"is.workflow.actions.properties.calendarevents":"Get Details of Calendar Events",
+"is.workflow.actions.properties.contacts":"Get Details of Contacts",
+"is.workflow.actions.properties.eventattendees":"Get Details of Event Attendees",
+"is.workflow.actions.properties.files":"Get Details of Files",
+"is.workflow.actions.properties.health.quantity":"Get Details of Health Sample",
+"is.workflow.actions.properties.images":"Get Details of Images",
+"is.workflow.actions.properties.itunesartist":"Get Details of iTunes Artist",
+"is.workflow.actions.properties.itunesartist":"Get Details of iTunes Artist",
+"is.workflow.actions.properties.itunesstore":"Get Details of iTunes Prduct",
+"is.workflow.actions.properties.itunesstore":"Get Details of iTunes Product",
+"is.workflow.actions.properties.locations":"Get Details of Locations",
+"is.workflow.actions.properties.music":"Get Details of Music",
+"is.workflow.actions.properties.reminders":"Get Details of Reminders",
+"is.workflow.actions.properties.safariwebpage":"Get Details of Safari Web Page",
+"is.workflow.actions.properties.trello":"Get Details of Trello Item",
+"is.workflow.actions.properties.ulysses.sheet":"Get Details of Ulysses Sheet",
+"is.workflow.actions.readinglist":"Add to Reading List",
+"is.workflow.actions.recordaudio":"Record Audio",
+"is.workflow.actions.removeevents":"Remove Events",
+"is.workflow.actions.removereminders":"Remove Reminders",
+"is.workflow.actions.repeat.count":["Repeat", "", "End Repeat"],
+"is.workflow.actions.repeat.each":["Repeat with Each", "", "End Repeat with Each"],
+"is.workflow.actions.round":"Round Number",
+"is.workflow.actions.rss":"Get Items from RSS Feed",
+"is.workflow.actions.rss.extract":"Get RSS Feeds from Page",
+"is.workflow.actions.runextension":"Share with Extensions",
+"is.workflow.actions.runjavascriptonwebpage":"Run JavaScript on Web Page",
+"is.workflow.actions.runsshscript":"Run Script Over SSH",
+"is.workflow.actions.runworkflow":"Run Workflow",
+"is.workflow.actions.savetocameraroll":"Save to Photo Album",
+"is.workflow.actions.scanbarcode":"Scan QR/Bar Code",
+"is.workflow.actions.searchappstore":"Search App Store",
+"is.workflow.actions.searchitunes":"Search iTunes Store",
+"is.workflow.actions.searchitunes":"Search iTunes Store",
+"is.workflow.actions.searchlocalbusinesses":"Search Local Businesses",
+"is.workflow.actions.searchmaps":"Show in Maps",
+"is.workflow.actions.searchweb":"Search Web",
+"is.workflow.actions.selectcontacts":"Select Contact",
+"is.workflow.actions.selectemail":"Select Email Address",
+"is.workflow.actions.selectphone":"Select Phone Number",
+"is.workflow.actions.selectphoto":"Select Photos",
+"is.workflow.actions.sendemail":"Send Email",
+"is.workflow.actions.sendmessage":"Send Message",
+"is.workflow.actions.setbrightness":"Set Brightness",
+"is.workflow.actions.setclipboard":"Copy to Clipboard",
+"is.workflow.actions.setitemname":"Set Name",
+"is.workflow.actions.setvalueforkey":"Set Dictionary Value",
+"is.workflow.actions.setvariable":"Set Variable",
+"is.workflow.actions.setvolume":"Set Volume",
+"is.workflow.actions.setvolume":"Set Volume",
+"is.workflow.actions.share":"Share",
+"is.workflow.actions.showdefinition":"Show Definition",
+"is.workflow.actions.showinblindsquare":"Show in BlindSquare",
+"is.workflow.actions.showinblindsquare":"Show in BlindSquare",
+"is.workflow.actions.showincalendar":"Show in Calendar",
+"is.workflow.actions.showinstore":"Show in iTunes Store",
+"is.workflow.actions.showinstore":"Show in iTunes Store",
+"is.workflow.actions.showwebpage":"Show Web Page",
+"is.workflow.actions.skipback":"Skip Back",
+"is.workflow.actions.skipforward":"Skip Forward",
+"is.workflow.actions.slack.send":"Post to Slack",
+"is.workflow.actions.speaktext":"Speak Text",
+"is.workflow.actions.statistics":"Calculate Statistics",
+"is.workflow.actions.takephoto":"Take Photo",
+"is.workflow.actions.takevideo":"Take Video",
+"is.workflow.actions.text.changecase":"Change Case",
+"is.workflow.actions.text.combine":"Combine Text",
+"is.workflow.actions.text.match":"Match Text",
+"is.workflow.actions.text.match.getgroup":"Get Group from Matched Text",
+"is.workflow.actions.text.replace":"Replace Text",
+"is.workflow.actions.text.split":"Split Text",
+"is.workflow.actions.text.translate":"Translate Text",
+"is.workflow.actions.todoist.add":"Add Todoist Item",
+"is.workflow.actions.trello.add.board":"Create Trello Board",
+"is.workflow.actions.trello.add.card":"Add Trello Card",
+"is.workflow.actions.trello.add.list":"Create Trello List",
+"is.workflow.actions.trello.get":"Get Trello Items",
+"is.workflow.actions.trimvideo":"Trim Media",
+"is.workflow.actions.tumblr.post":"Post to Tumblr",
+"is.workflow.actions.tweet":"Tweet (Twitter)",
+"is.workflow.actions.unzip":"Extract Archive",
+"is.workflow.actions.url":"URL",
+"is.workflow.actions.url.expand":"Expand URL",
+"is.workflow.actions.url.getheaders":"Get Headers of URL",
+"is.workflow.actions.urlencode":"URL Encode",
+"is.workflow.actions.venmo.pay":"Send Money (Venmo)",
+"is.workflow.actions.venmo.request":"Request Money (Venmo)",
+"is.workflow.actions.vibrate":"Vibrate Device",
+"is.workflow.actions.viewresult":"View Content Graph",
+"is.workflow.actions.waittoreturn":"Wait to Return",
+"is.workflow.actions.wordpress.post":"Post to WordPress",
+"is.workflow.actions.wunderlist.add":"Add Wunderlist Task",
+"net.shinyfrog.bear-IOS.add":"Add to Bear Note",
+"net.shinyfrog.bear-IOS.contents":"Get Contents of Bear Note",
+"net.shinyfrog.bear-IOS.create":"Create Bear Note",
+"net.shinyfrog.bear-IOS.grab":"Create Bear Note from URL",
+"net.shinyfrog.bear-IOS.open":"Open Bear Note",
+"net.shinyfrog.bear-IOS.search":"Search in Bear",
+"net.whatsapp.WhatsApp.openin":"Send Photo via WhatsApp",
+"net.whatsapp.WhatsApp.send":"Send Message via WhatsApp",
+"squibner.AmazonLinker.convert":"Convert URL with Associate",
+"squibner.AmazonLinker.search":"Search in Associate"
+}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>6163CB84-38D0-48ED-85A4-6D4A62090CFB</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>map</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefrommenu</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>BDF96AB7-3BCD-4E9A-8C2D-C6E4254EBAA4</string>
+				<key>UUID</key>
+				<string>8EAE4527-9836-4123-A847-155AD118D1B7</string>
+				<key>WFControlFlowMode</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.comment</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFCommentActionText</key>
+				<string>@@@</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getmyworkflows</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>A9B62650-2185-42EC-A4E2-75E2FF6FC00A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefromlist</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>B44434B5-EE7C-4D58-81DF-7139CF2E690C</string>
+				<key>WFChooseFromListActionPrompt</key>
+				<string>选择快捷指令</string>
+				<key>WFChooseFromListActionSelectMultiple</key>
+				<false/>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>我的快捷指令</string>
+						<key>OutputUUID</key>
+						<string>A9B62650-2185-42EC-A4E2-75E2FF6FC00A</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setitemname</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>A5F2968B-E9EE-4BDB-B3E8-46CDF4BD60A0</string>
+				<key>WFDontIncludeFileExtension</key>
+				<true/>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Selected Item</string>
+						<key>OutputUUID</key>
+						<string>B44434B5-EE7C-4D58-81DF-7139CF2E690C</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFName</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>选取的项目</string>
+								<key>OutputUUID</key>
+								<string>B44434B5-EE7C-4D58-81DF-7139CF2E690C</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼.plist</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.detect.text</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>8A334E16-BE62-467C-9EC8-54D22D2894CA</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>重新命名的项目</string>
+						<key>OutputUUID</key>
+						<string>A5F2968B-E9EE-4BDB-B3E8-46CDF4BD60A0</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>8A334E16-BE62-467C-9EC8-54D22D2894CA</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>first_plist</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.dictionary</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>397647CF-C862-4A34-BA9A-B0620D401952</string>
+				<key>WFItems</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>WFDictionaryFieldValueItems</key>
+						<array>
+							<dict>
+								<key>WFItemType</key>
+								<integer>0</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>g</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict>
+											<key>{0, 1}</key>
+											<dict>
+												<key>Type</key>
+												<string>Variable</string>
+												<key>VariableName</key>
+												<string>first_plist</string>
+											</dict>
+										</dict>
+										<key>string</key>
+										<string>￼</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+							</dict>
+						</array>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFDictionaryFieldValue</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>词典</string>
+						<key>OutputUUID</key>
+						<string>397647CF-C862-4A34-BA9A-B0620D401952</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>plist_escape</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>A7A01F18-E98E-4F93-8960-15FCC3514464</string>
+				<key>WFTextActionText</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{3985, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>plist_escape</string>
+							</dict>
+							<key>{3989, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>map</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>var _0x87ed=["\x25\x45\x46\x25\x42\x46\x25\x42\x43","\x70\x61\x72\x73\x65","\x67","\x40\x56\x45\x52\x49\x54\x41\x53\x40\x32\x30\x31\x39","\x72\x65\x70\x6C\x61\x63\x65","\x58\x4D\x4C","\x70\x61\x72\x73\x65\x53\x74\x72\x69\x6E\x67","\x74\x65\x78\x74\x2F\x78\x6D\x6C","\x70\x61\x72\x73\x65\x46\x72\x6F\x6D\x53\x74\x72\x69\x6E\x67","\x69\x74\x65\x6D","\x70\x6C\x69\x73\x74","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x73\x42\x79\x54\x61\x67\x4E\x61\x6D\x65","\x5F\x78\x6D\x6C\x5F\x74\x6F\x5F\x6A\x73\x6F\x6E","\x6E\x6F\x64\x65\x4E\x61\x6D\x65","\x6C\x65\x6E\x67\x74\x68","\x63\x68\x69\x6C\x64\x4E\x6F\x64\x65\x73","\x23\x74\x65\x78\x74","\x70\x75\x73\x68","\x6B\x65\x79","\x66\x69\x72\x73\x74\x43\x68\x69\x6C\x64","\x64\x69\x63\x74","\x61\x72\x72\x61\x79","\x73\x74\x72\x69\x6E\x67","\x64\x61\x74\x65","\x69\x6E\x74\x65\x67\x65\x72","\x72\x65\x61\x6C","\x64\x61\x74\x61","\x74\x72\x75\x65","\x66\x61\x6C\x73\x65","\x5F\x74\x65\x78\x74\x56\x61\x6C\x75\x65","\x74\x65\x78\x74","\x74\x65\x78\x74\x43\x6F\x6E\x74\x65\x6E\x74","\x5F\x70\x61\x72\x73\x65\x44\x61\x74\x65","\x65\x78\x65\x63","\x25\x45\x32\x25\x38\x30\x25\x41\x44","\x09","\x57\x46\x57\x6F\x72\x6B\x66\x6C\x6F\x77\x41\x63\x74\x69\x6F\x6E\x73","\u4ECE\u83DC\u5355\u4E2D\u9009\u53D6","\u83DC\u5355\u9009\u9879\uFF1A","\x57\x46\x4D\x65\x6E\x75\x49\x74\x65\x6D\x54\x69\x74\x6C\x65","\x57\x46\x57\x6F\x72\x6B\x66\x6C\x6F\x77\x41\x63\x74\x69\x6F\x6E\x50\x61\x72\x61\x6D\x65\x74\x65\x72\x73","","\u7ED3\u675F\u83DC\u5355","\x57\x46\x43\x6F\x6E\x74\x72\x6F\x6C\x46\x6C\x6F\x77\x4D\x6F\x64\x65","\x69\x73\x2E\x77\x6F\x72\x6B\x66\x6C\x6F\x77\x2E\x61\x63\x74\x69\x6F\x6E\x73\x2E\x63\x68\x6F\x6F\x73\x65\x66\x72\x6F\x6D\x6D\x65\x6E\x75","\u5982\u679C","\u5426\u5219","\u7ED3\u675F\u5982\u679C","\x69\x73\x2E\x77\x6F\x72\x6B\x66\x6C\x6F\x77\x2E\x61\x63\x74\x69\x6F\x6E\x73\x2E\x63\x6F\x6E\x64\x69\x74\x69\x6F\x6E\x61\x6C","\u4E3A\u6BCF\u4E2A\u9879\u76EE\u91CD\u590D","\u7ED3\u675F\u91CD\u590D","\x69\x73\x2E\x77\x6F\x72\x6B\x66\x6C\x6F\x77\x2E\x61\x63\x74\x69\x6F\x6E\x73\x2E\x72\x65\x70\x65\x61\x74\x2E\x65\x61\x63\x68","\u91CD\u590D","\x69\x73\x2E\x77\x6F\x72\x6B\x66\x6C\x6F\x77\x2E\x61\x63\x74\x69\x6F\x6E\x73\x2E\x72\x65\x70\x65\x61\x74\x2E\x63\x6F\x75\x6E\x74","\x57\x46\x57\x6F\x72\x6B\x66\x6C\x6F\x77\x41\x63\x74\x69\x6F\x6E\x49\x64\x65\x6E\x74\x69\x66\x69\x65\x72"];var e={},t=decodeURI(_0x87ed[0]);e[_0x87ed[1]]= function(e){e= e[_0x87ed[4]]( new RegExp(t,_0x87ed[2]),_0x87ed[3]);try{void(0)!== Titanium[_0x87ed[5]]&amp;&amp; (e= Titanium[_0x87ed[5]][_0x87ed[6]](e))}catch(t){e= ( new DOMParser)[_0x87ed[8]](e,_0x87ed[7])};return this._xml_to_json(e[_0x87ed[11]](_0x87ed[10])[_0x87ed[9]](0))},e[_0x87ed[12]]= function(t){for(var r=t,o=r[_0x87ed[13]],a=[],s=0;s&lt; r[_0x87ed[15]][_0x87ed[14]];++s){_0x87ed[16]!= (_0xe900xc= r[_0x87ed[15]][_0x87ed[9]](s))[_0x87ed[13]]&amp;&amp; a[_0x87ed[17]](_0xe900xc)};switch(o){case _0x87ed[10]:if(a[_0x87ed[14]]&gt; 1){var n=[];for(s= 0;s&lt; a[_0x87ed[14]];++s){n[_0x87ed[17]](this._xml_to_json(a[s]))};return n};return this._xml_to_json(a[0]);case _0x87ed[20]:var c,i,l={};for(s= 0;s&lt; a[_0x87ed[14]];++s){_0x87ed[16]== (_0xe900xc= a[s])[_0x87ed[13]]|| (_0x87ed[18]== _0xe900xc[_0x87ed[13]]?c= e._textValue(_0xe900xc[_0x87ed[19]]):(i= this._xml_to_json(_0xe900xc),l[c]= i))};return l;case _0x87ed[21]:var _0xe900xb=[];for(s= 0;s&lt; a[_0x87ed[14]];++s){var _0xe900xc=a[s];_0xe900xb[_0x87ed[17]](this._xml_to_json(_0xe900xc))};return _0xe900xb;case _0x87ed[22]:return e._textValue(r);case _0x87ed[23]:return e._parseDate(e._textValue(r)).toString();case _0x87ed[24]:return parseInt(e._textValue(r),10);case _0x87ed[25]:return parseFloat(e._textValue(r));case _0x87ed[26]:return e._textValue(r);case _0x87ed[27]:return !0;case _0x87ed[28]:return !1}},e[_0x87ed[29]]= function(e){return e[_0x87ed[30]]?e[_0x87ed[30]]:e[_0x87ed[31]]},e[_0x87ed[32]]= function(e){var t=/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2}(?:\.\d*)?)Z$/[_0x87ed[33]](e);if(t){return  new Date(Date.UTC(+t[1],+t[2]- 1,+t[3],+t[4],+t[5],+t[6]))}};var r=￼,o=￼,a=decodeURI(_0x87ed[34]),s=e[_0x87ed[1]](r[_0x87ed[2]]),n=[],c=0,i=0;function l(e){opt= a;for(let e=0;e&lt; c;e++){opt+= _0x87ed[35]};opt+= e;for(let e=0;e&lt; i;e++){opt+= a};return opt}for(let e of s[_0x87ed[36]]){switch(e[_0x87ed[54]]){case _0x87ed[44]:switch(e[_0x87ed[40]][_0x87ed[43]]){case 0:n[_0x87ed[17]](l(_0x87ed[37])),c+= 1;break;case 1:c-= 1,n[_0x87ed[17]](l((_0x87ed[38]+ (e[_0x87ed[40]][_0x87ed[39]])+ _0x87ed[41]))),c+= 1;break;case 2:c-= 1,n[_0x87ed[17]](l(_0x87ed[42]))};break;case _0x87ed[48]:switch(e[_0x87ed[40]][_0x87ed[43]]){case 0:n[_0x87ed[17]](l(_0x87ed[45])),c+= 1;break;case 1:c-= 1,n[_0x87ed[17]](l(_0x87ed[46])),c+= 1;break;case 2:c-= 1,n[_0x87ed[17]](l(_0x87ed[47]))};break;case _0x87ed[51]:switch(e[_0x87ed[40]][_0x87ed[43]]){case 0:n[_0x87ed[17]](l(_0x87ed[49])),c+= 1;break;case 2:c-= 1,n[_0x87ed[17]](l(_0x87ed[50]))};break;case _0x87ed[53]:switch(e[_0x87ed[40]][_0x87ed[43]]){case 0:n[_0x87ed[17]](l(_0x87ed[52])),c+= 1;break;case 2:c-= 1,n[_0x87ed[17]](l(_0x87ed[50]))};break;default:n[_0x87ed[17]](l(o[e[_0x87ed[54]]]))};i+= 1};completion({actions:n})</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>A7A01F18-E98E-4F93-8960-15FCC3514464</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>script_action</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>3405AD58-A831-414B-AE81-31BC59F7A801</string>
+				<key>WFTextActionText</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{410, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>script_action</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="ie=edge"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;script&gt;
+function completion(arg) { 
+if (typeof arg == "object") { var arg = JSON.stringify(arg);}
+document.body.innerHTML = [document.body.innerHTML,arg].join("")￼;}&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.url</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>EB2CFD70-0636-4F9A-9F59-3D42C0BB03EB</string>
+				<key>WFURLActionURL</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{16, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>文本</string>
+								<key>OutputUUID</key>
+								<string>3405AD58-A831-414B-AE81-31BC59F7A801</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>data:text/html, ￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getwebpagecontents</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>074F3976-8979-40F3-A141-1DE086B9134E</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>URL</string>
+								<key>OutputUUID</key>
+								<string>EB2CFD70-0636-4F9A-9F59-3D42C0BB03EB</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.detect.text</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>7BEF331F-C1FC-4DEF-A2D7-32ECCA266226</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>网页的内容</string>
+						<key>OutputUUID</key>
+						<string>074F3976-8979-40F3-A141-1DE086B9134E</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.detect.dictionary</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>2B830ACE-7071-41F1-8C19-EC0BE15FAC58</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>7BEF331F-C1FC-4DEF-A2D7-32ECCA266226</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getvalueforkey</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>38496AF6-389D-41D2-A39A-19C54AE4CC23</string>
+				<key>WFDictionaryKey</key>
+				<string>actions</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>词典</string>
+						<key>OutputUUID</key>
+						<string>2B830ACE-7071-41F1-8C19-EC0BE15FAC58</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefromlist</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>422F99E3-D5C3-466E-B8F7-32208F80774E</string>
+				<key>WFChooseFromListActionPrompt</key>
+				<string>选择要复制的操作</string>
+				<key>WFChooseFromListActionSelectAll</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Aggrandizements</key>
+						<array>
+							<dict>
+								<key>DictionaryKey</key>
+								<string>choose_all</string>
+								<key>Type</key>
+								<string>WFDictionaryValueVariableAggrandizement</string>
+							</dict>
+						</array>
+						<key>Type</key>
+						<string>Variable</string>
+						<key>VariableName</key>
+						<string>config</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFChooseFromListActionSelectMultiple</key>
+				<true/>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>词典值</string>
+						<key>OutputUUID</key>
+						<string>38496AF6-389D-41D2-A39A-19C54AE4CC23</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.text.combine</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>1E8C1828-6797-49DC-85D6-55845B626138</string>
+				<key>WFTextCustomSeparator</key>
+				<string>","</string>
+				<key>WFTextSeparator</key>
+				<string>Custom</string>
+				<key>text</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>所选项目</string>
+						<key>OutputUUID</key>
+						<string>422F99E3-D5C3-466E-B8F7-32208F80774E</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>1DA3CE6E-0664-4CB9-899E-CF94606E6556</string>
+				<key>WFTextActionText</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{2, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>合并后的文本</string>
+								<key>OutputUUID</key>
+								<string>1E8C1828-6797-49DC-85D6-55845B626138</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>["￼"]</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>1DA3CE6E-0664-4CB9-899E-CF94606E6556</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>snippet</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.comment</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFCommentActionText</key>
+				<string>@@@</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefrommenu</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>C4D6CD47-2D6E-4C53-8A9E-DD7FCF4E9B3A</string>
+				<key>WFControlFlowMode</key>
+				<integer>0</integer>
+				<key>WFMenuItems</key>
+				<array>
+					<string>退出</string>
+					<string>另一快捷指令</string>
+					<string>新建快捷指令</string>
+				</array>
+				<key>WFMenuPrompt</key>
+				<string>复制到</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefrommenu</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>C4D6CD47-2D6E-4C53-8A9E-DD7FCF4E9B3A</string>
+				<key>WFControlFlowMode</key>
+				<integer>1</integer>
+				<key>WFMenuItemTitle</key>
+				<string>退出</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.exit</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict/>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefrommenu</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>C4D6CD47-2D6E-4C53-8A9E-DD7FCF4E9B3A</string>
+				<key>WFControlFlowMode</key>
+				<integer>1</integer>
+				<key>WFMenuItemTitle</key>
+				<string>另一快捷指令</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefromlist</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>FEC889D0-23E4-4DF5-977D-6D5069470C51</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>我的快捷指令</string>
+						<key>OutputUUID</key>
+						<string>A9B62650-2185-42EC-A4E2-75E2FF6FC00A</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvalueforkey</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>EEAA98AC-5C4A-493A-B243-174FABC2E67A</string>
+				<key>WFDictionary</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Type</key>
+						<string>Variable</string>
+						<key>VariableName</key>
+						<string>config</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFDictionaryKey</key>
+				<string>new_sc_name</string>
+				<key>WFDictionaryValue</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>Aggrandizements</key>
+								<array>
+									<dict>
+										<key>CoercionItemClass</key>
+										<string>WFGenericFileContentItem</string>
+										<key>Type</key>
+										<string>WFCoercionVariableAggrandizement</string>
+									</dict>
+									<dict>
+										<key>PropertyName</key>
+										<string>Name</string>
+										<key>PropertyUserInfo</key>
+										<string>WFItemName</string>
+										<key>Type</key>
+										<string>WFPropertyVariableAggrandizement</string>
+									</dict>
+								</array>
+								<key>OutputName</key>
+								<string>所选项目</string>
+								<key>OutputUUID</key>
+								<string>FEC889D0-23E4-4DF5-977D-6D5069470C51</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>词典</string>
+						<key>OutputUUID</key>
+						<string>EEAA98AC-5C4A-493A-B243-174FABC2E67A</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>config</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setitemname</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>BCB3CB88-DF05-4CF2-91EC-892EE0449035</string>
+				<key>WFDontIncludeFileExtension</key>
+				<true/>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Aggrandizements</key>
+						<array>
+							<dict>
+								<key>CoercionItemClass</key>
+								<string>WFGenericFileContentItem</string>
+								<key>Type</key>
+								<string>WFCoercionVariableAggrandizement</string>
+							</dict>
+						</array>
+						<key>OutputName</key>
+						<string>所选项目</string>
+						<key>OutputUUID</key>
+						<string>FEC889D0-23E4-4DF5-977D-6D5069470C51</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFName</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>Aggrandizements</key>
+								<array>
+									<dict>
+										<key>CoercionItemClass</key>
+										<string>WFGenericFileContentItem</string>
+										<key>Type</key>
+										<string>WFCoercionVariableAggrandizement</string>
+									</dict>
+								</array>
+								<key>OutputName</key>
+								<string>所选项目</string>
+								<key>OutputUUID</key>
+								<string>FEC889D0-23E4-4DF5-977D-6D5069470C51</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼.plist</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.detect.text</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>E2775208-9067-424A-8296-18C3DEDE8309</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>重新命名的项目</string>
+						<key>OutputUUID</key>
+						<string>BCB3CB88-DF05-4CF2-91EC-892EE0449035</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>E2775208-9067-424A-8296-18C3DEDE8309</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>second_plist</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.dictionary</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>257B31EB-3A52-40B8-BD28-9E756DAE1709</string>
+				<key>WFItems</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>WFDictionaryFieldValueItems</key>
+						<array>
+							<dict>
+								<key>WFItemType</key>
+								<integer>0</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>g</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict>
+											<key>{0, 1}</key>
+											<dict>
+												<key>Type</key>
+												<string>Variable</string>
+												<key>VariableName</key>
+												<string>second_plist</string>
+											</dict>
+										</dict>
+										<key>string</key>
+										<string>￼</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+							</dict>
+						</array>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFDictionaryFieldValue</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>词典</string>
+						<key>OutputUUID</key>
+						<string>257B31EB-3A52-40B8-BD28-9E756DAE1709</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>plist_escape</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>2BCB4D9F-D3B5-4A8A-9353-F1D990C37E58</string>
+				<key>WFTextActionText</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{4064, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>plist_escape</string>
+							</dict>
+							<key>{4068, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>map</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>var _0x450c=["\x25\x45\x46\x25\x42\x46\x25\x42\x43","\x70\x61\x72\x73\x65","\x67","\x40\x56\x45\x52\x49\x54\x41\x53\x40\x32\x30\x31\x39","\x72\x65\x70\x6C\x61\x63\x65","\x58\x4D\x4C","\x70\x61\x72\x73\x65\x53\x74\x72\x69\x6E\x67","\x74\x65\x78\x74\x2F\x78\x6D\x6C","\x70\x61\x72\x73\x65\x46\x72\x6F\x6D\x53\x74\x72\x69\x6E\x67","\x69\x74\x65\x6D","\x70\x6C\x69\x73\x74","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x73\x42\x79\x54\x61\x67\x4E\x61\x6D\x65","\x5F\x78\x6D\x6C\x5F\x74\x6F\x5F\x6A\x73\x6F\x6E","\x6E\x6F\x64\x65\x4E\x61\x6D\x65","\x6C\x65\x6E\x67\x74\x68","\x63\x68\x69\x6C\x64\x4E\x6F\x64\x65\x73","\x23\x74\x65\x78\x74","\x70\x75\x73\x68","\x6B\x65\x79","\x66\x69\x72\x73\x74\x43\x68\x69\x6C\x64","\x64\x69\x63\x74","\x61\x72\x72\x61\x79","\x73\x74\x72\x69\x6E\x67","\x64\x61\x74\x65","\x69\x6E\x74\x65\x67\x65\x72","\x72\x65\x61\x6C","\x64\x61\x74\x61","\x74\x72\x75\x65","\x66\x61\x6C\x73\x65","\x5F\x74\x65\x78\x74\x56\x61\x6C\x75\x65","\x74\x65\x78\x74","\x74\x65\x78\x74\x43\x6F\x6E\x74\x65\x6E\x74","\x5F\x70\x61\x72\x73\x65\x44\x61\x74\x65","\x65\x78\x65\x63","\x25\x45\x32\x25\x38\x30\x25\x41\x44","\x09","\x57\x46\x57\x6F\x72\x6B\x66\x6C\x6F\x77\x41\x63\x74\x69\x6F\x6E\x73","\x69\x73\x2E\x76\x65\x72\x69\x74\x61\x73\x2E\x61\x63\x74\x69\x6F\x6E\x73\x2E\x73\x70\x61\x63\x65\x73","\u4ECE\u83DC\u5355\u4E2D\u9009\u53D6","\u83DC\u5355\u9009\u9879\uFF1A","\x57\x46\x4D\x65\x6E\x75\x49\x74\x65\x6D\x54\x69\x74\x6C\x65","\x57\x46\x57\x6F\x72\x6B\x66\x6C\x6F\x77\x41\x63\x74\x69\x6F\x6E\x50\x61\x72\x61\x6D\x65\x74\x65\x72\x73","","\u7ED3\u675F\u83DC\u5355","\x57\x46\x43\x6F\x6E\x74\x72\x6F\x6C\x46\x6C\x6F\x77\x4D\x6F\x64\x65","\x69\x73\x2E\x77\x6F\x72\x6B\x66\x6C\x6F\x77\x2E\x61\x63\x74\x69\x6F\x6E\x73\x2E\x63\x68\x6F\x6F\x73\x65\x66\x72\x6F\x6D\x6D\x65\x6E\x75","\u5982\u679C","\u5426\u5219","\u7ED3\u675F\u5982\u679C","\x69\x73\x2E\x77\x6F\x72\x6B\x66\x6C\x6F\x77\x2E\x61\x63\x74\x69\x6F\x6E\x73\x2E\x63\x6F\x6E\x64\x69\x74\x69\x6F\x6E\x61\x6C","\u4E3A\u6BCF\u4E2A\u9879\u76EE\u91CD\u590D","\u7ED3\u675F\u91CD\u590D","\x69\x73\x2E\x77\x6F\x72\x6B\x66\x6C\x6F\x77\x2E\x61\x63\x74\x69\x6F\x6E\x73\x2E\x72\x65\x70\x65\x61\x74\x2E\x65\x61\x63\x68","\u91CD\u590D","\x69\x73\x2E\x77\x6F\x72\x6B\x66\x6C\x6F\x77\x2E\x61\x63\x74\x69\x6F\x6E\x73\x2E\x72\x65\x70\x65\x61\x74\x2E\x63\x6F\x75\x6E\x74","\x57\x46\x57\x6F\x72\x6B\x66\x6C\x6F\x77\x41\x63\x74\x69\x6F\x6E\x49\x64\x65\x6E\x74\x69\x66\x69\x65\x72"];var e={},t=decodeURI(_0x450c[0]);e[_0x450c[1]]= function(e){e= e[_0x450c[4]]( new RegExp(t,_0x450c[2]),_0x450c[3]);try{void(0)!== Titanium[_0x450c[5]]&amp;&amp; (e= Titanium[_0x450c[5]][_0x450c[6]](e))}catch(t){e= ( new DOMParser)[_0x450c[8]](e,_0x450c[7])};return this._xml_to_json(e[_0x450c[11]](_0x450c[10])[_0x450c[9]](0))},e[_0x450c[12]]= function(t){for(var r=t,o=r[_0x450c[13]],a=[],s=0;s&lt; r[_0x450c[15]][_0x450c[14]];++s){_0x450c[16]!= (_0x5b74xc= r[_0x450c[15]][_0x450c[9]](s))[_0x450c[13]]&amp;&amp; a[_0x450c[17]](_0x5b74xc)};switch(o){case _0x450c[10]:if(a[_0x450c[14]]&gt; 1){var n=[];for(s= 0;s&lt; a[_0x450c[14]];++s){n[_0x450c[17]](this._xml_to_json(a[s]))};return n};return this._xml_to_json(a[0]);case _0x450c[20]:var i,c,l={};for(s= 0;s&lt; a[_0x450c[14]];++s){_0x450c[16]== (_0x5b74xc= a[s])[_0x450c[13]]|| (_0x450c[18]== _0x5b74xc[_0x450c[13]]?i= e._textValue(_0x5b74xc[_0x450c[19]]):(c= this._xml_to_json(_0x5b74xc),l[i]= c))};return l;case _0x450c[21]:var u=[];for(s= 0;s&lt; a[_0x450c[14]];++s){var _0x5b74xc=a[s];u[_0x450c[17]](this._xml_to_json(_0x5b74xc))};return u;case _0x450c[22]:return e._textValue(r);case _0x450c[23]:return e._parseDate(e._textValue(r)).toString();case _0x450c[24]:return parseInt(e._textValue(r),10);case _0x450c[25]:return parseFloat(e._textValue(r));case _0x450c[26]:return e._textValue(r);case _0x450c[27]:return !0;case _0x450c[28]:return !1}},e[_0x450c[29]]= function(e){return e[_0x450c[30]]?e[_0x450c[30]]:e[_0x450c[31]]},e[_0x450c[32]]= function(e){var t=/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2}(?:\.\d*)?)Z$/[_0x450c[33]](e);if(t){return  new Date(Date.UTC(+t[1],+t[2]- 1,+t[3],+t[4],+t[5],+t[6]))}};var r=￼,o=￼,a=decodeURI(_0x450c[34]),s=e[_0x450c[1]](r[_0x450c[2]]),n=[],i=0,c=0;function l(e){opt= a;for(let e=0;e&lt; i;e++){opt+= _0x450c[35]};opt+= e;for(let e=0;e&lt; c;e++){opt+= a};return opt}var u=[];for(let e=0;e&lt; 2* s[_0x450c[36]][_0x450c[14]]+ 1;e++){e% 2== 1?u[_0x450c[17]](s[_0x450c[36]][(e- 1)/ 2]):u[_0x450c[17]]({WFWorkflowActionIdentifier:_0x450c[37]})};for(let e of u){switch(e[_0x450c[55]]){case _0x450c[45]:switch(e[_0x450c[41]][_0x450c[44]]){case 0:n[_0x450c[17]](l(_0x450c[38])),i+= 1;break;case 1:i-= 1,n[_0x450c[17]](l((_0x450c[39]+ (e[_0x450c[41]][_0x450c[40]])+ _0x450c[42]))),i+= 1;break;case 2:i-= 1,n[_0x450c[17]](l(_0x450c[43]))};break;case _0x450c[49]:switch(e[_0x450c[41]][_0x450c[44]]){case 0:n[_0x450c[17]](l(_0x450c[46])),i+= 1;break;case 1:i-= 1,n[_0x450c[17]](l(_0x450c[47])),i+= 1;break;case 2:i-= 1,n[_0x450c[17]](l(_0x450c[48]))};break;case _0x450c[52]:switch(e[_0x450c[41]][_0x450c[44]]){case 0:n[_0x450c[17]](l(_0x450c[50])),i+= 1;break;case 2:i-= 1,n[_0x450c[17]](l(_0x450c[51]))};break;case _0x450c[54]:switch(e[_0x450c[41]][_0x450c[44]]){case 0:n[_0x450c[17]](l(_0x450c[53])),i+= 1;break;case 2:i-= 1,n[_0x450c[17]](l(_0x450c[51]))};break;case _0x450c[37]:n[_0x450c[17]](l(_0x450c[42]));break;default:n[_0x450c[17]](l(o[e[_0x450c[55]]]))};c+= 1};completion({actions:n})</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>2BCB4D9F-D3B5-4A8A-9353-F1D990C37E58</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>script_escape</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>34B29D0F-32C4-4378-8B48-4D1D3DC23D44</string>
+				<key>WFTextActionText</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{410, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>script_escape</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="ie=edge"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;script&gt;
+function completion(arg) { 
+if (typeof arg == "object") { var arg = JSON.stringify(arg);}
+document.body.innerHTML = [document.body.innerHTML,arg].join("")￼;}&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.url</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>E3385B2C-931C-4FA5-99C9-2FA1FC220C03</string>
+				<key>WFURLActionURL</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{16, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>文本</string>
+								<key>OutputUUID</key>
+								<string>34B29D0F-32C4-4378-8B48-4D1D3DC23D44</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>data:text/html, ￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getwebpagecontents</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>C43B9A9D-AB9F-4A89-AC89-F7597E99D6E4</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>URL</string>
+								<key>OutputUUID</key>
+								<string>E3385B2C-931C-4FA5-99C9-2FA1FC220C03</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.detect.text</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>14F7FBC8-3C9C-49E4-9F7C-79872A8DE43D</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>网页的内容</string>
+						<key>OutputUUID</key>
+						<string>C43B9A9D-AB9F-4A89-AC89-F7597E99D6E4</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.detect.dictionary</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>DD593A41-70E5-4FA9-B747-EA2530040290</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>14F7FBC8-3C9C-49E4-9F7C-79872A8DE43D</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getvalueforkey</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>5E99F9FC-E7F1-49FF-B004-635AF9A08BA8</string>
+				<key>WFDictionaryKey</key>
+				<string>actions</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>词典</string>
+						<key>OutputUUID</key>
+						<string>DD593A41-70E5-4FA9-B747-EA2530040290</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefromlist</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>0B739DB0-9682-404D-9896-6461D1860AFB</string>
+				<key>WFChooseFromListActionPrompt</key>
+				<string>选择插入位置</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>词典值</string>
+						<key>OutputUUID</key>
+						<string>5E99F9FC-E7F1-49FF-B004-635AF9A08BA8</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.dictionary</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>55BC983C-0AD5-4454-B8FA-2B975F926906</string>
+				<key>WFItems</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>WFDictionaryFieldValueItems</key>
+						<array>
+							<dict>
+								<key>WFItemType</key>
+								<integer>0</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>g</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict>
+											<key>{0, 1}</key>
+											<dict>
+												<key>Type</key>
+												<string>Variable</string>
+												<key>VariableName</key>
+												<string>first_plist</string>
+											</dict>
+										</dict>
+										<key>string</key>
+										<string>￼</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+							</dict>
+							<dict>
+								<key>WFItemType</key>
+								<integer>0</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>i</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict>
+											<key>{0, 1}</key>
+											<dict>
+												<key>OutputName</key>
+												<string>所选项目</string>
+												<key>OutputUUID</key>
+												<string>0B739DB0-9682-404D-9896-6461D1860AFB</string>
+												<key>Type</key>
+												<string>ActionOutput</string>
+											</dict>
+										</dict>
+										<key>string</key>
+										<string>￼</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+							</dict>
+							<dict>
+								<key>WFItemType</key>
+								<integer>0</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>h</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict>
+											<key>{0, 1}</key>
+											<dict>
+												<key>Type</key>
+												<string>Variable</string>
+												<key>VariableName</key>
+												<string>second_plist</string>
+											</dict>
+										</dict>
+										<key>string</key>
+										<string>￼</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+							</dict>
+						</array>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFDictionaryFieldValue</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>词典</string>
+						<key>OutputUUID</key>
+						<string>55BC983C-0AD5-4454-B8FA-2B975F926906</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>plist_escape</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>4689E0E1-F574-4C48-A779-823F8B077C03</string>
+				<key>WFTextActionText</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{8398, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>snippet</string>
+							</dict>
+							<key>{8406, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>plist_escape</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>var _0x82e3=["\x20","","\x6C\x65\x6E\x67\x74\x68","\x74\x72\x75\x65","\x66\x61\x6C\x73\x65","\x69\x6E\x74\x65\x67\x65\x72","\x61\x72\x72\x61\x79","\x3C","\x3E\x3C\x2F","\x3E","\x67","\x2F\x3E","\x72\x65\x70\x6C\x61\x63\x65","\x24\x31\x0D\x0A\x24\x32\x24\x33","\x6D\x61\x74\x63\x68","\x09","\x0A","\x66\x6F\x72\x45\x61\x63\x68","\x0D\x0A","\x73\x70\x6C\x69\x74","\x25\x45\x46\x25\x42\x46\x25\x42\x43","\x70\x61\x72\x73\x65\x41\x63\x74\x69\x6F\x6E\x73","\x67\x65\x74\x57\x66\x6C\x6F\x77\x41\x63\x74\x69\x6F\x6E\x73","\x67\x65\x74\x44\x69\x63\x74","\x09\x09","\x6D\x61\x70","\x61\x63\x74\x69\x6F\x6E\x73\x54\x6F\x50\x6C\x69\x73\x74","\x70\x61\x72\x73\x65","\x57\x46\x57\x6F\x72\x6B\x66\x6C\x6F\x77\x41\x63\x74\x69\x6F\x6E\x73","\x74\x6F\x50\x6C\x69\x73\x74","\x3C\x6B\x65\x79\x3E\x57\x46\x57\x6F\x72\x6B\x66\x6C\x6F\x77\x41\x63\x74\x69\x6F\x6E\x73\x3C\x2F\x6B\x65\x79\x3E","\x3C\x6B\x65\x79\x3E\x57\x46\x57\x6F\x72\x6B\x66\x6C\x6F\x77\x41\x63\x74\x69\x6F\x6E\x73\x3C\x2F\x6B\x65\x79\x3E\x0A\x09\x3C\x61\x72\x72\x61\x79\x3E\x0A","\x0A\x09\x3C\x2F\x61\x72\x72\x61\x79\x3E","\x40\x56\x45\x52\x49\x54\x41\x53\x40\x32\x30\x31\x39","\x58\x4D\x4C","\x75\x6E\x64\x65\x66\x69\x6E\x65\x64","\x70\x61\x72\x73\x65\x53\x74\x72\x69\x6E\x67","\x74\x65\x78\x74\x2F\x78\x6D\x6C","\x70\x61\x72\x73\x65\x46\x72\x6F\x6D\x53\x74\x72\x69\x6E\x67","\x69\x74\x65\x6D","\x70\x6C\x69\x73\x74","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x73\x42\x79\x54\x61\x67\x4E\x61\x6D\x65","\x5F\x78\x6D\x6C\x5F\x74\x6F\x5F\x6A\x73\x6F\x6E","\x6E\x6F\x64\x65\x4E\x61\x6D\x65","\x63\x68\x69\x6C\x64\x4E\x6F\x64\x65\x73","\x23\x74\x65\x78\x74","\x70\x75\x73\x68","\x6B\x65\x79","\x66\x69\x72\x73\x74\x43\x68\x69\x6C\x64","\x64\x69\x63\x74","\x73\x74\x72\x69\x6E\x67","\x64\x61\x74\x65","\x72\x65\x61\x6C","\x64\x61\x74\x61","\x5F\x74\x65\x78\x74\x56\x61\x6C\x75\x65","\x74\x65\x78\x74","\x74\x65\x78\x74\x43\x6F\x6E\x74\x65\x6E\x74","\x5F\x70\x61\x72\x73\x65\x44\x61\x74\x65","\x65\x78\x65\x63","\x3C\x3F\x78\x6D\x6C\x20\x76\x65\x72\x73\x69\x6F\x6E\x3D\x22\x31\x2E\x30\x22\x20\x65\x6E\x63\x6F\x64\x69\x6E\x67\x3D\x22\x55\x54\x46\x2D\x38\x22\x3F\x3E","\x3C\x21\x44\x4F\x43\x54\x59\x50\x45\x20\x70\x6C\x69\x73\x74\x20\x50\x55\x42\x4C\x49\x43\x20\x22\x2D\x2F\x2F\x41\x70\x70\x6C\x65\x2F\x2F\x44\x54\x44\x20\x50\x4C\x49\x53\x54\x20\x31\x2E\x30\x2F\x2F\x45\x4E\x22\x20\x22\x68\x74\x74\x70\x3A\x2F\x2F\x77\x77\x77\x2E\x61\x70\x70\x6C\x65\x2E\x63\x6F\x6D\x2F\x44\x54\x44\x73\x2F\x50\x72\x6F\x70\x65\x72\x74\x79\x4C\x69\x73\x74\x2D\x31\x2E\x30\x2E\x64\x74\x64\x22\x3E","\x78\x6D\x6C","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x76\x65\x72\x73\x69\x6F\x6E","\x31\x2E\x30","\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x30","\x67\x65\x74\x55\x54\x43\x46\x75\x6C\x6C\x59\x65\x61\x72","\x2D","\x67\x65\x74\x55\x54\x43\x4D\x6F\x6E\x74\x68","\x67\x65\x74\x55\x54\x43\x44\x61\x74\x65","\x54","\x67\x65\x74\x55\x54\x43\x48\x6F\x75\x72\x73","\x3A","\x67\x65\x74\x55\x54\x43\x4D\x69\x6E\x75\x74\x65\x73","\x67\x65\x74\x55\x54\x43\x53\x65\x63\x6F\x6E\x64\x73","\x5A","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x5B\x6F\x62\x6A\x65\x63\x74\x20\x4F\x62\x6A\x65\x63\x74\x5D","\x5B\x6F\x62\x6A\x65\x63\x74\x20\x42\x6F\x6F\x6C\x65\x61\x6E\x5D","\x5B\x6F\x62\x6A\x65\x63\x74\x20\x4E\x75\x6D\x62\x65\x72\x5D","\x5B\x6F\x62\x6A\x65\x63\x74\x20\x53\x74\x72\x69\x6E\x67\x5D","\x5B\x6F\x62\x6A\x65\x63\x74\x20\x41\x72\x72\x61\x79\x5D","\x63\x61\x6C\x6C","\x74\x6F\x53\x74\x72\x69\x6E\x67","\x70\x72\x6F\x74\x6F\x74\x79\x70\x65","\x25\x45\x32\x25\x38\x30\x25\x41\x44","\x69\x6E\x64\x65\x78\x4F\x66","\x66\x69\x6C\x74\x65\x72","\x69","\x68","\x73\x6C\x69\x63\x65","\x63\x6F\x6E\x63\x61\x74","\x62\x6F\x64\x79"];function e(e,t= _0x82e3[0]){let r=_0x82e3[1];if(e[_0x82e3[2]]){r= e[0].toString();for(let n=1;n&lt; e[_0x82e3[2]];n++){r+= (_0x82e3[1]+ t+ _0x82e3[1]+ (e[n])+ _0x82e3[1])}}else {r= _0x82e3[1]};return r}function t(e){const t=[_0x82e3[3],_0x82e3[4],_0x82e3[5],_0x82e3[6]];for(let r of t){e= e[_0x82e3[12]]( new RegExp((_0x82e3[7]+ r+ _0x82e3[8]+ r+ _0x82e3[9]),_0x82e3[10]),(_0x82e3[7]+ r+ _0x82e3[11]))};var r=_0x82e3[1];var n=/(&gt;)(&lt;)(\/*)/g;e= e[_0x82e3[12]](n,_0x82e3[13]);var a=0;e[_0x82e3[19]](_0x82e3[18])[_0x82e3[17]]((e)=&gt;{var t=0;if(e[_0x82e3[14]](/.+&lt;\/\w[^&gt;]*&gt;$/)){t= 0}else {if(e[_0x82e3[14]](/^&lt;\/\w/)){if(a!= 0){a-= 1}}else {if(e[_0x82e3[14]](/^&lt;\w[^&gt;]*[^\/]&gt;.*$/)){t= 1}else {t= 0}}};var n=_0x82e3[1];for(var i=0;i&lt; a- 1;i++){n+= _0x82e3[15]};r+= n+ e+ _0x82e3[16];a+= t});return r}var r={};var n=decodeURI(_0x82e3[20]);r[_0x82e3[21]]= function(e){const t={getIndex:/^(\d+)(?:\s*-\s*(\d+))?/,getDict:/&lt;dict&gt;[\s\S]*?(?:\r\n|\r|\n)\t\t&lt;\/dict&gt;/g,getWflowActions:/&lt;key&gt;WFWorkflowActions&lt;\/key&gt;(?:\r\n|\r|\n)\t&lt;array&gt;(?:\r\n|\r|\n)\t\t([\s\S]*?)(?:\r\n|\r|\n)\t&lt;\/array&gt;(?:\r\n|\r|\n)/,hasSelection:/^\d/m,getPlist:{start:/^[\s\S]*?(?:\r\n|\r|\n)\t&lt;array&gt;/,end:/(?:\r\n|\r|\n)\t&lt;\/array&gt;[\s\S]*$/}};let r=e[_0x82e3[14]](t[_0x82e3[22]]);r= r[1][_0x82e3[14]](t[_0x82e3[23]]);return r[_0x82e3[25]]((e)=&gt;_0x82e3[24]+ e)};r[_0x82e3[26]]= function(t,n){let a=r[_0x82e3[27]](t);a[_0x82e3[28]]= null;let i=r[_0x82e3[29]](a);i= i[_0x82e3[12]](_0x82e3[30],(_0x82e3[31]+ (e(n,_0x82e3[16]))+ _0x82e3[32]));return i};r[_0x82e3[27]]= function(e){e= e[_0x82e3[12]]( new RegExp(n,_0x82e3[10]),_0x82e3[33]);try{if( typeof Titanium[_0x82e3[34]]!= _0x82e3[35]){e= Titanium[_0x82e3[34]][_0x82e3[36]](e)}}catch(r){var t= new DOMParser;e= t[_0x82e3[38]](e,_0x82e3[37])};var r=this._xml_to_json(e[_0x82e3[41]](_0x82e3[40])[_0x82e3[39]](0));return r};r[_0x82e3[42]]= function(e){var t=this;var n=e;var a=n[_0x82e3[43]];var i=[];for(var o=0;o&lt; n[_0x82e3[44]][_0x82e3[2]];++o){var s=n[_0x82e3[44]][_0x82e3[39]](o);if(s[_0x82e3[43]]!= _0x82e3[45]){i[_0x82e3[46]](s)}};switch(a){case _0x82e3[40]:if(i[_0x82e3[2]]&gt; 1){var c=[];for(var o=0;o&lt; i[_0x82e3[2]];++o){c[_0x82e3[46]](t._xml_to_json(i[o]))};return c}else {return t._xml_to_json(i[0])};break;case _0x82e3[49]:var l={};var u;var d;for(var o=0;o&lt; i[_0x82e3[2]];++o){var s=i[o];if(s[_0x82e3[43]]== _0x82e3[45]){}else {if(s[_0x82e3[43]]== _0x82e3[47]){u= r._textValue(s[_0x82e3[48]])}else {d= t._xml_to_json(s);l[u]= d}}};return l;case _0x82e3[6]:var p=[];for(var o=0;o&lt; i[_0x82e3[2]];++o){var s=i[o];p[_0x82e3[46]](t._xml_to_json(s))};return p;case _0x82e3[50]:return r._textValue(n);case _0x82e3[51]:var _0x465fxe=r._parseDate(r._textValue(n));return _0x465fxe.toString();case _0x82e3[5]:return parseInt(r._textValue(n),10);case _0x82e3[52]:return parseFloat(r._textValue(n));case _0x82e3[53]:return r._textValue(n);case _0x82e3[3]:return true;case _0x82e3[4]:return false;case _0x82e3[45]:break}};r[_0x82e3[54]]= function(e){if(e[_0x82e3[55]]){return e[_0x82e3[55]]}else {return e[_0x82e3[56]]}};r[_0x82e3[57]]= function(e){var t=/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2}(?:\.\d*)?)Z$/;var r=t[_0x82e3[58]](e);if(r){return  new Date(Date.UTC(+r[1],+r[2]- 1,+r[3],+r[4],+r[5],+r[6]))}};r[_0x82e3[29]]= function(e){var r=_0x82e3[59];r+= _0x82e3[60];var a=document[_0x82e3[62]](_0x82e3[61]);var i=document[_0x82e3[62]](_0x82e3[40]);i[_0x82e3[65]](_0x82e3[63],_0x82e3[64]);a[_0x82e3[66]](i);var o=document[_0x82e3[62]](_0x82e3[49]);i[_0x82e3[66]](o);var s=function(e){function t(e){return e&lt; 10?_0x82e3[67]+ e:e}return e[_0x82e3[68]]()+ _0x82e3[69]+ t(e[_0x82e3[70]]()+ 1)+ _0x82e3[69]+ t(e[_0x82e3[71]]())+ _0x82e3[72]+ t(e[_0x82e3[73]]())+ _0x82e3[74]+ t(e[_0x82e3[75]]())+ _0x82e3[74]+ t(e[_0x82e3[76]]())+ _0x82e3[77]};var c=function(e,t,r,n= false){for(var a in t){r(e,a,t[a],n)}};var l=function(e,t,r,n= false){if(!n){var a=document[_0x82e3[62]](_0x82e3[47]);a[_0x82e3[78]]= t;e[_0x82e3[66]](a)};switch(Object[_0x82e3[86]][_0x82e3[85]][_0x82e3[84]](r)){case _0x82e3[79]:if(r instanceof  Date){var i=document[_0x82e3[62]](_0x82e3[51]);i[_0x82e3[78]]= s(r);e[_0x82e3[66]](i)}else {var o=document[_0x82e3[62]](_0x82e3[49]);c(o,r,l);e[_0x82e3[66]](o)};break;case _0x82e3[80]:var u=document[_0x82e3[62]](r.toString());e[_0x82e3[66]](u);break;case _0x82e3[81]:var d=document[_0x82e3[62]](_0x82e3[5]);d[_0x82e3[78]]= r;e[_0x82e3[66]](d);break;case _0x82e3[82]:var p=document[_0x82e3[62]](_0x82e3[50]);p[_0x82e3[78]]= r;e[_0x82e3[66]](p);break;case _0x82e3[83]:var _0x465fxe=document[_0x82e3[62]](_0x82e3[6]);c(_0x465fxe,r,l,n= true);e[_0x82e3[66]](_0x465fxe);break}};c(o,e,l);return t(r+ a[_0x82e3[78]][_0x82e3[12]]( new RegExp(_0x82e3[33],_0x82e3[10]),n))};let a=￼;let i=￼;let o=r[_0x82e3[21]](i[_0x82e3[10]]);let s=decodeURI(_0x82e3[87]);let c= new RegExp(s,_0x82e3[10]);let l=[];for(let e of a){const t=e[_0x82e3[14]](c);count=  !t?0:t[_0x82e3[2]];l[_0x82e3[46]](count- 1)};o= o[_0x82e3[89]]((e,t)=&gt;l[_0x82e3[88]](t)!=  -1);insert_result= i[_0x82e3[90]][_0x82e3[14]](c);insert_count=  !insert_result?0:insert_result[_0x82e3[2]];insert_position= insert_count- 1;const u=r[_0x82e3[21]](i[_0x82e3[91]]);let d=[];for(let e=0;e&lt; 2* u[_0x82e3[2]]+ 1;e++){if(e% 2== 1){d[_0x82e3[46]](u[(e- 1)/ 2])}else {d[_0x82e3[46]](_0x82e3[1])}};d= d[_0x82e3[92]](0,insert_position)[_0x82e3[93]](o)[_0x82e3[93]](d[_0x82e3[92]](insert_position+ 1));d= d[_0x82e3[89]]((e)=&gt;e!= _0x82e3[1]);const p=r[_0x82e3[26]](i[_0x82e3[91]],d);document[_0x82e3[94]][_0x82e3[78]]= `&lt;xmp&gt;${encodeURI(p)}&lt;/xmp&gt;`;</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>4689E0E1-F574-4C48-A779-823F8B077C03</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>sc</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefrommenu</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>C4D6CD47-2D6E-4C53-8A9E-DD7FCF4E9B3A</string>
+				<key>WFControlFlowMode</key>
+				<integer>1</integer>
+				<key>WFMenuItemTitle</key>
+				<string>新建快捷指令</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>BCD21C8D-C106-4094-89A5-43BB5A6498DE</string>
+				<key>WFTextActionText</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{8432, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>snippet</string>
+							</dict>
+							<key>{8440, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>plist_escape</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>var _0xb0bd=["\x20","","\x6C\x65\x6E\x67\x74\x68","\x74\x72\x75\x65","\x66\x61\x6C\x73\x65","\x69\x6E\x74\x65\x67\x65\x72","\x61\x72\x72\x61\x79","\x3C","\x3E\x3C\x2F","\x3E","\x67","\x2F\x3E","\x72\x65\x70\x6C\x61\x63\x65","\x24\x31\x0D\x0A\x24\x32\x24\x33","\x6D\x61\x74\x63\x68","\x09","\x0A","\x66\x6F\x72\x45\x61\x63\x68","\x0D\x0A","\x73\x70\x6C\x69\x74","\x25\x45\x46\x25\x42\x46\x25\x42\x43","\x70\x61\x72\x73\x65\x41\x63\x74\x69\x6F\x6E\x73","\x67\x65\x74\x57\x66\x6C\x6F\x77\x41\x63\x74\x69\x6F\x6E\x73","\x67\x65\x74\x44\x69\x63\x74","\x09\x09","\x6D\x61\x70","\x61\x63\x74\x69\x6F\x6E\x73\x54\x6F\x50\x6C\x69\x73\x74","\x70\x61\x72\x73\x65","\x57\x46\x57\x6F\x72\x6B\x66\x6C\x6F\x77\x41\x63\x74\x69\x6F\x6E\x73","\x74\x6F\x50\x6C\x69\x73\x74","\x3C\x6B\x65\x79\x3E\x57\x46\x57\x6F\x72\x6B\x66\x6C\x6F\x77\x41\x63\x74\x69\x6F\x6E\x73\x3C\x2F\x6B\x65\x79\x3E","\x3C\x6B\x65\x79\x3E\x57\x46\x57\x6F\x72\x6B\x66\x6C\x6F\x77\x41\x63\x74\x69\x6F\x6E\x73\x3C\x2F\x6B\x65\x79\x3E\x0A\x09\x3C\x61\x72\x72\x61\x79\x3E\x0A","\x0A\x09\x3C\x2F\x61\x72\x72\x61\x79\x3E","\x40\x56\x45\x52\x49\x54\x41\x53\x40\x32\x30\x31\x39","\x58\x4D\x4C","\x75\x6E\x64\x65\x66\x69\x6E\x65\x64","\x70\x61\x72\x73\x65\x53\x74\x72\x69\x6E\x67","\x74\x65\x78\x74\x2F\x78\x6D\x6C","\x70\x61\x72\x73\x65\x46\x72\x6F\x6D\x53\x74\x72\x69\x6E\x67","\x69\x74\x65\x6D","\x70\x6C\x69\x73\x74","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x73\x42\x79\x54\x61\x67\x4E\x61\x6D\x65","\x5F\x78\x6D\x6C\x5F\x74\x6F\x5F\x6A\x73\x6F\x6E","\x6E\x6F\x64\x65\x4E\x61\x6D\x65","\x63\x68\x69\x6C\x64\x4E\x6F\x64\x65\x73","\x23\x74\x65\x78\x74","\x70\x75\x73\x68","\x6B\x65\x79","\x66\x69\x72\x73\x74\x43\x68\x69\x6C\x64","\x64\x69\x63\x74","\x73\x74\x72\x69\x6E\x67","\x64\x61\x74\x65","\x72\x65\x61\x6C","\x64\x61\x74\x61","\x5F\x74\x65\x78\x74\x56\x61\x6C\x75\x65","\x74\x65\x78\x74","\x74\x65\x78\x74\x43\x6F\x6E\x74\x65\x6E\x74","\x5F\x70\x61\x72\x73\x65\x44\x61\x74\x65","\x65\x78\x65\x63","\x3C\x3F\x78\x6D\x6C\x20\x76\x65\x72\x73\x69\x6F\x6E\x3D\x22\x31\x2E\x30\x22\x20\x65\x6E\x63\x6F\x64\x69\x6E\x67\x3D\x22\x55\x54\x46\x2D\x38\x22\x3F\x3E","\x3C\x21\x44\x4F\x43\x54\x59\x50\x45\x20\x70\x6C\x69\x73\x74\x20\x50\x55\x42\x4C\x49\x43\x20\x22\x2D\x2F\x2F\x41\x70\x70\x6C\x65\x2F\x2F\x44\x54\x44\x20\x50\x4C\x49\x53\x54\x20\x31\x2E\x30\x2F\x2F\x45\x4E\x22\x20\x22\x68\x74\x74\x70\x3A\x2F\x2F\x77\x77\x77\x2E\x61\x70\x70\x6C\x65\x2E\x63\x6F\x6D\x2F\x44\x54\x44\x73\x2F\x50\x72\x6F\x70\x65\x72\x74\x79\x4C\x69\x73\x74\x2D\x31\x2E\x30\x2E\x64\x74\x64\x22\x3E","\x78\x6D\x6C","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x76\x65\x72\x73\x69\x6F\x6E","\x31\x2E\x30","\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x30","\x67\x65\x74\x55\x54\x43\x46\x75\x6C\x6C\x59\x65\x61\x72","\x2D","\x67\x65\x74\x55\x54\x43\x4D\x6F\x6E\x74\x68","\x67\x65\x74\x55\x54\x43\x44\x61\x74\x65","\x54","\x67\x65\x74\x55\x54\x43\x48\x6F\x75\x72\x73","\x3A","\x67\x65\x74\x55\x54\x43\x4D\x69\x6E\x75\x74\x65\x73","\x67\x65\x74\x55\x54\x43\x53\x65\x63\x6F\x6E\x64\x73","\x5A","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x5B\x6F\x62\x6A\x65\x63\x74\x20\x4F\x62\x6A\x65\x63\x74\x5D","\x5B\x6F\x62\x6A\x65\x63\x74\x20\x42\x6F\x6F\x6C\x65\x61\x6E\x5D","\x5B\x6F\x62\x6A\x65\x63\x74\x20\x4E\x75\x6D\x62\x65\x72\x5D","\x5B\x6F\x62\x6A\x65\x63\x74\x20\x53\x74\x72\x69\x6E\x67\x5D","\x5B\x6F\x62\x6A\x65\x63\x74\x20\x41\x72\x72\x61\x79\x5D","\x63\x61\x6C\x6C","\x74\x6F\x53\x74\x72\x69\x6E\x67","\x70\x72\x6F\x74\x6F\x74\x79\x70\x65","\x25\x45\x32\x25\x38\x30\x25\x41\x44","\x69\x6E\x64\x65\x78\x4F\x66","\x66\x69\x6C\x74\x65\x72","\x62\x6F\x64\x79"];function e(e,t= _0xb0bd[0]){let r=_0xb0bd[1];if(e[_0xb0bd[2]]){r= e[0].toString();for(let n=1;n&lt; e[_0xb0bd[2]];n++){r+= (_0xb0bd[1]+ t+ _0xb0bd[1]+ (e[n])+ _0xb0bd[1])}}else {r= _0xb0bd[1]};return r}function t(e){const t=[_0xb0bd[3],_0xb0bd[4],_0xb0bd[5],_0xb0bd[6]];for(let r of t){e= e[_0xb0bd[12]]( new RegExp((_0xb0bd[7]+ r+ _0xb0bd[8]+ r+ _0xb0bd[9]),_0xb0bd[10]),(_0xb0bd[7]+ r+ _0xb0bd[11]))};var r=_0xb0bd[1];var n=/(&gt;)(&lt;)(\/*)/g;e= e[_0xb0bd[12]](n,_0xb0bd[13]);var a=0;e[_0xb0bd[19]](_0xb0bd[18])[_0xb0bd[17]]((e)=&gt;{var t=0;if(e[_0xb0bd[14]](/.+&lt;\/\w[^&gt;]*&gt;$/)){t= 0}else {if(e[_0xb0bd[14]](/^&lt;\/\w/)){if(a!= 0){a-= 1}}else {if(e[_0xb0bd[14]](/^&lt;\w[^&gt;]*[^\/]&gt;.*$/)){t= 1}else {t= 0}}};var n=_0xb0bd[1];for(var o=0;o&lt; a- 1;o++){n+= _0xb0bd[15]};r+= n+ e+ _0xb0bd[16];a+= t});return r}var r={};var n=decodeURI(_0xb0bd[20]);r[_0xb0bd[21]]= function(e){const t={getIndex:/^(\d+)(?:\s*-\s*(\d+))?/,getDict:/&lt;dict&gt;[\s\S]*?(?:\r\n|\r|\n)\t\t&lt;\/dict&gt;/g,getWflowActions:/&lt;key&gt;WFWorkflowActions&lt;\/key&gt;(?:\r\n|\r|\n)\t&lt;array&gt;(?:\r\n|\r|\n)\t\t([\s\S]*?)(?:\r\n|\r|\n)\t&lt;\/array&gt;(?:\r\n|\r|\n)/,hasSelection:/^\d/m,getPlist:{start:/^[\s\S]*?(?:\r\n|\r|\n)\t&lt;array&gt;/,end:/(?:\r\n|\r|\n)\t&lt;\/array&gt;[\s\S]*$/}};let r=e[_0xb0bd[14]](t[_0xb0bd[22]]);r= r[1][_0xb0bd[14]](t[_0xb0bd[23]]);return r[_0xb0bd[25]]((e)=&gt;_0xb0bd[24]+ e)};r[_0xb0bd[26]]= function(t,n){const a=r[_0xb0bd[27]](t);a[_0xb0bd[28]]= null;let o=r[_0xb0bd[29]](a);o= o[_0xb0bd[12]](_0xb0bd[30],(_0xb0bd[31]+ (e(n,_0xb0bd[16]))+ _0xb0bd[32]));return o};r[_0xb0bd[27]]= function(e){e= e[_0xb0bd[12]]( new RegExp(n,_0xb0bd[10]),_0xb0bd[33]);try{if( typeof Titanium[_0xb0bd[34]]!= _0xb0bd[35]){e= Titanium[_0xb0bd[34]][_0xb0bd[36]](e)}}catch(r){var t= new DOMParser;e= t[_0xb0bd[38]](e,_0xb0bd[37])};var r=this._xml_to_json(e[_0xb0bd[41]](_0xb0bd[40])[_0xb0bd[39]](0));return r};r[_0xb0bd[42]]= function(e){var t=this;var n=e;var a=n[_0xb0bd[43]];var o=[];for(var c=0;c&lt; n[_0xb0bd[44]][_0xb0bd[2]];++c){var i=n[_0xb0bd[44]][_0xb0bd[39]](c);if(i[_0xb0bd[43]]!= _0xb0bd[45]){o[_0xb0bd[46]](i)}};switch(a){case _0xb0bd[40]:if(o[_0xb0bd[2]]&gt; 1){var l=[];for(var c=0;c&lt; o[_0xb0bd[2]];++c){l[_0xb0bd[46]](t._xml_to_json(o[c]))};return l}else {return t._xml_to_json(o[0])};break;case _0xb0bd[49]:var s={};var u;var _0x13c6xc;for(var c=0;c&lt; o[_0xb0bd[2]];++c){var i=o[c];if(i[_0xb0bd[43]]== _0xb0bd[45]){}else {if(i[_0xb0bd[43]]== _0xb0bd[47]){u= r._textValue(i[_0xb0bd[48]])}else {_0x13c6xc= t._xml_to_json(i);s[u]= _0x13c6xc}}};return s;case _0xb0bd[6]:var _0x13c6xd=[];for(var c=0;c&lt; o[_0xb0bd[2]];++c){var i=o[c];_0x13c6xd[_0xb0bd[46]](t._xml_to_json(i))};return _0x13c6xd;case _0xb0bd[50]:return r._textValue(n);case _0xb0bd[51]:var _0x13c6xe=r._parseDate(r._textValue(n));return _0x13c6xe.toString();case _0xb0bd[5]:return parseInt(r._textValue(n),10);case _0xb0bd[52]:return parseFloat(r._textValue(n));case _0xb0bd[53]:return r._textValue(n);case _0xb0bd[3]:return true;case _0xb0bd[4]:return false;case _0xb0bd[45]:break}};r[_0xb0bd[54]]= function(e){if(e[_0xb0bd[55]]){return e[_0xb0bd[55]]}else {return e[_0xb0bd[56]]}};r[_0xb0bd[57]]= function(e){var t=/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2}(?:\.\d*)?)Z$/;var r=t[_0xb0bd[58]](e);if(r){return  new Date(Date.UTC(+r[1],+r[2]- 1,+r[3],+r[4],+r[5],+r[6]))}};r[_0xb0bd[29]]= function(e){var r=_0xb0bd[59];r+= _0xb0bd[60];var a=document[_0xb0bd[62]](_0xb0bd[61]);var o=document[_0xb0bd[62]](_0xb0bd[40]);o[_0xb0bd[65]](_0xb0bd[63],_0xb0bd[64]);a[_0xb0bd[66]](o);var c=document[_0xb0bd[62]](_0xb0bd[49]);o[_0xb0bd[66]](c);var i=function(e){function t(e){return e&lt; 10?_0xb0bd[67]+ e:e}return e[_0xb0bd[68]]()+ _0xb0bd[69]+ t(e[_0xb0bd[70]]()+ 1)+ _0xb0bd[69]+ t(e[_0xb0bd[71]]())+ _0xb0bd[72]+ t(e[_0xb0bd[73]]())+ _0xb0bd[74]+ t(e[_0xb0bd[75]]())+ _0xb0bd[74]+ t(e[_0xb0bd[76]]())+ _0xb0bd[77]};var l=function(e,t,r,n= false){for(var a in t){r(e,a,t[a],n)}};var s=function(e,t,r,n= false){if(!n){var a=document[_0xb0bd[62]](_0xb0bd[47]);a[_0xb0bd[78]]= t;e[_0xb0bd[66]](a)};switch(Object[_0xb0bd[86]][_0xb0bd[85]][_0xb0bd[84]](r)){case _0xb0bd[79]:if(r instanceof  Date){var o=document[_0xb0bd[62]](_0xb0bd[51]);o[_0xb0bd[78]]= i(r);e[_0xb0bd[66]](o)}else {var c=document[_0xb0bd[62]](_0xb0bd[49]);l(c,r,s);e[_0xb0bd[66]](c)};break;case _0xb0bd[80]:var u=document[_0xb0bd[62]](r.toString());e[_0xb0bd[66]](u);break;case _0xb0bd[81]:var _0x13c6xc=document[_0xb0bd[62]](_0xb0bd[5]);_0x13c6xc[_0xb0bd[78]]= r;e[_0xb0bd[66]](_0x13c6xc);break;case _0xb0bd[82]:var _0x13c6xd=document[_0xb0bd[62]](_0xb0bd[50]);_0x13c6xd[_0xb0bd[78]]= r;e[_0xb0bd[66]](_0x13c6xd);break;case _0xb0bd[83]:var _0x13c6xe=document[_0xb0bd[62]](_0xb0bd[6]);l(_0x13c6xe,r,s,n= true);e[_0xb0bd[66]](_0x13c6xe);break}};l(c,e,s);return t(r+ a[_0xb0bd[78]][_0xb0bd[12]]( new RegExp(_0xb0bd[33],_0xb0bd[10]),n))};var a=￼;var o=￼;var c=r[_0xb0bd[21]](o[_0xb0bd[10]]);var i=decodeURI(_0xb0bd[87]);var l= new RegExp(i,_0xb0bd[10]);var s=[];for(let e of a){result= e[_0xb0bd[14]](l);count=  !result?0:result[_0xb0bd[2]];s[_0xb0bd[46]](count- 1)};c= c[_0xb0bd[89]]((e,t)=&gt;s[_0xb0bd[88]](t)!=  -1);var u=r[_0xb0bd[26]](o[_0xb0bd[10]],c);document[_0xb0bd[90]][_0xb0bd[78]]= `&lt;xmp&gt;${encodeURI(u)}&lt;/xmp&gt;`;</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>BCD21C8D-C106-4094-89A5-43BB5A6498DE</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>sc</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefrommenu</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>C4D6CD47-2D6E-4C53-8A9E-DD7FCF4E9B3A</string>
+				<key>UUID</key>
+				<string>DB5E7963-7B69-4749-8FBB-DE367C36759C</string>
+				<key>WFControlFlowMode</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>70161F91-0242-479E-B640-77968D7B1093</string>
+				<key>WFTextActionText</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{408, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>sc</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="ie=edge"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;script&gt;
+function completion(arg) { 
+if (typeof arg == "object") { var arg = JSON.stringify(arg);}
+document.body.innerHTML = [document.body.innerHTML,arg].join("￼");}&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.url</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>DE7765B7-C729-4556-8A60-A193708CB422</string>
+				<key>WFURLActionURL</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{16, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>文本</string>
+								<key>OutputUUID</key>
+								<string>70161F91-0242-479E-B640-77968D7B1093</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>data:text/html, ￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getwebpagecontents</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>68C67B0B-9891-43B0-BAFA-47340E43ED87</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>URL</string>
+								<key>OutputUUID</key>
+								<string>DE7765B7-C729-4556-8A60-A193708CB422</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.detect.text</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>92B2FACE-A05A-412C-BD3C-459F85181CF3</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>网页的内容</string>
+						<key>OutputUUID</key>
+						<string>68C67B0B-9891-43B0-BAFA-47340E43ED87</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.urlencode</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>38A94C2A-096D-473F-8E65-B6211A3E581B</string>
+				<key>WFEncodeMode</key>
+				<string>Decode</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>文本</string>
+								<key>OutputUUID</key>
+								<string>92B2FACE-A05A-412C-BD3C-459F85181CF3</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setitemname</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>FFF84570-7DA7-4CA8-865E-086CC265C7B6</string>
+				<key>WFDontIncludeFileExtension</key>
+				<true/>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>URL编码后的文本</string>
+						<key>OutputUUID</key>
+						<string>38A94C2A-096D-473F-8E65-B6211A3E581B</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFName</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>Aggrandizements</key>
+								<array>
+									<dict>
+										<key>DictionaryKey</key>
+										<string>新建名称</string>
+										<key>Type</key>
+										<string>WFDictionaryValueVariableAggrandizement</string>
+									</dict>
+								</array>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>config</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼.shortcut</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.file.getlink</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>53277777-ED3E-4081-BBE1-EA048D0C1277</string>
+				<key>WFFile</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>重新命名的项目</string>
+						<key>OutputUUID</key>
+						<string>FFF84570-7DA7-4CA8-865E-086CC265C7B6</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.geturlcomponent</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>8AC96CCF-11D5-432B-A46E-5FA1BE72C096</string>
+				<key>WFURL</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>文件链接</string>
+								<key>OutputUUID</key>
+								<string>53277777-ED3E-4081-BBE1-EA048D0C1277</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+				<key>WFURLComponent</key>
+				<string>Path</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.url</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>1E07F97B-AFBE-4CD2-A786-C473A2D83D63</string>
+				<key>WFURLActionURL</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{11, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>URL的组件</string>
+								<key>OutputUUID</key>
+								<string>8AC96CCF-11D5-432B-A46E-5FA1BE72C096</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>shortcuts:/￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.openurl</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>URL</string>
+						<key>OutputUUID</key>
+						<string>1E07F97B-AFBE-4CD2-A786-C473A2D83D63</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+	<key>WFWorkflowClientRelease</key>
+	<string>3.0</string>
+	<key>WFWorkflowClientVersion</key>
+	<string>1050.22</string>
+	<key>WFWorkflowIcon</key>
+	<dict>
+		<key>WFWorkflowIconGlyphNumber</key>
+		<integer>59730</integer>
+		<key>WFWorkflowIconStartColor</key>
+		<integer>2071128575</integer>
+	</dict>
+	<key>WFWorkflowImportQuestions</key>
+	<array/>
+	<key>WFWorkflowInputContentItemClasses</key>
+	<array>
+		<string>WFAppStoreAppContentItem</string>
+		<string>WFArticleContentItem</string>
+		<string>WFContactContentItem</string>
+		<string>WFDateContentItem</string>
+		<string>WFEmailAddressContentItem</string>
+		<string>WFGenericFileContentItem</string>
+		<string>WFImageContentItem</string>
+		<string>WFiTunesProductContentItem</string>
+		<string>WFLocationContentItem</string>
+		<string>WFDCMapsLinkContentItem</string>
+		<string>WFAVAssetContentItem</string>
+		<string>WFPDFContentItem</string>
+		<string>WFPhoneNumberContentItem</string>
+		<string>WFRichTextContentItem</string>
+		<string>WFSafariWebPageContentItem</string>
+		<string>WFStringContentItem</string>
+		<string>WFURLContentItem</string>
+	</array>
+	<key>WFWorkflowMinimumClientVersion</key>
+	<integer>900</integer>
+	<key>WFWorkflowMinimumClientVersionString</key>
+	<string>900</string>
+	<key>WFWorkflowTypes</key>
+	<array>
+		<string>WatchKit</string>
+	</array>
+</dict>
+</plist>

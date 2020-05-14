@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WFWorkflowActions</key>
+	<array>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>98EDA924-39B5-4759-B59B-47120FA1A3F4</string>
+				<key>WFTextActionText</key>
+				<string>-4,0
+-3,2
+-2,3
+-1,5
+-0,21
+0,21
+1,5
+2,3
+3,2
+4,0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.text.split</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>4CF8FEA9-BF9A-41BF-A203-59B28968D7F2</string>
+				<key>text</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Text</string>
+						<key>OutputUUID</key>
+						<string>98EDA924-39B5-4759-B59B-47120FA1A3F4</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>669450D1-449D-4F1D-91D5-C00604CF3D75</string>
+				<key>WFTextActionText</key>
+				<string>0,23
+-0,36
+0,6
+-0,026
+4,1
+4,1
+-0,026
+0,6
+-0,36
+0,23</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.text.split</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>FC3D9F9D-E3E6-43B2-B0E3-789468A601F9</string>
+				<key>text</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Text</string>
+						<key>OutputUUID</key>
+						<string>669450D1-449D-4F1D-91D5-C00604CF3D75</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>74FB6BC4-10B5-4FDA-B368-FE1CF22441E4</string>
+				<key>WFTextActionText</key>
+				<string>-4,0
+-3,8
+-3,7
+-3,5
+-3,3
+-3,2
+-3,0
+-2,9
+-2,7
+-2,5
+-2,4
+-2,2
+-2,0
+-1,9
+-1,7
+-1,6
+-1,4
+-1,2
+-1,1
+-0,9
+-0,73
+-0,57
+-0,41
+-0,24
+-0,082
+0,082
+0,24
+0,41
+0,57
+0,73
+0,9
+1,1
+1,2
+1,4
+1,6
+1,7
+1,9
+2,0
+2,2
+2,4
+2,5
+2,7
+2,9
+3,0
+3,2
+3,3
+3,5
+3,7
+3,8
+4,0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.text.split</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>298B4025-617A-42CC-B7A1-FD5BED263E25</string>
+				<key>text</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Text</string>
+						<key>OutputUUID</key>
+						<string>74FB6BC4-10B5-4FDA-B368-FE1CF22441E4</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>FD40FD02-F8B2-46FC-84F2-3B56C57634D1</string>
+				<key>WFTextActionText</key>
+				<string>0,23
+0,085
+-0,13
+-0,27
+-0,26
+-0,066
+0,19
+0,35
+0,29
+0,034
+-0,28
+-0,45
+-0,34
+0,02
+0,44
+0,64
+0,44
+-0,13
+-0,78
+-1,1
+-0,69
+0,49
+2,2
+3,8
+4,9
+4,9
+3,8
+2,2
+0,49
+-0,69
+-1,1
+-0,78
+-0,13
+0,44
+0,64
+0,44
+0,02
+-0,34
+-0,45
+-0,28
+0,034
+0,29
+0,35
+0,19
+-0,066
+-0,26
+-0,27
+-0,13
+0,085
+0,23</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.text.split</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>D975185A-E141-4ADF-AB91-F2CBF93E08EB</string>
+				<key>text</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Text</string>
+						<key>OutputUUID</key>
+						<string>FD40FD02-F8B2-46FC-84F2-3B56C57634D1</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>com.brogrammers.charty.NewChartWithSeriesIntent</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>ShowWhenRun</key>
+				<false/>
+				<key>UUID</key>
+				<string>4E37B4A3-AA2E-4AD4-93C3-295C0D1838B5</string>
+				<key>id</key>
+				<string>line_0</string>
+				<key>seriesLabel</key>
+				<string>Low resolution</string>
+				<key>seriesType</key>
+				<string>line</string>
+				<key>title</key>
+				<string>Line Plot Test</string>
+				<key>xValues</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Split Text</string>
+						<key>OutputUUID</key>
+						<string>4CF8FEA9-BF9A-41BF-A203-59B28968D7F2</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>yValues</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Split Text</string>
+						<key>OutputUUID</key>
+						<string>FC3D9F9D-E3E6-43B2-B0E3-789468A601F9</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>com.brogrammers.charty.AddSeriesToChartIntent</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>ShowWhenRun</key>
+				<false/>
+				<key>chartId</key>
+				<string>line_0</string>
+				<key>label</key>
+				<string>High resolution</string>
+				<key>type</key>
+				<string>line</string>
+				<key>xValues</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Split Text</string>
+						<key>OutputUUID</key>
+						<string>298B4025-617A-42CC-B7A1-FD5BED263E25</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>yValues</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Split Text</string>
+						<key>OutputUUID</key>
+						<string>D975185A-E141-4ADF-AB91-F2CBF93E08EB</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.openapp</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFAppIdentifier</key>
+				<string>com.brogrammers.charty</string>
+			</dict>
+		</dict>
+	</array>
+	<key>WFWorkflowClientRelease</key>
+	<string>3.0</string>
+	<key>WFWorkflowClientVersion</key>
+	<string>1050.22</string>
+	<key>WFWorkflowIcon</key>
+	<dict>
+		<key>WFWorkflowIconGlyphNumber</key>
+		<integer>59662</integer>
+		<key>WFWorkflowIconStartColor</key>
+		<integer>2071128575</integer>
+	</dict>
+	<key>WFWorkflowImportQuestions</key>
+	<array/>
+	<key>WFWorkflowInputContentItemClasses</key>
+	<array>
+		<string>WFAppStoreAppContentItem</string>
+		<string>WFArticleContentItem</string>
+		<string>WFContactContentItem</string>
+		<string>WFDateContentItem</string>
+		<string>WFEmailAddressContentItem</string>
+		<string>WFGenericFileContentItem</string>
+		<string>WFImageContentItem</string>
+		<string>WFiTunesProductContentItem</string>
+		<string>WFLocationContentItem</string>
+		<string>WFDCMapsLinkContentItem</string>
+		<string>WFAVAssetContentItem</string>
+		<string>WFPDFContentItem</string>
+		<string>WFPhoneNumberContentItem</string>
+		<string>WFRichTextContentItem</string>
+		<string>WFSafariWebPageContentItem</string>
+		<string>WFStringContentItem</string>
+		<string>WFURLContentItem</string>
+	</array>
+	<key>WFWorkflowMinimumClientVersion</key>
+	<integer>900</integer>
+	<key>WFWorkflowMinimumClientVersionString</key>
+	<string>900</string>
+	<key>WFWorkflowTypes</key>
+	<array>
+		<string>NCWidget</string>
+		<string>WatchKit</string>
+	</array>
+</dict>
+</plist>
