@@ -1,0 +1,43 @@
+{
+    "md_en":{
+        "info":"",
+        "name":"Shortcut",
+        "actions":"Action Count",
+        "filesize":"File Size",
+        "magic_var":"Magic  Variable",
+        "custom_var":"Custom Variable",
+        "glyph_num":"Glyph Number",
+        "glyph_color":"Glyph  Color",
+        "shortcut_type":"Shortcut Type",
+        "dependency":"Dependencies",
+        "action_list":"Action List",
+        "content_class":"Data Type Used",
+        "comment":"Comments"
+    },
+    "md_cn":{
+        "info":"快捷指令信息",
+        "name":"快捷指令",
+        "actions":"动作数量",
+        "filesize":"文件大小",
+        "magic_var":"魔术变量数量",
+        "custom_var":"自定义变量数量",
+        "glyph_num":"Glyph 编号",
+        "glyph_color":"Glyph 颜色",
+        "shortcut_type":"快捷指令类型",
+        "dependency":"依赖",
+        "action_list":"动作列表",
+        "content_class":"使用到的数据类型",
+        "comment":"注释内容"
+    },
+    "html_en":{
+        "title":"🔬Shortcut Analyser"
+    },
+    "html":{
+        "title":"🔬快捷指令分析工具"
+    },
+    "config":{
+        "choose_all":[0,1],
+        "new_sc_name":""
+    }
+
+}
