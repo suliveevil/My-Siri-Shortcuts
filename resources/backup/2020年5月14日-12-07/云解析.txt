@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WFWorkflowActions</key>
+	<array>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>6A0C0A4E-EABF-48B0-9CB3-189FAF63D140</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>first_plist</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>02A05BF9-67AC-40FF-877A-F35856221B43</string>
+				<key>WFTextActionText</key>
+				<string>{
+"com.agiletortoise.Drafts4.addto":"添加到草稿",
+"com.agiletortoise.Drafts4.get":"获取草稿内容",
+"com.agiletortoise.Drafts4.open":"打开草稿",
+"com.agiletortoise.Drafts4.runAction":"运行 Drafts 操作",
+"com.agiletortoise.Tally2.get":"获取 Tally",
+"com.agiletortoise.Tally2.updatetally":"更新 Tally",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXSetLargeTextIntent":"设定文字大小",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXStartGuidedAccessIntent":"开始引导式访问",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXStartMagnifierIntent":"打开放大器",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXStartSpeakScreenIntent":"开始朗读屏幕",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleAssistiveTouchIntent":"设定辅助触控",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleAudioDescriptionsIntent":"设定口述影像",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleCaptionsIntent":"设定隐藏式字幕 + 听障人士字幕",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleClassicInvertIntent":"设定经典反转",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleContrastIntent":"设定增强对比度",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleLEDFlashIntent":"设定 LED 闪烁",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleMonoAudioIntent":"设定单音道音频",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleReduceMotionIntent":"设定减弱动态效果",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleSmartInvertIntent":"设定智能反转",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleSwitchControlIntent":"设定切换控制",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleTransparencyIntent":"设定降低透明度",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleVoiceControlIntent":"设定语音控制",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleVoiceOverIntent":"设定旁白",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleWhitePointIntent":"设定白点",
+"com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleZoomIntent":"设定缩放",
+"com.apple.TVRemoteUIService.LaunchApplicationIntent":"在 Apple TV 上打开 App",
+"com.apple.TVRemoteUIService.LaunchRemoteIntent":"显示遥控器",
+"com.apple.TVRemoteUIService.PauseContentIntent":"播放/暂停 Apple TV",
+"com.apple.TVRemoteUIService.SleepAppleTVIntent":"使 Apple TV 进入睡眠",
+"com.apple.TVRemoteUIService.WakeAppleTVIntent":"唤醒 Apple TV",
+"com.apple.facetime.facetime":"FaceTime 通话",
+"com.apple.iBooks.openin":"将 PDF 添加到“图书”",
+"com.apple.mobilenotes.SharingExtension":"创建备忘录",
+"com.apple.mobilephone.call":"呼叫",
+"com.apple.mobileslideshow.StreamShareService":"发布到共享相簿",
+"com.apple.mobileslideshow.StreamShareService":"发布到共享相簿",
+"com.apple.mobiletimer-framework.MobileTimerIntents.MTCreateAlarmIntent":"创建闹钟",
+"com.apple.mobiletimer-framework.MobileTimerIntents.MTGetAlarmsIntent":"获取所有闹钟",
+"com.apple.mobiletimer-framework.MobileTimerIntents.MTToggleAlarmIntent":"开关闹钟",
+"com.appliedphasor.working-copy.CheckoutBranchIntent":"Checkout Branch",
+"com.appliedphasor.working-copy.CommitLogIntent":"Repository History",
+"com.appliedphasor.working-copy.CommitRepositoryIntent":"Commit Repository",
+"com.appliedphasor.working-copy.GetFilesIntent":"Get Repository Files",
+"com.appliedphasor.working-copy.OpenIntent":"Open in Working Copy",
+"com.appliedphasor.working-copy.PullRepositoryIntent":"Pull Repository",
+"com.appliedphasor.working-copy.PushRepositoryIntent":"Push Repository",
+"com.appliedphasor.working-copy.StageFilesIntent":"Stage for Commit",
+"com.appliedphasor.working-copy.WriteFileIntent":"Write Repository File",
+"com.burbn.instagram.openin":"发布到 Instagram",
+"com.google.chrome.ios.openurl":"在 Chrome 中 打开 URL",
+"com.google.chrome.ios.openurl":"在 Chrome 中打开 URL",
+"com.omz-software.Editorial.runworkflow":"运行 Editorial 工作流程",
+"com.omz-software.Pythonista.editscript":"编辑脚本",
+"com.omz-software.Pythonista.runscript":"运行脚本",
+"com.soulmen.ulysses.pad.attach":"附加到 Ulysses 文稿",
+"com.soulmen.ulysses.pad.insert":"添加到 Ulysses 文稿",
+"com.soulmen.ulysses.pad.new-group":"创建 Ulysses 组",
+"com.soulmen.ulysses.pad.new-sheet":"创建 Ulysses 文稿",
+"com.soulmen.ulysses.pad.open":"打开 Ulysses",
+"com.soulmen.ulysses.pad.read-sheet":"获取 Ulysses 文稿",
+"com.tapbots.Tweetbot.opentweetbot":"打开 Tweetbot",
+"com.tapbots.Tweetbot.searchtext":"搜索文本",
+"com.tapbots.Tweetbot.tweet":"发推",
+"com.tapbots.Tweetbot.viewprofile":"在 Tweetbot 中显示个人资料",
+"com.tijo.opener.Opener.show-options":"在 Opener 中打开URL",
+"dk.simonbs.Jayson.GetFileIntent":"获取文件",
+"dk.simonbs.Jayson.ViewJSONIntent":"View JSON",
+"dk.simonbs.Scriptable.CreateFileBookmarkIntent":"Create File Bookmark",
+"dk.simonbs.Scriptable.ParameterizedRunScriptIntent":"运行脚本",
+"fm.overcast.overcast.add":"添加到 Overcast",
+"is.workflow.actions.addframetogif":"为 GIF 添加帧",
+"is.workflow.actions.addmusictoupnext":"添加到待播清单",
+"is.workflow.actions.addnewevent":"添加新日程",
+"is.workflow.actions.addnewreminder":"添加新提醒事项",
+"is.workflow.actions.address":"街道地址",
+"is.workflow.actions.addtoplaylist":"添加到播放列表",
+"is.workflow.actions.airdropdocument":"隔空投送",
+"is.workflow.actions.airplanemode.set":"设定飞行模式",
+"is.workflow.actions.alert":"显示提醒",
+"is.workflow.actions.appearance":"设定外观",
+"is.workflow.actions.appendnote":"追加到备忘录",
+"is.workflow.actions.appendvariable":"添加到变量",
+"is.workflow.actions.ask":"要求输入",
+"is.workflow.actions.avairyeditphoto":"标记",
+"is.workflow.actions.avairyeditphoto":"标记",
+"is.workflow.actions.base64encode":"Base64 编码",
+"is.workflow.actions.bluetooth.set":"设定蓝牙",
+"is.workflow.actions.cellulardata.set":"设定蜂窝数据",
+"is.workflow.actions.choosefromlist":"从列表中选取",
+"is.workflow.actions.choosefrommenu":"从菜单中选取",
+"is.workflow.actions.clearupnext":"清除待播清单",
+"is.workflow.actions.cloudapp.upload":"上传到 CloudApp",
+"is.workflow.actions.comment":"注释",
+"is.workflow.actions.conditional":"如果",
+"is.workflow.actions.contacts":"通讯录",
+"is.workflow.actions.correctspelling":"纠正拼写",
+"is.workflow.actions.count":"计数",
+"is.workflow.actions.createplaylist":"创建播放列表",
+"is.workflow.actions.delay":"等待",
+"is.workflow.actions.deletephotos":"删除照片",
+"is.workflow.actions.detect.address":"从输入中获取地址",
+"is.workflow.actions.detect.contacts":"从输入中获取联系人",
+"is.workflow.actions.detect.dictionary":"从输入中获取词典",
+"is.workflow.actions.detect.emailaddress":"从输入中获取电子邮件地址",
+"is.workflow.actions.detect.images":"从输入中获取图像",
+"is.workflow.actions.detect.link":"从输入中获取 URL",
+"is.workflow.actions.detect.number":"从输入中获取数字",
+"is.workflow.actions.detect.text":"从输入中获取文本",
+"is.workflow.actions.detectlanguage":"使用 Microsoft 检测语言",
+"is.workflow.actions.dictatetext":"听写文本",
+"is.workflow.actions.dictionary":"词典",
+"is.workflow.actions.dnd.set":"设定“勿扰模式”",
+"is.workflow.actions.documentpicker.open":"获取文件",
+"is.workflow.actions.documentpicker.save":"存储文件",
+"is.workflow.actions.downloadurl":"获取 URL 内容",
+"is.workflow.actions.email":"电子邮件地址",
+"is.workflow.actions.encodemedia":"编码媒体",
+"is.workflow.actions.evernote.append":"追加到“印象笔记中”",
+"is.workflow.actions.evernote.delete":"删除笔记",
+"is.workflow.actions.evernote.get":"获取笔记",
+"is.workflow.actions.evernote.getlink":"获取笔记链接",
+"is.workflow.actions.evernote.new":"创建新笔记",
+"is.workflow.actions.exit":"退出快捷指令",
+"is.workflow.actions.exportsong":"选择音乐",
+"is.workflow.actions.file.append":"追加到文件",
+"is.workflow.actions.file.createfolder":"创建文件夹",
+"is.workflow.actions.file.delete":"删除文件",
+"is.workflow.actions.file.getlink":"获取文件链接",
+"is.workflow.actions.filter.articles":"过滤文章",
+"is.workflow.actions.filter.calendarevents":"查找日历日程",
+"is.workflow.actions.filter.contacts":"查找联系人",
+"is.workflow.actions.filter.eventattendees":"过滤日程参与者",
+"is.workflow.actions.filter.files":"过滤文件",
+"is.workflow.actions.filter.health.quantity":"查找健康样本",
+"is.workflow.actions.filter.images":"过滤图像",
+"is.workflow.actions.filter.locations":"过滤位置",
+"is.workflow.actions.filter.music":"查找音乐",
+"is.workflow.actions.filter.notes":"查找备忘录",
+"is.workflow.actions.filter.photos":"查找照片",
+"is.workflow.actions.filter.reminders":"查找提醒事项",
+"is.workflow.actions.flashlight":"设定手电筒",
+"is.workflow.actions.format.filesize":"格式化文件大小",
+"is.workflow.actions.format.number":"格式化数字",
+"is.workflow.actions.generatebarcode":"生成二维码",
+"is.workflow.actions.get.playlist":"获取播放列表",
+"is.workflow.actions.getarticle":"使用Safari阅读器获取文章",
+"is.workflow.actions.getbatterylevel":"获取电池电量",
+"is.workflow.actions.getclipboard":"获取剪贴板",
+"is.workflow.actions.getcurrentlocation":"获取当前位置",
+"is.workflow.actions.getcurrentsong":"获取当前歌曲",
+"is.workflow.actions.getdevicedetails":"获取设备的详细信息",
+"is.workflow.actions.getdirections":"显示路线",
+"is.workflow.actions.getdistance":"获取距离",
+"is.workflow.actions.getepisodesforpodcast":"获取播客单集",
+"is.workflow.actions.getframesfromimage":"从图像中获取帧",
+"is.workflow.actions.gethalfwaypoint":"获取中点",
+"is.workflow.actions.gethomeaccessorystate":"获取我的家的状态",
+"is.workflow.actions.gethtmlfromrichtext":"用多信息文本制作 HTML",
+"is.workflow.actions.getipaddress":"获取当前 IP 地址",
+"is.workflow.actions.getitemfromlist":"从列表中获取项目",
+"is.workflow.actions.getitemname":"获取名称",
+"is.workflow.actions.getitemtype":"获取类型",
+"is.workflow.actions.getlastphoto":"获取最新的照片",
+"is.workflow.actions.getlastscreenshot":"获取最新截屏",
+"is.workflow.actions.getlastvideo":"获取最新的视频",
+"is.workflow.actions.getlatestbursts":"获取最新的连拍快照",
+"is.workflow.actions.getlatestbursts":"获取最新的连拍快照",
+"is.workflow.actions.getlatestlivephotos":"获取最新的实况照片",
+"is.workflow.actions.getlatestphotoimport":"获取最新导入的照片",
+"is.workflow.actions.getmapslink":"获取地图 URL",
+"is.workflow.actions.getmarkdownfromrichtext":"从多信息文本制作 Markdown",
+"is.workflow.actions.getmyworkflows":"获取我的快捷指令",
+"is.workflow.actions.getnameofemoji":"获取表情符号名称",
+"is.workflow.actions.getpodcastsfromlibrary":"从资料库获取播客",
+"is.workflow.actions.getrichtextfromhtml":"从 HTML 制作多信息文本",
+"is.workflow.actions.getrichtextfrommarkdown":"从 Markdown 制作多信息文本",
+"is.workflow.actions.gettext":"文本",
+"is.workflow.actions.gettraveltime":"获取行程时间",
+"is.workflow.actions.getupcomingevents":"获取临近日程",
+"is.workflow.actions.getupcomingreminders":"获取临近提醒事项",
+"is.workflow.actions.geturlcomponent":"获取 URL 组件",
+"is.workflow.actions.getvalueforkey":"获取词典值",
+"is.workflow.actions.getvariable":"获取变量",
+"is.workflow.actions.getwebpagecontents":"获取网页内容",
+"is.workflow.actions.getwifi":"获取网络的详细信息",
+"is.workflow.actions.giphy":"在 Giphy 中搜索",
+"is.workflow.actions.goodreader.open":"在 GoodReader 中打开",
+"is.workflow.actions.handoff":"在“快捷指令” App 中继续",
+"is.workflow.actions.hash":"生成哈希值",
+"is.workflow.actions.health.quantity.log":"记录健康样本",
+"is.workflow.actions.health.workout.log":"记录体能训练",
+"is.workflow.actions.homeaccessory":"控制我的家",
+"is.workflow.actions.image.combine":"拼接图像",
+"is.workflow.actions.image.convert":"转换图像",
+"is.workflow.actions.image.crop":"裁剪图像",
+"is.workflow.actions.image.flip":"翻转图像",
+"is.workflow.actions.image.mask":"蒙版图像",
+"is.workflow.actions.image.resize":"调整图像大小",
+"is.workflow.actions.image.rotate":"旋转图像",
+"is.workflow.actions.imgur.upload":"上传到 Imgur",
+"is.workflow.actions.instapaper.add":"添加到 Instapaper",
+"is.workflow.actions.instapaper.get":"获取 Instapaper 书签",
+"is.workflow.actions.lightroom.import":"导入到 Lightroom",
+"is.workflow.actions.list":"列表",
+"is.workflow.actions.location":"位置",
+"is.workflow.actions.lowpowermode.set":"设定低电量模式",
+"is.workflow.actions.makegif":"制作 GIF",
+"is.workflow.actions.makepdf":"制作 PDF",
+"is.workflow.actions.makevideofromgif":"从 GIF 制作视频",
+"is.workflow.actions.makezip":"制作压缩包",
+"is.workflow.actions.math":"计算",
+"is.workflow.actions.measurement.convert":"转换测量",
+"is.workflow.actions.measurement.create":"测量",
+"is.workflow.actions.nothing":"无",
+"is.workflow.actions.notification":"显示通知",
+"is.workflow.actions.number":"数字",
+"is.workflow.actions.number.random":"随机数",
+"is.workflow.actions.openapp":"打开 App",
+"is.workflow.actions.openin":"打开方式...",
+"is.workflow.actions.openurl":"打开 URL",
+"is.workflow.actions.openxcallbackurl":"打开 X-Callback URL",
+"is.workflow.actions.overlayimageonimage":"叠放图像",
+"is.workflow.actions.pausemusic":"播放/暂停",
+"is.workflow.actions.pinboard.add":"添加到 Pinboard",
+"is.workflow.actions.pinboard.get":"获取 Pinboard 书签",
+"is.workflow.actions.playmusic":"播放音乐",
+"is.workflow.actions.playpodcast":"播放播客",
+"is.workflow.actions.playsound":"播放声音",
+"is.workflow.actions.pocket.add":"添加到 Pocket",
+"is.workflow.actions.pocket.get":"从 Pocket 中获取项目",
+"is.workflow.actions.podcasts.subscribe":"订阅播客",
+"is.workflow.actions.postonfacebook":"上传到 Facebook",
+"is.workflow.actions.previewdocument":"快速查看",
+"is.workflow.actions.print":"打印",
+"is.workflow.actions.properties.appstore":"获取 App Store App 详细信息",
+"is.workflow.actions.properties.articles":"获取文章的详细信息",
+"is.workflow.actions.properties.calendarevents":"获取日历日程的详细信息",
+"is.workflow.actions.properties.contacts":"获取联系人的详细信息",
+"is.workflow.actions.properties.eventattendees":"获取日程参与者的详细信息",
+"is.workflow.actions.properties.files":"获取文件的详细信息",
+"is.workflow.actions.properties.health.quantity":"获取健康样本的详细信息",
+"is.workflow.actions.properties.images":"获取图像的详细信息",
+"is.workflow.actions.properties.itunesartist":"获取 iTunes 艺人的详细信息",
+"is.workflow.actions.properties.itunesstore":"获取 iTunes 产品的详细信息",
+"is.workflow.actions.properties.locations":"获取位置的详细信息",
+"is.workflow.actions.properties.music":"获取音乐的详细信息",
+"is.workflow.actions.properties.podcast":"获取播客的详细信息",
+"is.workflow.actions.properties.reminders":"获取提醒事项的详细信息",
+"is.workflow.actions.properties.safariwebpage":"获取 Safari 浏览器网页的详细信息",
+"is.workflow.actions.properties.ulysses.sheet":"获取 Ulysses 文稿的详细信息",
+"is.workflow.actions.properties.weather.conditions":"获取天气状况的详细信息",
+"is.workflow.actions.readinglist":"添加到阅读列表",
+"is.workflow.actions.recordaudio":"录制音频",
+"is.workflow.actions.reminders.showlist":"显示提醒事项列表",
+"is.workflow.actions.removeevents":"移除日程",
+"is.workflow.actions.removereminders":"移除提醒事项",
+"is.workflow.actions.repeat.count":"重复",
+"is.workflow.actions.repeat.each":"为每个项目重复",
+"is.workflow.actions.round":"为数字取整",
+"is.workflow.actions.rss":"从 RSS 提要中获取项目",
+"is.workflow.actions.rss.extract":"从页面中获取 RSS 提要",
+"is.workflow.actions.runextension":"通过扩展共享",
+"is.workflow.actions.runjavascriptonwebpage":"在网页上运行 JavaScript",
+"is.workflow.actions.runsshscript":"通过 SSH 运行脚本",
+"is.workflow.actions.runworkflow":"运行快捷指令",
+"is.workflow.actions.savetocameraroll":"存储到相簿",
+"is.workflow.actions.scanbarcode":"扫描二维码/条形码",
+"is.workflow.actions.searchappstore":"搜索 App Store",
+"is.workflow.actions.searchitunes":"搜索 iTunes Store",
+"is.workflow.actions.searchlocalbusinesses":"搜索本地商户",
+"is.workflow.actions.searchmaps":"在地图中显示",
+"is.workflow.actions.searchpodcasts":"搜索播客",
+"is.workflow.actions.searchweb":"搜索网页",
+"is.workflow.actions.selectcontacts":"选择联系人",
+"is.workflow.actions.selectemail":"选择电子邮件地址",
+"is.workflow.actions.selectphoto":"选择照片",
+"is.workflow.actions.sendemail":"发送电子邮件",
+"is.workflow.actions.sendmessage":"发送信息",
+"is.workflow.actions.setbrightness":"设定亮度",
+"is.workflow.actions.setclipboard":"拷贝至剪贴板",
+"is.workflow.actions.setitemname":"设定名称",
+"is.workflow.actions.setplaybackdestination":"设定播放位置",
+"is.workflow.actions.setvalueforkey":"设定词典值",
+"is.workflow.actions.setvariable":"设定变量",
+"is.workflow.actions.setvolume":"设定音量",
+"is.workflow.actions.share":"共享",
+"is.workflow.actions.showdefinition":"显示定义",
+"is.workflow.actions.showinblindsquare":"在 BlindSquare 中显示",
+"is.workflow.actions.showincalendar":"在日历中显示",
+"is.workflow.actions.showinstore":"在 iTunes Store 中显示",
+"is.workflow.actions.shownote":"显示备忘录",
+"is.workflow.actions.showresult":"显示结果",
+"is.workflow.actions.showwebpage":"显示网页",
+"is.workflow.actions.sirikit.donation.handle":"Siri 操作",
+"is.workflow.actions.sirikit.donation.handle":"在 Chrome 中搜索",
+"is.workflow.actions.skipback":"上一首",
+"is.workflow.actions.skipforward":"下一首",
+"is.workflow.actions.speaktext":"朗读文本",
+"is.workflow.actions.statistics":"计算统计数据",
+"is.workflow.actions.takephoto":"拍照",
+"is.workflow.actions.takevideo":"录像",
+"is.workflow.actions.text.changecase":"更改大小写",
+"is.workflow.actions.text.combine":"合并文本",
+"is.workflow.actions.text.match":"匹配文本",
+"is.workflow.actions.text.match.getgroup":"获取匹配文本的组",
+"is.workflow.actions.text.replace":"替换文本",
+"is.workflow.actions.text.split":"拆分文本",
+"is.workflow.actions.text.translate":"使用 Microsoft 翻译文本",
+"is.workflow.actions.timer.start":"开始计时",
+"is.workflow.actions.trimvideo":"修建媒体",
+"is.workflow.actions.tumblr.post":"发布到 Tumblr",
+"is.workflow.actions.tweet":"发推",
+"is.workflow.actions.unzip":"从归档中提取",
+"is.workflow.actions.url":"URL",
+"is.workflow.actions.url.expand":"扩展 URL",
+"is.workflow.actions.url.getheaders":"获取 URL 标题",
+"is.workflow.actions.urlencode":"编码 URL",
+"is.workflow.actions.useractivity.open":"用户活动打开",
+"is.workflow.actions.venmo.pay":"付款",
+"is.workflow.actions.venmo.request":"收款",
+"is.workflow.actions.vibrate":"使设备振动",
+"is.workflow.actions.viewresult":"显示内容图",
+"is.workflow.actions.waittoreturn":"等待返回",
+"is.workflow.actions.weather.currentconditions":"获取当前天气",
+"is.workflow.actions.weather.forecast":"获取天气预报",
+"is.workflow.actions.wifi.set":"设定无线局域网",
+"is.workflow.actions.wordpress.post":"发布到 WordPress",
+"net.shinyfrog.bear-IOS.add":"添加到熊掌记笔记",
+"net.shinyfrog.bear-IOS.contents":"获取熊掌记笔记内容",
+"net.shinyfrog.bear-IOS.create":"创建熊掌记笔记",
+"net.shinyfrog.bear-IOS.grab":"从 URL 创建熊掌记笔记",
+"net.shinyfrog.bear-IOS.open":"打开熊掌记笔记",
+"net.shinyfrog.bear-IOS.search":"在熊掌记中搜索",
+"net.whatsapp.WhatsApp.openin":"通过 WhatsApp 发送照片",
+"net.whatsapp.WhatsApp.send":"通过 WhatsApp 发送信息",
+"squibner.AmazonLinker.convert":"使用 Associate 转换 URL",
+"squibner.AmazonLinker.search":"在 Associate 中搜索"
+}
+</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>02A05BF9-67AC-40FF-877A-F35856221B43</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>map</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.dictionary</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>397647CF-C862-4A34-BA9A-B0620D401952</string>
+				<key>WFItems</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>WFDictionaryFieldValueItems</key>
+						<array>
+							<dict>
+								<key>WFItemType</key>
+								<integer>0</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>g</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict>
+											<key>{0, 1}</key>
+											<dict>
+												<key>Type</key>
+												<string>Variable</string>
+												<key>VariableName</key>
+												<string>first_plist</string>
+											</dict>
+										</dict>
+										<key>string</key>
+										<string>￼</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+							</dict>
+						</array>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFDictionaryFieldValue</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>词典</string>
+						<key>OutputUUID</key>
+						<string>397647CF-C862-4A34-BA9A-B0620D401952</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>plist_escape</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>A7A01F18-E98E-4F93-8960-15FCC3514464</string>
+				<key>WFTextActionText</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{3985, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>plist_escape</string>
+							</dict>
+							<key>{3989, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>map</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>var _0x87ed=["\x25\x45\x46\x25\x42\x46\x25\x42\x43","\x70\x61\x72\x73\x65","\x67","\x40\x56\x45\x52\x49\x54\x41\x53\x40\x32\x30\x31\x39","\x72\x65\x70\x6C\x61\x63\x65","\x58\x4D\x4C","\x70\x61\x72\x73\x65\x53\x74\x72\x69\x6E\x67","\x74\x65\x78\x74\x2F\x78\x6D\x6C","\x70\x61\x72\x73\x65\x46\x72\x6F\x6D\x53\x74\x72\x69\x6E\x67","\x69\x74\x65\x6D","\x70\x6C\x69\x73\x74","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x73\x42\x79\x54\x61\x67\x4E\x61\x6D\x65","\x5F\x78\x6D\x6C\x5F\x74\x6F\x5F\x6A\x73\x6F\x6E","\x6E\x6F\x64\x65\x4E\x61\x6D\x65","\x6C\x65\x6E\x67\x74\x68","\x63\x68\x69\x6C\x64\x4E\x6F\x64\x65\x73","\x23\x74\x65\x78\x74","\x70\x75\x73\x68","\x6B\x65\x79","\x66\x69\x72\x73\x74\x43\x68\x69\x6C\x64","\x64\x69\x63\x74","\x61\x72\x72\x61\x79","\x73\x74\x72\x69\x6E\x67","\x64\x61\x74\x65","\x69\x6E\x74\x65\x67\x65\x72","\x72\x65\x61\x6C","\x64\x61\x74\x61","\x74\x72\x75\x65","\x66\x61\x6C\x73\x65","\x5F\x74\x65\x78\x74\x56\x61\x6C\x75\x65","\x74\x65\x78\x74","\x74\x65\x78\x74\x43\x6F\x6E\x74\x65\x6E\x74","\x5F\x70\x61\x72\x73\x65\x44\x61\x74\x65","\x65\x78\x65\x63","\x25\x45\x32\x25\x38\x30\x25\x41\x44","\x09","\x57\x46\x57\x6F\x72\x6B\x66\x6C\x6F\x77\x41\x63\x74\x69\x6F\x6E\x73","\u4ECE\u83DC\u5355\u4E2D\u9009\u53D6","\u83DC\u5355\u9009\u9879\uFF1A","\x57\x46\x4D\x65\x6E\x75\x49\x74\x65\x6D\x54\x69\x74\x6C\x65","\x57\x46\x57\x6F\x72\x6B\x66\x6C\x6F\x77\x41\x63\x74\x69\x6F\x6E\x50\x61\x72\x61\x6D\x65\x74\x65\x72\x73","","\u7ED3\u675F\u83DC\u5355","\x57\x46\x43\x6F\x6E\x74\x72\x6F\x6C\x46\x6C\x6F\x77\x4D\x6F\x64\x65","\x69\x73\x2E\x77\x6F\x72\x6B\x66\x6C\x6F\x77\x2E\x61\x63\x74\x69\x6F\x6E\x73\x2E\x63\x68\x6F\x6F\x73\x65\x66\x72\x6F\x6D\x6D\x65\x6E\x75","\u5982\u679C","\u5426\u5219","\u7ED3\u675F\u5982\u679C","\x69\x73\x2E\x77\x6F\x72\x6B\x66\x6C\x6F\x77\x2E\x61\x63\x74\x69\x6F\x6E\x73\x2E\x63\x6F\x6E\x64\x69\x74\x69\x6F\x6E\x61\x6C","\u4E3A\u6BCF\u4E2A\u9879\u76EE\u91CD\u590D","\u7ED3\u675F\u91CD\u590D","\x69\x73\x2E\x77\x6F\x72\x6B\x66\x6C\x6F\x77\x2E\x61\x63\x74\x69\x6F\x6E\x73\x2E\x72\x65\x70\x65\x61\x74\x2E\x65\x61\x63\x68","\u91CD\u590D","\x69\x73\x2E\x77\x6F\x72\x6B\x66\x6C\x6F\x77\x2E\x61\x63\x74\x69\x6F\x6E\x73\x2E\x72\x65\x70\x65\x61\x74\x2E\x63\x6F\x75\x6E\x74","\x57\x46\x57\x6F\x72\x6B\x66\x6C\x6F\x77\x41\x63\x74\x69\x6F\x6E\x49\x64\x65\x6E\x74\x69\x66\x69\x65\x72"];var e={},t=decodeURI(_0x87ed[0]);e[_0x87ed[1]]= function(e){e= e[_0x87ed[4]]( new RegExp(t,_0x87ed[2]),_0x87ed[3]);try{void(0)!== Titanium[_0x87ed[5]]&amp;&amp; (e= Titanium[_0x87ed[5]][_0x87ed[6]](e))}catch(t){e= ( new DOMParser)[_0x87ed[8]](e,_0x87ed[7])};return this._xml_to_json(e[_0x87ed[11]](_0x87ed[10])[_0x87ed[9]](0))},e[_0x87ed[12]]= function(t){for(var r=t,o=r[_0x87ed[13]],a=[],s=0;s&lt; r[_0x87ed[15]][_0x87ed[14]];++s){_0x87ed[16]!= (_0xe900xc= r[_0x87ed[15]][_0x87ed[9]](s))[_0x87ed[13]]&amp;&amp; a[_0x87ed[17]](_0xe900xc)};switch(o){case _0x87ed[10]:if(a[_0x87ed[14]]&gt; 1){var n=[];for(s= 0;s&lt; a[_0x87ed[14]];++s){n[_0x87ed[17]](this._xml_to_json(a[s]))};return n};return this._xml_to_json(a[0]);case _0x87ed[20]:var c,i,l={};for(s= 0;s&lt; a[_0x87ed[14]];++s){_0x87ed[16]== (_0xe900xc= a[s])[_0x87ed[13]]|| (_0x87ed[18]== _0xe900xc[_0x87ed[13]]?c= e._textValue(_0xe900xc[_0x87ed[19]]):(i= this._xml_to_json(_0xe900xc),l[c]= i))};return l;case _0x87ed[21]:var _0xe900xb=[];for(s= 0;s&lt; a[_0x87ed[14]];++s){var _0xe900xc=a[s];_0xe900xb[_0x87ed[17]](this._xml_to_json(_0xe900xc))};return _0xe900xb;case _0x87ed[22]:return e._textValue(r);case _0x87ed[23]:return e._parseDate(e._textValue(r)).toString();case _0x87ed[24]:return parseInt(e._textValue(r),10);case _0x87ed[25]:return parseFloat(e._textValue(r));case _0x87ed[26]:return e._textValue(r);case _0x87ed[27]:return !0;case _0x87ed[28]:return !1}},e[_0x87ed[29]]= function(e){return e[_0x87ed[30]]?e[_0x87ed[30]]:e[_0x87ed[31]]},e[_0x87ed[32]]= function(e){var t=/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2}(?:\.\d*)?)Z$/[_0x87ed[33]](e);if(t){return  new Date(Date.UTC(+t[1],+t[2]- 1,+t[3],+t[4],+t[5],+t[6]))}};var r=￼,o=￼,a=decodeURI(_0x87ed[34]),s=e[_0x87ed[1]](r[_0x87ed[2]]),n=[],c=0,i=0;function l(e){opt= a;for(let e=0;e&lt; c;e++){opt+= _0x87ed[35]};opt+= e;for(let e=0;e&lt; i;e++){opt+= a};return opt}for(let e of s[_0x87ed[36]]){switch(e[_0x87ed[54]]){case _0x87ed[44]:switch(e[_0x87ed[40]][_0x87ed[43]]){case 0:n[_0x87ed[17]](l(_0x87ed[37])),c+= 1;break;case 1:c-= 1,n[_0x87ed[17]](l((_0x87ed[38]+ (e[_0x87ed[40]][_0x87ed[39]])+ _0x87ed[41]))),c+= 1;break;case 2:c-= 1,n[_0x87ed[17]](l(_0x87ed[42]))};break;case _0x87ed[48]:switch(e[_0x87ed[40]][_0x87ed[43]]){case 0:n[_0x87ed[17]](l(_0x87ed[45])),c+= 1;break;case 1:c-= 1,n[_0x87ed[17]](l(_0x87ed[46])),c+= 1;break;case 2:c-= 1,n[_0x87ed[17]](l(_0x87ed[47]))};break;case _0x87ed[51]:switch(e[_0x87ed[40]][_0x87ed[43]]){case 0:n[_0x87ed[17]](l(_0x87ed[49])),c+= 1;break;case 2:c-= 1,n[_0x87ed[17]](l(_0x87ed[50]))};break;case _0x87ed[53]:switch(e[_0x87ed[40]][_0x87ed[43]]){case 0:n[_0x87ed[17]](l(_0x87ed[52])),c+= 1;break;case 2:c-= 1,n[_0x87ed[17]](l(_0x87ed[50]))};break;default:n[_0x87ed[17]](l(o[e[_0x87ed[54]]]))};i+= 1};completion({actions:n})</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>A7A01F18-E98E-4F93-8960-15FCC3514464</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>script_action</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>3405AD58-A831-414B-AE81-31BC59F7A801</string>
+				<key>WFTextActionText</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{413, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>script_action</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="ie=edge"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;script&gt;
+function completion(arg) { 
+if (typeof arg == "object") { var arg = JSON.stringify(arg);}
+document.body.innerHTML = [document.body.innerHTML,arg].join(" ");}￼&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.url</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>EB2CFD70-0636-4F9A-9F59-3D42C0BB03EB</string>
+				<key>WFURLActionURL</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{16, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>文本</string>
+								<key>OutputUUID</key>
+								<string>3405AD58-A831-414B-AE81-31BC59F7A801</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>data:text/html, ￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getwebpagecontents</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>074F3976-8979-40F3-A141-1DE086B9134E</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>URL</string>
+								<key>OutputUUID</key>
+								<string>EB2CFD70-0636-4F9A-9F59-3D42C0BB03EB</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.detect.text</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>7BEF331F-C1FC-4DEF-A2D7-32ECCA266226</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>网页的内容</string>
+						<key>OutputUUID</key>
+						<string>074F3976-8979-40F3-A141-1DE086B9134E</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.detect.dictionary</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>2B830ACE-7071-41F1-8C19-EC0BE15FAC58</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文本</string>
+						<key>OutputUUID</key>
+						<string>7BEF331F-C1FC-4DEF-A2D7-32ECCA266226</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getvalueforkey</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>38496AF6-389D-41D2-A39A-19C54AE4CC23</string>
+				<key>WFDictionaryKey</key>
+				<string>actions</string>
+				<key>WFGetDictionaryValueType</key>
+				<string>All Values</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>词典</string>
+						<key>OutputUUID</key>
+						<string>2B830ACE-7071-41F1-8C19-EC0BE15FAC58</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.text.combine</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>1E8C1828-6797-49DC-85D6-55845B626138</string>
+				<key>WFTextCustomSeparator</key>
+				<string></string>
+				<key>WFTextSeparator</key>
+				<string>New Lines</string>
+				<key>text</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>词典值</string>
+						<key>OutputUUID</key>
+						<string>38496AF6-389D-41D2-A39A-19C54AE4CC23</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>合并后的文本</string>
+						<key>OutputUUID</key>
+						<string>1E8C1828-6797-49DC-85D6-55845B626138</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>combine</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.previewdocument</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Type</key>
+						<string>Variable</string>
+						<key>VariableName</key>
+						<string>combine</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+	<key>WFWorkflowClientRelease</key>
+	<string>3.0</string>
+	<key>WFWorkflowClientVersion</key>
+	<string>1050.22</string>
+	<key>WFWorkflowIcon</key>
+	<dict>
+		<key>WFWorkflowIconGlyphNumber</key>
+		<integer>59730</integer>
+		<key>WFWorkflowIconStartColor</key>
+		<integer>2071128575</integer>
+	</dict>
+	<key>WFWorkflowImportQuestions</key>
+	<array/>
+	<key>WFWorkflowInputContentItemClasses</key>
+	<array>
+		<string>WFSafariWebPageContentItem</string>
+		<string>WFURLContentItem</string>
+	</array>
+	<key>WFWorkflowMinimumClientVersion</key>
+	<integer>900</integer>
+	<key>WFWorkflowMinimumClientVersionString</key>
+	<string>900</string>
+	<key>WFWorkflowTypes</key>
+	<array>
+		<string>WatchKit</string>
+		<string>NCWidget</string>
+		<string>ActionExtension</string>
+	</array>
+</dict>
+</plist>
