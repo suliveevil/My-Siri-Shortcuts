@@ -894,7 +894,7 @@
 															<key>attachmentsByRange</key>
 															<dict/>
 															<key>string</key>
-															<string>cn</string>
+															<string>中文</string>
 														</dict>
 														<key>WFSerializationType</key>
 														<string>WFTextTokenString</string>
@@ -906,7 +906,7 @@
 															<key>attachmentsByRange</key>
 															<dict/>
 															<key>string</key>
-															<string>中文</string>
+															<string>cn</string>
 														</dict>
 														<key>WFSerializationType</key>
 														<string>WFTextTokenString</string>
@@ -922,7 +922,7 @@
 															<key>attachmentsByRange</key>
 															<dict/>
 															<key>string</key>
-															<string>en</string>
+															<string>English</string>
 														</dict>
 														<key>WFSerializationType</key>
 														<string>WFTextTokenString</string>
@@ -934,7 +934,7 @@
 															<key>attachmentsByRange</key>
 															<dict/>
 															<key>string</key>
-															<string>English</string>
+															<string>en</string>
 														</dict>
 														<key>WFSerializationType</key>
 														<string>WFTextTokenString</string>
@@ -1606,7 +1606,291 @@
 "net.whatsapp.WhatsApp.openin":"通过 WhatsApp 发送照片",
 "net.whatsapp.WhatsApp.send":"通过 WhatsApp 发送信息",
 "squibner.AmazonLinker.convert":"使用 Associate 转换 URL",
-"squibner.AmazonLinker.search":"在 Associate 中搜索"
+"squibner.AmazonLinker.search":"在 Associate 中搜索",
+
+"is.workflow.actions.handoffplayback":"is.workflow.actions.handoffplayback",
+"is.workflow.actions.properties.podcastshow":"is.workflow.actions.properties.podcastshow",
+"is.workflow.actions.shazamMedia":"is.workflow.actions.shazamMedia",
+"...":"...",
+"Do.add":"Do.add",
+"is.workflow.actions.properties.podcastshow":"is.workflow.actions.properties.podcastshow",
+"com.jiejinghe.luke.LocalStorageSetIntent":"com.jiejinghe.luke.LocalStorageSetIntent",
+"com.jiejinghe.luke.LocalStorageGetIntent":"com.jiejinghe.luke.LocalStorageGetIntent",
+"com.jiejinghe.luke.ReadQRImageIntent":"com.jiejinghe.luke.ReadQRImageIntent",
+"com.jiejinghe.luke.YAMLMenuIntent":"com.jiejinghe.luke.YAMLMenuIntent",
+"com.jiejinghe.luke.NetworkAvaliableIntent":"com.jiejinghe.luke.NetworkAvaliableIntent",
+"com.jiejinghe.luke.RunJavaSriptIntent":"com.jiejinghe.luke.RunJavaSriptIntent",
+"com.jiejinghe.luke.RunPythonIntent":"com.jiejinghe.luke.RunPythonIntent",
+"com.jiejinghe.luke.ShortcutUpdateCheckIntent":"com.jiejinghe.luke.ShortcutUpdateCheckIntent",
+"com.jiejinghe.luke.ReadXLSXIntent":"com.jiejinghe.luke.ReadXLSXIntent",
+"com.jiejinghe.luke.JSONXMLTransformIntent":"com.jiejinghe.luke.JSONXMLTransformIntent",
+"is.workflow.actions.detect.phonenumber":"is.workflow.actions.detect.phonenumber",
+"is.workflow.actions.phonenumber":"is.workflow.actions.phonenumber",
+"is.workflow.actions.selectphone":"is.workflow.actions.selectphone",
+"com.christianselig.Apollo.OpenMultiredditIntent":"com.christianselig.Apollo.OpenMultiredditIntent",
+"com.christianselig.Apollo.OpenSubredditIntent":"com.christianselig.Apollo.OpenSubredditIntent",
+"com.christianselig.Apollo.OpenUserIntent":"com.christianselig.Apollo.OpenUserIntent",
+"com.brogrammers.charty.AddSeriesFromCSVIntent":"com.brogrammers.charty.AddSeriesFromCSVIntent",
+"com.brogrammers.charty.AddSeriesToChartIntent":"com.brogrammers.charty.AddSeriesToChartIntent",
+"com.brogrammers.charty.CopyChartToClipboardIntent":"com.brogrammers.charty.CopyChartToClipboardIntent",
+"com.brogrammers.charty.DeleteChartIntent":"com.brogrammers.charty.DeleteChartIntent",
+"com.brogrammers.charty.GetInfoAllChartsIntent":"com.brogrammers.charty.GetInfoAllChartsIntent",
+"com.brogrammers.charty.NewChartIntent":"com.brogrammers.charty.NewChartIntent",
+"com.brogrammers.charty.NewChartWithSeriesIntent":"com.brogrammers.charty.NewChartWithSeriesIntent",
+"com.brogrammers.charty.StyleAxisIntent":"com.brogrammers.charty.StyleAxisIntent",
+"com.brogrammers.charty.StyleBarSeriesIntent":"com.brogrammers.charty.StyleBarSeriesIntent",
+"com.brogrammers.charty.StyleLineSeriesIntent":"com.brogrammers.charty.StyleLineSeriesIntent",
+"com.brogrammers.charty.StyleScatterSeriesIntent":"com.brogrammers.charty.StyleScatterSeriesIntent",
+"com.google.chrome.ios.OpenInChromeIntent":"com.google.chrome.ios.OpenInChromeIntent",
+"dk.simonbs.DataJar.InsertValueInArrayIntent":"dk.simonbs.DataJar.InsertValueInArrayIntent",
+"dk.simonbs.DataJar.CheckIfValueExistsIntent":"dk.simonbs.DataJar.CheckIfValueExistsIntent",
+"dk.simonbs.DataJar.GetChildCountIntent":"dk.simonbs.DataJar.GetChildCountIntent",
+"dk.simonbs.DataJar.DeleteValueIntent":"dk.simonbs.DataJar.DeleteValueIntent",
+"dk.simonbs.DataJar.GetKeysIntent":"dk.simonbs.DataJar.GetKeysIntent",
+"dk.simonbs.DataJar.GetTypeOfValueIntent":"dk.simonbs.DataJar.GetTypeOfValueIntent",
+"dk.simonbs.DataJar.GetValueIntent":"dk.simonbs.DataJar.GetValueIntent",
+"ios.FindEntriesIntent":"ios.FindEntriesIntent",
+"ios.CreateEntryIntent":"ios.CreateEntryIntent",
+"com.dayonelog.dayoneiphone.post":"com.dayonelog.dayoneiphone.post",
+"ios.GetDailyPromptIntent":"ios.GetDailyPromptIntent",
+"ios.ShowEntriesIntent":"ios.ShowEntriesIntent",
+"ios.AppendToEntryIntent":"ios.AppendToEntryIntent",
+"com.fulvio.Reflex.MySequenceIntent":"com.fulvio.Reflex.MySequenceIntent",
+"com.phocusllp.due.CreateReminderIntent":"com.phocusllp.due.CreateReminderIntent",
+"com.phocusllp.due.CreateRepeatingReminderIntent":"com.phocusllp.due.CreateRepeatingReminderIntent",
+"com.phocusllp.due.add":"com.phocusllp.due.add",
+"app.cyan.jsbox.RunJSBoxUIIntent":"app.cyan.jsbox.RunJSBoxUIIntent",
+"app.cyan.jsbox.RunJavaScriptIntent":"app.cyan.jsbox.RunJavaScriptIntent",
+"app.cyan.jsbox.RunJSBoxIntent":"app.cyan.jsbox.RunJSBoxIntent",
+"com.apple.Keynote.KNiOSOpenAnyDocumentIntent":"com.apple.Keynote.KNiOSOpenAnyDocumentIntent",
+"com.atow.LaunchCuts.AnalyzeShortcutsIntent":"com.atow.LaunchCuts.AnalyzeShortcutsIntent",
+"com.atow.LaunchCuts.FilterShortcutsIntent":"com.atow.LaunchCuts.FilterShortcutsIntent",
+"com.atow.LaunchCuts.GetFolderIntent":"com.atow.LaunchCuts.GetFolderIntent",
+"com.atow.LaunchCuts.GetFoldersIntent":"com.atow.LaunchCuts.GetFoldersIntent",
+"ch.marcela.ada.LibTerm.RunCommandIntent":"ch.marcela.ada.LibTerm.RunCommandIntent",
+"com.ideasoncanvas.mindnode.ios.MNTNewDocumentIntent":"com.ideasoncanvas.mindnode.ios.MNTNewDocumentIntent",
+"com.ideasoncanvas.mindnode.ios.MNTExportDocumentIntent":"com.ideasoncanvas.mindnode.ios.MNTExportDocumentIntent",
+"com.ideasoncanvas.mindnode.ios.MNTExportTasksIntent":"com.ideasoncanvas.mindnode.ios.MNTExportTasksIntent",
+"com.ideasoncanvas.mindnode.ios.MNTQuickEntryIntent":"com.ideasoncanvas.mindnode.ios.MNTQuickEntryIntent",
+"com.ranchero.NetNewsWire.iOS.AddWebFeedIntent":"com.ranchero.NetNewsWire.iOS.AddWebFeedIntent",
+"com.apple.Numbers.TNiOSOpenAnyDocumentIntent":"com.apple.Numbers.TNiOSOpenAnyDocumentIntent",
+"com.apple.Numbers.TNiOSAddValueIntent":"com.apple.Numbers.TNiOSAddValueIntent",
+"app.CreateFolderIntent":"app.CreateFolderIntent",
+"app.SaveFileIntent":"app.SaveFileIntent",
+"app.GetFileIntent":"app.GetFileIntent",
+"app.DeletePathItemIntent":"app.DeletePathItemIntent",
+"app.GetAccountIntent":"app.GetAccountIntent",
+"app.GetAccountsIntent":"app.GetAccountsIntent",
+"app.GetDirectoryListingIntent":"app.GetDirectoryListingIntent",
+"app.GetFileInfoIntent":"app.GetFileInfoIntent",
+"app.PathExistsIntent":"app.PathExistsIntent",
+"com.apple.Pages.TPiOSOpenAnyDocumentIntent":"com.apple.Pages.TPiOSOpenAnyDocumentIntent",
+"com.pcalc.mobile.lite.CalcConvertRegisterIntent":"com.pcalc.mobile.lite.CalcConvertRegisterIntent",
+"com.pcalc.mobile.lite.CalcConvertValueIntent":"com.pcalc.mobile.lite.CalcConvertValueIntent",
+"com.pcalc.mobile.lite.CalcGetConstantValueIntent":"com.pcalc.mobile.lite.CalcGetConstantValueIntent",
+"com.pcalc.mobile.lite.CalcGetCurrencyRatesDateIntent":"com.pcalc.mobile.lite.CalcGetCurrencyRatesDateIntent",
+"com.pcalc.mobile.lite.CalcGetRegisterValueIntent":"com.pcalc.mobile.lite.CalcGetRegisterValueIntent",
+"com.pcalc.mobile.lite.CalcOpenSectionIntent":"com.pcalc.mobile.lite.CalcOpenSectionIntent",
+"com.pcalc.mobile.lite.CalcRunCommandIntent":"com.pcalc.mobile.lite.CalcRunCommandIntent",
+"com.pcalc.mobile.lite.CalcRunFunctionWithNameIntent":"com.pcalc.mobile.lite.CalcRunFunctionWithNameIntent",
+"com.pcalc.mobile.lite.CalcRunFunctionWithOneParameterIntent":"com.pcalc.mobile.lite.CalcRunFunctionWithOneParameterIntent",
+"com.pcalc.mobile.lite.CalcRunFunctionWithTwoParametersIntent":"com.pcalc.mobile.lite.CalcRunFunctionWithTwoParametersIntent",
+"com.pcalc.mobile.lite.CalcSetRegisterWithConstantIntent":"com.pcalc.mobile.lite.CalcSetRegisterWithConstantIntent",
+"com.pcalc.mobile.lite.CalcSetRegisterWithRegisterIntent":"com.pcalc.mobile.lite.CalcSetRegisterWithRegisterIntent",
+"com.pcalc.mobile.lite.CalcSetRegisterWithTextIntent":"com.pcalc.mobile.lite.CalcSetRegisterWithTextIntent",
+"com.pcalc.mobile.lite.CalcSwitchLayoutIntent":"com.pcalc.mobile.lite.CalcSwitchLayoutIntent",
+"io.pushcut.Pushcut.ShowNotificationIntent":"io.pushcut.Pushcut.ShowNotificationIntent",
+"io.pushcut.Pushcut.CancelNotificationIntent":"io.pushcut.Pushcut.CancelNotificationIntent",
+"io.pushcut.Pushcut.CancelServerActionIntent":"io.pushcut.Pushcut.CancelServerActionIntent",
+"io.pushcut.Pushcut.ExecuteServerActionIntent":"io.pushcut.Pushcut.ExecuteServerActionIntent",
+"io.pushcut.Pushcut.RunShortcutIntent":"io.pushcut.Pushcut.RunShortcutIntent",
+"io.pushcut.Pushcut.SendNotificationIntent":"io.pushcut.Pushcut.SendNotificationIntent",
+"ch.marcela.ada.Pyto.RunScriptIntent":"ch.marcela.ada.Pyto.RunScriptIntent",
+"ch.marcela.ada.Pyto.RunCodeIntent":"ch.marcela.ada.Pyto.RunCodeIntent",
+"com.reederapp.iOS.ReadLaterIntent":"com.reederapp.iOS.ReadLaterIntent",
+"com.reederapp.iOS.GetReadLaterIntent":"com.reederapp.iOS.GetReadLaterIntent",
+"com.reederapp.iOS.GetReadLaterContentIntent":"com.reederapp.iOS.GetReadLaterContentIntent",
+"com.reederapp.iOS.OpenReadLaterIntent":"com.reederapp.iOS.OpenReadLaterIntent",
+"dk.simonbs.Scriptable.RunScriptInlineIntent":"dk.simonbs.Scriptable.RunScriptInlineIntent",
+"ch.ada.SeeLess.RunProgramIntent":"ch.ada.SeeLess.RunProgramIntent",
+"app.shortcutify.Shortcutify.AirtableInsertRecordIntent":"app.shortcutify.Shortcutify.AirtableInsertRecordIntent",
+"app.shortcutify.Shortcutify.AirtableListRecordsIntent":"app.shortcutify.Shortcutify.AirtableListRecordsIntent",
+"app.shortcutify.Shortcutify.AirtableRetrieveRecordIntent":"app.shortcutify.Shortcutify.AirtableRetrieveRecordIntent",
+"app.shortcutify.Shortcutify.CoinbaseListAccountsIntent":"app.shortcutify.Shortcutify.CoinbaseListAccountsIntent",
+"app.shortcutify.Shortcutify.GoogledriveDownloadFileIntent":"app.shortcutify.Shortcutify.GoogledriveDownloadFileIntent",
+"app.shortcutify.Shortcutify.GoogledriveGetFileIntent":"app.shortcutify.Shortcutify.GoogledriveGetFileIntent",
+"app.shortcutify.Shortcutify.GoogledriveGetFilesListIntent":"app.shortcutify.Shortcutify.GoogledriveGetFilesListIntent",
+"app.shortcutify.Shortcutify.GoogledriveUploadFileIntent":"app.shortcutify.Shortcutify.GoogledriveUploadFileIntent",
+"app.shortcutify.Shortcutify.GoogleMapsGetDirectionsIntent":"app.shortcutify.Shortcutify.GoogleMapsGetDirectionsIntent",
+"app.shortcutify.Shortcutify.LifxActivateSceneIntent":"app.shortcutify.Shortcutify.LifxActivateSceneIntent",
+"app.shortcutify.Shortcutify.LifxSetLightStateIntent":"app.shortcutify.Shortcutify.LifxSetLightStateIntent",
+"app.shortcutify.Shortcutify.LifxSetPowerStateIntent":"app.shortcutify.Shortcutify.LifxSetPowerStateIntent",
+"app.shortcutify.Shortcutify.LifxTogglePowerIntent":"app.shortcutify.Shortcutify.LifxTogglePowerIntent",
+"app.shortcutify.Shortcutify.MacCaptureScreenVideoIntent":"app.shortcutify.Shortcutify.MacCaptureScreenVideoIntent",
+"app.shortcutify.Shortcutify.MacCaptureScreenshotIntent":"app.shortcutify.Shortcutify.MacCaptureScreenshotIntent",
+"app.shortcutify.Shortcutify.MacLockScreenIntent":"app.shortcutify.Shortcutify.MacLockScreenIntent",
+"app.shortcutify.Shortcutify.MacSleepIntent":"app.shortcutify.Shortcutify.MacSleepIntent",
+"app.shortcutify.Shortcutify.MacTriggerKeyboardShortcutIntent":"app.shortcutify.Shortcutify.MacTriggerKeyboardShortcutIntent",
+"app.shortcutify.Shortcutify.MacUploadFileIntent":"app.shortcutify.Shortcutify.MacUploadFileIntent",
+"app.shortcutify.Shortcutify.MacWakeIntent":"app.shortcutify.Shortcutify.MacWakeIntent",
+"app.shortcutify.Shortcutify.MacWakeAndLogInIntent":"app.shortcutify.Shortcutify.MacWakeAndLogInIntent",
+"app.shortcutify.Shortcutify.ShortcutifyConvertToOptionItemIntent":"app.shortcutify.Shortcutify.ShortcutifyConvertToOptionItemIntent",
+"app.shortcutify.Shortcutify.SightengineGetImageFilePropertiesIntent":"app.shortcutify.Shortcutify.SightengineGetImageFilePropertiesIntent",
+"app.shortcutify.Shortcutify.SightengineGetImageUrlPropertiesIntent":"app.shortcutify.Shortcutify.SightengineGetImageUrlPropertiesIntent",
+"app.shortcutify.Shortcutify.SpotifyAddTrackToPlaylistIntent":"app.shortcutify.Shortcutify.SpotifyAddTrackToPlaylistIntent",
+"app.shortcutify.Shortcutify.SpotifyGetCurrentlyPlayingTrackIntent":"app.shortcutify.Shortcutify.SpotifyGetCurrentlyPlayingTrackIntent",
+"app.shortcutify.Shortcutify.SpotifyGetMyPlaylistsIntent":"app.shortcutify.Shortcutify.SpotifyGetMyPlaylistsIntent",
+"app.shortcutify.Shortcutify.SpotifyPlayPauseIntent":"app.shortcutify.Shortcutify.SpotifyPlayPauseIntent",
+"app.shortcutify.Shortcutify.SpotifyPlaySpotifyURLIntent":"app.shortcutify.Shortcutify.SpotifyPlaySpotifyURLIntent",
+"app.shortcutify.Shortcutify.SpotifySearchAndPlayOnSpotifyIntent":"app.shortcutify.Shortcutify.SpotifySearchAndPlayOnSpotifyIntent",
+"app.shortcutify.Shortcutify.SpotifySetRepeatModeIntent":"app.shortcutify.Shortcutify.SpotifySetRepeatModeIntent",
+"app.shortcutify.Shortcutify.SpotifyToggleShuffleIntent":"app.shortcutify.Shortcutify.SpotifyToggleShuffleIntent",
+"app.shortcutify.Shortcutify.SpotifyTransferPlaybackIntent":"app.shortcutify.Shortcutify.SpotifyTransferPlaybackIntent",
+"app.shortcutify.Shortcutify.SpotifyUploadPlaylistCoverImageIntent":"app.shortcutify.Shortcutify.SpotifyUploadPlaylistCoverImageIntent",
+"app.shortcutify.Shortcutify.TodoistAddProjectIntent":"app.shortcutify.Shortcutify.TodoistAddProjectIntent",
+"app.shortcutify.Shortcutify.TodoistAddTaskToProjectIntent":"app.shortcutify.Shortcutify.TodoistAddTaskToProjectIntent",
+"app.shortcutify.Shortcutify.TodoistGetProjectTasksIntent":"app.shortcutify.Shortcutify.TodoistGetProjectTasksIntent",
+"app.shortcutify.Shortcutify.TodoistGetProjectsIntent":"app.shortcutify.Shortcutify.TodoistGetProjectsIntent",
+"app.shortcutify.Shortcutify.TodoistQuickAddTaskIntent":"app.shortcutify.Shortcutify.TodoistQuickAddTaskIntent",
+"ios.StopSurgeIntent":"ios.StopSurgeIntent",
+"ios.StartSurgeIntent":"ios.StartSurgeIntent",
+"do.WLShowListIntent":"do.WLShowListIntent",
+"do.WLAddTaskIntent":"do.WLAddTaskIntent",
+"com.alexhay.ToolboxProForShortcuts.PlayMusicIntent":"com.alexhay.ToolboxProForShortcuts.PlayMusicIntent",
+"com.alexhay.ToolboxProForShortcuts.FilterImageIntent":"com.alexhay.ToolboxProForShortcuts.FilterImageIntent",
+"com.alexhay.ToolboxProForShortcuts.ShowNotificationIntent":"com.alexhay.ToolboxProForShortcuts.ShowNotificationIntent",
+"com.alexhay.ToolboxProForShortcuts.AddContactIntent":"com.alexhay.ToolboxProForShortcuts.AddContactIntent",
+"com.alexhay.ToolboxProForShortcuts.AddMusicToLibraryIntent":"com.alexhay.ToolboxProForShortcuts.AddMusicToLibraryIntent",
+"com.alexhay.ToolboxProForShortcuts.AddPhotoAlbumIntent":"com.alexhay.ToolboxProForShortcuts.AddPhotoAlbumIntent",
+"com.alexhay.ToolboxProForShortcuts.AddToListIntent":"com.alexhay.ToolboxProForShortcuts.AddToListIntent",
+"com.alexhay.ToolboxProForShortcuts.AddTracksToPlaylistIntent":"com.alexhay.ToolboxProForShortcuts.AddTracksToPlaylistIntent",
+"com.alexhay.ToolboxProForShortcuts.AddContactGroupIntent":"com.alexhay.ToolboxProForShortcuts.AddContactGroupIntent",
+"com.alexhay.ToolboxProForShortcuts.AuthenticateIntent":"com.alexhay.ToolboxProForShortcuts.AuthenticateIntent",
+"com.alexhay.ToolboxProForShortcuts.CheckIfInstalledIntent":"com.alexhay.ToolboxProForShortcuts.CheckIfInstalledIntent",
+"com.alexhay.ToolboxProForShortcuts.CheckGVIntent":"com.alexhay.ToolboxProForShortcuts.CheckGVIntent",
+"com.alexhay.ToolboxProForShortcuts.CheckForUpdatesIntent":"com.alexhay.ToolboxProForShortcuts.CheckForUpdatesIntent",
+"com.alexhay.ToolboxProForShortcuts.ConvertCurrencyIntent":"com.alexhay.ToolboxProForShortcuts.ConvertCurrencyIntent",
+"com.alexhay.ToolboxProForShortcuts.CreateCalendarIntent":"com.alexhay.ToolboxProForShortcuts.CreateCalendarIntent",
+"com.alexhay.ToolboxProForShortcuts.CreateEventIntent":"com.alexhay.ToolboxProForShortcuts.CreateEventIntent",
+"com.alexhay.ToolboxProForShortcuts.CreateIconIntent":"com.alexhay.ToolboxProForShortcuts.CreateIconIntent",
+"com.alexhay.ToolboxProForShortcuts.CreateTextImageIntent":"com.alexhay.ToolboxProForShortcuts.CreateTextImageIntent",
+"com.alexhay.ToolboxProForShortcuts.SmartCropIntent":"com.alexhay.ToolboxProForShortcuts.SmartCropIntent",
+"com.alexhay.ToolboxProForShortcuts.CreateMenuIntent":"com.alexhay.ToolboxProForShortcuts.CreateMenuIntent",
+"com.alexhay.ToolboxProForShortcuts.CreatePlaylistIntent":"com.alexhay.ToolboxProForShortcuts.CreatePlaylistIntent",
+"com.alexhay.ToolboxProForShortcuts.CreateReminderIntent":"com.alexhay.ToolboxProForShortcuts.CreateReminderIntent",
+"com.alexhay.ToolboxProForShortcuts.CreateRemindersListIntent":"com.alexhay.ToolboxProForShortcuts.CreateRemindersListIntent",
+"com.alexhay.ToolboxProForShortcuts.CreateMatteIntent":"com.alexhay.ToolboxProForShortcuts.CreateMatteIntent",
+"com.alexhay.ToolboxProForShortcuts.CropIntent":"com.alexhay.ToolboxProForShortcuts.CropIntent",
+"com.alexhay.ToolboxProForShortcuts.DetectFacesIntent":"com.alexhay.ToolboxProForShortcuts.DetectFacesIntent",
+"com.alexhay.ToolboxProForShortcuts.DeviceLanguageIntent":"com.alexhay.ToolboxProForShortcuts.DeviceLanguageIntent",
+"com.alexhay.ToolboxProForShortcuts.DeleteFromDictionaryIntent":"com.alexhay.ToolboxProForShortcuts.DeleteFromDictionaryIntent",
+"com.alexhay.ToolboxProForShortcuts.EditEventIntent":"com.alexhay.ToolboxProForShortcuts.EditEventIntent",
+"com.alexhay.ToolboxProForShortcuts.SmartMenuIntent":"com.alexhay.ToolboxProForShortcuts.SmartMenuIntent",
+"com.alexhay.ToolboxProForShortcuts.EditPendingNotificationsIntent":"com.alexhay.ToolboxProForShortcuts.EditPendingNotificationsIntent",
+"com.alexhay.ToolboxProForShortcuts.EditReminderIntent":"com.alexhay.ToolboxProForShortcuts.EditReminderIntent",
+"com.alexhay.ToolboxProForShortcuts.FilterListIntent":"com.alexhay.ToolboxProForShortcuts.FilterListIntent",
+"com.alexhay.ToolboxProForShortcuts.FindAlbumsIntent":"com.alexhay.ToolboxProForShortcuts.FindAlbumsIntent",
+"com.alexhay.ToolboxProForShortcuts.FindArtistsIntent":"com.alexhay.ToolboxProForShortcuts.FindArtistsIntent",
+"com.alexhay.ToolboxProForShortcuts.SearchForEmojiIntent":"com.alexhay.ToolboxProForShortcuts.SearchForEmojiIntent",
+"com.alexhay.ToolboxProForShortcuts.FindGamesIntent":"com.alexhay.ToolboxProForShortcuts.FindGamesIntent",
+"com.alexhay.ToolboxProForShortcuts.FindMoviesIntent":"com.alexhay.ToolboxProForShortcuts.FindMoviesIntent",
+"com.alexhay.ToolboxProForShortcuts.FindPlaylistsIntent":"com.alexhay.ToolboxProForShortcuts.FindPlaylistsIntent",
+"com.alexhay.ToolboxProForShortcuts.FindSongsIntent":"com.alexhay.ToolboxProForShortcuts.FindSongsIntent",
+"com.alexhay.ToolboxProForShortcuts.FormatCurrencyIntent":"com.alexhay.ToolboxProForShortcuts.FormatCurrencyIntent",
+"com.alexhay.ToolboxProForShortcuts.FormatDateExtendedIntent":"com.alexhay.ToolboxProForShortcuts.FormatDateExtendedIntent",
+"com.alexhay.ToolboxProForShortcuts.GenerateUUIDIntent":"com.alexhay.ToolboxProForShortcuts.GenerateUUIDIntent",
+"com.alexhay.ToolboxProForShortcuts.GetActivityIntent":"com.alexhay.ToolboxProForShortcuts.GetActivityIntent",
+"com.alexhay.ToolboxProForShortcuts.GetAudioOutputsIntent":"com.alexhay.ToolboxProForShortcuts.GetAudioOutputsIntent",
+"com.alexhay.ToolboxProForShortcuts.BatteryStatusIntent":"com.alexhay.ToolboxProForShortcuts.BatteryStatusIntent",
+"com.alexhay.ToolboxProForShortcuts.GetCalendarsIntent":"com.alexhay.ToolboxProForShortcuts.GetCalendarsIntent",
+"com.alexhay.ToolboxProForShortcuts.GetColoursIntent":"com.alexhay.ToolboxProForShortcuts.GetColoursIntent",
+"com.alexhay.ToolboxProForShortcuts.AverageColourIntent":"com.alexhay.ToolboxProForShortcuts.AverageColourIntent",
+"com.alexhay.ToolboxProForShortcuts.InternetConnectionIntent":"com.alexhay.ToolboxProForShortcuts.InternetConnectionIntent",
+"com.alexhay.ToolboxProForShortcuts.GetDetailFromTextIntent":"com.alexhay.ToolboxProForShortcuts.GetDetailFromTextIntent",
+"com.alexhay.ToolboxProForShortcuts.GetDetailsOfLocationIntent":"com.alexhay.ToolboxProForShortcuts.GetDetailsOfLocationIntent",
+"com.alexhay.ToolboxProForShortcuts.DeviceDetailsIntent":"com.alexhay.ToolboxProForShortcuts.DeviceDetailsIntent",
+"com.alexhay.ToolboxProForShortcuts.DeviceMotionIntent":"com.alexhay.ToolboxProForShortcuts.DeviceMotionIntent",
+"com.alexhay.ToolboxProForShortcuts.DeviceStorageIntent":"com.alexhay.ToolboxProForShortcuts.DeviceStorageIntent",
+"com.alexhay.ToolboxProForShortcuts.GetFromDictionaryIntent":"com.alexhay.ToolboxProForShortcuts.GetFromDictionaryIntent",
+"com.alexhay.ToolboxProForShortcuts.GetEventIDIntent":"com.alexhay.ToolboxProForShortcuts.GetEventIDIntent",
+"com.alexhay.ToolboxProForShortcuts.GetLinksToSongIntent":"com.alexhay.ToolboxProForShortcuts.GetLinksToSongIntent",
+"com.alexhay.ToolboxProForShortcuts.GetLocationFromCoordsIntent":"com.alexhay.ToolboxProForShortcuts.GetLocationFromCoordsIntent",
+"com.alexhay.ToolboxProForShortcuts.GetLocationFromTextIntent":"com.alexhay.ToolboxProForShortcuts.GetLocationFromTextIntent",
+"com.alexhay.ToolboxProForShortcuts.GetMenuItemIntent":"com.alexhay.ToolboxProForShortcuts.GetMenuItemIntent",
+"com.alexhay.ToolboxProForShortcuts.GetMovieDetailsIntent":"com.alexhay.ToolboxProForShortcuts.GetMovieDetailsIntent",
+"com.alexhay.ToolboxProForShortcuts.GetPhotoAlbumsIntent":"com.alexhay.ToolboxProForShortcuts.GetPhotoAlbumsIntent",
+"com.alexhay.ToolboxProForShortcuts.GetPlaylistsIntent":"com.alexhay.ToolboxProForShortcuts.GetPlaylistsIntent",
+"com.alexhay.ToolboxProForShortcuts.GetRelativeDateIntent":"com.alexhay.ToolboxProForShortcuts.GetRelativeDateIntent",
+"com.alexhay.ToolboxProForShortcuts.GetReminderListsIntent":"com.alexhay.ToolboxProForShortcuts.GetReminderListsIntent",
+"com.alexhay.ToolboxProForShortcuts.GetReminderIDIntent":"com.alexhay.ToolboxProForShortcuts.GetReminderIDIntent",
+"com.alexhay.ToolboxProForShortcuts.GetAudioIntent":"com.alexhay.ToolboxProForShortcuts.GetAudioIntent",
+"com.alexhay.ToolboxProForShortcuts.GetSymbolNameIntent":"com.alexhay.ToolboxProForShortcuts.GetSymbolNameIntent",
+"com.alexhay.ToolboxProForShortcuts.RecogniseSpeechIntent":"com.alexhay.ToolboxProForShortcuts.RecogniseSpeechIntent",
+"com.alexhay.ToolboxProForShortcuts.GetTextFromImageIntent":"com.alexhay.ToolboxProForShortcuts.GetTextFromImageIntent",
+"com.alexhay.ToolboxProForShortcuts.GetTBPToolsIntent":"com.alexhay.ToolboxProForShortcuts.GetTBPToolsIntent",
+"com.alexhay.ToolboxProForShortcuts.GetUTIIntent":"com.alexhay.ToolboxProForShortcuts.GetUTIIntent",
+"com.alexhay.ToolboxProForShortcuts.GetWorkoutsIntent":"com.alexhay.ToolboxProForShortcuts.GetWorkoutsIntent",
+"com.alexhay.ToolboxProForShortcuts.GlobalVariablesIntent":"com.alexhay.ToolboxProForShortcuts.GlobalVariablesIntent",
+"com.alexhay.ToolboxProForShortcuts.HapticFeedbackIntent":"com.alexhay.ToolboxProForShortcuts.HapticFeedbackIntent",
+"com.alexhay.ToolboxProForShortcuts.SwitchCaseIntent":"com.alexhay.ToolboxProForShortcuts.SwitchCaseIntent",
+"com.alexhay.ToolboxProForShortcuts.EditTextIntent":"com.alexhay.ToolboxProForShortcuts.EditTextIntent",
+"com.alexhay.ToolboxProForShortcuts.IsAudioPlayingIntent":"com.alexhay.ToolboxProForShortcuts.IsAudioPlayingIntent",
+"com.alexhay.ToolboxProForShortcuts.IsDarkModeOnIntent":"com.alexhay.ToolboxProForShortcuts.IsDarkModeOnIntent",
+"com.alexhay.ToolboxProForShortcuts.IsTheSunUpIntent":"com.alexhay.ToolboxProForShortcuts.IsTheSunUpIntent",
+"com.alexhay.ToolboxProForShortcuts.IsVPNConnectedIntent":"com.alexhay.ToolboxProForShortcuts.IsVPNConnectedIntent",
+"com.alexhay.ToolboxProForShortcuts.PerformCalculationIntent":"com.alexhay.ToolboxProForShortcuts.PerformCalculationIntent",
+"com.alexhay.ToolboxProForShortcuts.PrettyPrintIntent":"com.alexhay.ToolboxProForShortcuts.PrettyPrintIntent",
+"com.alexhay.ToolboxProForShortcuts.QuickLookExtendedIntent":"com.alexhay.ToolboxProForShortcuts.QuickLookExtendedIntent",
+"com.alexhay.ToolboxProForShortcuts.ConsoleIntent":"com.alexhay.ToolboxProForShortcuts.ConsoleIntent",
+"com.alexhay.ToolboxProForShortcuts.PingServerIntent":"com.alexhay.ToolboxProForShortcuts.PingServerIntent",
+"com.alexhay.ToolboxProForShortcuts.QuickMatchTextIntent":"com.alexhay.ToolboxProForShortcuts.QuickMatchTextIntent",
+"com.alexhay.ToolboxProForShortcuts.QuickMenuIntent":"com.alexhay.ToolboxProForShortcuts.QuickMenuIntent",
+"com.alexhay.ToolboxProForShortcuts.RateSongsIntent":"com.alexhay.ToolboxProForShortcuts.RateSongsIntent",
+"com.alexhay.ToolboxProForShortcuts.RecogniseObjectsInImageIntent":"com.alexhay.ToolboxProForShortcuts.RecogniseObjectsInImageIntent",
+"com.alexhay.ToolboxProForShortcuts.RemoveDuplicatesIntent":"com.alexhay.ToolboxProForShortcuts.RemoveDuplicatesIntent",
+"com.alexhay.ToolboxProForShortcuts.RemoveEmojiIntent":"com.alexhay.ToolboxProForShortcuts.RemoveEmojiIntent",
+"com.alexhay.ToolboxProForShortcuts.RemoveItemsFromListIntent":"com.alexhay.ToolboxProForShortcuts.RemoveItemsFromListIntent",
+"com.alexhay.ToolboxProForShortcuts.HomeIntent":"com.alexhay.ToolboxProForShortcuts.HomeIntent",
+"com.alexhay.ToolboxProForShortcuts.ReverseListIntent":"com.alexhay.ToolboxProForShortcuts.ReverseListIntent",
+"com.alexhay.ToolboxProForShortcuts.ResizeImageExtendedIntent":"com.alexhay.ToolboxProForShortcuts.ResizeImageExtendedIntent",
+"com.alexhay.ToolboxProForShortcuts.ScanDocumentIntent":"com.alexhay.ToolboxProForShortcuts.ScanDocumentIntent",
+"com.alexhay.ToolboxProForShortcuts.ScanNFCIntent":"com.alexhay.ToolboxProForShortcuts.ScanNFCIntent",
+"com.alexhay.ToolboxProForShortcuts.DetectQRImageIntent":"com.alexhay.ToolboxProForShortcuts.DetectQRImageIntent",
+"com.alexhay.ToolboxProForShortcuts.SeekPlaybackIntent":"com.alexhay.ToolboxProForShortcuts.SeekPlaybackIntent",
+"com.alexhay.ToolboxProForShortcuts.ShuffleListIntent":"com.alexhay.ToolboxProForShortcuts.ShuffleListIntent",
+"com.alexhay.ToolboxProForShortcuts.SortListIntent":"com.alexhay.ToolboxProForShortcuts.SortListIntent",
+"com.alexhay.ToolboxProForShortcuts.TagFilesIntent":"com.alexhay.ToolboxProForShortcuts.TagFilesIntent",
+"com.alexhay.ToolboxProForShortcuts.TrimTextIntent":"com.alexhay.ToolboxProForShortcuts.TrimTextIntent",
+"com.alexhay.ToolboxProForShortcuts.ViewMapIntent":"com.alexhay.ToolboxProForShortcuts.ViewMapIntent",
+"is.workflow.actions.trello.add.board":"is.workflow.actions.trello.add.board",
+"is.workflow.actions.trello.add.list":"is.workflow.actions.trello.add.list",
+"is.workflow.actions.properties.trello":"is.workflow.actions.properties.trello",
+"is.workflow.actions.trello.add.card":"is.workflow.actions.trello.add.card",
+"com.waterminder.waterminder.LogCupIntent":"com.waterminder.waterminder.LogCupIntent",
+"copy.CloneRepositoryIntent":"copy.CloneRepositoryIntent",
+"copy.CreateBranchIntent":"copy.CreateBranchIntent",
+"copy.DeleteBranchIntent":"copy.DeleteBranchIntent",
+"copy.FetchRepositoryIntent":"copy.FetchRepositoryIntent",
+"copy.ListRepositoriesIntent":"copy.ListRepositoriesIntent",
+"copy.MergeBranchIntent":"copy.MergeBranchIntent",
+"copy.ListReferencesIntent":"copy.ListReferencesIntent",
+"com.streaksapp.streaks.workout.WorkoutStartIntent":"com.streaksapp.streaks.workout.WorkoutStartIntent",
+"at.EternalStorms.YoinkiOS.ESSAddFileIntent":"at.EternalStorms.YoinkiOS.ESSAddFileIntent",
+"at.EternalStorms.YoinkiOS.ESSCopyItemAtIndexFromYoinkIntent":"at.EternalStorms.YoinkiOS.ESSCopyItemAtIndexFromYoinkIntent",
+"at.EternalStorms.YoinkiOS.ESSCopyItemVisuallyIntent":"at.EternalStorms.YoinkiOS.ESSCopyItemVisuallyIntent",
+"at.EternalStorms.YoinkiOS.ESSCopyNewestImageFromYoinkIntent":"at.EternalStorms.YoinkiOS.ESSCopyNewestImageFromYoinkIntent",
+"at.EternalStorms.YoinkiOS.ESSCopyNewestItemFromYoinkIntent":"at.EternalStorms.YoinkiOS.ESSCopyNewestItemFromYoinkIntent",
+"at.EternalStorms.YoinkiOS.ESSCopyNewestPDFFromYoinkIntent":"at.EternalStorms.YoinkiOS.ESSCopyNewestPDFFromYoinkIntent",
+"at.EternalStorms.YoinkiOS.ESSCopyNewestTextFromYoinkIntent":"at.EternalStorms.YoinkiOS.ESSCopyNewestTextFromYoinkIntent",
+"at.EternalStorms.YoinkiOS.ESSCopyNewestURLFromYoinkIntent":"at.EternalStorms.YoinkiOS.ESSCopyNewestURLFromYoinkIntent",
+"at.EternalStorms.YoinkiOS.ESSCopyNewestUTIIntent":"at.EternalStorms.YoinkiOS.ESSCopyNewestUTIIntent",
+"at.EternalStorms.YoinkiOS.ESSDownloadClipboardURLInYoinkIntent":"at.EternalStorms.YoinkiOS.ESSDownloadClipboardURLInYoinkIntent",
+"at.EternalStorms.YoinkiOS.ESSDownloadURLInYoinkIntent":"at.EternalStorms.YoinkiOS.ESSDownloadURLInYoinkIntent",
+"at.EternalStorms.YoinkiOS.ESSReturnInfoForItemAtIndexIntent":"at.EternalStorms.YoinkiOS.ESSReturnInfoForItemAtIndexIntent",
+"at.EternalStorms.YoinkiOS.ESSReturnItemCountIntent":"at.EternalStorms.YoinkiOS.ESSReturnItemCountIntent",
+"at.EternalStorms.YoinkiOS.ESSGetDevicesIntent":"at.EternalStorms.YoinkiOS.ESSGetDevicesIntent",
+"at.EternalStorms.YoinkiOS.ESSReturnFileURLAtIndexIntent":"at.EternalStorms.YoinkiOS.ESSReturnFileURLAtIndexIntent",
+"at.EternalStorms.YoinkiOS.ESSShowDevicesItemsIntent":"at.EternalStorms.YoinkiOS.ESSShowDevicesItemsIntent"
 }
 </string>
 			</dict>
@@ -1856,7 +2140,9 @@
 				<key>UUID</key>
 				<string>88CE86B5-2B6E-485A-A16A-8AE32939400A</string>
 				<key>WFTextActionText</key>
-				<string>{ "title":"快捷指令分析工具",
+				<string>{
+"hm_ext":"_cn",
+"title":"快捷指令分析工具",
 "info":"快捷指令信息",
 "sc":"快捷指令",
 "actions":"动作数量",
@@ -2534,7 +2820,9 @@
 				<key>UUID</key>
 				<string>529A3A37-06EF-4E76-B4F1-7A9B7A52F8C9</string>
 				<key>WFTextActionText</key>
-				<string>{ "title":"Shortcut Analyser",
+				<string>{ 
+"hm_ext":"_en",
+"title":"Shortcut Analyser",
 "info":"Shortcut Info",
 "sc":"Shortcut",
 "actions":"Action Count",
@@ -5625,7 +5913,7 @@ var deviceModel = "device";
 					<dict>
 						<key>attachmentsByRange</key>
 						<dict>
-							<key>{102, 1}</key>
+							<key>{101, 1}</key>
 							<dict>
 								<key>Aggrandizements</key>
 								<array>
@@ -5657,14 +5945,14 @@ var deviceModel = "device";
 								<key>VariableName</key>
 								<string>html&amp;md</string>
 							</dict>
-							<key>{114, 1}</key>
+							<key>{113, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
 								<string>Comments</string>
 							</dict>
-							<key>{124, 1}</key>
+							<key>{123, 1}</key>
 							<dict>
 								<key>Aggrandizements</key>
 								<array>
@@ -5680,21 +5968,21 @@ var deviceModel = "device";
 								<key>VariableName</key>
 								<string>html&amp;md</string>
 							</dict>
-							<key>{138, 1}</key>
+							<key>{137, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
 								<string>action_list</string>
 							</dict>
-							<key>{15, 1}</key>
+							<key>{14, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
 								<string>sc_name</string>
 							</dict>
-							<key>{17, 1}</key>
+							<key>{16, 1}</key>
 							<dict>
 								<key>Aggrandizements</key>
 								<array>
@@ -5710,14 +5998,7 @@ var deviceModel = "device";
 								<key>VariableName</key>
 								<string>html&amp;md</string>
 							</dict>
-							<key>{2, 1}</key>
-							<dict>
-								<key>Type</key>
-								<string>Variable</string>
-								<key>VariableName</key>
-								<string>sc_name</string>
-							</dict>
-							<key>{20, 1}</key>
+							<key>{19, 1}</key>
 							<dict>
 								<key>OutputName</key>
 								<string>Count</string>
@@ -5726,7 +6007,14 @@ var deviceModel = "device";
 								<key>Type</key>
 								<string>ActionOutput</string>
 							</dict>
-							<key>{22, 1}</key>
+							<key>{2, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>sc_name</string>
+							</dict>
+							<key>{21, 1}</key>
 							<dict>
 								<key>Aggrandizements</key>
 								<array>
@@ -5742,14 +6030,14 @@ var deviceModel = "device";
 								<key>VariableName</key>
 								<string>html&amp;md</string>
 							</dict>
-							<key>{25, 1}</key>
+							<key>{24, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
 								<string>file_size</string>
 							</dict>
-							<key>{28, 1}</key>
+							<key>{27, 1}</key>
 							<dict>
 								<key>Aggrandizements</key>
 								<array>
@@ -5788,14 +6076,14 @@ var deviceModel = "device";
 								<key>VariableName</key>
 								<string>html&amp;md</string>
 							</dict>
-							<key>{36, 1}</key>
+							<key>{37, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
 								<string>custom_variables</string>
 							</dict>
-							<key>{39, 1}</key>
+							<key>{40, 1}</key>
 							<dict>
 								<key>Aggrandizements</key>
 								<array>
@@ -5836,7 +6124,7 @@ var deviceModel = "device";
 								<key>VariableName</key>
 								<string>html&amp;md</string>
 							</dict>
-							<key>{51, 1}</key>
+							<key>{50, 1}</key>
 							<dict>
 								<key>OutputName</key>
 								<string>Dictionary Value</string>
@@ -5845,7 +6133,7 @@ var deviceModel = "device";
 								<key>Type</key>
 								<string>ActionOutput</string>
 							</dict>
-							<key>{54, 1}</key>
+							<key>{53, 1}</key>
 							<dict>
 								<key>Aggrandizements</key>
 								<array>
@@ -5861,7 +6149,7 @@ var deviceModel = "device";
 								<key>VariableName</key>
 								<string>html&amp;md</string>
 							</dict>
-							<key>{60, 1}</key>
+							<key>{59, 1}</key>
 							<dict>
 								<key>OutputName</key>
 								<string>Dictionary Value</string>
@@ -5870,7 +6158,7 @@ var deviceModel = "device";
 								<key>Type</key>
 								<string>ActionOutput</string>
 							</dict>
-							<key>{66, 1}</key>
+							<key>{65, 1}</key>
 							<dict>
 								<key>Aggrandizements</key>
 								<array>
@@ -5886,14 +6174,14 @@ var deviceModel = "device";
 								<key>VariableName</key>
 								<string>html&amp;md</string>
 							</dict>
-							<key>{72, 1}</key>
+							<key>{71, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
 								<string>Classes</string>
 							</dict>
-							<key>{78, 1}</key>
+							<key>{77, 1}</key>
 							<dict>
 								<key>Aggrandizements</key>
 								<array>
@@ -5925,14 +6213,14 @@ var deviceModel = "device";
 								<key>VariableName</key>
 								<string>html&amp;md</string>
 							</dict>
-							<key>{83, 1}</key>
+							<key>{82, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
 								<string>Dependencies</string>
 							</dict>
-							<key>{96, 1}</key>
+							<key>{95, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
@@ -5945,15 +6233,15 @@ var deviceModel = "device";
 
 ## ￼
 
-￼：		￼
 ￼：	￼
-￼：	￼
-
 ￼：	￼
 ￼：	￼
 
-￼ : 	￼
-￼ : 	￼
+￼ : ￼
+￼ : ￼
+
+￼ : ￼
+￼ : ￼
 
 ￼ : 
 
@@ -6315,9 +6603,25 @@ var deviceModel = "device";
 								<key>VariableName</key>
 								<string>sc_name</string>
 							</dict>
+							<key>{1, 1}</key>
+							<dict>
+								<key>Aggrandizements</key>
+								<array>
+									<dict>
+										<key>DictionaryKey</key>
+										<string>hm_ext</string>
+										<key>Type</key>
+										<string>WFDictionaryValueVariableAggrandizement</string>
+									</dict>
+								</array>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>html&amp;md</string>
+							</dict>
 						</dict>
 						<key>string</key>
-						<string>￼.html</string>
+						<string>￼￼.html</string>
 					</dict>
 					<key>WFSerializationType</key>
 					<string>WFTextTokenString</string>
@@ -6515,9 +6819,25 @@ var deviceModel = "device";
 								<key>VariableName</key>
 								<string>sc_name</string>
 							</dict>
+							<key>{1, 1}</key>
+							<dict>
+								<key>Aggrandizements</key>
+								<array>
+									<dict>
+										<key>DictionaryKey</key>
+										<string>hm_ext</string>
+										<key>Type</key>
+										<string>WFDictionaryValueVariableAggrandizement</string>
+									</dict>
+								</array>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>html&amp;md</string>
+							</dict>
 						</dict>
 						<key>string</key>
-						<string>￼.md</string>
+						<string>￼￼.md</string>
 					</dict>
 					<key>WFSerializationType</key>
 					<string>WFTextTokenString</string>
