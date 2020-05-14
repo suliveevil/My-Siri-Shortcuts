@@ -1,0 +1,157 @@
+dict
+get dict value
+set var →a_variable
+get dict value
+set var →menu
+get dict value
+set var →variable_b
+set var →init_lang_config
+if [ (is) ←init_lang_config
+˙   text
+˙   get dict
+˙   set var →actions
+˙   text
+˙   get dict
+˙   set var →action_paras
+˙   text
+˙   get dict
+˙   set var →html&md
+] else [
+˙   if [ (is) ←init_lang_config
+˙   ˙   text
+˙   ˙   get dict
+˙   ˙   set var →actions
+˙   ˙   text
+˙   ˙   get dict
+˙   ˙   set var →action_paras
+˙   ˙   text
+˙   ˙   get dict
+˙   ˙   set var →html&md
+˙   ] if
+] if
+count ←Shortcut Input
+if [ (is)
+˙   menu [
+˙   ] menu [ “☯️Shortcut☯️”
+˙   ˙   Get My Shortcuts
+˙   ˙   choose
+˙   ˙   set var →file
+˙   ˙   is.workflow.actions.properties.files
+˙   ˙   set var →sc_name
+˙   ] menu [ “📃    File     📃”
+˙   ˙   get file
+˙   ˙   set var →file
+˙   ˙   is.workflow.actions.properties.files
+˙   ˙   set var →sc_name
+˙   ] menu [ “❌    Quit    ❌”
+˙   ˙   exit
+˙   ] menu
+] else [
+˙   set var ←Shortcut Input →file
+] if
+is.workflow.actions.properties.files ←file
+set var →file_size
+is.workflow.actions.properties.files ←file
+set var →file_ext
+match ←file_ext
+if [ (has value)
+˙   get image ←file
+˙   Resize Image
+˙   base
+˙   set var →icon_base64
+˙   set name ←file,sc_name
+˙   set var →file
+] else [
+] if
+get text ←file
+dict
+set var →plist_escape
+text
+set var →script
+text
+set var →plistparser
+text ←plistparser,plist_escape,actions,action_paras,a_variable,variable_b,script
+set name
+base
+url
+web contents
+get text
+get dict
+get dict value
+combine
+set var →action_list
+match ←action_list
+count
+set var →magic_variables
+match ←a_variable,action_list
+count
+set var →custom_variables
+get dict ←file
+set var →dict
+get dict value ←dict
+each [
+˙   text ←Repeat Item
+˙   add var →ActionTypes
+] each
+get dict value ←dict
+get dict value
+get dict value ←dict
+get dict value
+get dict value ←dict
+get dict value ←dict
+each [
+˙   text ←Repeat Item
+˙   replace
+˙   replace
+˙   add var →Classes
+] each
+combine ←Classes
+set var →Classes
+get dict value ←dict
+count
+get dict value ←dict
+each [
+˙   if [ (contains) ←Repeat Item
+˙   ˙   get dict value ←Repeat Item
+˙   ˙   get dict value
+˙   ˙   text
+˙   ˙   add var →Dependencies
+˙   ] else [
+˙   ˙   if [ (contains) ←Repeat Item
+˙   ˙   ˙   get dict value ←Repeat Item
+˙   ˙   ˙   get dict value
+˙   ˙   ˙   text
+˙   ˙   ˙   add var →Comments
+˙   ˙   ] else [
+˙   ˙   ] if
+˙   ] if
+] each
+match ←dict
+replace
+replace
+each [
+˙   text ←Repeat Item
+˙   add var →Urls
+] each
+text ←html&md,html&md,Comments,html&md,action_list,sc_name,html&md,sc_name,html&md,file_size,html&md,magic_variables,html&md,custom_variables,html&md,html&md,html&md,html&md,Classes,html&md,html&md,Dependencies,Urls
+set var →result
+rtf from md ←result
+html from rtf
+if [ (contains) ←file_ext
+˙   text ←sc_name,html&md
+] else [
+˙   text ←sc_name,html&md
+] if
+set name ←sc_name,html&md
+set var →result_html
+show web
+menu [
+] menu [ “Save HTML”
+˙   save file ←result_html
+] menu [ “Save Markdown”
+˙   get text ←result
+˙   set name ←sc_name,html&md
+˙   save file
+] menu [ “❌    Quit     ❌”
+˙   exit
+] menu
