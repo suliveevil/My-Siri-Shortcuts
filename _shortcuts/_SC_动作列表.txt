@@ -6,6 +6,36 @@
 	<array>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.comment</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFCommentActionText</key>
+				<string>来源：捷径盒 © 版权归作者所有
+发布时间：2020-05-15 17:17
+作品网址：https://jiejinghe.com/shortcuts/9110509052</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>com.jiejinghe.luke.ShortcutUpdateCheckIntent</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>versionInfo</key>
+				<string>id:9110509052,v:1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.comment</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFCommentActionText</key>
+				<string>LaunchCutsTags
+shortcut</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
 			<string>is.workflow.actions.gettext</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
@@ -1429,7 +1459,7 @@ document.body.innerHTML = [document.body.innerHTML,arg].join(" ");}￼&lt;/scrip
 				<key>WFMenuItems</key>
 				<array>
 					<string>markdown</string>
-					<string>Quit</string>
+					<string>❌Quit❌</string>
 				</array>
 			</dict>
 		</dict>
@@ -1581,7 +1611,7 @@ document.body.innerHTML = [document.body.innerHTML,arg].join(" ");}￼&lt;/scrip
 				<key>WFControlFlowMode</key>
 				<integer>1</integer>
 				<key>WFMenuItemTitle</key>
-				<string>Quit</string>
+				<string>❌Quit❌</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1611,7 +1641,7 @@ document.body.innerHTML = [document.body.innerHTML,arg].join(" ");}￼&lt;/scrip
 	<key>WFWorkflowIcon</key>
 	<dict>
 		<key>WFWorkflowIconGlyphNumber</key>
-		<integer>59730</integer>
+		<integer>59445</integer>
 		<key>WFWorkflowIconStartColor</key>
 		<integer>3679049983</integer>
 	</dict>
