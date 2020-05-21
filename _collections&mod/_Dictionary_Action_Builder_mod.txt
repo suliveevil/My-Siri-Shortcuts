@@ -10,16 +10,208 @@
 			<key>WFWorkflowActionParameters</key>
 			<dict>
 				<key>WFCommentActionText</key>
-				<string>This shortcut supports UpdateHub: https://routinehub.co/shortcut/2066
-That is, you can check for updates of all UpdateHub-supported shortcuts by manually running the UpdateHub shortcut. Auto update check is also supported.
-
-
-RoutineHubUpdate
-
-Current Version: "1.31"
-RoutineHub ID: "4626"
-
-RoutineHubUpdate</string>
+				<string>来源：捷径盒 © 版权归作者所有
+发布时间：2020-05-15 16:48
+作品网址：https://jiejinghe.com/shortcuts/3403913701</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>com.jiejinghe.luke.ShortcutUpdateCheckIntent</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>80B5D4FD-5758-4311-8966-9FD02E56FC49</string>
+				<key>versionInfo</key>
+				<string>id:3403913701,v:1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.dictionary</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>CD995B6E-114F-4F9C-9944-859B7985623C</string>
+				<key>WFItems</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>WFDictionaryFieldValueItems</key>
+						<array>
+							<dict>
+								<key>WFItemType</key>
+								<integer>0</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>author</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>gluebyte</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+							</dict>
+							<dict>
+								<key>WFItemType</key>
+								<integer>0</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>version</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>1.31</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+							</dict>
+							<dict>
+								<key>WFItemType</key>
+								<integer>0</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>date</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>2020-05-05</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+							</dict>
+							<dict>
+								<key>WFItemType</key>
+								<integer>0</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>website</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>https://routinehub.co/shortcut/4626</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+							</dict>
+							<dict>
+								<key>WFItemType</key>
+								<integer>0</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>mod</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>suliveevil</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+							</dict>
+							<dict>
+								<key>WFItemType</key>
+								<integer>0</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>mod_date</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>2020-05-15</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+							</dict>
+						</array>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFDictionaryFieldValue</string>
+				</dict>
 			</dict>
 		</dict>
 		<dict>
@@ -28,9 +220,27 @@ RoutineHubUpdate</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
 				<key>WFCommentActionText</key>
-				<string>Text dictionary to action conversion tool for shortcut developers. Converts dictionary or array text (json) to shortcut-native dictionary or list actions. Supports multiple json objects through share (as text selection or file) or clipboard.
-2020-05-05 	ⓥ1.31 	@gluebyte 	u/gluebyte
-https://routinehub.co/shortcut/4626</string>
+				<string>LaunchCutsTags
+shortcut</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.count</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>Input</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Type</key>
+						<string>ExtensionInput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>UUID</key>
+				<string>568C6132-BC07-4F1F-BFF0-8A1CA34817E7</string>
 			</dict>
 		</dict>
 		<dict>
@@ -39,7 +249,7 @@ https://routinehub.co/shortcut/4626</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
 				<key>GroupingIdentifier</key>
-				<string>A165B294-7EC5-4E05-B404-D2ED7E10C132</string>
+				<string>A2F83DBC-05B9-4F2A-B4DC-5D45BD4B3E8B</string>
 				<key>WFCondition</key>
 				<integer>101</integer>
 				<key>WFControlFlowMode</key>
@@ -52,15 +262,6 @@ https://routinehub.co/shortcut/4626</string>
 					<dict>
 						<key>Value</key>
 						<dict>
-							<key>Aggrandizements</key>
-							<array>
-								<dict>
-									<key>CoercionItemClass</key>
-									<string>WFStringContentItem</string>
-									<key>Type</key>
-									<string>WFCoercionVariableAggrandizement</string>
-								</dict>
-							</array>
 							<key>Type</key>
 							<string>ExtensionInput</string>
 						</dict>
@@ -72,14 +273,203 @@ https://routinehub.co/shortcut/4626</string>
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.text.match</string>
+			<string>is.workflow.actions.choosefrommenu</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>583B0CC1-DA4B-4975-AC5B-2715E515CF23</string>
+				<key>WFControlFlowMode</key>
+				<integer>0</integer>
+				<key>WFMenuItems</key>
+				<array>
+					<string>剪贴板JSON</string>
+					<string>JSON文件</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefrommenu</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>583B0CC1-DA4B-4975-AC5B-2715E515CF23</string>
+				<key>WFControlFlowMode</key>
+				<integer>1</integer>
+				<key>WFMenuItemTitle</key>
+				<string>剪贴板JSON</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefrommenu</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>2578C469-D2B7-434B-B443-2F0808F2DB2B</string>
+				<key>WFControlFlowMode</key>
+				<integer>0</integer>
+				<key>WFMenuItems</key>
+				<array>
+					<string>直接生成</string>
+					<string>加外套</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefrommenu</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>2578C469-D2B7-434B-B443-2F0808F2DB2B</string>
+				<key>WFControlFlowMode</key>
+				<integer>1</integer>
+				<key>WFMenuItemTitle</key>
+				<string>直接生成</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getclipboard</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
 				<key>UUID</key>
-				<string>A270F495-281A-401B-8E6A-8DB7BB78C286</string>
-				<key>WFMatchTextPattern</key>
-				<string>[\[\{]</string>
-				<key>text</key>
+				<string>82808875-2797-4EEF-90EC-7AF6326F0423</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefrommenu</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>2578C469-D2B7-434B-B443-2F0808F2DB2B</string>
+				<key>WFControlFlowMode</key>
+				<integer>1</integer>
+				<key>WFMenuItemTitle</key>
+				<string>加外套</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFTextActionText</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{1, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>剪贴板</string>
+								<key>OutputUUID</key>
+								<string>82808875-2797-4EEF-90EC-7AF6326F0423</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>{￼}</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefrommenu</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>2578C469-D2B7-434B-B443-2F0808F2DB2B</string>
+				<key>WFControlFlowMode</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefrommenu</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>583B0CC1-DA4B-4975-AC5B-2715E515CF23</string>
+				<key>WFControlFlowMode</key>
+				<integer>1</integer>
+				<key>WFMenuItemTitle</key>
+				<string>JSON文件</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.documentpicker.open</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>SelectMultiple</key>
+				<true/>
+				<key>UUID</key>
+				<string>45685B8A-D63F-46C4-BAAD-72A3D4206249</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.detect.text</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>39C35DC2-710F-4187-9EF5-FF7A8F00EA39</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>文件</string>
+						<key>OutputUUID</key>
+						<string>45685B8A-D63F-46C4-BAAD-72A3D4206249</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefrommenu</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>583B0CC1-DA4B-4975-AC5B-2715E515CF23</string>
+				<key>UUID</key>
+				<string>9A1CA42D-1DC3-4713-B08A-8BA64B9AA941</string>
+				<key>WFControlFlowMode</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>A2F83DBC-05B9-4F2A-B4DC-5D45BD4B3E8B</string>
+				<key>WFControlFlowMode</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>FA50A3D7-1A0B-4751-A329-4E0ED7AAB34B</string>
+				<key>WFTextActionText</key>
 				<dict>
 					<key>Value</key>
 					<dict>
@@ -88,7 +478,7 @@ https://routinehub.co/shortcut/4626</string>
 							<key>{0, 1}</key>
 							<dict>
 								<key>Type</key>
-								<string>Clipboard</string>
+								<string>ExtensionInput</string>
 							</dict>
 						</dict>
 						<key>string</key>
@@ -101,227 +491,15 @@ https://routinehub.co/shortcut/4626</string>
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.count</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>Input</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>Matches</string>
-						<key>OutputUUID</key>
-						<string>A270F495-281A-401B-8E6A-8DB7BB78C286</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-				<key>UUID</key>
-				<string>F7F5E223-19E8-405C-824A-18BE06B52D34</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
 			<string>is.workflow.actions.conditional</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
 				<key>GroupingIdentifier</key>
-				<string>480E7987-FF28-4830-8757-1D0A76EE40F2</string>
-				<key>WFCondition</key>
-				<integer>2</integer>
-				<key>WFControlFlowMode</key>
-				<integer>0</integer>
-				<key>WFInput</key>
-				<dict>
-					<key>Type</key>
-					<string>Variable</string>
-					<key>Variable</key>
-					<dict>
-						<key>Value</key>
-						<dict>
-							<key>OutputName</key>
-							<string>Count</string>
-							<key>OutputUUID</key>
-							<string>F7F5E223-19E8-405C-824A-18BE06B52D34</string>
-							<key>Type</key>
-							<string>ActionOutput</string>
-						</dict>
-						<key>WFSerializationType</key>
-						<string>WFTextTokenAttachment</string>
-					</dict>
-				</dict>
-				<key>WFNumberValue</key>
-				<string>0</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>80120327-36D6-4AEA-A7D7-9D97E2A53A54</string>
-				<key>WFControlFlowMode</key>
-				<integer>0</integer>
-				<key>WFMenuItems</key>
-				<array>
-					<string>Use Clipboard</string>
-					<string>Choose File</string>
-				</array>
-				<key>WFMenuPrompt</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>attachmentsByRange</key>
-						<dict>
-							<key>{20, 1}</key>
-							<dict>
-								<key>Type</key>
-								<string>Clipboard</string>
-							</dict>
-						</dict>
-						<key>string</key>
-						<string>𝑪𝑳𝑰𝑷𝑩𝑶𝑨𝑹𝑫
-
-￼</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenString</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>80120327-36D6-4AEA-A7D7-9D97E2A53A54</string>
-				<key>WFControlFlowMode</key>
-				<integer>1</integer>
-				<key>WFMenuItemTitle</key>
-				<string>Use Clipboard</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.getclipboard</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
+				<string>A2F83DBC-05B9-4F2A-B4DC-5D45BD4B3E8B</string>
 				<key>UUID</key>
-				<string>847940CD-DAE1-4150-9358-091C8B52B03D</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>80120327-36D6-4AEA-A7D7-9D97E2A53A54</string>
-				<key>WFControlFlowMode</key>
-				<integer>1</integer>
-				<key>WFMenuItemTitle</key>
-				<string>Choose File</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.documentpicker.open</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict/>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefrommenu</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>80120327-36D6-4AEA-A7D7-9D97E2A53A54</string>
-				<key>UUID</key>
-				<string>11872BF6-B3E3-4B60-995E-CAA5BE1CD8A7</string>
+				<string>2A0A7F31-B549-43EC-8DB7-9F9A1534A50D</string>
 				<key>WFControlFlowMode</key>
 				<integer>2</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.conditional</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>480E7987-FF28-4830-8757-1D0A76EE40F2</string>
-				<key>WFControlFlowMode</key>
-				<integer>1</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.documentpicker.open</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>45685B8A-D63F-46C4-BAAD-72A3D4206249</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.conditional</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>480E7987-FF28-4830-8757-1D0A76EE40F2</string>
-				<key>UUID</key>
-				<string>CF84BF73-F739-440D-8163-FA26AC86CCFC</string>
-				<key>WFControlFlowMode</key>
-				<integer>2</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.conditional</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>A165B294-7EC5-4E05-B404-D2ED7E10C132</string>
-				<key>UUID</key>
-				<string>09D262FD-EA7C-43FD-8E86-4ECF0A903387</string>
-				<key>WFControlFlowMode</key>
-				<integer>2</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.text.combine</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>BB86788F-248D-4D49-97C0-8C2476F1EEC9</string>
-				<key>text</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>Aggrandizements</key>
-						<array>
-							<dict>
-								<key>CoercionItemClass</key>
-								<string>WFStringContentItem</string>
-								<key>Type</key>
-								<string>WFCoercionVariableAggrandizement</string>
-							</dict>
-						</array>
-						<key>OutputName</key>
-						<string>If Result</string>
-						<key>OutputUUID</key>
-						<string>09D262FD-EA7C-43FD-8E86-4ECF0A903387</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
 			</dict>
 		</dict>
 		<dict>
@@ -340,9 +518,9 @@ https://routinehub.co/shortcut/4626</string>
 							<key>{0, 1}</key>
 							<dict>
 								<key>OutputName</key>
-								<string>Combined Text</string>
+								<string>菜单结果</string>
 								<key>OutputUUID</key>
-								<string>BB86788F-248D-4D49-97C0-8C2476F1EEC9</string>
+								<string>9A1CA42D-1DC3-4713-B08A-8BA64B9AA941</string>
 								<key>Type</key>
 								<string>ActionOutput</string>
 							</dict>
@@ -441,7 +619,7 @@ https://routinehub.co/shortcut/4626</string>
 							<key>{56, 1}</key>
 							<dict>
 								<key>OutputName</key>
-								<string>Updated Text</string>
+								<string>Aktualisierter Text</string>
 								<key>OutputUUID</key>
 								<string>22CF011B-A107-441E-8B2C-608CB85FEF23</string>
 								<key>Type</key>
@@ -450,100 +628,99 @@ https://routinehub.co/shortcut/4626</string>
 						</dict>
 						<key>string</key>
 						<string>&lt;pre&gt;&lt;script&gt;
-var buffer = unescape(decodeURIComponent("￼"))
-var mode = 0
-var stack = []
-var output = "&lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;&lt;!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\"&gt;&lt;plist version=\"1.0\"&gt;&lt;dict&gt;&lt;key&gt;WFWorkflowActions&lt;/key&gt;&lt;array&gt;"
-var action = ""
-var actioncount = 0
-var match = []
-while (buffer != "") {
+var buffer = unescape(decodeURIComponent("￼"));
+var mode = 0;
+var stack = [];
+var output = "&lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;&lt;!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\"&gt;&lt;plist version=\"1.0\"&gt;&lt;dict&gt;&lt;key&gt;WFWorkflowActions&lt;/key&gt;&lt;array&gt;";
+var action = "";
+var actioncount = 0;
+var match = [];
+while (buffer !== "") {
     if (mode == 0) {
-        match = buffer.match(/^[\d\D]*?(([\[\{])[\d\D]*)$/)
-        buffer = match[1]
-        var ch1 = match[2]
+        match = buffer.match(/^[\d\D]*?(([\[\{])[\d\D]*)$/);
+        buffer = match[1];
+        var ch1 = match[2];
         switch (ch1) {
             case "{":
-                mode = 1
-                action = "&lt;dict&gt;&lt;key&gt;WFWorkflowActionIdentifier&lt;/key&gt;&lt;string&gt;is.workflow.actions.dictionary&lt;/string&gt;&lt;key&gt;WFWorkflowActionParameters&lt;/key&gt;&lt;dict&gt;&lt;key&gt;WFItems&lt;/key&gt;&lt;dict&gt;&lt;key&gt;Value&lt;/key&gt;&lt;dict&gt;&lt;key&gt;WFDictionaryFieldValueItems&lt;/key&gt;&lt;array&gt;"
-                break
+                mode = 1;
+                action = "&lt;dict&gt;&lt;key&gt;WFWorkflowActionIdentifier&lt;/key&gt;&lt;string&gt;is.workflow.actions.dictionary&lt;/string&gt;&lt;key&gt;WFWorkflowActionParameters&lt;/key&gt;&lt;dict&gt;&lt;key&gt;WFItems&lt;/key&gt;&lt;dict&gt;&lt;key&gt;Value&lt;/key&gt;&lt;dict&gt;&lt;key&gt;WFDictionaryFieldValueItems&lt;/key&gt;&lt;array&gt;";
+                break;
             case "[":
-                mode = 2
-                action = "&lt;dict&gt;&lt;key&gt;WFWorkflowActionIdentifier&lt;/key&gt;&lt;string&gt;is.workflow.actions.list&lt;/string&gt;&lt;key&gt;WFWorkflowActionParameters&lt;/key&gt;&lt;dict&gt;&lt;key&gt;WFItems&lt;/key&gt;&lt;array&gt;"
-                break
+                mode = 2;
+                action = "&lt;dict&gt;&lt;key&gt;WFWorkflowActionIdentifier&lt;/key&gt;&lt;string&gt;is.workflow.actions.list&lt;/string&gt;&lt;key&gt;WFWorkflowActionParameters&lt;/key&gt;&lt;dict&gt;&lt;key&gt;WFItems&lt;/key&gt;&lt;array&gt;";
+                break;
             default:
-                buffer = ""
+                buffer = "";
         }
     }
-    match = buffer.match(/^(.)\s*([\d\D]*)$/)
-    buffer = match[2]
-    var ch1 = match[1]
-    if (ch1 == "]" || ch1 == "}") {
-        if ((mode == 1 &amp;&amp; ch1 == "}") || (mode == 2 &amp;&amp; ch1 == "]")) {
+    match = buffer.match(/^(.)\s*([\d\D]*)$/);
+    buffer = match[2];
+    var ch1 = match[1];
+    if (ch1 === "]" || ch1 === "}") {
+        if ((mode == 1 &amp;&amp; ch1 === "}") || (mode == 2 &amp;&amp; ch1 === "]")) {
             if (stack.length == 0) {
-                    output += action + ((mode == 1) ? "&lt;/array&gt;&lt;/dict&gt;&lt;key&gt;WFSerializationType&lt;/key&gt;&lt;string&gt;WFDictionaryFieldValue&lt;/string&gt;&lt;/dict&gt;&lt;/dict&gt;&lt;/dict&gt;" : "&lt;/array&gt;&lt;/dict&gt;&lt;/dict&gt;")
-                    mode = 0
-                    action = ""
-                    actioncount++
+                output += action + ((mode == 1) ? "&lt;/array&gt;&lt;/dict&gt;&lt;key&gt;WFSerializationType&lt;/key&gt;&lt;string&gt;WFDictionaryFieldValue&lt;/string&gt;&lt;/dict&gt;&lt;/dict&gt;&lt;/dict&gt;" : "&lt;/array&gt;&lt;/dict&gt;&lt;/dict&gt;");
+                mode = 0;
+                action = "";
+                actioncount++;
             } else {
-                action += ((mode == 1) ? "&lt;/array&gt;&lt;/dict&gt;&lt;key&gt;WFSerializationType&lt;/key&gt;&lt;string&gt;WFDictionaryFieldValue&lt;/string&gt;&lt;/dict&gt;&lt;key&gt;WFSerializationType&lt;/key&gt;&lt;string&gt;WFDictionaryFieldValue&lt;/string&gt;&lt;/dict&gt;&lt;/dict&gt;" : "&lt;/array&gt;&lt;key&gt;WFSerializationType&lt;/key&gt;&lt;string&gt;WFArrayParameterState&lt;/string&gt;&lt;/dict&gt;&lt;/dict&gt;")
-                mode = stack.pop()
+                action += (mode == 1) ? "&lt;/array&gt;&lt;/dict&gt;&lt;key&gt;WFSerializationType&lt;/key&gt;&lt;string&gt;WFDictionaryFieldValue&lt;/string&gt;&lt;/dict&gt;&lt;key&gt;WFSerializationType&lt;/key&gt;&lt;string&gt;WFDictionaryFieldValue&lt;/string&gt;&lt;/dict&gt;&lt;/dict&gt;" : "&lt;/array&gt;&lt;key&gt;WFSerializationType&lt;/key&gt;&lt;string&gt;WFArrayParameterState&lt;/string&gt;&lt;/dict&gt;&lt;/dict&gt;";
+                mode = stack.pop();
             }
         } else {
-            buffer = ""
+            buffer = "";
         }
     } else {
-        var ch2 = buffer[0]
-        var key = ""
+        var ch2 = buffer[0];
+        var key = "";
         if (!"]},".includes(ch2)) {
             if (mode == 1) {
-                match = buffer.match(/^"([^"\\]*(?:\\.[^"\\]*)*)"\s*:\s*([\d\D]*)$/)
-                buffer = match[2]
-                key = match[1].replace(/&amp;/g, "&amp;amp;").replace(/&lt;/g, "&amp;lt;").replace(/&gt;/g, "&amp;gt;")
-                key = "&lt;key&gt;WFKey&lt;/key&gt;&lt;dict&gt;&lt;key&gt;Value&lt;/key&gt;&lt;dict&gt;&lt;key&gt;attachmentsByRange&lt;/key&gt;&lt;dict/&gt;&lt;key&gt;string&lt;/key&gt;&lt;string&gt;" + key + "&lt;/string&gt;&lt;/dict&gt;&lt;key&gt;WFSerializationType&lt;/key&gt;&lt;string&gt;WFTextTokenString&lt;/string&gt;&lt;/dict&gt;"
-                ch2 = buffer[0]
+                match = buffer.match(/^"([^"\\]*(?:\\.[^"\\]*)*)"\s*:\s*([\d\D]*)$/);
+                buffer = match[2];
+                key = match[1].replace(/&amp;/g, "&amp;amp;").replace(/&lt;/g, "&amp;lt;").replace(/&gt;/g, "&amp;gt;");
+                key = "&lt;key&gt;WFKey&lt;/key&gt;&lt;dict&gt;&lt;key&gt;Value&lt;/key&gt;&lt;dict&gt;&lt;key&gt;attachmentsByRange&lt;/key&gt;&lt;dict/&gt;&lt;key&gt;string&lt;/key&gt;&lt;string&gt;" + key + "&lt;/string&gt;&lt;/dict&gt;&lt;key&gt;WFSerializationType&lt;/key&gt;&lt;string&gt;WFTextTokenString&lt;/string&gt;&lt;/dict&gt;";
+                ch2 = buffer[0];
             }
             switch (ch2) {
                 case "[":
                 case "{":
-                    stack.push(mode)
-                    if (ch2 == "{") {
-                        mode = 1
-                        action += "&lt;dict&gt;&lt;key&gt;WFItemType&lt;/key&gt;&lt;integer&gt;1&lt;/integer&gt;" + key + "&lt;key&gt;WFValue&lt;/key&gt;&lt;dict&gt;&lt;key&gt;Value&lt;/key&gt;&lt;dict&gt;&lt;key&gt;Value&lt;/key&gt;&lt;dict&gt;&lt;key&gt;WFDictionaryFieldValueItems&lt;/key&gt;&lt;array&gt;"
+                    stack.push(mode);
+                    if (ch2 === "{") {
+                        mode = 1;
+                        action += "&lt;dict&gt;&lt;key&gt;WFItemType&lt;/key&gt;&lt;integer&gt;1&lt;/integer&gt;" + key + "&lt;key&gt;WFValue&lt;/key&gt;&lt;dict&gt;&lt;key&gt;Value&lt;/key&gt;&lt;dict&gt;&lt;key&gt;Value&lt;/key&gt;&lt;dict&gt;&lt;key&gt;WFDictionaryFieldValueItems&lt;/key&gt;&lt;array&gt;";
                     } else {
-                        mode = 2
-                        action += "&lt;dict&gt;&lt;key&gt;WFItemType&lt;/key&gt;&lt;integer&gt;2&lt;/integer&gt;" + key + "&lt;key&gt;WFValue&lt;/key&gt;&lt;dict&gt;&lt;key&gt;Value&lt;/key&gt;&lt;array&gt;"
+                        mode = 2;
+                        action += "&lt;dict&gt;&lt;key&gt;WFItemType&lt;/key&gt;&lt;integer&gt;2&lt;/integer&gt;" + key + "&lt;key&gt;WFValue&lt;/key&gt;&lt;dict&gt;&lt;key&gt;Value&lt;/key&gt;&lt;array&gt;";
                     }
                     break
                 case "\"":
-                    match = buffer.match(/^"([^"\\]*(?:\\.[^"\\]*)*)"\s*([\s\S]*)$/)
-                    buffer = match[2]
-                    value = match[1].replace(/&amp;/g, "&amp;amp;").replace(/&lt;/g, "&amp;lt;").replace(/&gt;/g, "&amp;gt;")
-                    action += ((mode == 1) ? "&lt;dict&gt;&lt;key&gt;WFItemType&lt;/key&gt;&lt;integer&gt;0&lt;/integer&gt;"+key+"&lt;key&gt;WFValue&lt;/key&gt;&lt;dict&gt;&lt;key&gt;Value&lt;/key&gt;&lt;dict&gt;&lt;key&gt;attachmentsByRange&lt;/key&gt;&lt;dict/&gt;&lt;key&gt;string&lt;/key&gt;&lt;string&gt;"+value+"&lt;/string&gt;&lt;/dict&gt;&lt;key&gt;WFSerializationType&lt;/key&gt;&lt;string&gt;WFTextTokenString&lt;/string&gt;&lt;/dict&gt;&lt;/dict&gt;" : "&lt;string&gt;"+value+"&lt;/string&gt;")
-                    break
+                    match = buffer.match(/^"([^"\\]*(?:\\.[^"\\]*)*)"\s*([\s\S]*)$/);
+                    buffer = match[2];
+                    value = match[1].replace(/&amp;/g, "&amp;amp;").replace(/&lt;/g, "&amp;lt;").replace(/&gt;/g, "&amp;gt;");
+                    action += (mode == 1) ? "&lt;dict&gt;&lt;key&gt;WFItemType&lt;/key&gt;&lt;integer&gt;0&lt;/integer&gt;"+key+"&lt;key&gt;WFValue&lt;/key&gt;&lt;dict&gt;&lt;key&gt;Value&lt;/key&gt;&lt;dict&gt;&lt;key&gt;attachmentsByRange&lt;/key&gt;&lt;dict/&gt;&lt;key&gt;string&lt;/key&gt;&lt;string&gt;"+value+"&lt;/string&gt;&lt;/dict&gt;&lt;key&gt;WFSerializationType&lt;/key&gt;&lt;string&gt;WFTextTokenString&lt;/string&gt;&lt;/dict&gt;&lt;/dict&gt;" : "&lt;string&gt;"+value+"&lt;/string&gt;";
+                    break;
                 default:
-                    match = buffer.match(/^(.+?)\s*([,\]}][\d\D]*)$/)
-                    buffer = match[2]
-                    value = match[1]
-                    switch (value) {
-                        case "true":
-                            action += "&lt;dict&gt;&lt;key&gt;WFItemType&lt;/key&gt;&lt;integer&gt;4&lt;/integer&gt;" + key + "&lt;key&gt;WFValue&lt;/key&gt;&lt;dict&gt;&lt;key&gt;Value&lt;/key&gt;&lt;true/&gt;&lt;key&gt;WFSerializationType&lt;/key&gt;&lt;string&gt;WFNumberSubstitutableState&lt;/string&gt;&lt;/dict&gt;&lt;/dict&gt;"
-                            break
-                        case "false":
-                        action += "&lt;dict&gt;&lt;key&gt;WFItemType&lt;/key&gt;&lt;integer&gt;4&lt;/integer&gt;" + key + "&lt;key&gt;WFValue&lt;/key&gt;&lt;dict&gt;&lt;key&gt;Value&lt;/key&gt;&lt;false/&gt;&lt;key&gt;WFSerializationType&lt;/key&gt;&lt;string&gt;WFNumberSubstitutableState&lt;/string&gt;&lt;/dict&gt;&lt;/dict&gt;"
-                            break
-                        case "null":
-                            action += ((mode == 1) ? "&lt;dict&gt;&lt;key&gt;WFItemType&lt;/key&gt;&lt;integer&gt;0&lt;/integer&gt;"+key+"&lt;key&gt;WFValue&lt;/key&gt;&lt;dict&gt;&lt;key&gt;Value&lt;/key&gt;&lt;dict&gt;&lt;key&gt;attachmentsByRange&lt;/key&gt;&lt;dict/&gt;&lt;key&gt;string&lt;/key&gt;&lt;string&gt;&lt;/string&gt;&lt;/dict&gt;&lt;key&gt;WFSerializationType&lt;/key&gt;&lt;string&gt;WFTextTokenString&lt;/string&gt;&lt;/dict&gt;&lt;/dict&gt;" : "&lt;string&gt;&lt;/string&gt;")
-                            break
-                        default:
-                            action += "&lt;dict&gt;&lt;key&gt;WFItemType&lt;/key&gt;&lt;integer&gt;3&lt;/integer&gt;" + key + "&lt;key&gt;WFValue&lt;/key&gt;&lt;dict&gt;&lt;key&gt;Value&lt;/key&gt;&lt;dict&gt;&lt;key&gt;attachmentsByRange&lt;/key&gt;&lt;dict/&gt;&lt;key&gt;string&lt;/key&gt;&lt;string&gt;" + value + "&lt;/string&gt;&lt;/dict&gt;&lt;key&gt;WFSerializationType&lt;/key&gt;&lt;string&gt;WFTextTokenString&lt;/string&gt;&lt;/dict&gt;&lt;/dict&gt;"
+                    match = buffer.match(/^(.+?)\s*([,\]}][\d\D]*)$/);
+                    buffer = match[2];
+                    value = match[1];
+                    if (value === "true") {
+                        action += "&lt;dict&gt;&lt;key&gt;WFItemType&lt;/key&gt;&lt;integer&gt;4&lt;/integer&gt;" + key + "&lt;key&gt;WFValue&lt;/key&gt;&lt;dict&gt;&lt;key&gt;Value&lt;/key&gt;&lt;true/&gt;&lt;key&gt;WFSerializationType&lt;/key&gt;&lt;string&gt;WFNumberSubstitutableState&lt;/string&gt;&lt;/dict&gt;&lt;/dict&gt;";
+                    } else if (value === "false") {
+                        action += "&lt;dict&gt;&lt;key&gt;WFItemType&lt;/key&gt;&lt;integer&gt;4&lt;/integer&gt;" + key + "&lt;key&gt;WFValue&lt;/key&gt;&lt;dict&gt;&lt;key&gt;Value&lt;/key&gt;&lt;false/&gt;&lt;key&gt;WFSerializationType&lt;/key&gt;&lt;string&gt;WFNumberSubstitutableState&lt;/string&gt;&lt;/dict&gt;&lt;/dict&gt;";
+                    } else if (value === "null") {
+                        action += (mode == 1) ? "&lt;dict&gt;&lt;key&gt;WFItemType&lt;/key&gt;&lt;integer&gt;0&lt;/integer&gt;"+key+"&lt;key&gt;WFValue&lt;/key&gt;&lt;dict&gt;&lt;key&gt;Value&lt;/key&gt;&lt;dict&gt;&lt;key&gt;attachmentsByRange&lt;/key&gt;&lt;dict/&gt;&lt;key&gt;string&lt;/key&gt;&lt;string&gt;&lt;/string&gt;&lt;/dict&gt;&lt;key&gt;WFSerializationType&lt;/key&gt;&lt;string&gt;WFTextTokenString&lt;/string&gt;&lt;/dict&gt;&lt;/dict&gt;" : "&lt;string&gt;&lt;/string&gt;";
+                    } else {
+                        var numStr = parseFloat(value).toString();
+                        match = numStr.match(/(-?\d+)\.(\d+)/);
+                        value = match ? parseInt(match[1]+match[2])+"E-"+match[2].length : numStr;
+                        action += "&lt;dict&gt;&lt;key&gt;WFItemType&lt;/key&gt;&lt;integer&gt;3&lt;/integer&gt;" + key + "&lt;key&gt;WFValue&lt;/key&gt;&lt;dict&gt;&lt;key&gt;Value&lt;/key&gt;&lt;dict&gt;&lt;key&gt;attachmentsByRange&lt;/key&gt;&lt;dict/&gt;&lt;key&gt;string&lt;/key&gt;&lt;string&gt;" + value + "&lt;/string&gt;&lt;/dict&gt;&lt;key&gt;WFSerializationType&lt;/key&gt;&lt;string&gt;WFTextTokenString&lt;/string&gt;&lt;/dict&gt;&lt;/dict&gt;";
                     }
             }
         }
     }
 }
 output += "&lt;/array&gt;&lt;key&gt;WFWorkflowIcon&lt;/key&gt;&lt;dict&gt;&lt;key&gt;WFWorkflowIconStartColor&lt;/key&gt;&lt;integer&gt;4292093695&lt;/integer&gt;&lt;/dict&gt;&lt;/dict&gt;&lt;/plist&gt;"
-document.write((actioncount &gt; 0) ? output.split("\\\\").map(x =&gt; x.replace(/\\t/g,"\t").replace(/\\n/g,"\n").replace(/\\"/g,"\"")).join("\\").replace(/\\\//g,"/").replace(/&amp;/g,'&amp;amp;').replace(/&lt;/g, "&amp;lt;") : "")
+document.write((actioncount &gt; 0) ? encodeURIComponent(output.split("\\\\").map(x =&gt; x.replace(/\\t/g,"\t").replace(/\\n/g,"\n").replace(/\\"/g,"\"")).join("\\").replace(/\\\//g,"/")) : "");
 &lt;/script&gt;&lt;/pre&gt;</string>
 					</dict>
 					<key>WFSerializationType</key>
@@ -805,17 +982,8 @@ document.write((actioncount &gt; 0) ? output.split("\\\\").map(x =&gt; x.replace
 				<dict>
 					<key>Value</key>
 					<dict>
-						<key>Aggrandizements</key>
-						<array>
-							<dict>
-								<key>CoercionItemClass</key>
-								<string>WFURLContentItem</string>
-								<key>Type</key>
-								<string>WFCoercionVariableAggrandizement</string>
-							</dict>
-						</array>
 						<key>OutputName</key>
-						<string>Link to File</string>
+						<string>文件链接</string>
 						<key>OutputUUID</key>
 						<string>7A3074FB-614E-49A8-B127-E02DB9B313B5</string>
 						<key>Type</key>
@@ -873,7 +1041,7 @@ document.write((actioncount &gt; 0) ? output.split("\\\\").map(x =&gt; x.replace
 		<key>WFWorkflowIconGlyphNumber</key>
 		<integer>59748</integer>
 		<key>WFWorkflowIconStartColor</key>
-		<integer>4292093695</integer>
+		<integer>3679049983</integer>
 	</dict>
 	<key>WFWorkflowImportQuestions</key>
 	<array/>
@@ -890,7 +1058,6 @@ document.write((actioncount &gt; 0) ? output.split("\\\\").map(x =&gt; x.replace
 	<array>
 		<string>WatchKit</string>
 		<string>ActionExtension</string>
-		<string>NCWidget</string>
 	</array>
 </dict>
 </plist>
