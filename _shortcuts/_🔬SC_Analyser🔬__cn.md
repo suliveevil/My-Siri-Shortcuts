@@ -1,8 +1,8 @@
-# _🔬SC_Analyser🔬_mod
+# _🔬SC_Analyser🔬_
 
 ## 快捷指令信息
 
-快捷指令：	_🔬SC_Analyser🔬_mod
+快捷指令：	_🔬SC_Analyser🔬_
 动作数量：	158
 文件大小：	273 KB
 
@@ -15,7 +15,7 @@ Glyph 颜色 : 3679049983
 快捷指令类型 : 
 
 WatchKit
-NCWidget
+ActionExtension
 
 ## 内容类型 : 
 
