@@ -6,28 +6,6 @@
 	<array>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.comment</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFCommentActionText</key>
-				<string>来源：捷径盒 © 版权归作者所有
-发布时间：2020-05-15 16:48
-作品网址：https://jiejinghe.com/shortcuts/3403913701</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>com.jiejinghe.luke.ShortcutUpdateCheckIntent</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>80B5D4FD-5758-4311-8966-9FD02E56FC49</string>
-				<key>versionInfo</key>
-				<string>id:3403913701,v:1</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
 			<string>is.workflow.actions.dictionary</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
@@ -89,7 +67,7 @@
 										<key>attachmentsByRange</key>
 										<dict/>
 										<key>string</key>
-										<string>1.31</string>
+										<string>1.41</string>
 									</dict>
 									<key>WFSerializationType</key>
 									<string>WFTextTokenString</string>
@@ -117,7 +95,7 @@
 										<key>attachmentsByRange</key>
 										<dict/>
 										<key>string</key>
-										<string>2020-05-05</string>
+										<string>2020-05-21</string>
 									</dict>
 									<key>WFSerializationType</key>
 									<string>WFTextTokenString</string>
@@ -201,7 +179,7 @@
 										<key>attachmentsByRange</key>
 										<dict/>
 										<key>string</key>
-										<string>2020-05-15</string>
+										<string>2020-05-26</string>
 									</dict>
 									<key>WFSerializationType</key>
 									<string>WFTextTokenString</string>
@@ -282,7 +260,7 @@ shortcut</string>
 				<integer>0</integer>
 				<key>WFMenuItems</key>
 				<array>
-					<string>剪贴板JSON</string>
+					<string>剪贴板</string>
 					<string>JSON文件</string>
 				</array>
 			</dict>
@@ -297,7 +275,7 @@ shortcut</string>
 				<key>WFControlFlowMode</key>
 				<integer>1</integer>
 				<key>WFMenuItemTitle</key>
-				<string>剪贴板JSON</string>
+				<string>剪贴板</string>
 			</dict>
 		</dict>
 		<dict>
@@ -504,6 +482,29 @@ shortcut</string>
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.text.combine</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>BB86788F-248D-4D49-97C0-8C2476F1EEC9</string>
+				<key>text</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>如果的结果</string>
+						<key>OutputUUID</key>
+						<string>2A0A7F31-B549-43EC-8DB7-9F9A1534A50D</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
 			<string>is.workflow.actions.urlencode</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
@@ -518,9 +519,9 @@ shortcut</string>
 							<key>{0, 1}</key>
 							<dict>
 								<key>OutputName</key>
-								<string>菜单结果</string>
+								<string>Combined Text</string>
 								<key>OutputUUID</key>
-								<string>9A1CA42D-1DC3-4713-B08A-8BA64B9AA941</string>
+								<string>BB86788F-248D-4D49-97C0-8C2476F1EEC9</string>
 								<key>Type</key>
 								<string>ActionOutput</string>
 							</dict>
@@ -786,11 +787,13 @@ document.write((actioncount &gt; 0) ? encodeURIComponent(output.split("\\\\").ma
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.getwebpagecontents</string>
+			<string>is.workflow.actions.urlencode</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
 				<key>UUID</key>
-				<string>E0BA8464-FE87-4617-9574-BB6C52D1E696</string>
+				<string>9B12A188-B96F-4DAC-9B8B-5F6B11A0E6B1</string>
+				<key>WFEncodeMode</key>
+				<string>Decode</string>
 				<key>WFInput</key>
 				<dict>
 					<key>Value</key>
@@ -799,6 +802,15 @@ document.write((actioncount &gt; 0) ? encodeURIComponent(output.split("\\\\").ma
 						<dict>
 							<key>{0, 1}</key>
 							<dict>
+								<key>Aggrandizements</key>
+								<array>
+									<dict>
+										<key>CoercionItemClass</key>
+										<string>WFRichTextContentItem</string>
+										<key>Type</key>
+										<string>WFCoercionVariableAggrandizement</string>
+									</dict>
+								</array>
 								<key>OutputName</key>
 								<string>URL</string>
 								<key>OutputUUID</key>
@@ -813,74 +825,6 @@ document.write((actioncount &gt; 0) ? encodeURIComponent(output.split("\\\\").ma
 					<key>WFSerializationType</key>
 					<string>WFTextTokenString</string>
 				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.detect.text</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>C706BF46-B9FF-45F5-8562-76FF7AE2A753</string>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>Contents of Webpage</string>
-						<key>OutputUUID</key>
-						<string>E0BA8464-FE87-4617-9574-BB6C52D1E696</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.conditional</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>95E16B0B-FE25-4CE5-BF91-0676E8ABA5BA</string>
-				<key>WFCondition</key>
-				<integer>8</integer>
-				<key>WFConditionalActionString</key>
-				<string>&lt;</string>
-				<key>WFControlFlowMode</key>
-				<integer>0</integer>
-				<key>WFInput</key>
-				<dict>
-					<key>Type</key>
-					<string>Variable</string>
-					<key>Variable</key>
-					<dict>
-						<key>Value</key>
-						<dict>
-							<key>Aggrandizements</key>
-							<array>
-								<dict>
-									<key>CoercionItemClass</key>
-									<string>WFStringContentItem</string>
-									<key>Type</key>
-									<string>WFCoercionVariableAggrandizement</string>
-								</dict>
-							</array>
-							<key>OutputName</key>
-							<string>Text</string>
-							<key>OutputUUID</key>
-							<string>C706BF46-B9FF-45F5-8562-76FF7AE2A753</string>
-							<key>Type</key>
-							<string>ActionOutput</string>
-						</dict>
-						<key>WFSerializationType</key>
-						<string>WFTextTokenAttachment</string>
-					</dict>
-				</dict>
-				<key>WFNumberValue</key>
-				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -902,15 +846,15 @@ document.write((actioncount &gt; 0) ? encodeURIComponent(output.split("\\\\").ma
 				<key>UUID</key>
 				<string>0B823092-4E4C-48C8-81AD-B94C709233D7</string>
 				<key>WFDontIncludeFileExtension</key>
-				<false/>
+				<true/>
 				<key>WFInput</key>
 				<dict>
 					<key>Value</key>
 					<dict>
 						<key>OutputName</key>
-						<string>Text</string>
+						<string>URL Encoded Text</string>
 						<key>OutputUUID</key>
-						<string>C706BF46-B9FF-45F5-8562-76FF7AE2A753</string>
+						<string>9B12A188-B96F-4DAC-9B8B-5F6B11A0E6B1</string>
 						<key>Type</key>
 						<string>ActionOutput</string>
 					</dict>
@@ -952,17 +896,8 @@ document.write((actioncount &gt; 0) ? encodeURIComponent(output.split("\\\\").ma
 				<dict>
 					<key>Value</key>
 					<dict>
-						<key>Aggrandizements</key>
-						<array>
-							<dict>
-								<key>CoercionItemClass</key>
-								<string>WFGenericFileContentItem</string>
-								<key>Type</key>
-								<string>WFCoercionVariableAggrandizement</string>
-							</dict>
-						</array>
 						<key>OutputName</key>
-						<string>Renamed Item</string>
+						<string>重新命名的项目</string>
 						<key>OutputUUID</key>
 						<string>0B823092-4E4C-48C8-81AD-B94C709233D7</string>
 						<key>Type</key>
@@ -992,43 +927,6 @@ document.write((actioncount &gt; 0) ? encodeURIComponent(output.split("\\\\").ma
 					<key>WFSerializationType</key>
 					<string>WFTextTokenAttachment</string>
 				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.conditional</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>95E16B0B-FE25-4CE5-BF91-0676E8ABA5BA</string>
-				<key>WFControlFlowMode</key>
-				<integer>1</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.alert</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFAlertActionCancelButtonShown</key>
-				<false/>
-				<key>WFAlertActionMessage</key>
-				<string>Input does not contain valid dictionary or array text.</string>
-				<key>WFAlertActionTitle</key>
-				<string>Data Error</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.conditional</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>95E16B0B-FE25-4CE5-BF91-0676E8ABA5BA</string>
-				<key>UUID</key>
-				<string>D67DFF73-AD70-4F9B-B267-47798229B712</string>
-				<key>WFControlFlowMode</key>
-				<integer>2</integer>
 			</dict>
 		</dict>
 	</array>
