@@ -1300,6 +1300,13 @@ END:VCARD</string>
 					<dict>
 						<key>attachmentsByRange</key>
 						<dict>
+							<key>{103, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>List</string>
+							</dict>
 							<key>{24, 1}</key>
 							<dict>
 								<key>Type</key>
@@ -1343,7 +1350,7 @@ END:VCARD</string>
 								<key>Type</key>
 								<string>ActionOutput</string>
 							</dict>
-							<key>{54, 1}</key>
+							<key>{56, 1}</key>
 							<dict>
 								<key>OutputName</key>
 								<string>Count</string>
@@ -1352,7 +1359,7 @@ END:VCARD</string>
 								<key>Type</key>
 								<string>ActionOutput</string>
 							</dict>
-							<key>{74, 1}</key>
+							<key>{77, 1}</key>
 							<dict>
 								<key>OutputName</key>
 								<string>Full Size (formatted)</string>
@@ -1361,19 +1368,12 @@ END:VCARD</string>
 								<key>Type</key>
 								<string>ActionOutput</string>
 							</dict>
-							<key>{93, 1}</key>
-							<dict>
-								<key>Type</key>
-								<string>Variable</string>
-								<key>VariableName</key>
-								<string>Sort by</string>
-							</dict>
 							<key>{98, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
-								<string>List</string>
+								<string>Sort by</string>
 							</dict>
 						</dict>
 						<key>string</key>
@@ -1383,9 +1383,9 @@ on  ￼  ￼  ￼
 
 ￼, ￼
 
-*Shortcuts:*	**￼**
-*Total size:*	**￼**
-*Sorted by:*	**￼**
+*Shortcuts :*		**￼**
+*Total size:*		**￼**
+*Sorted by :*		**￼**
 
 ￼</string>
 					</dict>
