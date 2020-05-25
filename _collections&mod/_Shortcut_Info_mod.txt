@@ -1383,9 +1383,9 @@ on  ￼  ￼  ￼
 
 ￼, ￼
 
-*Shortcuts:* **￼**
-*Total size:* **￼**
-*Sorted by:* **￼**
+*Shortcuts:*	**￼**
+*Total size:*	**￼**
+*Sorted by:*	**￼**
 
 ￼</string>
 					</dict>
@@ -1602,7 +1602,7 @@ on  ￼  ￼  ￼
 				<string>47AE047E-C4A8-4676-B746-5985ECCBED7A</string>
 				<key>WFTextActionText</key>
 				<string>body {
-      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+      font-family: "Courier"; 
       padding: 12px 20px;
 }
 strong {
