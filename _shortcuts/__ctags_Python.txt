@@ -109,7 +109,7 @@
 															<key>attachmentsByRange</key>
 															<dict/>
 															<key>string</key>
-															<string>(class|def)\x20([a-zA-Z0-9_]*)\(?[a-zA-Z0-9\x20_,.*=]*\)?:[\s\S]*</string>
+															<string>(?&lt;=\n)(@|async|class\x20|def\x20|for|if|try|while|with)[\s\S]*</string>
 														</dict>
 														<key>WFSerializationType</key>
 														<string>WFTextTokenString</string>
