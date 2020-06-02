@@ -6,6 +6,29 @@
 	<array>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.comment</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFCommentActionText</key>
+				<string>作者：suliveevil
+来源：捷径盒 © 版权归作者所有
+发布时间：2020-06-02 16:13
+作品网址：https://jiejinghe.com/shortcuts/9891902699</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>com.jiejinghe.luke.ShortcutUpdateCheckIntent</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>AEB90101-CCDE-4B51-95A0-4E24B82FACF3</string>
+				<key>versionInfo</key>
+				<string>id:9891902699,v:5</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
 			<string>is.workflow.actions.dictionary</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
@@ -96,6 +119,34 @@
 										<dict/>
 										<key>string</key>
 										<string>11</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+							</dict>
+							<dict>
+								<key>WFItemType</key>
+								<integer>0</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>version_jiejinghe</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>attachmentsByRange</key>
+										<dict/>
+										<key>string</key>
+										<string>5</string>
 									</dict>
 									<key>WFSerializationType</key>
 									<string>WFTextTokenString</string>
@@ -332,12 +383,10 @@ shortcut</string>
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.geturlcomponent</string>
+			<string>is.workflow.actions.openurl</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
-				<key>UUID</key>
-				<string>8AC96CCF-11D5-432B-A46E-5FA1BE72C096</string>
-				<key>WFURL</key>
+				<key>WFInput</key>
 				<dict>
 					<key>Value</key>
 					<dict>
@@ -358,60 +407,6 @@ shortcut</string>
 					</dict>
 					<key>WFSerializationType</key>
 					<string>WFTextTokenString</string>
-				</dict>
-				<key>WFURLComponent</key>
-				<string>Path</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.url</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>UUID</key>
-				<string>1E07F97B-AFBE-4CD2-A786-C473A2D83D63</string>
-				<key>WFURLActionURL</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>attachmentsByRange</key>
-						<dict>
-							<key>{10, 1}</key>
-							<dict>
-								<key>OutputName</key>
-								<string>URL的组件</string>
-								<key>OutputUUID</key>
-								<string>8AC96CCF-11D5-432B-A46E-5FA1BE72C096</string>
-								<key>Type</key>
-								<string>ActionOutput</string>
-							</dict>
-						</dict>
-						<key>string</key>
-						<string>workflow:/￼</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenString</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.openurl</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>OutputName</key>
-						<string>URL</string>
-						<key>OutputUUID</key>
-						<string>1E07F97B-AFBE-4CD2-A786-C473A2D83D63</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
 				</dict>
 			</dict>
 		</dict>
