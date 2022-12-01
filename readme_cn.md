@@ -1,38 +1,37 @@
-# My Siri Shortcuts [中文](./readme_cn.md)
+# 我的快捷指令 [English](./README.md)
 
 
-## Notes
+## 笔记
 
-### Folder Structure
+### 文件夹说明
 
-Shortcuts wrote by me is stored in folder [Shortcuts](./Shortcuts/).
+我写的快捷指令保存在 [Shortcuts](./Shortcuts/) 文件夹内。
 
-Shortcuts wrote by others  is stored in folder [collection](./Shortcuts/collection/).
+我使用的快捷指令保存在 [collection](./Shortcuts/collection/) 文件夹内。
 
-Shortcuts modified by me is stored in folder [modified](./Shortcuts/modified/).
+我修改的快捷指令保存在 [modified](./Shortcuts/modified/) 文件夹内。
 
-### File Format/Extension
+### 文件扩展名
 
 Binary Plist Files with file extension `shortcut` is exported by Shortcuts.app and import is also supported.
 
 QuickLook supports `shortcut` files.
 
-## My Shortcuts
+## 我写的快捷指令
 
 ### EmacsTranslate
 
 
-## Shortcuts modified by me
+## 我修改的快捷指令
 
 
-## Shortcuts collections
+## 我使用的快捷指令
 
 
-## Misc
+## 杂项
 
 
-
-### website
+### 有用的网站
 
 [routinehub](https://routinehub.co)
 
