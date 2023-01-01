@@ -1,4 +1,4 @@
-* 我的快捷指令 [[./README.md][English]]
+* 我的快捷指令 [[./readme_en.md][English]]
 
 
 ** 笔记

@@ -1,4 +1,4 @@
-# My Siri Shortcuts [中文](./readme_cn.org)
+# My Siri Shortcuts [中文](./readme.org)
 
 
 ## Notes
