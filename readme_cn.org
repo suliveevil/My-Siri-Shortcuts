@@ -1,0 +1,88 @@
+* 我的快捷指令 [[./README.md][English]]
+
+
+** 笔记
+
+*** 文件夹说明
+
+我写的快捷指令保存在 [[./Shortcuts/][Shortcuts]] 文件夹内。
+
+我使用的快捷指令保存在 [[./Shortcuts/collection/][collection]] 文件夹内。
+
+我修改的快捷指令保存在 [[./Shortcuts/modified/][modified]] 文件夹内。
+
+*** 文件扩展名
+
+带有扩展名/文件格式 =shortcut= 的文件是由 =快捷指令.app= 导出的。
+同样的，快捷指令也支持以这种文件格式导入。
+
+macOS 预览功能也支持这种格式。
+
+** 我写的快捷指令
+
+*** OCR Selected Area
+
+搭配 Emacs 使用
+
+#+begin_src emacs-lisp
+;; Siri Shortcuts: OCR
+;; {{{
+(defun my/siri-ocr ()
+  (interactive)
+  (shell-command "shortcuts run \"OCR Selected Area\"")
+  (do-applescript "tell application id \"org.gnu.Emacs\" to activate")
+  )
+(keymap-global-set "C-c M-o" #'my/siri-ocr)
+;; }}}
+#+end_src
+
+*** Translate File
+
+搭配 Emacs 使用
+
+#+begin_src emacs-lisp
+;; Siri Shortcuts: Translate
+;; {{{
+(add-to-list 'display-buffer-alist
+  (cons "\\*Async Shell Command\\*.*" (cons #'display-buffer-no-window nil)))
+(defun my/siri-translate ()
+  (interactive)
+  (let ((tempfile
+         (make-temp-file "siri-translate-" nil ".txt") ; temp file
+	 ))
+    (write-region (format "%s" (thing-at-point 'paragraph)) nil tempfile)
+    (shell-command (format "shortcuts run \"Translate File\" -i %s &" tempfile))
+    )
+  (do-applescript "tell application id \"org.gnu.Emacs\" to activate")
+  )
+(keymap-global-set "C-c t" #'my/siri-translate)
+;; }}}
+#+end_src
+
+
+** 我修改的快捷指令
+
+
+** 我使用的快捷指令
+
+
+** 杂项
+
+
+*** 有用的网站
+
+[[https://routinehub.co][routinehub]]
+
+[[https://shortcuts.sspai.com/][Shortcuts Gallery - 少数派]]
+
+[[https://jiejinghe.com][捷径盒]]
+
+[[https://sharecuts.cn][捷径社区]]
+
+[[https://jiejingku.net][捷径库]]
+
+[[https://www.macstories.net/shortcuts/][MacStories]]
+
+
+
+

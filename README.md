@@ -1,4 +1,4 @@
-# My Siri Shortcuts [中文](./readme_cn.md)
+# My Siri Shortcuts [中文](./readme_cn.org)
 
 
 ## Notes
@@ -19,7 +19,45 @@ QuickLook supports `shortcut` files.
 
 ## My Shortcuts
 
-### EmacsTranslate
+
+### OCR Selected Area
+
+Use with Emacs
+
+``` emacs-lisp
+;; Siri Shortcuts: OCR
+;; {{{
+(defun my/siri-ocr ()
+  (interactive)
+  (shell-command "shortcuts run \"OCR Selected Area\"")
+  (do-applescript "tell application id \"org.gnu.Emacs\" to activate")
+  )
+(keymap-global-set "C-c M-o" #'my/siri-ocr)
+;; }}}
+```
+
+### Translate File
+
+Use with Emacs
+
+``` emacs-lisp
+;; Siri Shortcuts: Translate
+;; {{{
+(add-to-list 'display-buffer-alist
+  (cons "\\*Async Shell Command\\*.*" (cons #'display-buffer-no-window nil)))
+(defun my/siri-translate ()
+  (interactive)
+  (let ((tempfile
+         (make-temp-file "siri-translate-" nil ".txt") ; temp file
+	 ))
+    (write-region (format "%s" (thing-at-point 'paragraph)) nil tempfile)
+    (shell-command (format "shortcuts run \"Translate File\" -i %s &" tempfile))
+    )
+  (do-applescript "tell application id \"org.gnu.Emacs\" to activate")
+  )
+(keymap-global-set "C-c t" #'my/siri-translate)
+;; }}}
+```
 
 
 ## Shortcuts modified by me
@@ -36,7 +74,7 @@ QuickLook supports `shortcut` files.
 
 [routinehub](https://routinehub.co)
 
-[Shortcuts Gallery - 少数派](https://shortcuts.sspai.com/#/main/workflow)
+[Shortcuts Gallery - 少数派](https://shortcuts.sspai.com/)
 
 [捷径盒](https://jiejinghe.com)
 
