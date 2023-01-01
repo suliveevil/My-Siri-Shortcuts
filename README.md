@@ -3,7 +3,7 @@
 
 ## Notes
 
-### Folder Structure
+## Folder Structure
 
 Shortcuts wrote by me is stored in folder [Shortcuts](./Shortcuts/).
 
@@ -11,11 +11,16 @@ Shortcuts wrote by others  is stored in folder [collection](./Shortcuts/collecti
 
 Shortcuts modified by me is stored in folder [modified](./Shortcuts/modified/).
 
-### File Format/Extension
+## Import/Export
 
-Binary Plist Files with file extension `shortcut` is exported by Shortcuts.app and import is also supported.
+Binary Plist Files with file extension `shortcut` is exported by Shortcuts.app.
+Import is also supported. macOS QuickLook supports `shortcut` files.
 
-QuickLook supports `shortcut` files.
+How to import/export shortcuts:
+
+1. open shortcuts.app
+2. From menu bar click "File"
+3. Click "Import..." or "Export..."
 
 ## My Shortcuts
 
